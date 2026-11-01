@@ -33,7 +33,9 @@ def main():
     motifs = [(re.compile(rf"github\.com/{re.escape(pub.COMPTE)}/{re.escape(ancien)}(?![A-Za-z0-9._-])", re.I),
                f"github.com/{pub.COMPTE}/{nouveau}"),
               (re.compile(rf"{re.escape(pub.COMPTE.lower())}\.github\.io/{re.escape(ancien)}(?![A-Za-z0-9._-])"),
-               f"{pub.COMPTE.lower()}.github.io/{nouveau}")]
+               f"{pub.COMPTE.lower()}.github.io/{nouveau}"),
+              (re.compile(rf"{re.escape(pub.DOMAINE)}/{re.escape(ancien)}(?![A-Za-z0-9._-])"),
+               f"{pub.DOMAINE}/{nouveau}")]
     modifies = []
     for f in fichiers_publies():
         rel = f.relative_to(pub.RACINE).as_posix()

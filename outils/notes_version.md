@@ -9,4 +9,4 @@ après la campagne de novembre 2026, dans une prochaine version.
 reference paper in French and English, raw readings, code, figures, photos. The pull-out section is marked "to do" and
 will be completed in a later release.*
 
-Site : https://remi-c.github.io/renovation-terre-crue/
+Site : https://remi.cura.info/renovation-terre-crue/

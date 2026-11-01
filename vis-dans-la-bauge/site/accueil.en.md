@@ -1,3 +1,5 @@
+![The test rig, 30 October 2026: boards screwed in a fan into the cob wall, above the reaction plate; each board is pulled downwards by a rope, with a crane scale and a dial gauge.](../photos/montage_eventail.jpg){.photo-titre}
+
 Wood screws driven into a cob (earth) wall and loaded sideways: eight tests on an existing wall, on 30 October 2026,
 with ordinary tools. This part of the site gathers the reference paper, the raw readings, the code that rebuilds every
 number and figure, and the photos.

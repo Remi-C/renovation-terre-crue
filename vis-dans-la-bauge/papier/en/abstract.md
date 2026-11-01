@@ -25,5 +25,5 @@ it lists those used elsewhere (from 1.25 to 14 depending on what they apply to).
 the subject of a second campaign, in November 2026.
 
 **Where to read more.** The full paper, its readings, its photos and its calculations:
-<https://remi-c.github.io/renovation-terre-crue/> and <https://github.com/Remi-C/renovation-terre-crue>. Your feedback is
+<https://remi.cura.info/renovation-terre-crue/> and <https://github.com/Remi-C/renovation-terre-crue>. Your feedback is
 welcome: the GitHub repository's “issues”.

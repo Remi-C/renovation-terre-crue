@@ -7,7 +7,8 @@ cd "$RACINE"
 DEPOT_GH="$COMPTE_GITHUB/$NOM_DEPOT"
 COMPTE_MIN=$(printf '%s' "$COMPTE_GITHUB" | tr '[:upper:]' '[:lower:]')
 ADRESSE_DEPOT="https://github.com/$DEPOT_GH"
-ADRESSE_SITE="https://$COMPTE_MIN.github.io/$NOM_DEPOT/"
+DOMAINE="${DOMAINE_PAGES:-$COMPTE_MIN.github.io}"
+ADRESSE_SITE="https://$DOMAINE/$NOM_DEPOT/"
 
 titre() { printf '\n== %s ==\n' "$1"; }
 arreter() { printf '\nARRÊT : %s\n' "$1" >&2; exit 1; }

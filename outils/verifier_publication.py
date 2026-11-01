@@ -267,9 +267,9 @@ def controler_texte(rapport, rel, lignes, termes, svg=False):
                 rapport.ajouter("Adresse du dépôt conforme à outils/publication.conf", lieu,
                                 f"« github.com/{compte}/{nom} » au lieu de « {pub.NOM} »")
         for m in PAGES.finditer(l):
-            if m.group(1) == pub.COMPTE.lower() and m.group(2) != pub.NOM:
+            if m.group(1) == pub.COMPTE.lower() and (m.group(2) != pub.NOM or pub.DOMAINE != m.group(0).split("/")[0]):
                 rapport.ajouter("Adresse du dépôt conforme à outils/publication.conf", lieu,
-                                f"« {m.group(0)} » au lieu de « {pub.COMPTE.lower()}.github.io/{pub.NOM} »")
+                                f"« {m.group(0)} » au lieu de « {pub.DOMAINE}/{pub.NOM} »")
         for t, consigne in VOCABULAIRE:
             if t in l:
                 rapport.ajouter("Vocabulaire harmonisé (peson, âge du mur)", lieu, f"« {t} » : {consigne}")

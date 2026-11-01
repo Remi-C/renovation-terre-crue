@@ -8,7 +8,7 @@ papier leur garde une section « à faire », les données les accueilleront au 
 *Eight lateral load (shear) tests on wood screws in an old cob wall, 30 Oct. 2026: bilingual reference paper, raw
 readings, code, figures, photos. Pull-out tests to come (November 2026).*
 
-Pages du site : <https://remi-c.github.io/renovation-terre-crue/vis-dans-la-bauge/>
+Pages du site : <https://remi.cura.info/renovation-terre-crue/vis-dans-la-bauge/>
 
 ## Fichiers
 

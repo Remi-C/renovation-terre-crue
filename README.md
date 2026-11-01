@@ -9,7 +9,7 @@ tirer. Ce ne sont pas des essais de laboratoire : ils sont là pour être discut
 tools, raw readings, code that rebuilds every number and figure, photos, and the advice we think they support. Not
 laboratory tests: they are here to be discussed, repeated and corrected.
 
-Site : <https://remi-c.github.io/renovation-terre-crue/> (français, English)
+Site : <https://remi.cura.info/renovation-terre-crue/> (français, English)
 
 ## Sujets / Topics
 

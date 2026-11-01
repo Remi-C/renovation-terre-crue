@@ -24,7 +24,8 @@ _conf = lire_conf()
 COMPTE = _conf["COMPTE_GITHUB"]
 NOM = _conf["NOM_DEPOT"]
 DEPOT = f"https://github.com/{COMPTE}/{NOM}"
-SITE = f"https://{COMPTE.lower()}.github.io/{NOM}/"
+DOMAINE = _conf.get("DOMAINE_PAGES", "").strip() or f"{COMPTE.lower()}.github.io"
+SITE = f"https://{DOMAINE}/{NOM}/"
 
 
 def sujets():

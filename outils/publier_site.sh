@@ -53,5 +53,5 @@ while [ $i -lt 20 ]; do
   case "$ETAT" in built|errored) break ;; esac
   i=$((i + 1)); sleep 15
 done
-CODE=$(curl -s -o /dev/null -w '%{http_code}' "$ADRESSE_SITE" || echo "000")
+CODE=$(curl -sL -o /dev/null -w '%{http_code}' "$ADRESSE_SITE" || echo "000")
 printf '\nRéponse de %s : HTTP %s (200 = en ligne ; 404 = attendre une minute et recharger).\n' "$ADRESSE_SITE" "$CODE"

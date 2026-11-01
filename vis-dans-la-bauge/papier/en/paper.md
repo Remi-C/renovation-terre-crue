@@ -7,7 +7,7 @@ lang: en
 ---
 
 Identifier: Zenodo DOI assigned to each version, see the repository page. Readings, photos, figures and calculations:
-<https://github.com/Remi-C/renovation-terre-crue>, website <https://remi-c.github.io/renovation-terre-crue/>. Text, data and
+<https://github.com/Remi-C/renovation-terre-crue>, website <https://remi.cura.info/renovation-terre-crue/>. Text, data and
 figures under the CC BY 4.0 licence. Feedback: the GitHub repository's “issues”.
 
 # In short

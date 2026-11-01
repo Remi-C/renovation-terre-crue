@@ -1,3 +1,5 @@
+![Le montage d'essai, 30 octobre 2026 : planches vissées en éventail dans le mur en bauge, au-dessus de la platine de réaction ; chaque planche est tirée vers le bas par une corde, avec un peson et un comparateur.](../photos/montage_eventail.jpg){.photo-titre}
+
 Des vis à bois vissées dans un mur en bauge (terre crue) et chargées de côté : huit essais sur un mur existant,
 le 30 octobre 2026, avec du matériel courant. Cette partie du site rassemble le papier de référence, les relevés, le
 code qui refait chaque chiffre et chaque figure, et les photos.

@@ -24,6 +24,6 @@ profondeur reste à mesurer. Beaucoup de vis modestes plutôt que quelques vis t
 marge : il recense celles qu'on pratique ailleurs (de 1,25 à 14 selon ce sur quoi elles portent). L'arrachement reste à
 mesurer : c'est l'objet d'une seconde campagne, en novembre 2026.
 
-**Où lire.** Le papier complet, ses relevés, ses photos et ses calculs : <https://remi-c.github.io/renovation-terre-crue/>
+**Où lire.** Le papier complet, ses relevés, ses photos et ses calculs : <https://remi.cura.info/renovation-terre-crue/>
 et <https://github.com/Remi-C/renovation-terre-crue>. Vos retours sont bienvenus : les « issues » du dépôt
 GitHub.
