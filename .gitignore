@@ -1,0 +1,13 @@
+# Fichiers propres à la machine de l'auteur, jamais publiés
+outils/termes_interdits.txt
+outils/procedure_publication.md
+
+# Python, système, éditeurs
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+~$*
+*.tmp
+.idea/
+.vscode/

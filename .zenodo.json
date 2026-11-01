@@ -1,0 +1,22 @@
+{
+  "title": "Rénovation du bâti en terre crue : retours d'expérience / Renovating earth buildings: field notes",
+  "upload_type": "dataset",
+  "description": "<p>Retours d'expérience d'un particulier sur la rénovation d'une maison en bauge (terre crue) près de Rennes : essais faits avec du matériel courant, relevés bruts, code qui refait chaque chiffre et chaque figure, photos, et les conseils qu'on en tire. Sujets : Vis dans la bauge.</p><p>Field notes from a homeowner renovating a cob (earth) house near Rennes, France: tests made with ordinary tools, raw readings, code that rebuilds every number and figure, photos, and the advice drawn from them. Topics: Screws in cob.</p><p>Site : <a href=\"https://remi-c.github.io/renovation-terre-crue/\">https://remi-c.github.io/renovation-terre-crue/</a></p>",
+  "creators": [
+    {
+      "name": "Cura, Rémi"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": [
+    "earth construction",
+    "cob",
+    "bauge",
+    "earthen construction",
+    "screws",
+    "shear",
+    "renovation"
+  ],
+  "language": "fra"
+}

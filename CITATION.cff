@@ -1,0 +1,22 @@
+# Écrit par outils/construire.py (make construire) : le modifier là, ou dans outils/publication.conf.
+cff-version: 1.2.0
+message: "Pour citer ce dépôt, utilisez ces informations. / To cite this repository, please use this information."
+title: "Rénovation du bâti en terre crue : retours d'expérience / Renovating earth buildings: field notes"
+type: dataset
+authors:
+  - family-names: Cura
+    given-names: "Rémi"
+repository-code: "https://github.com/Remi-C/renovation-terre-crue"
+url: "https://remi-c.github.io/renovation-terre-crue/"
+license:
+  - CC-BY-4.0
+  - MIT
+keywords:
+  - "earth construction"
+  - "cob"
+  - "bauge"
+  - "earthen construction"
+  - "screws"
+  - "shear"
+  - "renovation"
+abstract: "Field notes from a homeowner renovating a cob (earth) house near Rennes, France: tests made with ordinary tools, raw readings, code that rebuilds every number and figure, photos, and the advice drawn from them. Topics: Screws in cob."

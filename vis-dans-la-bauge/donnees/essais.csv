@@ -1,0 +1,9 @@
+essai;date;sollicitation;vis;d_mm;longueur_mm;ancrage_bauge_mm;piece_serree;pre_trou;position;effort_max_kg;issue;statut_des_deplacements
+C1;2026-10-30;cisaillement;fischer PowerFull II 10×260;10;260;215;planche de chêne (percée à 8 mm);6 mm, foret de 240 mm;1/6;300;aucune rupture (essai arrêté);1re charge et 2e cycle écartés (une manille frottait sur la platine) — rechargement après remise à zéro lu
+C2;2026-10-30;cisaillement;fischer PowerFull II 10×200;10;200;155;planche de chêne;6 mm, foret de 200 mm;2/6;350;aucune rupture (essai arrêté);lus
+C3;2026-10-30;cisaillement;fischer PowerFull II 10×140;10;140;95;planche de douglas de 45 mm;5 mm, foret de 80 mm;3/6;300;aucune rupture (essai arrêté) — craquement entendu à 300 kg en rechargement;lus
+C4;2026-10-30;cisaillement;fischer PowerFull II 10×100;10;100;55;planche de douglas de 45 mm;5 mm, foret de 80 mm;4/6;200;rupture à 200 kg, notée « arrachement »;lus
+C5;2026-10-30;cisaillement;fischer PowerFull II 8×120;8;120;75;planche de douglas de 45 mm;5 mm, foret de 80 mm;5/6;200;rupture à 200 kg, notée « ça coulisse »;lus
+C6;2026-10-30;cisaillement;SECCARO inox A2 6×80;6;80;35;planche de douglas de 45 mm;aucun;6/6;50;glisse à 50 kg, noté « ça glisse »;lus
+C7;2026-10-30;cisaillement;fischer PowerFull II 10×260;10;260;215;planche de douglas de 45 mm;6 mm, foret de 240 mm;5,5/6;300;aucune rupture (essai arrêté) — craquement entendu à 300 kg;deux premières lectures écartées (le comparateur touchait le peson) — zéro de la 1re charge non noté
+C8;2026-10-30;cisaillement;fischer PowerFull II 10×260 (la vis de C1, revissée);10;260;260;aucune : corde passée directement sur la tête de vis, tête à fleur de mur;trou de C1 réutilisé;1/6;300;aucune rupture (essai arrêté) — déformation visible à l'œil nu à 300 kg;contexte seulement (touche du comparateur sur une tête de vis très petite, trou déjà déformé par C1) — effort certain

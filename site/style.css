@@ -1,0 +1,106 @@
+/* Feuille de style du site « Rénovation en terre crue » : sobre, lisible sur téléphone, clair et sombre. */
+:root {
+  --fond: #fcfcfb;
+  --fond-2: #f2f0eb;
+  --encre: #1b1b1a;
+  --encre-2: #52514e;
+  --trait: #dcd9d2;
+  --lien: #1f62b3;
+  --accent: #a0683a;
+  --mesure: #2a78d6;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #181817;
+    --fond-2: #23221f;
+    --encre: #ecebe7;
+    --encre-2: #b9b7af;
+    --trait: #3a3935;
+    --lien: #7fb2f0;
+    --accent: #d39a68;
+    --mesure: #5d9ee9;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fond: #181817;
+  --fond-2: #23221f;
+  --encre: #ecebe7;
+  --encre-2: #b9b7af;
+  --trait: #3a3935;
+  --lien: #7fb2f0;
+  --accent: #d39a68;
+  --mesure: #5d9ee9;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--encre);
+  font: 1.0625rem/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+main, .haut, .bas { max-width: 46rem; margin: 0 auto; padding: 0 16px; }
+a { color: var(--lien); text-underline-offset: 0.15em; }
+a:hover { text-decoration-thickness: 2px; }
+
+.haut { padding-top: 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--trait); }
+.haut-ligne { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; }
+.marque { font-weight: 700; font-size: 1.15rem; color: var(--encre); text-decoration: none; }
+.langue { font-size: 0.95rem; border: 1px solid var(--trait); border-radius: 999px; padding: 0.1rem 0.7rem;
+  text-decoration: none; }
+.fil { margin: 0.35rem 0 0; font-size: 0.9rem; color: var(--encre-2); }
+.fil a { color: var(--encre-2); }
+.menu { display: flex; flex-wrap: wrap; gap: 0.25rem 1.1rem; margin-top: 0.6rem; font-size: 0.98rem; }
+.menu a { text-decoration: none; color: var(--encre-2); padding: 0.2rem 0; }
+.menu a[aria-current="page"] { color: var(--encre); font-weight: 600; border-bottom: 2px solid var(--accent); }
+
+main { padding-top: 1.5rem; padding-bottom: 2.5rem; }
+h1, h2, h3, h4 { line-height: 1.25; text-wrap: balance; }
+h1 { font-size: 1.75rem; margin: 0.5rem 0 1rem; }
+h2 { font-size: 1.35rem; margin-top: 2.2rem; padding-top: 0.6rem; border-top: 1px solid var(--trait); }
+h3 { font-size: 1.1rem; margin-top: 1.6rem; }
+.titre { font-size: 1.9rem; }
+.sous-titre { color: var(--encre-2); margin-top: -0.5rem; }
+p, li { max-width: 70ch; }
+
+figure { margin: 1.5rem 0; }
+figure img, main img { max-width: 100%; height: auto; display: block; border-radius: 6px; background: #fcfcfb; }
+figcaption { font-size: 0.92rem; color: var(--encre-2); margin-top: 0.4rem; }
+
+table { border-collapse: collapse; width: 100%; font-size: 0.93rem; display: block; overflow-x: auto; }
+th, td { border-bottom: 1px solid var(--trait); padding: 0.4rem 0.5rem; text-align: left; vertical-align: top; }
+th { background: var(--fond-2); }
+code { font-size: 0.92em; background: var(--fond-2); padding: 0.05em 0.3em; border-radius: 4px; overflow-wrap: anywhere; }
+pre { background: var(--fond-2); padding: 0.8rem; border-radius: 6px; overflow-x: auto; }
+pre code { background: none; padding: 0; }
+blockquote { margin: 1rem 0; padding: 0.2rem 1rem; border-left: 4px solid var(--accent); color: var(--encre-2); }
+
+.chiffres { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: 0.8rem; margin: 1.2rem 0; }
+.chiffre { background: var(--fond-2); border-radius: 8px; padding: 0.8rem 0.9rem; }
+.chiffre .valeur { display: block; font-size: 1.6rem; font-weight: 700; color: var(--encre); }
+.chiffre .sens { display: block; font-size: 0.9rem; color: var(--encre-2); line-height: 1.4; }
+.boutons { display: flex; flex-wrap: wrap; gap: 0.6rem; margin: 1.2rem 0; }
+.bouton { display: inline-block; padding: 0.5rem 0.9rem; border-radius: 6px; border: 1px solid var(--trait);
+  text-decoration: none; background: var(--fond-2); color: var(--encre); }
+.bouton.principal { background: var(--accent); border-color: var(--accent); color: #fff; }
+.galerie { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: 1rem; }
+.galerie figure { margin: 0; }
+.encart { background: var(--fond-2); border-radius: 8px; padding: 0.8rem 1rem; margin: 1.2rem 0; }
+.sommaire { background: var(--fond-2); border-radius: 8px; padding: 0.6rem 1rem; margin-bottom: 1.5rem; }
+.sommaire summary { cursor: pointer; font-weight: 600; }
+.sommaire ul { padding-left: 1.2rem; }
+
+.sujets { display: grid; gap: 1rem; margin: 1.2rem 0; }
+.sujet { border: 1px solid var(--trait); border-radius: 8px; padding: 0.9rem 1rem; background: var(--fond); }
+.sujet h3 { margin: 0 0 0.4rem; font-size: 1.2rem; }
+.sujet h3 a { text-decoration: none; }
+.sujet p { margin: 0.3rem 0; }
+.sujet .etat { font-size: 0.92rem; color: var(--encre-2); }
+.sujet .boutons { margin: 0.7rem 0 0.1rem; }
+
+.bas { border-top: 1px solid var(--trait); padding-top: 1rem; padding-bottom: 2rem; font-size: 0.9rem;
+  color: var(--encre-2); }

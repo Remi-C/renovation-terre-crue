@@ -1,0 +1,59 @@
+# Description du sujet « Vis dans la bauge », lue par outils/construire.py pour l'accueil du site et les pages du sujet.
+# Un nouveau sujet = un nouveau dossier à la racine avec son propre sujet.toml (même clés), son papier/, ses site/*.md.
+
+ordre = 1
+# Scripts de code/ relancés par `make construire`, dans cet ordre, depuis la racine du dépôt.
+scripts = ["grandeurs.py", "figures_essais.py", "figure_pre_trou.py", "schemas.py"]
+# Module facultatif de code/ qui donne les chiffres clés de l'accueil du sujet : fonction tuiles(langue).
+chiffres = "chiffres_site.py"
+
+[fr]
+titre = "Vis dans la bauge"
+accroche = "Combien tient une vis chargée de côté dans un vieux mur de bauge, et comment la poser : huit essais sur un mur existant, avec du matériel courant."
+etat = "Essais de cisaillement faits le 30/10/2026, papier de référence en ligne. Essais d'arrachement à venir (novembre 2026)."
+
+[en]
+titre = "Screws in cob"
+accroche = "How much a screw loaded sideways holds in an old cob wall, and how to drive it: eight tests on an existing wall, with ordinary tools."
+etat = "Lateral load tests done on 30 Oct. 2026, reference paper online. Pull-out tests to come (November 2026)."
+
+# Figures du sujet (fichiers figures/<id>.png et .svg, produits par code/) et leur légende sur la page « Données et code ».
+[[figures]]
+id = "fig_implantation"
+fr = "Implantation des essais : planches en éventail au-dessus de la platine de réaction, tirées vers le bas, le long du mur."
+en = "Test layout: boards fanned out above the reaction plate, pulled downwards, along the wall."
+
+[[figures]]
+id = "fig_montage"
+fr = "Le montage, en coupe."
+en = "The test rig, in section."
+
+[[figures]]
+id = "fig_efforts"
+fr = "Effort maximal par essai et ce qui s'est passé."
+en = "Highest load per test and what happened."
+
+[[figures]]
+id = "fig_premiere_charge"
+fr = "Première charge de chaque essai."
+en = "First loading of each test."
+
+[[figures]]
+id = "fig_ressort_freine"
+fr = "Charges, décharges et rechargements : un ressort freiné."
+en = "Loading, unloading and reloading: a braked spring."
+
+[[figures]]
+id = "fig_pre_trou"
+fr = "Couple de pose selon la profondeur, sans pré-trou (combles) et avec pré-trou (cabanon), et limites de la vis."
+en = "Driving torque versus depth, without a pilot hole (attic) and with one (shed), and screw limits."
+
+[[figures]]
+id = "fig_theorie"
+fr = "Annexe : appui élastique, tête retenue, effet de corde (interprétation)."
+en = "Appendix: elastic foundation, restrained head, rope effect (interpretation)."
+
+[[figures]]
+id = "fig_platine"
+fr = "Annexe : platine métallique mince ou épaisse sous la tête de vis (extrapolation)."
+en = "Appendix: thin or thick steel plate under the screw head (extrapolation)."

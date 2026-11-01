@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="$lang$">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$pagetitle$$if(nom_dans_titre)$ · $site_nom$$endif$</title>
+<meta name="description" content="$description$">
+<link rel="stylesheet" href="$racine$style.css">
+<link rel="alternate" hreflang="$autre_code$" href="$autre_langue$">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="$accueil$">$site_nom$</a>
+    <a class="langue" href="$autre_langue$" hreflang="$autre_code$" lang="$autre_code$">$autre_label$</a>
+  </div>
+$if(fil)$
+  <p class="fil"><a href="$accueil$">$fil_accueil$</a> › $fil$</p>
+$endif$
+  <nav class="menu" aria-label="$menu_label$">
+$for(nav)$
+    <a href="$nav.href$"$if(nav.actif)$ aria-current="page"$endif$>$nav.label$</a>
+$endfor$
+  </nav>
+</header>
+<main>
+$if(title)$
+<h1 class="titre">$title$</h1>
+$endif$
+$if(subtitle)$
+<p class="sous-titre">$subtitle$</p>
+$endif$
+$if(toc)$
+<details class="sommaire"><summary>$sommaire_label$</summary>
+$table-of-contents$
+</details>
+$endif$
+$body$
+</main>
+<footer class="bas">
+  <p>$pied_licence$</p>
+  <p>$pied_retour$</p>
+</footer>
+</body>
+</html>

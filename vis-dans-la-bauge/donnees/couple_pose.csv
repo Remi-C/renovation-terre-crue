@@ -1,0 +1,10 @@
+campagne;essai;d_mm;longueur_mm;pre_trou;reglage_note;vitesse;reste_a_visser_mm;filet_dans_la_bauge_mm;couple_min_Nm;couple_max_Nm;note
+2026-10-10 combles;essai 01;10;;aucun;visseuse bloquée;1re;;100;18;20;plafond de la visseuse contrôlé à la clé — pose finie en dévissant et revissant
+2026-10-30 cabanon;C1;10;260;6 mm, foret de 240 mm;molette 8, « ~ moitié »;1re (supposée);130;85;16;16;reste supposé égal à la moitié de la vis
+2026-10-30 cabanon;C2;10;200;6 mm, foret de 200 mm;molette 4;1re (supposée);100;55;7;7;
+2026-10-30 cabanon;C3;10;140;5 mm, foret de 80 mm;molette 4;1re (supposée);60;35;7;7;
+2026-10-30 cabanon;C3;10;140;5 mm, foret de 80 mm;molette 8;1re (supposée);20;75;16;16;
+2026-10-30 cabanon;C4;10;100;5 mm, foret de 80 mm;molette 4;1re (supposée);20;35;7;7;
+2026-10-30 cabanon;C5;8;120;5 mm, foret de 80 mm;molette 4;1re (supposée);5;70;7;7;
+2026-10-30 cabanon;C6;6;80;aucun;tourne dans le vide;;;;;;« très sensible, se met à tourner dans le vide »
+2026-10-30 cabanon;C7;10;260;6 mm, foret de 240 mm;couple maximal de la visseuse;;0;215;;;« dû passer au max couple » — « caillou qui frotte au bruit »

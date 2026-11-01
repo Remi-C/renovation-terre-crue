@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Données et code · Rénovation en terre crue</title>
+<meta name="description" content="Retours d’expérience d’un particulier
+sur la rénovation du bâti en terre crue : essais, relevés, code et
+photos.">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="../en/vis-dans-la-bauge/data.html">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="../index.html">Rénovation en terre crue</a>
+    <a class="langue" href="../en/vis-dans-la-bauge/data.html" hreflang="en" lang="en">English</a>
+  </div>
+  <p class="fil"><a href="../index.html">Accueil</a> › Vis dans la
+bauge</p>
+  <nav class="menu" aria-label="Menu principal">
+    <a href="index.html">Présentation</a>
+    <a href="papier.html">Le papier</a>
+    <a href="donnees.html" aria-current="page">Données et code</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+<main>
+<h1 class="titre">Données et code</h1>
+<p>Tout ce qui sert au papier est dans le dossier <a
+href="https://github.com/Remi-C/renovation-terre-crue/tree/main/vis-dans-la-bauge"><code>vis-dans-la-bauge/</code></a>
+du dépôt GitHub : les relevés bruts, le code qui refait les chiffres et
+les figures, les photos. Texte, données, figures et photos sous licence
+CC BY 4.0 ; code sous licence MIT.</p>
+<h2 id="les-données">Les données</h2>
+<ul>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/releves_cisaillement_2026_10_30.csv"><code>donnees/releves_cisaillement_2026_10_30.csv</code></a>
+: les relevés tels que notés pendant les essais, une ligne par lecture
+(effort au peson, déplacement au comparateur, remarques).</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/essais.csv"><code>donnees/essais.csv</code></a>
+: une ligne par essai (vis, ancrage, planche, pré-trou, issue, lectures
+écartées et pourquoi).</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/vis.csv"><code>donnees/vis.csv</code></a>
+et <a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/couple_pose.csv"><code>donnees/couple_pose.csv</code></a>
+: caractéristiques des vis, couple de vissage noté à la pose.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/resultats_calcules.json"><code>donnees/resultats_calcules.json</code></a>
+: ce que les relevés donnent sans aucun modèle.</li>
+<li>Dictionnaire des colonnes et statut de chaque lecture : <a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/README.md"><code>donnees/README.md</code></a>.</li>
+</ul>
+<h2 id="le-code">Le code</h2>
+<p>Python 3 avec matplotlib et numpy ; Pillow et pandoc pour la
+construction. Chaque script de figures produit la version française et
+la version anglaise (suffixe <code>_en</code>). Depuis la racine du
+dépôt :</p>
+<pre><code>python3 vis-dans-la-bauge/code/grandeurs.py        # chiffres tirés des relevés
+python3 vis-dans-la-bauge/code/figures_essais.py   # figures des mesures
+python3 vis-dans-la-bauge/code/figure_pre_trou.py  # couple de pose et pré-trou
+python3 vis-dans-la-bauge/code/schemas.py          # schémas
+make construire                                    # tout, plus le papier (.docx) et ce site</code></pre>
+<h2 id="les-figures">Les figures</h2>
+<figure>
+<img src="figures/fig_implantation.svg" loading="lazy"
+alt="Implantation des essais : planches en éventail au-dessus de la platine de réaction, tirées vers le bas, le long du mur. (fig_implantation)" />
+<figcaption aria-hidden="true">Implantation des essais : planches en
+éventail au-dessus de la platine de réaction, tirées vers le bas, le
+long du mur. (<code>fig_implantation</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_montage.svg" loading="lazy"
+alt="Le montage, en coupe. (fig_montage)" />
+<figcaption aria-hidden="true">Le montage, en coupe.
+(<code>fig_montage</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_efforts.svg" loading="lazy"
+alt="Effort maximal par essai et ce qui s’est passé. (fig_efforts)" />
+<figcaption aria-hidden="true">Effort maximal par essai et ce qui s’est
+passé. (<code>fig_efforts</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_premiere_charge.svg" loading="lazy"
+alt="Première charge de chaque essai. (fig_premiere_charge)" />
+<figcaption aria-hidden="true">Première charge de chaque essai.
+(<code>fig_premiere_charge</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_ressort_freine.svg" loading="lazy"
+alt="Charges, décharges et rechargements : un ressort freiné. (fig_ressort_freine)" />
+<figcaption aria-hidden="true">Charges, décharges et rechargements : un
+ressort freiné. (<code>fig_ressort_freine</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_pre_trou.svg" loading="lazy"
+alt="Couple de pose selon la profondeur, sans pré-trou (combles) et avec pré-trou (cabanon), et limites de la vis. (fig_pre_trou)" />
+<figcaption aria-hidden="true">Couple de pose selon la profondeur, sans
+pré-trou (combles) et avec pré-trou (cabanon), et limites de la vis.
+(<code>fig_pre_trou</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_theorie.svg" loading="lazy"
+alt="Annexe : appui élastique, tête retenue, effet de corde (interprétation). (fig_theorie)" />
+<figcaption aria-hidden="true">Annexe : appui élastique, tête retenue,
+effet de corde (interprétation). (<code>fig_theorie</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_platine.svg" loading="lazy"
+alt="Annexe : platine métallique mince ou épaisse sous la tête de vis (extrapolation). (fig_platine)" />
+<figcaption aria-hidden="true">Annexe : platine métallique mince ou
+épaisse sous la tête de vis (extrapolation).
+(<code>fig_platine</code>)</figcaption>
+</figure>
+<h2 id="citer">Citer</h2>
+<p>Rémi Cura (2026). <em>Des vis dans la bauge.</em> Dans : <em>Rénover
+le bâti en terre crue : retours d’expérience</em>, dépôt de données et
+de code, https://github.com/Remi-C/renovation-terre-crue. Identifiant
+DOI (Zenodo) : à venir.</p>
+</main>
+<footer class="bas">
+  <p>Texte, données, figures et photos : CC BY 4.0. Code : MIT. Rémi
+Cura, 2026.</p>
+  <p>Retours bienvenus :
+<a href="https://github.com/Remi-C/renovation-terre-crue/issues">issues
+GitHub</a> ·
+<a href="https://github.com/Remi-C/renovation-terre-crue">dépôt</a></p>
+</footer>
+</body>
+</html>

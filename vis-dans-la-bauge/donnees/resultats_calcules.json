@@ -1,0 +1,718 @@
+{
+ "source": "donnees/releves_cisaillement_2026_10_30.csv",
+ "script": "code/grandeurs.py",
+ "essais": {
+  "C1": {
+   "essai": "C1",
+   "effort_max_kg": 300.0,
+   "rupture": null,
+   "deplacements": "lus",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro du protocole",
+     "ecartee": true,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.02
+      ],
+      [
+       40.0,
+       0.05
+      ],
+      [
+       70.0,
+       0.14
+      ]
+     ],
+     "residuel_mm": 0.05
+    },
+    {
+     "n": 2,
+     "statut": "suite sans remise à zéro",
+     "ecartee": true,
+     "origine_mm": 0.05,
+     "points": [
+      [
+       40.0,
+       0.07
+      ],
+      [
+       100.0,
+       0.2
+      ]
+     ],
+     "residuel_mm": null
+    },
+    {
+     "n": 3,
+     "statut": "remise à zéro notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       40.0,
+       0.05
+      ],
+      [
+       180.0,
+       0.5
+      ],
+      [
+       240.0,
+       1.0
+      ],
+      [
+       300.0,
+       1.6
+      ]
+     ],
+     "residuel_mm": null
+    }
+   ],
+   "rechargements": [
+    {
+     "n": 3,
+     "statut": "remise à zéro notée",
+     "plage_kg": [
+      40.0,
+      300.0
+     ],
+     "deplacement_au_plus_haut_mm": 1.6,
+     "raideur_secante_assemblage_kg_par_mm": 167.7,
+     "raideur_secante_assemblage_1re_charge_meme_plage_kg_par_mm": null,
+     "residuel_mm": null
+    }
+   ]
+  },
+  "C2": {
+   "essai": "C2",
+   "effort_max_kg": 350.0,
+   "rupture": null,
+   "deplacements": "lus",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro du protocole",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.1
+      ],
+      [
+       50.0,
+       0.2
+      ],
+      [
+       100.0,
+       0.6
+      ],
+      [
+       150.0,
+       1.15
+      ],
+      [
+       180.0,
+       1.35
+      ],
+      [
+       200.0,
+       1.6
+      ],
+      [
+       270.0,
+       2.3
+      ],
+      [
+       315.0,
+       2.7
+      ]
+     ],
+     "residuel_mm": 0.15
+    },
+    {
+     "n": 2,
+     "statut": "remise à zéro notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       40.0,
+       0.2
+      ],
+      [
+       100.0,
+       0.8
+      ],
+      [
+       200.0,
+       1.4
+      ],
+      [
+       300.0,
+       1.6
+      ]
+     ],
+     "residuel_mm": null
+    },
+    {
+     "n": 3,
+     "statut": "remise à zéro notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       300.0,
+       1.6
+      ],
+      [
+       350.0,
+       1.8
+      ]
+     ],
+     "residuel_mm": null
+    }
+   ],
+   "premiere_charge": {
+    "statut": "zéro du protocole",
+    "deplacement_a_25kg_mm": 0.117,
+    "deplacement_a_50kg_mm": 0.2,
+    "deplacement_a_100kg_mm": 0.6,
+    "pic_kg": 315.0,
+    "deplacement_au_pic_mm": 2.7,
+    "residuel_mm": 0.15,
+    "part_rendue_a_la_decharge": 0.944,
+    "raideur_moyenne_de_decharge_assemblage_kg_par_mm": 123.5,
+    "retour_attendu_pour_une_baisse_de_10pc_mm": 0.255
+   },
+   "rechargements": [
+    {
+     "n": 2,
+     "statut": "remise à zéro notée",
+     "plage_kg": [
+      40.0,
+      300.0
+     ],
+     "deplacement_au_plus_haut_mm": 1.6,
+     "raideur_secante_assemblage_kg_par_mm": 185.7,
+     "raideur_secante_assemblage_1re_charge_meme_plage_kg_par_mm": 108.3,
+     "residuel_mm": null
+    },
+    {
+     "n": 3,
+     "statut": "remise à zéro notée",
+     "plage_kg": [
+      300.0,
+      350.0
+     ],
+     "deplacement_au_plus_haut_mm": 1.8,
+     "raideur_secante_assemblage_kg_par_mm": 250.0,
+     "raideur_secante_assemblage_1re_charge_meme_plage_kg_par_mm": null,
+     "residuel_mm": null
+    }
+   ]
+  },
+  "C3": {
+   "essai": "C3",
+   "effort_max_kg": 300.0,
+   "rupture": null,
+   "deplacements": "lus",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro du protocole",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.08
+      ],
+      [
+       40.0,
+       0.22
+      ],
+      [
+       55.0,
+       0.3
+      ],
+      [
+       80.0,
+       0.48
+      ],
+      [
+       100.0,
+       0.6
+      ],
+      [
+       140.0,
+       0.9
+      ],
+      [
+       200.0,
+       1.3
+      ],
+      [
+       300.0,
+       2.6
+      ]
+     ],
+     "residuel_mm": null
+    },
+    {
+     "n": 2,
+     "statut": "remise à zéro notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       30.0,
+       0.2
+      ],
+      [
+       50.0,
+       0.4
+      ],
+      [
+       60.0,
+       0.5
+      ],
+      [
+       70.0,
+       0.6
+      ],
+      [
+       80.0,
+       0.7
+      ],
+      [
+       200.0,
+       1.5
+      ]
+     ],
+     "residuel_mm": null
+    }
+   ],
+   "premiere_charge": {
+    "statut": "zéro du protocole",
+    "deplacement_a_25kg_mm": 0.115,
+    "deplacement_a_50kg_mm": 0.273,
+    "deplacement_a_100kg_mm": 0.6,
+    "pic_kg": 300.0,
+    "deplacement_au_pic_mm": 2.6,
+    "residuel_mm": null
+   },
+   "rechargements": [
+    {
+     "n": 2,
+     "statut": "remise à zéro notée",
+     "plage_kg": [
+      30.0,
+      200.0
+     ],
+     "deplacement_au_plus_haut_mm": 1.5,
+     "raideur_secante_assemblage_kg_par_mm": 130.8,
+     "raideur_secante_assemblage_1re_charge_meme_plage_kg_par_mm": 147.8,
+     "residuel_mm": null
+    }
+   ]
+  },
+  "C4": {
+   "essai": "C4",
+   "effort_max_kg": 200.0,
+   "rupture": {
+    "effort_kg": 200.0,
+    "mot_note": "Arrachement",
+    "montee": 1
+   },
+   "deplacements": "lus",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro du protocole",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.1
+      ],
+      [
+       40.0,
+       0.2
+      ],
+      [
+       80.0,
+       0.5
+      ],
+      [
+       105.0,
+       0.65
+      ],
+      [
+       150.0,
+       1.1
+      ]
+     ],
+     "residuel_mm": null
+    }
+   ],
+   "premiere_charge": {
+    "statut": "zéro du protocole",
+    "deplacement_a_25kg_mm": 0.125,
+    "deplacement_a_50kg_mm": 0.275,
+    "deplacement_a_100kg_mm": 0.62,
+    "pic_kg": 150.0,
+    "deplacement_au_pic_mm": 1.1,
+    "residuel_mm": null
+   },
+   "rechargements": []
+  },
+  "C5": {
+   "essai": "C5",
+   "effort_max_kg": 200.0,
+   "rupture": {
+    "effort_kg": 200.0,
+    "mot_note": "Ca coulisse attention",
+    "montee": 1
+   },
+   "deplacements": "lus",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro du protocole",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.1
+      ],
+      [
+       40.0,
+       0.2
+      ],
+      [
+       50.0,
+       0.3
+      ],
+      [
+       80.0,
+       0.75
+      ],
+      [
+       100.0,
+       1.0
+      ],
+      [
+       130.0,
+       1.3
+      ],
+      [
+       150.0,
+       1.7
+      ]
+     ],
+     "residuel_mm": null
+    },
+    {
+     "n": 2,
+     "statut": "origine non notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       80.0,
+       0.8
+      ]
+     ],
+     "residuel_mm": null
+    }
+   ],
+   "premiere_charge": {
+    "statut": "zéro du protocole",
+    "deplacement_a_25kg_mm": 0.125,
+    "deplacement_a_50kg_mm": 0.3,
+    "deplacement_a_100kg_mm": 1.0,
+    "pic_kg": 150.0,
+    "deplacement_au_pic_mm": 1.7,
+    "residuel_mm": null
+   },
+   "rechargements": []
+  },
+  "C6": {
+   "essai": "C6",
+   "effort_max_kg": 50.0,
+   "rupture": {
+    "effort_kg": 50.0,
+    "mot_note": "Ca glisse",
+    "montee": 2
+   },
+   "deplacements": "lus",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro du protocole",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.2
+      ],
+      [
+       40.0,
+       0.5
+      ],
+      [
+       50.0,
+       2.0
+      ]
+     ],
+     "residuel_mm": 0.9
+    },
+    {
+     "n": 2,
+     "statut": "origine non notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.15
+      ],
+      [
+       40.0,
+       0.25
+      ]
+     ],
+     "residuel_mm": null
+    }
+   ],
+   "premiere_charge": {
+    "statut": "zéro du protocole",
+    "deplacement_a_25kg_mm": 0.275,
+    "deplacement_a_50kg_mm": 2.0,
+    "deplacement_a_100kg_mm": null,
+    "pic_kg": 50.0,
+    "deplacement_au_pic_mm": 2.0,
+    "residuel_mm": 0.9,
+    "part_rendue_a_la_decharge": 0.55,
+    "raideur_moyenne_de_decharge_assemblage_kg_par_mm": 45.5,
+    "retour_attendu_pour_une_baisse_de_10pc_mm": 0.11
+   },
+   "rechargements": [
+    {
+     "n": 2,
+     "statut": "origine non notée",
+     "plage_kg": [
+      20.0,
+      40.0
+     ],
+     "deplacement_au_plus_haut_mm": 0.25,
+     "raideur_secante_assemblage_kg_par_mm": 200.0,
+     "raideur_secante_assemblage_1re_charge_meme_plage_kg_par_mm": 66.7,
+     "residuel_mm": null
+    }
+   ]
+  },
+  "C7": {
+   "essai": "C7",
+   "effort_max_kg": 300.0,
+   "rupture": null,
+   "deplacements": "lus",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro non noté",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       40.0,
+       0.2
+      ],
+      [
+       65.0,
+       0.3
+      ],
+      [
+       94.0,
+       0.4
+      ],
+      [
+       120.0,
+       0.6
+      ],
+      [
+       174.0,
+       0.8
+      ],
+      [
+       137.0,
+       0.8
+      ]
+     ],
+     "residuel_mm": 0.15
+    },
+    {
+     "n": 2,
+     "statut": "remise à zéro notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.2
+      ],
+      [
+       80.0,
+       0.4
+      ],
+      [
+       150.0,
+       0.65
+      ],
+      [
+       200.0,
+       0.9
+      ],
+      [
+       250.0,
+       1.3
+      ],
+      [
+       300.0,
+       1.65
+      ]
+     ],
+     "residuel_mm": 0.5
+    },
+    {
+     "n": 3,
+     "statut": "remise à zéro notée",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       60.0,
+       0.3
+      ],
+      [
+       90.0,
+       0.5
+      ],
+      [
+       145.0,
+       0.8
+      ],
+      [
+       240.0,
+       1.1
+      ]
+     ],
+     "residuel_mm": null
+    }
+   ],
+   "premiere_charge": {
+    "statut": "zéro non noté",
+    "deplacement_a_25kg_mm": 0.125,
+    "deplacement_a_50kg_mm": 0.24,
+    "deplacement_a_100kg_mm": 0.446,
+    "pic_kg": 174.0,
+    "deplacement_au_pic_mm": 0.8,
+    "residuel_mm": 0.15,
+    "part_rendue_a_la_decharge": 0.812,
+    "raideur_moyenne_de_decharge_assemblage_kg_par_mm": 267.7,
+    "retour_attendu_pour_une_baisse_de_10pc_mm": 0.065
+   },
+   "rechargements": [
+    {
+     "n": 2,
+     "statut": "remise à zéro notée",
+     "plage_kg": [
+      20.0,
+      300.0
+     ],
+     "deplacement_au_plus_haut_mm": 1.65,
+     "raideur_secante_assemblage_kg_par_mm": 193.1,
+     "raideur_secante_assemblage_1re_charge_meme_plage_kg_par_mm": null,
+     "residuel_mm": 0.5,
+     "part_rendue_a_la_decharge": 0.697,
+     "raideur_moyenne_de_decharge_assemblage_kg_par_mm": 260.9,
+     "retour_attendu_pour_une_baisse_de_10pc_mm": 0.115
+    },
+    {
+     "n": 3,
+     "statut": "remise à zéro notée",
+     "plage_kg": [
+      60.0,
+      240.0
+     ],
+     "deplacement_au_plus_haut_mm": 1.1,
+     "raideur_secante_assemblage_kg_par_mm": 225.0,
+     "raideur_secante_assemblage_1re_charge_meme_plage_kg_par_mm": null,
+     "residuel_mm": null
+    }
+   ]
+  },
+  "C8": {
+   "essai": "C8",
+   "effort_max_kg": 300.0,
+   "rupture": null,
+   "deplacements": "contexte",
+   "montees": [
+    {
+     "n": 1,
+     "statut": "zéro du protocole",
+     "ecartee": false,
+     "origine_mm": 0.0,
+     "points": [
+      [
+       20.0,
+       0.1
+      ],
+      [
+       50.0,
+       0.2
+      ],
+      [
+       110.0,
+       0.6
+      ],
+      [
+       150.0,
+       1.0
+      ],
+      [
+       200.0,
+       1.2
+      ],
+      [
+       300.0,
+       2.3
+      ]
+     ],
+     "residuel_mm": 0.45
+    }
+   ],
+   "premiere_charge": {
+    "statut": "zéro du protocole",
+    "deplacement_a_25kg_mm": 0.117,
+    "deplacement_a_50kg_mm": 0.2,
+    "deplacement_a_100kg_mm": 0.533,
+    "pic_kg": 300.0,
+    "deplacement_au_pic_mm": 2.3,
+    "residuel_mm": 0.45,
+    "part_rendue_a_la_decharge": 0.804,
+    "raideur_moyenne_de_decharge_assemblage_kg_par_mm": 162.2,
+    "retour_attendu_pour_une_baisse_de_10pc_mm": 0.185
+   },
+   "rechargements": []
+  }
+ }
+}

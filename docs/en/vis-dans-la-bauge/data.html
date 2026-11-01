@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data and code · Earth building renovation</title>
+<meta name="description" content="A homeowner’s field notes on
+renovating earth (cob) buildings: tests, readings, code and photos.">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="fr" href="../../vis-dans-la-bauge/donnees.html">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="../index.html">Earth building renovation</a>
+    <a class="langue" href="../../vis-dans-la-bauge/donnees.html" hreflang="fr" lang="fr">Français</a>
+  </div>
+  <p class="fil"><a href="../index.html">Home</a> › Screws in cob</p>
+  <nav class="menu" aria-label="Main menu">
+    <a href="index.html">Overview</a>
+    <a href="paper.html">The paper</a>
+    <a href="data.html" aria-current="page">Data and code</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+<main>
+<h1 class="titre">Data and code</h1>
+<p>Everything behind the paper is in the <a
+href="https://github.com/Remi-C/renovation-terre-crue/tree/main/vis-dans-la-bauge"><code>vis-dans-la-bauge/</code></a>
+folder of the GitHub repository: raw readings, the code that rebuilds
+the numbers and figures, and the photos. Text, data, figures and photos
+under CC BY 4.0; code under the MIT licence. File and column names are
+in French; the data dictionary explains them.</p>
+<h2 id="data">Data</h2>
+<ul>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/releves_cisaillement_2026_10_30.csv"><code>donnees/releves_cisaillement_2026_10_30.csv</code></a>:
+readings as written down during the tests, one row per reading (load
+read on the crane scale, displacement read on the dial gauge,
+remarks).</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/essais.csv"><code>donnees/essais.csv</code></a>:
+one row per test (screw, embedment, board, pilot hole, outcome,
+discarded readings and why).</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/vis.csv"><code>donnees/vis.csv</code></a>
+and <a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/couple_pose.csv"><code>donnees/couple_pose.csv</code></a>:
+screw data, driving torque noted at installation.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/resultats_calcules.json"><code>donnees/resultats_calcules.json</code></a>:
+what the readings give without any model.</li>
+<li>Column dictionary and status of each reading: <a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/README.md"><code>donnees/README.md</code></a>.</li>
+</ul>
+<h2 id="code">Code</h2>
+<p>Python 3 with matplotlib and numpy; Pillow and pandoc for the build.
+Each figure script writes the French and the English version (suffix
+<code>_en</code>). From the repository root:</p>
+<pre><code>python3 vis-dans-la-bauge/code/grandeurs.py        # numbers derived from the readings
+python3 vis-dans-la-bauge/code/figures_essais.py   # measurement figures
+python3 vis-dans-la-bauge/code/figure_pre_trou.py  # driving torque and pilot hole
+python3 vis-dans-la-bauge/code/schemas.py          # diagrams
+make construire                                    # all of the above, plus the paper (.docx) and this site</code></pre>
+<h2 id="figures">Figures</h2>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_implantation_en.svg"
+loading="lazy"
+alt="Test layout: boards fanned out above the reaction plate, pulled downwards, along the wall. (fig_implantation_en)" />
+<figcaption aria-hidden="true">Test layout: boards fanned out above the
+reaction plate, pulled downwards, along the wall.
+(<code>fig_implantation_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_montage_en.svg"
+loading="lazy" alt="The test rig, in section. (fig_montage_en)" />
+<figcaption aria-hidden="true">The test rig, in section.
+(<code>fig_montage_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_efforts_en.svg"
+loading="lazy"
+alt="Highest load per test and what happened. (fig_efforts_en)" />
+<figcaption aria-hidden="true">Highest load per test and what happened.
+(<code>fig_efforts_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_premiere_charge_en.svg"
+loading="lazy"
+alt="First loading of each test. (fig_premiere_charge_en)" />
+<figcaption aria-hidden="true">First loading of each test.
+(<code>fig_premiere_charge_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_ressort_freine_en.svg"
+loading="lazy"
+alt="Loading, unloading and reloading: a braked spring. (fig_ressort_freine_en)" />
+<figcaption aria-hidden="true">Loading, unloading and reloading: a
+braked spring. (<code>fig_ressort_freine_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_pre_trou_en.svg"
+loading="lazy"
+alt="Driving torque versus depth, without a pilot hole (attic) and with one (shed), and screw limits. (fig_pre_trou_en)" />
+<figcaption aria-hidden="true">Driving torque versus depth, without a
+pilot hole (attic) and with one (shed), and screw limits.
+(<code>fig_pre_trou_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_theorie_en.svg"
+loading="lazy"
+alt="Appendix: elastic foundation, restrained head, rope effect (interpretation). (fig_theorie_en)" />
+<figcaption aria-hidden="true">Appendix: elastic foundation, restrained
+head, rope effect (interpretation).
+(<code>fig_theorie_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../vis-dans-la-bauge/figures/fig_platine_en.svg"
+loading="lazy"
+alt="Appendix: thin or thick steel plate under the screw head (extrapolation). (fig_platine_en)" />
+<figcaption aria-hidden="true">Appendix: thin or thick steel plate under
+the screw head (extrapolation).
+(<code>fig_platine_en</code>)</figcaption>
+</figure>
+<h2 id="how-to-cite">How to cite</h2>
+<p>Rémi Cura (2026). <em>Screws in cob.</em> In: <em>Renovating earth
+buildings: field notes</em>, data and code repository,
+https://github.com/Remi-C/renovation-terre-crue. DOI (Zenodo): to
+come.</p>
+</main>
+<footer class="bas">
+  <p>Text, data, figures and photos: CC BY 4.0. Code: MIT. Rémi Cura,
+2026.</p>
+  <p>Feedback welcome:
+<a href="https://github.com/Remi-C/renovation-terre-crue/issues">GitHub
+issues</a> ·
+<a href="https://github.com/Remi-C/renovation-terre-crue">repository</a></p>
+</footer>
+</body>
+</html>
