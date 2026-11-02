@@ -22,6 +22,8 @@ on the website.*
 - `c8_decharge.jpg`, `c8_charge_peson.jpg`, `c8_charge_cavite.jpg` — essai C8 (vis seule, sans planche) : peu chargé
   (≈ 37 kg),
   peson à 251 kg, cavité ouverte dans la bauge au-dessus de la tête de vis.
+- `vis_en_main.jpg` — les vis des essais du 30/10/2026 tenues en main, de la plus longue à la plus courte ; en tête
+  de la page du sujet, à côté de `montage_eventail.jpg`.
 - `vis_combles_apres_essai.jpg` — les deux vis du premier essai (combles, 10/10/2026), dévissées, avec un réglet.
 - `legendes.csv` — légendes FR et EN, date de prise de vue, nom d'origine.
 

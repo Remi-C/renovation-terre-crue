@@ -1,7 +1,7 @@
 ::: diptyque
-![The test rig, 30 October 2026: boards screwed in a fan into the cob wall, above the reaction plate; each board is pulled downwards by a rope, with a crane scale and a dial gauge.](../photos/montage_eventail.jpg){.portrait}
+![The screws tested: fully threaded structural timber screws Ø10 and Ø8, 100 to 260 mm long, and a small Ø6 × 80 stainless screw.](../photos/vis_en_main.jpg)
 
-![Two screws from an earlier test (attic, 10 October 2026), removed: Ø6.2 framing screw and fully threaded Ø10 screw, with their board and a 150 mm rule.](../photos/vis_combles_apres_essai.jpg){.paysage}
+![The test, 30 October 2026: boards screwed in a fan into the cob wall, pulled downwards by a rope, with a crane scale and a dial gauge.](../photos/montage_eventail.jpg)
 :::
 
 **Can you screw into cob?** Earth building guides say yes, but give no detail: no diameter, no length, no load. We

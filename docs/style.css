@@ -105,12 +105,9 @@ blockquote { margin: 1rem 0; padding: 0.2rem 1rem; border-left: 4px solid var(--
 .bas { border-top: 1px solid var(--trait); padding-top: 1rem; padding-bottom: 2rem; font-size: 0.9rem;
   color: var(--encre-2); }
 
-/* Diptyque d'ouverture d'une page de sujet : deux photos côte à côte, à la même hauteur, jamais recadrées.
-   La largeur de chaque photo suit sa proportion (3:4 en hauteur, 4:3 en largeur) ; empilées sur téléphone. */
-.diptyque { display: flex; gap: 0.75rem; align-items: flex-start; margin: 0 0 1.5rem; }
+/* Diptyque d'ouverture d'une page de sujet : deux photos en hauteur côte à côte, deux colonnes égales, même sur
+   téléphone. */
+.diptyque { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items: start; margin: 0 0 1.5rem; }
 .diptyque figure { margin: 0; min-width: 0; }
-.diptyque figure:has(img.portrait) { flex: 3; }
-.diptyque figure:has(img.paysage) { flex: 5.333; }
-.diptyque img { width: 100%; }
+.diptyque img { width: 100%; height: auto; }
 .diptyque figcaption { font-size: 0.85rem; }
-@media (max-width: 600px) { .diptyque { flex-direction: column; } }
