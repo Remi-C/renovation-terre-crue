@@ -3,18 +3,16 @@
 
 ordre = 1
 # Scripts de code/ relancés par `make construire`, dans cet ordre, depuis la racine du dépôt.
-scripts = ["grandeurs.py", "figures_essais.py", "figure_pre_trou.py", "schemas.py"]
-# Module facultatif de code/ qui donne les chiffres clés de l'accueil du sujet : fonction tuiles(langue).
-chiffres = "chiffres_site.py"
+scripts = ["grandeurs.py", "figures_essais.py", "figure_pre_trou.py", "figure_profondeur.py", "schemas.py"]
 
 [fr]
 titre = "Vis dans la bauge"
-accroche = "Combien tient une vis chargée de côté dans un vieux mur de bauge, et comment la poser : huit essais sur un mur existant, avec du matériel courant."
+accroche = "Peut-on visser dans la bauge ? Quelles vis, quelle longueur, combien ça tient de côté : essais sur un mur existant, avec du matériel courant."
 etat = "Essais de cisaillement faits le 30/10/2026, papier de référence en ligne. Essais d'arrachement à venir (novembre 2026)."
 
 [en]
 titre = "Screws in cob"
-accroche = "How much a screw loaded sideways holds in an old cob wall, and how to drive it: eight tests on an existing wall, with ordinary tools."
+accroche = "Can you screw into cob? Which screws, what length, how much they hold sideways: tests on an existing wall, with ordinary tools."
 etat = "Lateral load tests done on 30 Oct. 2026, reference paper online. Pull-out tests to come (November 2026)."
 
 # Figures du sujet (fichiers figures/<id>.png et .svg, produits par code/) et leur légende sur la page « Données et code ».
@@ -47,6 +45,11 @@ en = "Loading, unloading and reloading: a braked spring."
 id = "fig_pre_trou"
 fr = "Couple de pose selon la profondeur, sans pré-trou (combles) et avec pré-trou (cabanon), et limites de la vis."
 en = "Driving torque versus depth, without a pilot hole (attic) and with one (shed), and screw limits."
+
+[[figures]]
+id = "fig_profondeur"
+fr = "Effort de côté selon la longueur de vis dans la bauge : mesures, et extrapolation non mesurée."
+en = "Sideways load against length of screw in the cob: measurements, and an unmeasured extrapolation."
 
 [[figures]]
 id = "fig_theorie"
