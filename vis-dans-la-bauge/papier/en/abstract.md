@@ -20,8 +20,9 @@ need for a pilot hole for an ordinary 6 mm screw, under light loads; for a 10 mm
 drill-driver stalled at 18–20 N·m at about 10 cm of cob and driving was very hard; with a 5 or 6 mm pilot hole, almost
 everything was driven at 20 N·m at most, down to 21.5 cm. The pilot hole clearly reduces the driving torque and makes
 it possible to stay within the manufacturer's recommendations; which pilot hole for which diameter and which depth
-remains to be measured. Many modest screws rather than a few heavily loaded ones. The paper does not choose a margin:
-it lists those used elsewhere (from 1.25 to 14 depending on what they apply to). Pull-out remains to be measured: it is
+remains to be measured. Even if a screw holds 300 kg, plan for redundancy: a local flaw in the cob must not compromise
+the structure. There is no official margin for cob: we proceed by analogy with those used for earth and other
+materials (from 1.25 to 14 depending on the material and what they apply to). Pull-out remains to be measured: it is
 the subject of a second campaign, in November 2026.
 
 **Where to read more.** The full paper, its readings, its photos and its calculations:

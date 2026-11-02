@@ -91,7 +91,7 @@ separately from the reloadings. Loads are in kilos, as on the crane scale (100 k
 **The loads are reliable**: the crane scale is in the pulling chain. **The movements are fragile** (dial gauge held by
 the reaction plate, which moves back a little; gauge rod tilted 25 to 45° without the angle being noted; small
 readings taken to the tenth of a millimetre): the real movement may differ from the reading by a factor of 0.7 to 1.4,
-and below 50 kg we mostly read the rig. We therefore give no stiffness for the cob. The shape of the curves remains
+and below 50 kg we mostly read the rig. We therefore give the stiffness only as a wide range (next section). The shape of the curves remains
 reliable; so do the comparisons between tests, the tilt of the rod being comparable from one test to another, without
 reading too much into small differences. Discarded:
 the first loading of C1 (a shackle was rubbing) and the movements of C8 (the dial gauge probably slipped on the small
@@ -144,6 +144,12 @@ The Ø8 moves clearly more: 50 to 70% more than the Ø10 screws, read at 80 and 
 100 kg). At 40 kg, all read 0.2 mm, the reading precision; the gap most likely starts earlier. Only one Ø8 was tested:
 without reading too much into this figure, what is certain is that it gave way at 200 kg, and it is quite conceivable
 that it is less stiff than the Ø10.
+
+**A stiffness range, very limited.** Dividing the load by the displacement read, a Ø10 clamping a board gives 130 to
+250 kg per millimetre of board slip (first loadings up to 100 kg and reloadings of C1 to C4 and C7); the Ø8, about 70
+to 100 kg per millimetre. With the reading uncertainty (factor 0.7 to 1.4), the Ø10 range widens to about 90 to 360 kg
+per millimetre: at 100 kg, a board fixed this way moves 0.3 to 0.9 mm. This is the stiffness of the whole assembly,
+screw, board and cob together, not that of the cob alone; it rests on fragile displacements and on a single wall.
 
 ## A braked spring
 
@@ -253,12 +259,14 @@ insulation, probably loses this reinforcement. The guides say « sans trop serre
 not measure from what point tightening damages the thread in the earth; the 6 mm screw (C6) spun freely at the end of
 driving, probably what the guides want to avoid.
 
-## Many modest screws rather than a few heavily loaded ones
+## Plan for redundancy
 
-Spacing depends on the cob, which may be poorer in places, and a great deal on insurance: what an insurer will agree to
-cover. The author's strategy: the soundness of the work should never depend on a few fixings, which would call for a
-structural calculation; hence many modest anchors rather than a few very strong ones. For an insulation frame, one
-screw every 50 cm is easily justified.
+Even though a well-embedded Ø10 screw held 300 kg and more, do not let a structure hang on a single screw. Cob is not
+uniform: a less dense pocket, a crack, a stone or a damper spot, and the screw that lands there holds much less. You
+cannot see it while driving the screw. Spread the load over several screws, so that the structure still holds if one
+of them is poorly embedded. A screw that goes in too easily, or spins freely at the end of driving, signals a local
+flaw: add another one next to it. For an insulation frame, we plan one screw every 50 cm: each carries little, and
+losing one does not compromise the whole.
 
 ## And with a steel plate?
 
@@ -267,20 +275,32 @@ head rotate: we expect a behaviour between the board and the screw alone. A thic
 the board (timber joint rule, appendix B). A hanger carrying a cantilevered joist pulls its screws along their axis:
 that is pull-out.
 
-## What margin to take? What is done elsewhere
+## What margin to take?
 
-It is not for this paper to choose a margin. The factor is the ratio between the load that causes failure (or the test
-load) and the load one allows oneself. In similar situations (details in appendix D):
+There is no official margin for a fixing in cob: no standard and no guide we have read gives one. We therefore proceed
+by analogy, with what is done for other materials and other fixings. The factor is the ratio between the load that
+causes failure (or the test load held) and the load one allows oneself; from one source to another, it can only be
+compared by saying what it applies to (details in appendix D).
 
-- **1.25 to 1.5** on a test load held without failure [3, 16];
-- **2** on the failure of a screw tested by hand, by doubling the number of screws [5];
-- **2.2 to 3** on a low design value, exceeded by 95% of tests [18, 19, 21];
-- **3 to 7** on the failure, or the load held, in tests of fixings in weak base materials, including 3.3 and 5 in earth
-  blocks and bricks [7, 11, 16, 17];
-- **9 to 14** for wall plugs without approval or set in the joints [17].
+**In earth**
 
-Our tests are one-off and, for the Ø10 screws at least 9.5 cm into the cob, without failure: minimums. Going from
-on-site tests to an allowable value requires at least fifteen or so tests [14].
+- cob, wood screws, according to an English-speaking practitioner: **2** on the failure of a screw tested by hand; the
+  number of screws is doubled [5];
+- rammed earth: **1.5** on a test load held by the fixing, on a low wall [3];
+- compressed earth blocks, bracket on concrete screws: **3.3** on a single test pushed to failure [7];
+- earth bricks, plastic wall plugs: **5** on the average of pull-out tests [11].
+
+**In other materials**
+
+- concrete and masonry, on-site acceptance test: **1.25 to 1.5** on a proof load held [16];
+- timber joints: **2.2 to 2.9** on a low value, exceeded by 95% of tests [18, 19];
+- concrete and masonry, anchors for external wall insulation: **3.0** on a low value of the same kind [21];
+- concrete and masonry, preliminary on-site tests: **3 to 7** on the load held or the failure [16];
+- concrete and masonry, anchors tested on site: **4.7 to 7** on the average of the 5 lowest of 15 tests; **9 to 14**
+  for wall plugs without approval or set in the joints [17].
+
+Our tests are one-off and, for the Ø10 screws at least 9.5 cm into the cob, without failure: they are minimums. Going
+from on-site tests to an allowable value requires at least fifteen or so tests [14].
 
 # Limits and next steps
 
@@ -578,18 +598,18 @@ several foreign manuals could not be opened.
 
 The factor is the ratio between the load that causes failure (or the test load) and the load one allows oneself.
 
-| What is done | Factor | What it applies to |
-|---|---|---|
-| Test on a low wall, rammed earth guide [3] | 1.5 | a test load held, without going to failure |
-| Acceptance test of fixings on site, British standard BS 8539 [16] | 1.25 to 1.5 | a proof load, without failure |
-| English-speaking cob practitioner [5] | 2 | the failure of a screw tested by hand; the number of screws is doubled |
-| Timber joint design, Eurocode 5 [18, 19] | 2.2 to 2.9 | a low value, exceeded by 95% of tests (ratio recalculated) |
-| Anchors for external wall insulation, European approval [21] | 3.0 | a low value, exceeded by 95% of tests |
-| Bracket on compressed earth blocks, ATEx (« appréciation technique d'expérimentation » [technical assessment of an experimental product]) from the CSTB, the French building research centre (Centre scientifique et technique du bâtiment) [7] | 3.3 | a single test pushed to failure (330 kg), for 100 kg allowed |
-| Plastic wall plugs in earth bricks [11] | 5 | the average of pull-out tests |
-| Fixings in weak base materials, on-site tests, BS 8539 [16] | 3 to 7 | the load held, or the failure, in preliminary tests |
-| Approved anchors, on-site tests, French fixings trade body [17] | 4.7 to 7 | the average of the 5 lowest of 15 tests |
-| Wall plugs without approval, or set in the joints [17] | 9 to 14 | same |
+| What is done | Material | Factor | What it applies to |
+|---|---|---|---|
+| Test on a low wall, rammed earth guide [3] | rammed earth | 1.5 | a test load held, without going to failure |
+| Acceptance test of fixings on site, British standard BS 8539 [16] | concrete, masonry | 1.25 to 1.5 | a proof load, without failure |
+| English-speaking cob practitioner [5] | cob (earth) | 2 | the failure of a screw tested by hand; the number of screws is doubled |
+| Timber joint design, Eurocode 5 [18, 19] | timber | 2.2 to 2.9 | a low value, exceeded by 95% of tests (ratio recalculated) |
+| Anchors for external wall insulation, European approval [21] | concrete, masonry | 3.0 | a low value, exceeded by 95% of tests |
+| Bracket on compressed earth blocks, ATEx (« appréciation technique d'expérimentation » [technical assessment of an experimental product]) from the CSTB, the French building research centre (Centre scientifique et technique du bâtiment) [7] | compressed earth blocks | 3.3 | a single test pushed to failure (330 kg), for 100 kg allowed |
+| Plastic wall plugs in earth bricks [11] | earth bricks | 5 | the average of pull-out tests |
+| Fixings in weak base materials, on-site tests, BS 8539 [16] | concrete, masonry | 3 to 7 | the load held, or the failure, in preliminary tests |
+| Approved anchors, on-site tests, French fixings trade body [17] | concrete, masonry | 4.7 to 7 | the average of the 5 lowest of 15 tests |
+| Wall plugs without approval, or set in the joints [17] | concrete, masonry (joints) | 9 to 14 | same |
 
 Table: Margins used in similar situations, side by side, without choosing.
 

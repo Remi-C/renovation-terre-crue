@@ -20,8 +20,9 @@ plaquer une pièce contre le mur ; pré-trou inutile pour une vis de 6 mm couran
 10 mm, un pré-trou : sans, la visseuse a bloqué à 18–20 N·m vers 10 cm de bauge et la pose a été très difficile ; avec
 un pré-trou de 5 ou 6 mm, presque tout s'est posé à 20 N·m au plus, jusqu'à 21,5 cm. Le pré-trou réduit clairement le
 couple de pose et permet de rester dans les préconisations du fabricant ; quel pré-trou pour quel diamètre et quelle
-profondeur reste à mesurer. Beaucoup de vis modestes plutôt que quelques vis très chargées. Le papier ne choisit pas de
-marge : il recense celles qu'on pratique ailleurs (de 1,25 à 14 selon ce sur quoi elles portent). L'arrachement reste à
+profondeur reste à mesurer. Même si une vis tient 300 kg, prévoir de la redondance : un défaut local de la bauge ne
+doit pas compromettre l'ouvrage. Il n'existe pas de marge officielle pour la bauge : on procède par analogie avec celles
+qu'on pratique pour la terre crue et d'autres matériaux (de 1,25 à 14 selon le matériau et ce sur quoi elles portent). L'arrachement reste à
 mesurer : c'est l'objet d'une seconde campagne, en novembre 2026.
 
 **Où lire.** Le papier complet, ses relevés, ses photos et ses calculs : <https://remi.cura.info/renovation-terre-crue/>

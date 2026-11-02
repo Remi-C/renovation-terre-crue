@@ -105,6 +105,12 @@ blockquote { margin: 1rem 0; padding: 0.2rem 1rem; border-left: 4px solid var(--
 .bas { border-top: 1px solid var(--trait); padding-top: 1rem; padding-bottom: 2rem; font-size: 0.9rem;
   color: var(--encre-2); }
 
-/* Photo d'ouverture d'une page de sujet : la première chose qu'on voit, sous le titre. */
-figure:has(img.photo-titre) { margin: 0 0 1.5rem; }
-img.photo-titre { width: auto; max-height: 80vh; margin: 0 auto; }  /* photo en hauteur : entière, jamais recadrée */
+/* Diptyque d'ouverture d'une page de sujet : deux photos côte à côte, à la même hauteur, jamais recadrées.
+   La largeur de chaque photo suit sa proportion (3:4 en hauteur, 4:3 en largeur) ; empilées sur téléphone. */
+.diptyque { display: flex; gap: 0.75rem; align-items: flex-start; margin: 0 0 1.5rem; }
+.diptyque figure { margin: 0; min-width: 0; }
+.diptyque figure:has(img.portrait) { flex: 3; }
+.diptyque figure:has(img.paysage) { flex: 5.333; }
+.diptyque img { width: 100%; }
+.diptyque figcaption { font-size: 0.85rem; }
+@media (max-width: 600px) { .diptyque { flex-direction: column; } }

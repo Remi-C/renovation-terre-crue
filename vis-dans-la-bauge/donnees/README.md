@@ -27,7 +27,8 @@ gives their meaning.*
   effort maximal, rupture, déplacement à 25, 50 et 100 kg sur la première charge (interpolé entre deux lectures),
   résiduels, part rendue à la décharge, raideurs de l'assemblage. Les clés `raideur_…_assemblage_…` (kg/mm) sont
   celles de tout le montage tel que le comparateur le lit (vis, planche, platine de réaction qui recule) : ce n'est
-  pas une raideur de la bauge, que le papier ne donne pas.
+  pas une raideur de la bauge seule. Le papier en tire une fourchette large pour l'assemblage (section « Sous 100 kg,
+  la profondeur change peu ; le diamètre, si »).
 
 ## Dictionnaire des colonnes
 

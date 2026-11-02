@@ -92,7 +92,7 @@ se lit à part des rechargements. Les efforts sont en kilos, comme sur le peson 
 **Les efforts sont sûrs** : le peson est dans la chaîne de traction. **Les déplacements sont fragiles** (comparateur
 tenu par la platine qui recule un peu, tige inclinée de 25 à 45° sans que l'angle soit noté, petites lectures au
 dixième) : le déplacement réel peut différer de la lecture d'un facteur 0,7 à 1,4, et sous 50 kg on lit surtout le
-montage. Nous ne donnons donc pas de raideur de la bauge. La forme des courbes reste sûre ; les comparaisons entre
+montage. Nous ne donnons donc de la raideur qu'une fourchette large (section suivante). La forme des courbes reste sûre ; les comparaisons entre
 essais aussi, l'inclinaison de la tige étant comparable d'un essai à l'autre, sans trop lire dans les petits écarts.
 Sont écartés la première charge de C1 (une
 manille frottait) et les déplacements de C8 (le comparateur a probablement glissé sur la petite tête de vis) ; l'effort
@@ -145,6 +145,13 @@ La Ø8 bouge nettement plus : 50 à 70 % de plus que les Ø10, lus à 80 et 100 
 À 40 kg, toutes lisent 0,2 mm, la précision de lecture ; l'écart commence vraisemblablement plus tôt. Une seule Ø8 a
 été essayée : sans trop lire dans ce chiffre, ce qui est sûr, c'est qu'elle a lâché à 200 kg, et qu'elle soit moins
 raide que la Ø10 est tout à fait concevable.
+
+**Une fourchette de raideur, très limitée.** En rapportant l'effort au déplacement lu, une Ø10 qui plaque une planche
+donne 130 à 250 kg par millimètre de glissement de la planche (premières charges jusqu'à 100 kg et rechargements de C1
+à C4 et C7) ; la Ø8, environ 70 à 100 kg par millimètre. Avec l'incertitude de lecture (facteur 0,7 à 1,4), la
+fourchette des Ø10 s'élargit à environ 90 à 360 kg par millimètre : à 100 kg, une planche ainsi fixée bouge de 0,3 à
+0,9 mm. C'est la raideur de tout l'assemblage, vis, planche et bauge ensemble, pas celle de la bauge seule ; elle
+repose sur des déplacements fragiles et sur un seul mur.
 
 ## Un ressort freiné
 
@@ -252,12 +259,14 @@ probablement ce renfort. Les guides disent « sans trop serrer » : nous n'avons
 abîme le filet dans la terre ; la vis de 6 mm (C6) a tourné dans le vide en fin de pose, probablement ce que les guides
 veulent éviter.
 
-## Beaucoup de vis modestes plutôt que quelques vis très chargées
+## Prévoir de la redondance
 
-L'espacement tient à la bauge, qui peut être moins bonne par endroits, et beaucoup à l'assurance : ce qu'un assureur
-acceptera de couvrir. La stratégie de l'auteur : que la tenue de l'ouvrage ne dépende jamais de quelques fixations, ce
-qui demanderait un calcul de structure ; donc beaucoup d'ancrages modestes plutôt que quelques ancrages très forts. Pour
-une ossature d'isolation, une vis tous les 50 cm se justifie sans peine.
+Même si une vis Ø10 bien ancrée a tenu 300 kg et plus, ne faites pas porter un ouvrage par une seule vis. La bauge
+n'est pas homogène : une poche moins dense, une fissure, un caillou ou un endroit plus humide, et la vis qui tombe là
+tient beaucoup moins. Cela ne se voit pas en posant la vis. Répartissez la charge sur plusieurs vis, de sorte que
+l'ouvrage tienne encore si l'une d'elles est mal ancrée. Une vis qui entre trop facilement ou qui tourne dans le vide
+en fin de pose signale un défaut local : mettez-en une autre à côté. Pour une ossature d'isolation, nous prévoyons une
+vis tous les 50 cm : chacune porte peu, et la perte de l'une d'elles ne compromet pas l'ensemble.
 
 ## Et avec une platine métallique ?
 
@@ -266,20 +275,32 @@ pour une Ø10) laisse tourner la tête : on s'attend à un comportement entre la
 épaisse (au moins 10 mm) la retient comme la planche (règle des assemblages bois, annexe B). Un sabot qui porte une
 solive en porte-à-faux tire ses vis dans leur axe : c'est l'arrachement.
 
-## Quelle marge prendre ? Ce qu'on pratique ailleurs
+## Quelle marge prendre ?
 
-Ce n'est pas à ce papier de choisir une marge. Le facteur est le rapport entre l'effort qui fait céder (ou l'effort
-d'essai) et la charge qu'on s'autorise. Dans des situations voisines (détail en annexe D) :
+Il n'existe pas de marge officielle pour une fixation dans la bauge : aucune norme ni aucun guide que nous ayons lu n'en
+donne. On procède donc par analogie, avec ce qui se pratique pour d'autres matériaux et d'autres fixations. Le facteur
+est le rapport entre l'effort qui fait céder (ou la charge d'essai tenue) et la charge qu'on s'autorise ; d'une source à
+l'autre, il ne se compare qu'en disant sur quoi il porte (détail en annexe D).
 
-- **1,25 à 1,5** sur une charge d'essai tenue sans rupture [3, 16] ;
-- **2** sur la rupture d'une vis essayée à la main, en doublant le nombre de vis [5] ;
-- **2,2 à 3** sur une valeur basse de calcul, que 95 % des essais dépassent [18, 19, 21] ;
-- **3 à 7** sur la rupture, ou la charge tenue, d'essais de fixations en support faible, dont 3,3 et 5 dans des blocs et
-  des briques de terre [7, 11, 16, 17] ;
-- **9 à 14** pour des chevilles sans homologation ou posées dans les joints [17].
+**Dans la terre crue**
 
-Nos essais sont uniques et, pour les Ø10 entrées d'au moins 9,5 cm, sans rupture : des minimums. Passer d'essais de
-chantier à une valeur admissible demande au moins une quinzaine d'essais [14].
+- bauge, vis à bois, selon un praticien anglophone : **2** sur la rupture d'une vis essayée à la main ; on double le
+  nombre de vis [5] ;
+- pisé : **1,5** sur une charge d'essai tenue par la fixation, sur un muret [3] ;
+- blocs de terre comprimée, console sur vis à béton : **3,3** sur un seul essai poussé à la rupture [7] ;
+- briques de terre crue, chevilles plastiques : **5** sur la moyenne d'essais d'arrachement [11].
+
+**Dans d'autres matériaux**
+
+- béton et maçonnerie, essai de réception sur chantier : **1,25 à 1,5** sur une charge d'épreuve tenue [16] ;
+- bois, assemblages : **2,2 à 2,9** sur une valeur basse, que 95 % des essais dépassent [18, 19] ;
+- béton et maçonnerie, chevilles d'isolation par l'extérieur : **3,0** sur une valeur basse du même type [21] ;
+- béton et maçonnerie, essais préliminaires sur chantier : **3 à 7** sur la charge tenue ou la rupture [16] ;
+- béton et maçonnerie, chevilles essayées sur site : **4,7 à 7** sur la moyenne des 5 plus faibles de 15 essais ; **9 à
+  14** pour des chevilles sans homologation ou posées dans les joints [17].
+
+Nos essais sont uniques et, pour les Ø10 entrées d'au moins 9,5 cm, sans rupture : ce sont des minimums. Passer
+d'essais de chantier à une valeur admissible demande au moins une quinzaine d'essais [14].
 
 # Limites et suite
 
@@ -583,18 +604,18 @@ les fabricants ; plusieurs manuels étrangers n'ont pas pu être ouverts.
 
 Le facteur est le rapport entre l'effort qui fait céder (ou l'effort d'essai) et la charge qu'on s'autorise.
 
-| Ce qu'on pratique | Facteur | Sur quoi il porte |
-|---|---|---|
-| Essai sur muret, guide du pisé [3] | 1,5 | une charge d'essai tenue, sans aller à la rupture |
-| Essai de réception de fixations sur chantier, norme britannique BS 8539 [16] | 1,25 à 1,5 | une charge d'épreuve, sans rupture |
-| Praticien de la bauge anglaise [5] | 2 | la rupture d'une vis essayée à la main ; on double le nombre de vis |
-| Calcul des assemblages bois, Eurocode 5 [18, 19] | 2,2 à 2,9 | une valeur basse, que 95 % des essais dépassent (rapport recalculé) |
-| Chevilles d'isolation par l'extérieur, agrément européen [21] | 3,0 | une valeur basse, que 95 % des essais dépassent |
-| Console sur blocs de terre comprimée, appréciation technique d'expérimentation (ATEx) du CSTB, le Centre scientifique et technique du bâtiment [7] | 3,3 | un seul essai poussé à la rupture (330 kg), pour 100 kg admis |
-| Chevilles plastiques dans des briques de terre [11] | 5 | la moyenne d'essais d'arrachement |
-| Fixations en support faible, essais de chantier, BS 8539 [16] | 3 à 7 | la charge tenue, ou la rupture, d'essais préliminaires |
-| Chevilles homologuées, essais sur site, profession française de la fixation [17] | 4,7 à 7 | la moyenne des 5 plus faibles de 15 essais |
-| Chevilles sans homologation, ou posées dans les joints [17] | 9 à 14 | idem |
+| Ce qu'on pratique | Matériau | Facteur | Sur quoi il porte |
+|---|---|---|---|
+| Essai sur muret, guide du pisé [3] | pisé (terre crue) | 1,5 | une charge d'essai tenue, sans aller à la rupture |
+| Essai de réception de fixations sur chantier, norme britannique BS 8539 [16] | béton, maçonnerie | 1,25 à 1,5 | une charge d'épreuve, sans rupture |
+| Praticien de la bauge anglaise [5] | bauge (terre crue) | 2 | la rupture d'une vis essayée à la main ; on double le nombre de vis |
+| Calcul des assemblages bois, Eurocode 5 [18, 19] | bois | 2,2 à 2,9 | une valeur basse, que 95 % des essais dépassent (rapport recalculé) |
+| Chevilles d'isolation par l'extérieur, agrément européen [21] | béton, maçonnerie | 3,0 | une valeur basse, que 95 % des essais dépassent |
+| Console sur blocs de terre comprimée, appréciation technique d'expérimentation (ATEx) du CSTB, le Centre scientifique et technique du bâtiment [7] | blocs de terre comprimée | 3,3 | un seul essai poussé à la rupture (330 kg), pour 100 kg admis |
+| Chevilles plastiques dans des briques de terre [11] | briques de terre crue | 5 | la moyenne d'essais d'arrachement |
+| Fixations en support faible, essais de chantier, BS 8539 [16] | béton, maçonnerie | 3 à 7 | la charge tenue, ou la rupture, d'essais préliminaires |
+| Chevilles homologuées, essais sur site, profession française de la fixation [17] | béton, maçonnerie | 4,7 à 7 | la moyenne des 5 plus faibles de 15 essais |
+| Chevilles sans homologation, ou posées dans les joints [17] | béton, maçonnerie (joints) | 9 à 14 | idem |
 
 Table: Marges pratiquées dans des situations voisines, côte à côte, sans choix.
 

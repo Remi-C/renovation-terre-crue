@@ -1,4 +1,8 @@
-![Le montage d'essai, 30 octobre 2026 : planches vissées en éventail dans le mur en bauge, au-dessus de la platine de réaction ; chaque planche est tirée vers le bas par une corde, avec un peson et un comparateur.](../photos/montage_eventail.jpg){.photo-titre}
+::: diptyque
+![Le montage d'essai, 30 octobre 2026 : planches vissées en éventail dans le mur en bauge, au-dessus de la platine de réaction ; chaque planche est tirée vers le bas par une corde, avec un peson et un comparateur.](../photos/montage_eventail.jpg){.portrait}
+
+![Deux vis d'un premier essai (combles, 10 octobre 2026), dévissées : vis de charpente Ø6,2 et vis Ø10 à filetage total, avec leur planche et un réglet de 150 mm.](../photos/vis_combles_apres_essai.jpg){.paysage}
+:::
 
 **Peut-on visser dans la bauge ?** Les guides de la construction en terre crue disent oui, mais sans détail : ni
 diamètre, ni longueur, ni charge. Nous avons fait des essais sur un mur pour donner ces repères.
