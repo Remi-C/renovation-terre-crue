@@ -1,6 +1,6 @@
 ---
 title: "Screws in cob"
-subtitle: "How much a screw loaded sideways holds in an old cob wall, and how to drive it. Field report on eight tests."
+subtitle: "Can you screw into cob? Which screws, what length, how much they hold sideways. Field report for builders."
 author: "Rémi Cura, PhD — Clos Poulain, near Rennes"
 date: "November 2026 — version 1"
 lang: en
@@ -12,20 +12,19 @@ figures under the CC BY 4.0 licence. Feedback: the GitHub repository's “issues
 
 # In short
 
-- In an old, dry wall of cob (French *bauge*), we ran eight tests on off-the-shelf screws loaded sideways, along the
-  wall: one test per configuration, in one day, with ordinary equipment.
-- A 10 mm diameter wood screw, driven with a pilot hole, 9.5 to 21.5 cm into the cob and clamping a board against the
-  wall, carried **300 to 350 kg** without failing. The tests were stopped before failure: the real limit is higher.
-- Too short, the screws gave way: at about 200 kg for a 10 mm screw 5.5 cm into the cob and an 8 mm screw 7.5 cm in;
-  from 50 kg for a small 6 mm stainless steel screw 3.5 cm in.
-- What we take from this: 8 mm diameter for a few tens of kilos, 10 mm above that; 8 cm into the cob at the very least,
-  10 cm preferably; always clamp a piece against the wall.
-- Driving: without a pilot hole, a 10 mm screw, though shorter, stalled the drill-driver at 18–20 N·m at about 10 cm
-  of cob, and driving it was very hard; with a 5 or 6 mm pilot hole, almost all were driven at 20 N·m at most, down to
-  21.5 cm. The pilot hole clearly reduces the driving torque and makes it possible to stay within the screw
-  manufacturer's recommendations. Which pilot hole for which diameter and which depth remains to be measured.
-- This paper gives neither an allowable load nor a safety margin: it sets our measurements beside the margins used
-  elsewhere. Pull-out (screw pulled along its axis) is the subject of a second campaign, in November 2026.
+- **Can you screw into cob?** Earth building guides say yes, but give no detail: no diameter, no length, no load. We
+  tested a wall to give builders those figures.
+- **The screws**: good-quality fully threaded structural timber screws, 8 and 10 mm in diameter. For the Ø10, a 5 to
+  6 mm pilot hole clearly reduces the driving torque and keeps within the screw manufacturer's recommendations.
+- **Sideways (in shear), 300 kg is easily reached.** What matters most is the length of screw in the cob: 200 kg from
+  5.5 cm with Ø10 and from 7.5 cm with Ø8; at least 300 kg from 9.5 cm with Ø10; a small Ø6 screw 3.5 cm in already
+  holds 40 kg.
+- **These figures hold for a screw fixing a timber batten against the wall**: the batten makes the whole stiffer than
+  a screw alone.
+- **Plan for redundancy**: even if a screw holds 300 kg, spread the load over several screws, so that a local flaw in
+  the cob does not compromise the structure.
+- **Limits**: a single wall, of dry cob, one test per configuration. There is no official margin for cob: the paper
+  gives, by analogy, those used elsewhere. Coming next: pull-out (screw pulled along its axis), in November 2026.
 
 # Why this paper
 

@@ -1,6 +1,6 @@
 ---
 title: "Des vis dans la bauge"
-subtitle: "Combien tient une vis chargée de côté dans un mur de bauge ancien, et comment la poser. Retour d'expérience sur huit essais."
+subtitle: "Peut-on visser dans la bauge ? Quelles vis, quelle longueur, combien ça tient de côté. Retour d'expérience pour les artisans."
 author: "Rémi Cura, docteur — Clos Poulain, région de Rennes"
 date: "Novembre 2026 — version 1"
 lang: fr
@@ -12,21 +12,20 @@ figures sous licence CC BY 4.0. Retours : les « issues » du dépôt GitHub.
 
 # En bref
 
-- Dans un vieux mur de bauge sec, nous avons fait huit essais de vis du commerce chargées de côté, le long du mur :
-  un essai par configuration, en une journée, avec du matériel courant.
-- Une vis à bois de 10 mm de diamètre, posée avec un pré-trou, entrée de 9,5 à 21,5 cm dans la bauge et plaquant une
-  planche contre le mur, a porté **300 à 350 kg** sans rompre. Les essais ont été arrêtés avant la rupture : la vraie
-  limite est plus haute.
-- Trop courtes, les vis ont lâché : vers 200 kg pour une vis de 10 mm entrée de 5,5 cm et une vis de 8 mm entrée de
-  7,5 cm ; dès 50 kg pour une petite vis inox de 6 mm entrée de 3,5 cm.
-- Ce que nous en retenons : 8 mm de diamètre pour quelques dizaines de kilos, 10 mm au-delà ; 8 cm dans la bauge au
-  minimum, 10 cm de préférence ; toujours plaquer une pièce contre le mur.
-- La pose : sans pré-trou, une vis de 10 mm, pourtant plus courte, a bloqué la visseuse à 18–20 N·m vers 10 cm de
-  bauge, et sa pose a été très difficile ; avec un pré-trou de 5 ou 6 mm, presque toutes ont été posées à 20 N·m au
-  plus, jusqu'à 21,5 cm. Le pré-trou réduit clairement le couple de pose et permet de rester dans les préconisations du
-  fabricant de la vis. Quel pré-trou pour quel diamètre et quelle profondeur reste à mesurer.
-- Ce papier ne donne ni charge admissible ni marge de sécurité : il place nos mesures à côté des marges pratiquées
-  ailleurs. L'arrachement (vis tirée dans son axe) fait l'objet d'une seconde campagne, en novembre 2026.
+- **Peut-on visser dans la bauge ?** Les guides de la construction en terre crue disent oui, mais sans détail : ni
+  diamètre, ni longueur, ni charge. Nous avons fait des essais sur un mur pour donner ces repères aux artisans.
+- **Les vis** : des vis de charpente à filetage total, de qualité, en diamètre 8 et 10 mm. Pour la Ø10, un pré-trou de
+  5 à 6 mm réduit nettement le couple de pose et permet de rester dans les préconisations du fabricant de la vis.
+- **De côté (en cisaillement), on atteint facilement 300 kg.** Ce qui compte surtout, c'est la longueur de vis dans la
+  bauge : 200 kg dès 5,5 cm en Ø10 et dès 7,5 cm en Ø8 ; au moins 300 kg dès 9,5 cm en Ø10 ; une petite vis Ø6 sur
+  3,5 cm tient déjà 40 kg.
+- **Ces chiffres valent pour une vis qui fixe un montant en bois contre le mur** : le montant rend l'ensemble plus
+  rigide qu'une vis seule.
+- **Prévoir de la redondance** : même si une vis tient 300 kg, répartir la charge sur plusieurs vis, pour qu'un défaut
+  local de la bauge ne compromette pas l'ouvrage.
+- **Limites** : un seul mur, de bauge sèche, un essai par configuration. Il n'existe pas de marge officielle pour la
+  bauge : le papier donne, par analogie, celles qu'on pratique ailleurs. À venir : l'arrachement (vis tirée dans son
+  axe), en novembre 2026.
 
 # Pourquoi ce papier
 
