@@ -90,16 +90,18 @@ plaque contre le mur une planche de 45 mm (douglas ; chêne d'épaisseur non not
 moins la planche. Les trois vis de 260 mm isolent l'effet de la pièce : planche de chêne (C1), de douglas (C7), aucune
 planche (C8, qui reprend la vis et le trou de C1, tête au ras du mur). Détail en annexe A.
 
+![Figure 1 — Les vis des essais, fischer PowerFull II Ø10 et Ø8, entre deux réglets, sur un tapis quadrillé.](../../photos/vis_reglets.jpg){#photo_vis_reglets}
+
 ## Le montage de côté
 
-![Figure 1 — Implantation : les planches d'essai en éventail au-dessus de la platine de réaction, tirées vers le bas, le long du mur.](../../figures/fig_implantation.png){#fig_implantation}
+![Figure 2 — Implantation : les planches d'essai en éventail au-dessus de la platine de réaction, tirées vers le bas, le long du mur.](../../figures/fig_implantation.png){#fig_implantation}
 
 On tire chaque planche vers le bas, le long du mur, comme un poids, vers une platine de réaction vissée plus bas dans
 la même bauge par quatre vis Ø10. On met en charge en serrant un écrou sur une tige filetée, au bout d'une chaîne qui
 comprend un peson électronique de 1 tonne. Un comparateur, un cadran qui lit les déplacements au centième de
 millimètre, touche le chant de la planche. Le matériel coûte quelques centaines d'euros.
 
-![Figure 2 — Le montage en coupe : vis, planche plaquée au mur, chaîne de traction, platine de réaction, comparateur.](../../figures/fig_montage.png){#fig_montage}
+![Figure 3 — Le montage en coupe : vis, planche plaquée au mur, chaîne de traction, platine de réaction, comparateur.](../../figures/fig_montage.png){#fig_montage}
 
 On monte l'effort par paliers, en notant à chaque palier l'effort le plus haut et le déplacement ; la première charge
 se lit à part des rechargements. Les efforts sont en kilos, comme sur le peson (100 kg font environ 1 kN).
@@ -115,7 +117,7 @@ de C8, lui, est sûr.
 
 ## Le montage en traction
 
-![Figure 3 — Le montage en traction (7 novembre 2026) : la vis tient une platine d'acier ; la chaîne et le peson la tirent hors du mur par une tige filetée, dont l'écrou est porté par un pont appuyé sur la bauge.](../../photos/traction_montage.jpg){#photo_traction_montage}
+![Figure 4 — Le montage en traction (7 novembre 2026) : la vis tient une platine d'acier ; la chaîne et le peson la tirent hors du mur par une tige filetée, dont l'écrou est porté par un pont appuyé sur la bauge.](../../photos/traction_montage.jpg){#photo_traction_montage}
 
 La bauge est dressée au rabot à l'endroit de la vis (5 mm enlevés au plus). La vis traverse une platine d'acier, qui
 en prend 15 mm, et entre dans la bauge. On la tire dans son axe, perpendiculairement au mur, par une tige filetée qui
@@ -157,7 +159,7 @@ Table: Les huit essais du 30 octobre 2026. Ø10 : vis de 10 mm de diamètre au f
 la longueur (C1, C2, C7) ; 5 mm sur 3,5 cm de bauge au plus (C3, C4, C5) ; aucun (C6). Entre guillemets : les mots notés
 sur le moment.
 
-![Figure 4 — Effort maximal par essai et ce qui s'est passé. Les barres des vis qui n'ont pas rompu sont des minimums.](../../figures/fig_efforts.png){#fig_efforts}
+![Figure 5 — Effort maximal par essai et ce qui s'est passé. Les barres des vis qui n'ont pas rompu sont des minimums.](../../figures/fig_efforts.png){#fig_efforts}
 
 Les Ø10 entrées d'au moins 9,5 cm ont porté 300 à 350 kg : ce sont des minimums, on s'est arrêté avant la rupture, et
 on ne peut pas les classer entre elles. Pour les vis courtes, les mots notés indiquent probablement que la vis est
@@ -165,7 +167,7 @@ sortie du mur (elles n'ont pas été examinées au démontage).
 
 ## Sous 100 kg, la profondeur change peu ; le diamètre, si
 
-![Figure 5 — Premières charges superposées : déplacement lu selon l'effort, pour chaque essai.](../../figures/fig_premiere_charge.png){#fig_premiere_charge}
+![Figure 6 — Premières charges superposées : déplacement lu selon l'effort, pour chaque essai.](../../figures/fig_premiere_charge.png){#fig_premiere_charge}
 
 Sous 100 kg, les Ø10 se comportent pareil quelle que soit leur profondeur : à 100 kg, celles entrées de 5,5, 9,5 et
 15,5 cm lisent toutes 0,60 à 0,62 mm. Notre lecture, supposée (annexe B) : seuls les premiers centimètres de vis
@@ -186,7 +188,7 @@ repose sur des déplacements fragiles et sur un seul mur.
 
 ## Un ressort freiné
 
-![Figure 6 — Cycles de charge et de décharge : la planche revient presque entièrement quand on décharge tout, pas du tout quand on décharge un peu.](../../figures/fig_ressort_freine.png){#fig_ressort_freine}
+![Figure 7 — Cycles de charge et de décharge : la planche revient presque entièrement quand on décharge tout, pas du tout quand on décharge un peu.](../../figures/fig_ressort_freine.png){#fig_ressort_freine}
 
 - **Déchargé jusqu'à zéro, l'ensemble revient presque entièrement** : 94 % du déplacement (C2, après 315 kg), 81 %
   (C7, après 174 kg).
@@ -221,7 +223,9 @@ Table: Les huit essais en traction du 7 novembre 2026. Chaque vis est chargée, 
 tient. « A tenu » : la charge la plus haute tenue à cette longueur, un minimum. Fourchette : charge notée entre deux
 valeurs. Entre guillemets : les mots notés sur le moment. Longueur dans la bauge : à 5 mm près.
 
-![Figure 7 — Après une rupture en traction d'une vis Ø10 × 100 (essai A6 ou A7) : le cône de bauge arraché autour du trou, mesuré au réglet, et ses fissures.](../../photos/traction_cone.jpg){#photo_traction_cone}
+![Figure 8 — Essai A4 en traction : le peson lit 402 kg, vis Ø10 entrée de 16,5 cm dans la bauge. Elle a tenu.](../../photos/traction_peson_402kg.jpg){#photo_traction_402}
+
+![Figure 9 — Après une rupture en traction d'une vis Ø10 × 100 (essai A6 ou A7) : le cône de bauge arraché autour du trou, mesuré au réglet, et ses fissures.](../../photos/traction_cone.jpg){#photo_traction_cone}
 
 - **Chaque rupture est un glissement de la vis le long de son filet.** Jusqu'à 9 cm, la vis arrache en surface un
   cône de bauge d'environ 4 cm de rayon, peu profond (quelques centimètres, à l'œil). Plus profond, le cône ne se voit
@@ -240,7 +244,7 @@ complet qu'à 8 ou 9 mm du bout, puis il est denté sur 3 cm environ (lu sur pho
 
 ## Selon la longueur : de côté et en traction
 
-![Figure 8 — Tenue mesurée d'une vis selon sa longueur dans la bauge, en traction (bleu) et de côté (orange), et, en haut, les longueurs de vis conseillées par les textes publiés. Point plein : la vis a cédé ; point vide et flèche : elle a tenu, la rupture est plus haut.](../../figures/fig_tenue_longueur.png){#fig_tenue_longueur}
+![Figure 10 — Tenue mesurée d'une vis selon sa longueur dans la bauge, en traction (bleu) et de côté (orange), et, en haut, les longueurs de vis conseillées par les textes publiés. Point plein : la vis a cédé ; point vide et flèche : elle a tenu, la rupture est plus haut.](../../figures/fig_tenue_longueur.png){#fig_tenue_longueur}
 
 Les deux sollicitations ont été essayées séparément, dans deux montages : de côté, la vis plaquait une planche contre
 le mur ; en traction, elle était tirée seule. La figure les met côte à côte, elle ne les combine pas. En haut, les
@@ -263,7 +267,7 @@ le couple qui casse la vis, divisé par 1,5, le rapport que l'agrément demande 
 26 N·m pour la Ø10, 18,7 N·m pour la Ø8 [20]. Le couple est déduit du réglage où la visseuse débrayait, vitesse non
 notée, 1re supposée ; dans un mur des combles (10 octobre 2026), ce plafond a été vérifié à la clé (annexe C).
 
-![Figure 9 — Couple de pose selon la profondeur : Ø10 sans pré-trou (combles, mesuré puis prolongé par le calcul), Ø10 et Ø8 avec pré-trou (cabanon), et limites de la Ø10.](../../figures/fig_pre_trou.png){#fig_pre_trou}
+![Figure 11 — Couple de pose selon la profondeur : Ø10 sans pré-trou (combles, mesuré puis prolongé par le calcul), Ø10 et Ø8 avec pré-trou (cabanon), et limites de la Ø10.](../../figures/fig_pre_trou.png){#fig_pre_trou}
 
 - **Ø10 sans pré-trou** (combles, première campagne) : la visseuse a bloqué à 18–20 N·m vers 10 cm de bauge, avec une
   vis pourtant plus courte que les plus longues du cabanon ; la pose a été très difficile. Si le couple continuait de
@@ -298,7 +302,7 @@ la plus faible des deux tenues : la traction, jusqu'à 11,5 cm au moins.
 
 ## Ce que conseillent les textes, à côté des mesures
 
-La figure 8 met nos mesures sous les longueurs de vis conseillées par les textes publiés.
+La figure 10 met nos mesures sous les longueurs de vis conseillées par les textes publiés.
 
 - **Longueur** : ceux qui en donnent une conseillent des vis entrées de 10 à 15 cm dans le pisé [4] ; dans la bauge,
   des vis de 12,7 cm et plus [5], ou de 20 cm et plus pour fixer portes et fenêtres, dans une bauge sans trop de
@@ -516,7 +520,7 @@ Cette annexe est la partie la plus fragile du papier. Elle ne porte aucun des r�
 Elle propose des explications, chacune avec un schéma et une règle qu'on peut réutiliser ailleurs. Nous n'ajustons pas
 de courbes, et nous ne donnons pas la résistance de la bauge comme une valeur.
 
-![Figure 10 — Trois idées : (a) la vis sur un appui élastique, qui ne plie que sur ses premiers centimètres ; (b) la tête retenue par la planche, qui oblige la vis à plier en deux endroits ; (c) l'effet de corde : la vis qui plie se met en traction et plaque la planche au mur.](../../figures/fig_theorie.png){#fig_theorie}
+![Figure 12 — Trois idées : (a) la vis sur un appui élastique, qui ne plie que sur ses premiers centimètres ; (b) la tête retenue par la planche, qui oblige la vis à plier en deux endroits ; (c) l'effet de corde : la vis qui plie se met en traction et plaque la planche au mur.](../../figures/fig_theorie.png){#fig_theorie}
 
 ## 1. Seuls les premiers centimètres de vis travaillent de côté
 
@@ -573,7 +577,7 @@ raide, C3 un peu plus souple).
 
 ## 5. Ce qui reste inexpliqué
 
-![Figure 11 — Vis C8, sans planche, tête au ras du mur, chargée vers 250 kg : une cavité s'ouvre dans la bauge au-dessus de la tête, du côté opposé à l'effort. Constat visuel, sans échelle.](../../photos/c8_charge_cavite.jpg){#photo_c8}
+![Figure 13 — Vis C8, sans planche, tête au ras du mur, chargée vers 250 kg : une cavité s'ouvre dans la bauge au-dessus de la tête, du côté opposé à l'effort. Constat visuel, sans échelle.](../../photos/c8_charge_cavite.jpg){#photo_c8}
 
 - **C8 a porté 300 kg sans planche.** Le calcul de la vis seule à tête libre demanderait une terre résistant à 9 MPa
   au moins, contre 3,5 à 6 MPa pour les autres essais. Pistes, aucune vérifiée : la vis libre se met elle aussi en
@@ -585,7 +589,7 @@ raide, C3 un peu plus souple).
 
 ## 6. La platine métallique
 
-![Figure 12 — Platine mince ou épaisse sous la tête de vis : une platine mince laisse tourner la tête, une platine épaisse la retient comme la planche des essais.](../../figures/fig_platine.png){#fig_platine}
+![Figure 14 — Platine mince ou épaisse sous la tête de vis : une platine mince laisse tourner la tête, une platine épaisse la retient comme la planche des essais.](../../figures/fig_platine.png){#fig_platine}
 
 Le calcul des assemblages bois (Eurocode 5) classe la tôle comme mince jusqu'à la moitié du diamètre de la vis (la tête
 n'est pas retenue) et comme épaisse à partir du diamètre (la tête est retenue), avec un passage progressif entre les
@@ -604,8 +608,10 @@ L'hypothèse de l'auteur : tant que la vis est courte, le cône grandit avec ell
 certaine longueur, le cône cesse de grandir, et chaque centimètre de filet en plus ajoute une part à peu près fixe.
 Cette longueur n'est pas observée : le cône ne se voit plus au-delà de 9 cm, mais il est peut-être toujours là, invisible
 (A4 sonnait creux sur 8 cm de rayon). Un cône qui grandirait sans fin décrit nos quatre ruptures aussi bien : il
-faudrait des ruptures au-delà de 15 cm pour départager les deux. C'est pourquoi la figure 8 ne trace aucune courbe à
+faudrait des ruptures au-delà de 15 cm pour départager les deux. C'est pourquoi la figure 10 ne trace aucune courbe à
 travers les points.
+
+![Figure 15 — En traction, le cône de surface et le filet : (a) ce qui a été observé sur les vis courtes ; (b) l'hypothèse de l'auteur pour les vis longues, non vérifiée.](../../figures/fig_cone.png){#fig_cone}
 
 # Annexe C — Relevés bruts et étalonnage
 

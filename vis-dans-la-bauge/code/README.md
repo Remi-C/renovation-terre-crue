@@ -24,7 +24,7 @@ python3 vis-dans-la-bauge/code/schemas.py
 - `figures_essais.py` — `fig_efforts`, `fig_premiere_charge`, `fig_ressort_freine`.
 - `figure_pre_trou.py` — `fig_pre_trou` : couple de pose sans pré-trou (combles, 10/10/2026, prolongé par le calcul)
   et avec pré-trou (cabanon, 30/10/2026), face aux limites de la vis.
-- `schemas.py` — `fig_implantation`, `fig_montage`, `fig_theorie`, `fig_platine` (schémas, cotes approximatives).
+- `schemas.py` — `fig_implantation`, `fig_montage`, `fig_theorie`, `fig_platine`, `fig_cone` (schémas, cotes approximatives).
 - `figure_tenue.py` — `fig_tenue_longueur` : tenue selon la longueur de vis dans la bauge, en traction (07/11/2026) et
   de côté (30/10/2026), mesures côte à côte, et longueurs de vis conseillées par les textes publiés.
 - `README.md` — ce fichier.

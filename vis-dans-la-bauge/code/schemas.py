@@ -1,4 +1,4 @@
-"""Schémas du papier : fig_implantation, fig_montage, fig_theorie, fig_platine, en français et en anglais (dessins, cotes approximatives)."""
+"""Schémas du papier : fig_implantation, fig_montage, fig_theorie, fig_platine, fig_cone, en français et en anglais (dessins, cotes approximatives)."""
 
 # Exécution, depuis la racine du dépôt : python3 vis-dans-la-bauge/code/schemas.py   (« --langue fr|en » pour une seule)
 # Implantation et montage : dessinés d'après la description du montage (donnees/README.md) et les photos ; cotes
@@ -334,9 +334,73 @@ def fig_platine(lang):
     enregistrer(fig, "fig_platine", lang)
 
 
+def _cone_et_filet(ax, L, prof_cone, cone_visible, _):
+    """Coupe d'une vis tirée hors du mur : cône de bauge arraché en surface, filet qui glisse au-delà."""
+    face, y0, r = 20.0, 15.0, 4.0                       # face du mur (cm), axe de la vis, rayon du cône en surface
+    mur_coupe(ax, 0, face, 6, 24)
+    # cône de surface, décalé vers la sortie : il part avec la vis
+    dx = 0.7
+    pts = [(face + dx, y0 - r), (face + dx, y0 + r), (face - prof_cone + dx, y0 + 0.9), (face - prof_cone + dx, y0 - 0.9)]
+    ax.add_patch(Polygon(pts, closed=True, facecolor="#c9b48f", edgecolor=ROUGE, lw=1.4,
+                         ls="-" if cone_visible else (0, (3, 2)), zorder=2, alpha=1 if cone_visible else 0.55))
+    # vis : de la tête (dehors) à la pointe
+    vis_droite(ax, face + 3.2 + dx, y0, face - L + dx, y0, d=1.0)
+    ax.add_patch(Rectangle((face + 3.0 + dx, y0 - 1.3), 0.5, 2.6, facecolor=ACIER, edgecolor="none", zorder=5))
+    fleche(ax, (face + 3.6 + dx, y0), (face + 8.5, y0))
+    texte(ax, face + 4.3, y0 + 1.6, _("on tire", "pull"), fontsize=8.4, color=ROUGE)
+    # le filet au-delà du cône : la bauge le retient en frottant (flèches vers l'intérieur du mur)
+    xs = np.arange(face - prof_cone - 1.0, face - L + 0.8, -1.6)
+    for x in xs:
+        for s in (-1, 1):
+            fleche(ax, (x + 0.6, y0 + s * 1.5), (x - 0.6, y0 + s * 1.5), coul=SERIES[0], lw=1.3, ms=8)
+    return face, y0, r
+
+
+def fig_cone(lang):
+    _ = traducteur(lang)
+    fig, axes = plt.subplots(1, 2, figsize=(8.6, 3.9))
+    # (a) vis courte, cône visible ; (b) vis longue, cône qui ne grandit plus (peut-être invisible)
+    for ax, (titre, L, prof_cone, visible) in zip(axes, (
+            (_("(a) Vis courte (7 à 9 cm) : observé", "(a) Short screw (7 to 9 cm): observed"), 8.0, 2.4, True),
+            (_("(b) Vis longue (au-delà de 12 cm) : hypothèse", "(b) Long screw (beyond 12 cm): hypothesis"),
+             16.0, 2.4, False))):
+        face, y0, r = _cone_et_filet(ax, L, prof_cone, visible, _)
+        ax.annotate("", xy=(face + 1.5, y0 + r), xytext=(face + 1.5, y0),
+                    arrowprops=dict(arrowstyle="<->", color=ENCRE_2, lw=0.9))
+        if visible:
+            texte(ax, face + 1.9, y0 + r + 0.8, _("rayon ≈ 4 cm\n(mesuré au réglet)", "radius ≈ 4 cm\n(measured with a rule)"),
+                  fontsize=7.8)
+            texte(ax, 0.6, 21.0, _("cône de bauge arraché, peu profond :\npente bien plus faible que 45° (à l'œil)",
+                                   "torn-out cone of cob, shallow:\nslope well under 45° (by eye)"), fontsize=7.8)
+            texte(ax, 0.6, 7.0, _("au-delà, le filet glisse\ndans la bauge", "beyond it, the thread slides\nin the cob"),
+                  fontsize=7.8, color=SERIES[0])
+        else:
+            texte(ax, face + 1.9, y0 + r + 0.8, _("cône peut-être toujours là,\ninvisible (A4 sonnait creux\nsur 8 cm de rayon)",
+                                                  "cone perhaps still there,\ninvisible (A4 sounded hollow\nover an 8 cm radius)"),
+                  fontsize=7.6)
+            texte(ax, 0.6, 21.0, _("le cône ne grandit plus…", "the cone stops growing…"), fontsize=7.8)
+            texte(ax, 0.6, 7.0, _("…et chaque cm de filet en plus\najoute une part à peu près fixe",
+                                  "…and each extra cm of thread\nadds a roughly fixed share"), fontsize=7.8, color=SERIES[0])
+        ax.set_title(titre, loc="left", fontsize=9.5)
+        ax.set_xlim(0, 30)
+        ax.set_ylim(6, 24)
+        ax.set_aspect("equal")
+        ax.axis("off")
+    fig.text(0.01, 0.01, _("Coupe, cotes approximatives. Mesuré : charge qui fait céder une Ø10 ≈ 10 kg par cm de vis à "
+                           "7 cm, 19 kg par cm à 11,5 cm : elle croît plus vite\nque la longueur. (b) est l'hypothèse de "
+                           "l'auteur, non vérifiée : un cône qui grandirait sans fin décrit les quatre ruptures aussi bien.",
+                           "Section, approximate dimensions. Measured: load at which a Ø10 gives way ≈ 10 kg per cm of "
+                           "screw at 7 cm, 19 kg per cm at 11.5 cm: it grows faster\nthan length. (b) is the author's "
+                           "hypothesis, not checked: a cone that kept growing describes the four failures just as well."),
+             fontsize=7.6, color=ENCRE_2)
+    fig.tight_layout(rect=(0, 0.1, 1, 1))
+    enregistrer(fig, "fig_cone", lang)
+
+
 if __name__ == "__main__":
     for langue in langues():
         fig_implantation(langue)
         fig_montage(langue)
         fig_theorie(langue)
         fig_platine(langue)
+        fig_cone(langue)

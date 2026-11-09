@@ -60,3 +60,8 @@ en = "Appendix: elastic foundation, restrained head, rope effect (interpretation
 id = "fig_platine"
 fr = "Annexe : platine métallique mince ou épaisse sous la tête de vis (extrapolation)."
 en = "Appendix: thin or thick steel plate under the screw head (extrapolation)."
+
+[[figures]]
+id = "fig_cone"
+fr = "Annexe : en traction, le cône de bauge arraché et le filet ; ce qui a été observé sur les vis courtes, et l'hypothèse de l'auteur pour les vis longues."
+en = "Appendix: in pull-out, the torn-out cone of cob and the thread; what was observed on short screws, and the author's hypothesis for long screws."

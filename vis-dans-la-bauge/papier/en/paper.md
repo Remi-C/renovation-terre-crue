@@ -88,16 +88,18 @@ steel screw; in pull-out, a 6 mm wood screw threaded over 5 cm. In the sideways 
 260 mm screws isolate the effect of the piece: oak board (C1), Douglas fir board (C7), no board (C8, which reuses the
 screw and the hole of C1, head flush with the wall). Details in appendix A.
 
+![Figure 1 — The screws from the tests, fischer PowerFull II Ø10 and Ø8, between two steel rules, on a grid mat.](../../photos/vis_reglets.jpg){#photo_vis_reglets}
+
 ## The sideways rig
 
-![Figure 1 — Layout: the test boards fanned out above the reaction plate, pulled downwards, along the wall.](../../figures/fig_implantation_en.png){#fig_implantation}
+![Figure 2 — Layout: the test boards fanned out above the reaction plate, pulled downwards, along the wall.](../../figures/fig_implantation_en.png){#fig_implantation}
 
 Each board is pulled downwards, along the wall, like a weight, towards a reaction plate screwed lower down into the
 same cob with four Ø10 screws. The load is applied by tightening a nut on a threaded rod, at the end of a chain that
 includes a 1-tonne electronic crane scale. A dial gauge, a dial that reads movements to a hundredth of a millimetre,
 touches the edge of the board. The equipment costs a few hundred euros.
 
-![Figure 2 — The rig in section: screw, board clamped to the wall, pulling chain, reaction plate, dial gauge.](../../figures/fig_montage_en.png){#fig_montage}
+![Figure 3 — The rig in section: screw, board clamped to the wall, pulling chain, reaction plate, dial gauge.](../../figures/fig_montage_en.png){#fig_montage}
 
 The load is raised in steps, noting at each step the highest load and the movement; the first loading is read
 separately from the reloadings. Loads are in kilos, as on the crane scale (100 kg is about 1 kN).
@@ -113,7 +115,7 @@ screw head); the load of C8, on the other hand, is reliable.
 
 ## The pull-out rig
 
-![Figure 3 — The pull-out rig (7 November 2026): the screw holds a steel plate; the chain and crane scale pull it out of the wall through a threaded rod, whose nut sits on a frame bearing on the cob.](../../photos/traction_montage.jpg){#photo_traction_montage}
+![Figure 4 — The pull-out rig (7 November 2026): the screw holds a steel plate; the chain and crane scale pull it out of the wall through a threaded rod, whose nut sits on a frame bearing on the cob.](../../photos/traction_montage.jpg){#photo_traction_montage}
 
 The cob is planed flat where the screw goes (5 mm removed at most). The screw passes through a steel plate, which takes
 15 mm of it, and goes into the cob. It is pulled along its axis, perpendicular to the wall, by a threaded rod turning
@@ -155,7 +157,7 @@ Table: The eight tests of 30 October 2026. Ø10: screw 10 mm in diameter at the 
 the length (C1, C2, C7); 5 mm over 3.5 cm of cob at most (C3, C4, C5); none (C6). In quotation marks: the words noted
 at the time (translated from French).
 
-![Figure 4 — Highest load per test and what happened. The bars of the screws that did not fail are minimums.](../../figures/fig_efforts_en.png){#fig_efforts}
+![Figure 5 — Highest load per test and what happened. The bars of the screws that did not fail are minimums.](../../figures/fig_efforts_en.png){#fig_efforts}
 
 The Ø10 screws at least 9.5 cm into the cob carried 300 to 350 kg: these are minimums, we stopped before failure, and
 they cannot be ranked against each other. For the short screws, the words noted probably indicate that the screw came
@@ -163,7 +165,7 @@ out of the wall (they were not examined when taken down).
 
 ## Below 100 kg, depth changes little; diameter does
 
-![Figure 5 — First loadings overlaid: movement read against load, for each test.](../../figures/fig_premiere_charge_en.png){#fig_premiere_charge}
+![Figure 6 — First loadings overlaid: movement read against load, for each test.](../../figures/fig_premiere_charge_en.png){#fig_premiere_charge}
 
 Below 100 kg, the Ø10 screws behave the same whatever their depth: at 100 kg, those 5.5, 9.5 and 15.5 cm into the cob
 all read 0.60 to 0.62 mm. Our reading, assumed (appendix B): only the first few centimetres of the screw work
@@ -183,7 +185,7 @@ screw, board and cob together, not that of the cob alone; it rests on fragile di
 
 ## A braked spring
 
-![Figure 6 — Loading and unloading cycles: the board comes back almost entirely when fully unloaded, not at all when unloaded a little.](../../figures/fig_ressort_freine_en.png){#fig_ressort_freine}
+![Figure 7 — Loading and unloading cycles: the board comes back almost entirely when fully unloaded, not at all when unloaded a little.](../../figures/fig_ressort_freine_en.png){#fig_ressort_freine}
 
 - **Unloaded down to zero, the assembly comes back almost entirely**: 94% of the movement (C2, after 315 kg), 81%
   (C7, after 174 kg).
@@ -218,7 +220,9 @@ Table: The eight pull-out tests of 7 November 2026. Each screw is loaded, then b
 “Held”: the highest load held at that length, a minimum. Range: load noted between two values. In quotation marks: the
 words noted at the time (translated from French). Length in the cob: to within 5 mm.
 
-![Figure 7 — After a pull-out failure of a Ø10 × 100 screw (test A6 or A7): the cone of cob torn out around the hole, measured with a rule, and its cracks.](../../photos/traction_cone.jpg){#photo_traction_cone}
+![Figure 8 — Test A4 in pull-out: the scale reads 402 kg, Ø10 screw 16.5 cm into the cob. It held.](../../photos/traction_peson_402kg.jpg){#photo_traction_402}
+
+![Figure 9 — After a pull-out failure of a Ø10 × 100 screw (test A6 or A7): the cone of cob torn out around the hole, measured with a rule, and its cracks.](../../photos/traction_cone.jpg){#photo_traction_cone}
 
 - **Every failure is the screw sliding along its thread.** Up to 9 cm, the screw tears out a shallow cone of surface
   cob, about 4 cm in radius (a few centimetres deep, by eye). Deeper, the cone can no longer be seen, but the cob
@@ -237,7 +241,7 @@ complete 8 or 9 mm from the end, then it is serrated over about 3 cm (read from 
 
 ## By length: sideways and in pull-out
 
-![Figure 8 — How much a screw held against its length in the cob, measured in pull-out (blue) and sideways (orange), and, at the top, the screw lengths advised by published texts. Filled point: the screw gave way; open point with arrow: it held, failure is higher.](../../figures/fig_tenue_longueur_en.png){#fig_tenue_longueur}
+![Figure 10 — How much a screw held against its length in the cob, measured in pull-out (blue) and sideways (orange), and, at the top, the screw lengths advised by published texts. Filled point: the screw gave way; open point with arrow: it held, failure is higher.](../../figures/fig_tenue_longueur_en.png){#fig_tenue_longueur}
 
 The two loadings were tested separately, with two rigs: sideways, the screw clamped a board against the wall; in
 pull-out, it was pulled on its own. The figure puts them side by side; it does not combine them. At the top, the
@@ -261,7 +265,7 @@ the torque that breaks the screw, divided by 1.5, the ratio the approval itself 
 clutch slipped, speed not noted, 1st gear assumed; in a wall of the attic (10 October 2026), this ceiling was checked
 with a wrench (appendix C).
 
-![Figure 9 — Driving torque against depth: Ø10 without a pilot hole (attic, measured then extended by calculation), Ø10 and Ø8 with a pilot hole (shed), and the limits of the Ø10.](../../figures/fig_pre_trou_en.png){#fig_pre_trou}
+![Figure 11 — Driving torque against depth: Ø10 without a pilot hole (attic, measured then extended by calculation), Ø10 and Ø8 with a pilot hole (shed), and the limits of the Ø10.](../../figures/fig_pre_trou_en.png){#fig_pre_trou}
 
 - **Ø10 without a pilot hole** (attic, first campaign): the drill-driver stalled at 18–20 N·m at about 10 cm of cob,
   with a screw that was nevertheless shorter than the longest ones at the shed; driving was very hard. If the torque
@@ -295,7 +299,7 @@ up to 11.5 cm at least.
 
 ## What published texts advise, next to the measurements
 
-Figure 8 sets our measurements under the screw lengths advised by published texts.
+Figure 10 sets our measurements under the screw lengths advised by published texts.
 
 - **Length**: those that give one advise screws 10 to 15 cm into rammed earth [4]; in cob, screws of 12.7 cm or more
   [5], or of 20 cm or more to fix doors and windows, in cob without too many stones [25]. For cob, this is the length
@@ -507,7 +511,7 @@ This appendix is the most fragile part of the paper. It carries none of the resu
 It offers explanations, each with a diagram and a rule that can be reused elsewhere. We do not fit curves, and we do
 not give the strength of the cob as a value.
 
-![Figure 10 — Three ideas: (a) the screw on an elastic foundation, which bends only over its first few centimetres; (b) the head held by the board, which forces the screw to bend at two places; (c) the rope effect: the bending screw goes into tension and clamps the board to the wall.](../../figures/fig_theorie_en.png){#fig_theorie}
+![Figure 12 — Three ideas: (a) the screw on an elastic foundation, which bends only over its first few centimetres; (b) the head held by the board, which forces the screw to bend at two places; (c) the rope effect: the bending screw goes into tension and clamps the board to the wall.](../../figures/fig_theorie_en.png){#fig_theorie}
 
 ## 1. Only the first few centimetres of the screw work sideways
 
@@ -562,7 +566,7 @@ reloading; reloadings that do not follow the first loading (C2 reloads 1.7 times
 
 ## 5. What remains unexplained
 
-![Figure 11 — Screw C8, without a board, head flush with the wall, loaded at about 250 kg: a cavity opens in the cob above the head, on the side opposite the load. Visual observation, no scale.](../../photos/c8_charge_cavite.jpg){#photo_c8}
+![Figure 13 — Screw C8, without a board, head flush with the wall, loaded at about 250 kg: a cavity opens in the cob above the head, on the side opposite the load. Visual observation, no scale.](../../photos/c8_charge_cavite.jpg){#photo_c8}
 
 - **C8 carried 300 kg without a board.** The calculation for the screw alone with a free head would require an earth
   resisting at least 9 MPa, against 3.5 to 6 MPa for the other tests. Leads, none checked: the free screw also goes
@@ -574,7 +578,7 @@ reloading; reloadings that do not follow the first loading (C2 reloads 1.7 times
 
 ## 6. The steel plate
 
-![Figure 12 — Thin or thick steel plate under the screw head: a thin plate lets the head rotate, a thick plate holds it like the board in the tests.](../../figures/fig_platine_en.png){#fig_platine}
+![Figure 14 — Thin or thick steel plate under the screw head: a thin plate lets the head rotate, a thick plate holds it like the board in the tests.](../../figures/fig_platine_en.png){#fig_platine}
 
 Timber joint design (Eurocode 5) classes a steel plate as thin up to half the screw diameter (the head is not held)
 and as thick from the diameter upwards (the head is held), with a gradual transition between the two [18, 19]. The
@@ -592,7 +596,9 @@ The author's hypothesis: as long as the screw is short, the cone grows with it, 
 certain length on, the cone stops growing, and each extra centimetre of thread adds a roughly fixed share. That length
 is not observed: the cone can no longer be seen beyond 9 cm, but it may still be there, invisible (A4 sounded hollow
 over 8 cm radius). A cone growing without end describes our four failures just as well: failures beyond 15 cm would be
-needed to tell the two apart. This is why figure 8 draws no curve through the points.
+needed to tell the two apart. This is why figure 10 draws no curve through the points.
+
+![Figure 15 — In pull-out, the surface cone and the thread: (a) what was observed on short screws; (b) the author's hypothesis for long screws, not checked.](../../figures/fig_cone_en.png){#fig_cone}
 
 # Appendix C — Raw readings and calibration
 

@@ -21,4 +21,5 @@ Chaque puce couvre quatre fichiers : `<id>.png`, `<id>.svg`, `<id>_en.png`, `<id
   sans modèle), et longueurs de vis conseillées par les textes (`figure_tenue.py`) ; dans le papier et sur la page de présentation.
 - `fig_theorie` — annexe : appui élastique, tête retenue, effet de corde (`schemas.py`).
 - `fig_platine` — annexe : platine mince ou épaisse sous la tête de vis (`schemas.py`).
+- `fig_cone` — annexe : en traction, cône de surface et filet ; observé (vis courte) et hypothèse (vis longue) (`schemas.py`).
 - `README.md` — ce fichier.

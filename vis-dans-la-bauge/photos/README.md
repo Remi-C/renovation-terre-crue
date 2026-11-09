@@ -1,15 +1,15 @@
 # Photos des essais / Test photos
 
-Treize photos choisies parmi celles prises pendant les essais de côté (30/10/2026), en traction (07/11/2026) et après
-le premier essai dans les combles (photo du 12/10/2026). Réduites à 1600 px de grand côté et redressées ; **toutes les métadonnées des fichiers sont
+Quatorze photos choisies parmi celles prises pendant les essais de côté (30/10/2026), en traction (07/11/2026), après
+le premier essai dans les combles (photo du 12/10/2026) et des vis posées entre deux réglets (08/11/2026). Réduites à 1600 px de grand côté et redressées ; **toutes les métadonnées des fichiers sont
 retirées** (EXIF, position GPS, XMP, profil ICC) par `outils/preparer_photos.py` (depuis la racine :
 `python3 outils/preparer_photos.py vis-dans-la-bauge <dossiers des originaux>`), qui lit les originaux hors du dépôt.
 La date de prise de vue est donnée à part, dans `legendes.csv` et dans la légende de chaque photo sur le site.
 Légendes en français et en anglais : `legendes.csv` (colonnes `fichier`, `date`, `legende_fr`, `legende_en`,
 `original` = nom du fichier d'origine, `recadrage` = partie gardée de la photo, vide = photo entière).
 
-*English — Thirteen photos from the sideways tests (30 Oct. 2026), the pull-out tests (7 Nov. 2026) and after the
-first attic test (12 Oct. 2026); resized to
+*English — Fourteen photos from the sideways tests (30 Oct. 2026), the pull-out tests (7 Nov. 2026), after the
+first attic test (12 Oct. 2026) and of the screws laid out between two rules (8 Nov. 2026); resized to
 1600 px, all file metadata (EXIF, GPS, XMP, ICC) removed; the date taken is given in `legendes.csv` and in each caption
 on the website.*
 
@@ -23,8 +23,9 @@ on the website.*
 - `c8_decharge.jpg`, `c8_charge_peson.jpg`, `c8_charge_cavite.jpg` — essai C8 (vis seule, sans planche) : peu chargé
   (≈ 37 kg),
   peson à 251 kg, cavité ouverte dans la bauge au-dessus de la tête de vis.
-- `vis_en_main.jpg` — les vis des essais du 30/10/2026 tenues en main, de la plus longue à la plus courte ; en tête
-  de la page du sujet, à côté de `montage_eventail.jpg`.
+- `vis_en_main.jpg` — les vis des essais du 30/10/2026 tenues en main, de la plus longue à la plus courte.
+- `vis_reglets.jpg` — les vis PowerFull II Ø10 et Ø8 posées entre deux réglets sur un tapis quadrillé (08/11/2026) ;
+  page du sujet (« Quelle vis ? ») et papier (« Le mur et les vis »).
 - `vis_combles_apres_essai.jpg` — les deux vis du premier essai (combles, 10/10/2026), dévissées, avec un réglet.
 - `traction_montage.jpg` — le montage en traction : platine, chaîne et peson, tige filetée, pont appuyé sur la bauge
   (07/11/2026) ; dans le papier.
