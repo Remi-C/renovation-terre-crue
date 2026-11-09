@@ -1,12 +1,12 @@
 # Vis dans la bauge / Screws in cob
 
-Combien tient une vis à bois chargée de côté dans un vieux mur de bauge (terre crue), et comment la poser : huit essais
-de cisaillement sur un mur existant, le 30/10/2026, avec du matériel courant ; papier de référence bilingue,
-relevés, code, figures et photos. Les essais d'arrachement (vis tirées hors du mur) sont prévus en novembre 2026 : le
-papier leur garde une section « à faire », les données les accueilleront au même format.
+Combien tient une vis à bois dans un vieux mur de bauge (terre crue), de côté et en traction, et comment la poser :
+huit essais de côté (cisaillement) le 30/10/2026 et huit en traction (vis tirées hors du mur) le 07/11/2026, sur un
+mur existant, avec du matériel courant ; mesures mises à côté des longueurs et des charges conseillées par les
+textes, sans charge sûre ; papier de référence bilingue, relevés, code, figures et photos.
 
-*Eight lateral load (shear) tests on wood screws in an old cob wall, 30 Oct. 2026: bilingual reference paper, raw
-readings, code, figures, photos. Pull-out tests to come (November 2026).*
+*Eight lateral load (shear) tests (30 Oct. 2026) and eight pull-out tests (7 Nov. 2026) on wood screws in an old cob
+wall, set next to the lengths and loads advised by published texts: bilingual reference paper, raw readings, code, figures, photos.*
 
 Pages du site : <https://remi.cura.info/renovation-terre-crue/vis-dans-la-bauge/>
 

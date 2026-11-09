@@ -1,4 +1,4 @@
-"""Grandeurs tirées des relevés sans aucun modèle (efforts, déplacements, résiduels, raideurs de l'assemblage) ; écrit donnees/resultats_calcules.json."""
+"""Grandeurs tirées des relevés sans aucun modèle (cisaillement : efforts, déplacements, raideurs de l'assemblage ; arrachement : charge par longueur de vis) ; écrit donnees/resultats_calcules.json."""
 
 # Exécution, depuis la racine du dépôt : python3 vis-dans-la-bauge/code/grandeurs.py
 # Arithmétique seule sur les relevés : aucune hypothèse sur ce que mesure le comparateur. Les déplacements sous 50 kg
@@ -6,11 +6,17 @@
 # Les raideurs (kg/mm) sont celles de tout l'assemblage tel que le comparateur le lit (vis, planche, montage, platine
 # de réaction qui recule), pas une raideur de la bauge : d'où « assemblage » dans le nom des clés.
 
+import csv
 import json
 
 from lecture import DEPLACEMENTS_CONTEXTE, DONNEES, MOTS_RUINE, essais_decoupes, interp
 
 SORTIE = DONNEES / "resultats_calcules.json"
+RELEVES_ARRACHEMENT = DONNEES / "releves_arrachement_2026_11_07.csv"
+PRIS_DANS_LA_PLATINE = 15         # mm de vis pris dans la platine de traction (07/11/2026)
+# A8 : 60 mm notés sur le moment ; le filet de cette vis s'arrête à ≈ 50 mm de la pointe (mesuré sur photo, 49,4 à
+# 50,0 mm) et seul le filet était dans la bauge (l'auteur, 08/11/2026) : ≈ 50 mm retenus.
+PROFONDEUR_RETENUE = {"A8": 50.0}
 EFFORTS_LUS = (25, 50, 100)       # kg : déplacement lu à ces efforts sur la 1re charge (valeurs rondes)
 BAISSE_PALIER = 0.10              # baisse d'effort au palier, ≈ 10 % (observation de l'auteur pendant les essais)
 
@@ -81,12 +87,49 @@ def rechargement(m, m1):
     return sortie
 
 
+def arrachement():
+    """Paliers des essais d'arrachement du 07/11/2026 : longueur de vis dans la bauge, charge, tenue ou rupture.
+
+    Longueur dans la bauge = longueur de la vis − 15 mm pris dans la platine − longueur dévissée − filet resté dans
+    l'air (mur pas plan), sauf quand une profondeur a été notée sur le moment, ou retenue par l'auteur (A8).
+    """
+    paliers = []
+    with open(RELEVES_ARRACHEMENT, newline="", encoding="utf-8") as f:
+        for l in csv.DictReader(f, delimiter=";"):
+            nom = l["essai"]
+            if nom in PROFONDEUR_RETENUE:
+                prof = PROFONDEUR_RETENUE[nom]
+            elif l["prof_notee_mm"]:
+                prof = float(l["prof_notee_mm"])
+            else:
+                prof = float(l["longueur_mm"]) - PRIS_DANS_LA_PLATINE - float(l["devisse_mm"]) - float(l["air_mm"])
+            paliers.append({"essai": nom, "d_mm": int(l["d_mm"]), "rang": int(l["rang"]), "bauge_mm": prof,
+                            "F_bas_kg": float(l["F_bas_kg"]), "F_haut_kg": float(l["F_haut_kg"]),
+                            "cede": l["issue"] == "cede", "mode": l["mode"]})
+    # pour chaque essai et chaque longueur, la charge la plus haute tenue (tenue = minimum : la rupture est au-dessus)
+    retenus = {}
+    for p in paliers:
+        k = (p["essai"], p["bauge_mm"])
+        if p["cede"] or k not in retenus or (not retenus[k]["cede"] and p["F_haut_kg"] > retenus[k]["F_haut_kg"]):
+            retenus[k] = p
+    return {"source": "donnees/releves_arrachement_2026_11_07.csv",
+            "regle": "par essai et par longueur dans la bauge : la rupture, sinon la charge la plus haute tenue",
+            "paliers": sorted(retenus.values(), key=lambda p: (p["essai"], -p["bauge_mm"]))}
+
+
 def main():
     essais = essais_decoupes()
     res = {nom: grandeurs_essai(nom, e) for nom, e in essais.items()}
+    arr = arrachement()
     SORTIE.write_text(json.dumps({"source": "donnees/releves_cisaillement_2026_10_30.csv",
-                                  "script": "code/grandeurs.py", "essais": res}, ensure_ascii=False, indent=1),
+                                  "script": "code/grandeurs.py", "essais": res, "arrachement": arr},
+                                 ensure_ascii=False, indent=1),
                       encoding="utf-8")
+    print("arrachement (07/11/2026) : essai, longueur dans la bauge, charge, issue")
+    for p in arr["paliers"]:
+        F = f"{p['F_bas_kg']:.0f}" if p["F_bas_kg"] == p["F_haut_kg"] else f"{p['F_bas_kg']:.0f}–{p['F_haut_kg']:.0f}"
+        print(f"  {p['essai']} Ø{p['d_mm']:<2} {p['bauge_mm'] / 10:5.1f} cm  {F:>7} kg  "
+              + ("cède" if p["cede"] else "tenu"))
     print(f"{'essai':5} {'max kg':>6} {'rupture':<22} {'δ25':>5} {'δ50':>5} {'δ100':>5} {'résid.':>6} {'rendu':>5}")
     for nom, g in res.items():
         p = g.get("premiere_charge", {})

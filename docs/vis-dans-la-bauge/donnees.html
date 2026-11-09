@@ -39,9 +39,13 @@ href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-baug
 : les relevés tels que notés pendant les essais, une ligne par lecture
 (effort au peson, déplacement au comparateur, remarques).</li>
 <li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/releves_arrachement_2026_11_07.csv"><code>donnees/releves_arrachement_2026_11_07.csv</code></a>
+: les essais en traction, une ligne par charge (longueur dévissée,
+charge au peson, tenue ou rupture, ce qui a été vu).</li>
+<li><a
 href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/essais.csv"><code>donnees/essais.csv</code></a>
-: une ligne par essai (vis, ancrage, planche, pré-trou, issue, lectures
-écartées et pourquoi).</li>
+: une ligne par essai, de côté et en traction (vis, ancrage, pièce
+serrée, pré-trou, issue, lectures écartées et pourquoi).</li>
 <li><a
 href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/vis.csv"><code>donnees/vis.csv</code></a>
 et <a
@@ -61,6 +65,7 @@ dépôt :</p>
 <pre><code>python3 vis-dans-la-bauge/code/grandeurs.py        # chiffres tirés des relevés
 python3 vis-dans-la-bauge/code/figures_essais.py   # figures des mesures
 python3 vis-dans-la-bauge/code/figure_pre_trou.py  # couple de pose et pré-trou
+python3 vis-dans-la-bauge/code/figure_tenue.py     # tenue selon la longueur, en traction et de côté
 python3 vis-dans-la-bauge/code/schemas.py          # schémas
 make construire                                    # tout, plus le papier (.docx) et ce site</code></pre>
 <h2 id="les-figures">Les figures</h2>
@@ -103,11 +108,11 @@ pré-trou (combles) et avec pré-trou (cabanon), et limites de la vis.
 (<code>fig_pre_trou</code>)</figcaption>
 </figure>
 <figure>
-<img src="figures/fig_profondeur.svg" loading="lazy"
-alt="Effort de côté selon la longueur de vis dans la bauge : mesures, et extrapolation non mesurée. (fig_profondeur)" />
-<figcaption aria-hidden="true">Effort de côté selon la longueur de vis
-dans la bauge : mesures, et extrapolation non mesurée.
-(<code>fig_profondeur</code>)</figcaption>
+<img src="figures/fig_tenue_longueur.svg" loading="lazy"
+alt="Tenue mesurée d’une vis selon sa longueur dans la bauge, en traction et de côté, et longueurs de vis conseillées par les textes publiés. (fig_tenue_longueur)" />
+<figcaption aria-hidden="true">Tenue mesurée d’une vis selon sa longueur
+dans la bauge, en traction et de côté, et longueurs de vis conseillées
+par les textes publiés. (<code>fig_tenue_longueur</code>)</figcaption>
 </figure>
 <figure>
 <img src="figures/fig_theorie.svg" loading="lazy"

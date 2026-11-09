@@ -714,5 +714,181 @@
    },
    "rechargements": []
   }
+ },
+ "arrachement": {
+  "source": "donnees/releves_arrachement_2026_11_07.csv",
+  "regle": "par essai et par longueur dans la bauge : la rupture, sinon la charge la plus haute tenue",
+  "paliers": [
+   {
+    "essai": "A1",
+    "d_mm": 8,
+    "rang": 1,
+    "bauge_mm": 105.0,
+    "F_bas_kg": 150.0,
+    "F_haut_kg": 200.0,
+    "cede": true,
+    "mode": "arrachement, feuille de surface"
+   },
+   {
+    "essai": "A2",
+    "d_mm": 8,
+    "rang": 3,
+    "bauge_mm": 105.0,
+    "F_bas_kg": 160.0,
+    "F_haut_kg": 170.0,
+    "cede": true,
+    "mode": "glissement, pas de cone"
+   },
+   {
+    "essai": "A3",
+    "d_mm": 8,
+    "rang": 1,
+    "bauge_mm": 105.0,
+    "F_bas_kg": 120.0,
+    "F_haut_kg": 130.0,
+    "cede": true,
+    "mode": "glissement, petit cone de quelques cm"
+   },
+   {
+    "essai": "A4",
+    "d_mm": 10,
+    "rang": 5,
+    "bauge_mm": 175.0,
+    "F_bas_kg": 380.0,
+    "F_haut_kg": 380.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A4",
+    "d_mm": 10,
+    "rang": 10,
+    "bauge_mm": 165.0,
+    "F_bas_kg": 400.0,
+    "F_haut_kg": 400.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A4",
+    "d_mm": 10,
+    "rang": 11,
+    "bauge_mm": 155.0,
+    "F_bas_kg": 350.0,
+    "F_haut_kg": 350.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A4",
+    "d_mm": 10,
+    "rang": 12,
+    "bauge_mm": 145.0,
+    "F_bas_kg": 320.0,
+    "F_haut_kg": 320.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A4",
+    "d_mm": 10,
+    "rang": 13,
+    "bauge_mm": 135.0,
+    "F_bas_kg": 300.0,
+    "F_haut_kg": 300.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A4",
+    "d_mm": 10,
+    "rang": 14,
+    "bauge_mm": 125.0,
+    "F_bas_kg": 300.0,
+    "F_haut_kg": 300.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A4",
+    "d_mm": 10,
+    "rang": 15,
+    "bauge_mm": 115.0,
+    "F_bas_kg": 220.0,
+    "F_haut_kg": 220.0,
+    "cede": true,
+    "mode": "glissement, pas de cone visible"
+   },
+   {
+    "essai": "A5",
+    "d_mm": 10,
+    "rang": 1,
+    "bauge_mm": 105.0,
+    "F_bas_kg": 150.0,
+    "F_haut_kg": 150.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A5",
+    "d_mm": 10,
+    "rang": 2,
+    "bauge_mm": 95.0,
+    "F_bas_kg": 160.0,
+    "F_haut_kg": 160.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A5",
+    "d_mm": 10,
+    "rang": 3,
+    "bauge_mm": 90.0,
+    "F_bas_kg": 130.0,
+    "F_haut_kg": 130.0,
+    "cede": true,
+    "mode": "glissement, cone invisible de rayon 4 cm"
+   },
+   {
+    "essai": "A6",
+    "d_mm": 10,
+    "rang": 1,
+    "bauge_mm": 80.0,
+    "F_bas_kg": 100.0,
+    "F_haut_kg": 100.0,
+    "cede": true,
+    "mode": "glissement et cone"
+   },
+   {
+    "essai": "A7",
+    "d_mm": 10,
+    "rang": 1,
+    "bauge_mm": 80.0,
+    "F_bas_kg": 100.0,
+    "F_haut_kg": 100.0,
+    "cede": false,
+    "mode": ""
+   },
+   {
+    "essai": "A7",
+    "d_mm": 10,
+    "rang": 2,
+    "bauge_mm": 70.0,
+    "F_bas_kg": 70.0,
+    "F_haut_kg": 70.0,
+    "cede": true,
+    "mode": "glissement et cone de rayon 4 cm"
+   },
+   {
+    "essai": "A8",
+    "d_mm": 6,
+    "rang": 1,
+    "bauge_mm": 50.0,
+    "F_bas_kg": 56.0,
+    "F_haut_kg": 56.0,
+    "cede": true,
+    "mode": "glissement"
+   }
+  ]
  }
 }

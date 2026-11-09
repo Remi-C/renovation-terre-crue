@@ -1,6 +1,6 @@
 ---
 title: "Des vis dans la bauge"
-subtitle: "Peut-on visser dans la bauge ? Quelles vis, quelle longueur, combien ça tient de côté. Retour d'expérience pour les artisans."
+subtitle: "Peut-on visser dans la bauge ? Quelles vis, quelle longueur, combien ça tient, de côté et en traction. Retour d'expérience pour les artisans."
 author: "Rémi Cura, docteur — Clos Poulain, région de Rennes"
 date: "Novembre 2026 — version 1"
 lang: fr
@@ -19,13 +19,19 @@ figures sous licence CC BY 4.0. Retours : les « issues » du dépôt GitHub.
 - **De côté (en cisaillement), on atteint facilement 300 kg.** Ce qui compte surtout, c'est la longueur de vis dans la
   bauge : 200 kg dès 5,5 cm en Ø10 et dès 7,5 cm en Ø8 ; au moins 300 kg dès 9,5 cm en Ø10 ; une petite vis Ø6 sur
   3,5 cm tient déjà 40 kg.
-- **Ces chiffres valent pour une vis qui fixe un montant en bois contre le mur** : le montant rend l'ensemble plus
-  rigide qu'une vis seule.
+- **Ces chiffres de côté valent pour une vis qui fixe un montant en bois contre le mur** : le montant rend l'ensemble
+  plus rigide qu'une vis seule.
+- **En traction (vis tirée hors du mur), une vis tient moins.** Une Ø10 a cédé à 70 kg entrée de 7 cm, à 130 kg à
+  9 cm, à 220 kg à 11,5 cm ; de 12,5 à 17,5 cm, elle a tenu 300 à 400 kg. Jusqu'à 11,5 cm au moins, c'est la traction
+  qui limite.
+- **Combien y accrocher ? Nous ne donnons pas de charge sûre** : elle dépend de trop de choses (la bauge du mur, la
+  façon dont la vis est chargée, les chocs, ce qui arrive si elle cède). Les textes conseillent des vis de 10 à 20 cm ;
+  pour d'autres murs de terre, ils admettent 3 à 50 kg par fixation ; aucun ne donne de charge pour la bauge. Pour plus,
+  multiplier les vis, ou noyer une pièce de bois dans la bauge.
 - **Prévoir de la redondance** : même si une vis tient 300 kg, répartir la charge sur plusieurs vis, pour qu'un défaut
   local de la bauge ne compromette pas l'ouvrage.
 - **Limites** : un seul mur, de bauge sèche, un essai par configuration. Il n'existe pas de marge officielle pour la
-  bauge : le papier donne, par analogie, celles qu'on pratique ailleurs. À venir : l'arrachement (vis tirée dans son
-  axe), en novembre 2026.
+  bauge : le papier donne, pour comparer, celles qu'on pratique ailleurs.
 
 # Pourquoi ce papier
 
@@ -39,7 +45,8 @@ Ces essais ne sont pas des essais professionnels. Ils ont été faits par un par
 limites et nous demandons un retour à ceux qui fixent dans la terre tous les jours.
 
 Une vis est chargée **de côté** (on dit aussi « en cisaillement ») quand on la tire parallèlement au mur, comme le poids
-d'une étagère tire sur ses vis ; elle est chargée **en arrachement** quand on la tire dans son axe, hors du mur. Nous
+d'une étagère tire sur ses vis ; elle est chargée **en traction** quand on la tire dans son axe, hors du mur, comme les
+vis du haut d'une console ; quand elle sort du mur, on parle d'**arrachement**. Nous
 distinguons ce qui est **mesuré** (lu au peson ou au comparateur), **estimé** par l'auteur (à l'œil ou de mémoire),
 **calculé** à partir des mesures, et **supposé** (une explication probable, non vérifiée).
 
@@ -50,15 +57,20 @@ de la brique de terre crue citent la « vis à bois entrée directement dans le 
 dans la mesure où les charges sont faibles et sans trop serrer », dans un encadré déclaré non normatif [1, 2] ; celui
 du pisé admet le « vissage direct » pour des charges faibles [3]. Une association d'éco-construction, l'APTE, conseille
 dans le pisé des vis entrées d'au moins 10 à 15 cm [4] ; un praticien de la bauge anglaise, des vis de 12,7 cm ou
-plus [5].
+plus [5] ; un guide de construction en bauge, issu d'un projet de recherche européen, des vis d'au moins 20 cm pour
+fixer portes et fenêtres [25].
 
-Aucune de ces sources ne donne de charge ni de diamètre. Or « sans pré-trou » n'a pas de sens sans diamètre : une vis
+Aucune de ces sources ne donne de charge ni de diamètre. Pour d'autres murs (brique de terre, pisé, carreaux de terre,
+blocs de chanvre), des fabricants et des avis techniques donnent des charges par fixation, de 3 à 50 kg [11, 26–28] ;
+aucun pour la bauge. Or « sans pré-trou » n'a pas de sens sans diamètre : une vis
 de 6 mm sur 80 mm et une vis de 10 mm sur 260 mm ne se posent pas du tout de la même façon. Nous sommes partis de ce
 principe, visser directement dans la terre, pour le caractériser : combien ça tient, à quelle profondeur, avec quel
 diamètre, et à partir de quand le pré-trou devient nécessaire.
 
-**Nous n'avons trouvé aucune mesure d'une vis ou d'un clou posé après coup dans une terre crue et chargé de côté**,
-après avoir cherché en cinq langues ; les mesures voisines portent sur d'autres fixations (annexe D).
+**Nous n'avons trouvé aucune mesure d'une vis ou d'un clou posé après coup dans une terre crue et chargé de côté, ni
+d'une vis à bois tirée hors d'un mur de bauge**, après avoir cherché en cinq langues ; les mesures voisines portent sur
+d'autres fixations (annexe D) ; la plus proche, de côté, porte sur des barres d'acier collées dans de petits cubes de
+pisé [29].
 
 # Les essais
 
@@ -68,13 +80,17 @@ Un mur en bauge d'un cabanon de jardin, en place, vieux d'au moins 50 ans, épai
 abrité depuis longtemps par un bardage en bois sur lame d'air, sans signe d'humidité. La bauge est très sèche ; sous
 l'outil, elle se raye et part en poussière ; elle contient des cailloux de silex. Sa teneur en eau n'a pas été mesurée.
 
-Les vis sont des vis à bois du commerce : des fischer PowerFull II de 8 et 10 mm de diamètre, filetées sur presque
-toute leur longueur, sous agrément européen pour l'usage dans le bois (aucun agrément ne couvre la terre) [20], et une
-vis inox de 6 mm. Chacune plaque contre le mur une planche de 45 mm (douglas ; chêne d'épaisseur non notée) et entre
-dans la bauge de sa longueur moins la planche. Les trois vis de 260 mm isolent l'effet de la pièce : planche de chêne
-(C1), de douglas (C7), aucune planche (C8, qui reprend la vis et le trou de C1, tête au ras du mur). Détail en annexe A.
+Deux journées d'essais sur ce mur : de côté le 30 octobre 2026 (essais C1 à C8), en traction le 7 novembre 2026
+(essais A1 à A8).
 
-## Le montage
+Les vis sont des vis à bois du commerce : des fischer PowerFull II de 8 et 10 mm de diamètre, filetées sur presque
+toute leur longueur, sous agrément européen pour l'usage dans le bois (aucun agrément ne couvre la terre) [20] ; de
+côté, une vis inox de 6 mm ; en traction, une vis à bois de 6 mm filetée sur 5 cm. Dans les essais de côté, chaque vis
+plaque contre le mur une planche de 45 mm (douglas ; chêne d'épaisseur non notée) et entre dans la bauge de sa longueur
+moins la planche. Les trois vis de 260 mm isolent l'effet de la pièce : planche de chêne (C1), de douglas (C7), aucune
+planche (C8, qui reprend la vis et le trou de C1, tête au ras du mur). Détail en annexe A.
+
+## Le montage de côté
 
 ![Figure 1 — Implantation : les planches d'essai en éventail au-dessus de la platine de réaction, tirées vers le bas, le long du mur.](../../figures/fig_implantation.png){#fig_implantation}
 
@@ -97,18 +113,34 @@ Sont écartés la première charge de C1 (une
 manille frottait) et les déplacements de C8 (le comparateur a probablement glissé sur la petite tête de vis) ; l'effort
 de C8, lui, est sûr.
 
-## Un mur, une journée, un essai par configuration
+## Le montage en traction
 
-Un seul mur, sec, une seule journée (le 30 octobre 2026), un essai par configuration, des charges de courte durée. Des
-mesures répétées vaudraient évidemment mieux. Mais nous n'avons trouvé aucune autre mesure de ce genre, et ces essais
-sont remarquablement cohérents entre eux : les quatre Ø10 avec planche entrées de 9,5 à 21,5 cm ont toutes porté 300 kg
-ou plus ; à 100 kg, trois Ø10 de profondeurs différentes lisent le même déplacement à deux centièmes près ; au
-rechargement, trois vis lisent 1,6 à 1,65 mm à 300 kg. Avec aussi peu de variabilité, ces mesures ont déjà une valeur en
-elles-mêmes.
+![Figure 3 — Le montage en traction (7 novembre 2026) : la vis tient une platine d'acier ; la chaîne et le peson la tirent hors du mur par une tige filetée, dont l'écrou est porté par un pont appuyé sur la bauge.](../../photos/traction_montage.jpg){#photo_traction_montage}
+
+La bauge est dressée au rabot à l'endroit de la vis (5 mm enlevés au plus). La vis traverse une platine d'acier, qui
+en prend 15 mm, et entre dans la bauge. On la tire dans son axe, perpendiculairement au mur, par une tige filetée qui
+tourne dans un écrou ; l'écrou est porté par un pont à quatre pieds appuyés sur le mur, à une dizaine de centimètres de
+la vis. Le même peson de 1 tonne est dans la chaîne. Pas de comparateur : avant de céder, la vis ne bouge que de
+quelques centièmes de millimètre, sous ce que ce matériel lit.
+
+Chaque vis est posée à fond, puis chargée. Si elle tient, on la dévisse de 1 cm et on recommence, jusqu'à ce qu'elle
+cède : une même vis donne ainsi plusieurs longueurs. Une charge tenue l'a été au moins quelques secondes ; c'est un
+minimum. Seule la dernière charge d'un essai est une rupture. Pré-trous : 6 mm sur toute la longueur pour les Ø10 × 200,
+5 mm pour les Ø10 × 100 et pour une des trois Ø8 ; aucun pour les deux autres Ø8 et pour la Ø6.
+
+## Un mur, deux journées, un essai par configuration
+
+Un seul mur, sec, deux journées (30 octobre et 7 novembre 2026), un essai par configuration, des charges de courte
+durée. Des mesures répétées vaudraient évidemment mieux. Mais nous n'avons trouvé aucune autre mesure de ce genre, et
+les essais de côté sont remarquablement cohérents entre eux : les quatre Ø10 avec planche entrées de 9,5 à 21,5 cm ont
+toutes porté 300 kg ou plus ; à 100 kg, trois Ø10 de profondeurs différentes lisent le même déplacement à deux
+centièmes près ; au rechargement, trois vis lisent 1,6 à 1,65 mm à 300 kg. Avec aussi peu de variabilité, ces mesures
+ont déjà une valeur en elles-mêmes. En traction, les quatre ruptures Ø10 se rangent dans l'ordre des longueurs ; les
+trois Ø8 de même longueur ont cédé entre 120 et 200 kg.
 
 # Résultats
 
-## Combien ça a tenu
+## De côté : combien ça a tenu
 
 | Essai | Vis | Dans la bauge | Planche | Effort maximal porté | Ce qui s'est passé |
 |---|---|---|---|---|---|
@@ -125,7 +157,7 @@ Table: Les huit essais du 30 octobre 2026. Ø10 : vis de 10 mm de diamètre au f
 la longueur (C1, C2, C7) ; 5 mm sur 3,5 cm de bauge au plus (C3, C4, C5) ; aucun (C6). Entre guillemets : les mots notés
 sur le moment.
 
-![Figure 3 — Effort maximal par essai et ce qui s'est passé. Les barres des vis qui n'ont pas rompu sont des minimums.](../../figures/fig_efforts.png){#fig_efforts}
+![Figure 4 — Effort maximal par essai et ce qui s'est passé. Les barres des vis qui n'ont pas rompu sont des minimums.](../../figures/fig_efforts.png){#fig_efforts}
 
 Les Ø10 entrées d'au moins 9,5 cm ont porté 300 à 350 kg : ce sont des minimums, on s'est arrêté avant la rupture, et
 on ne peut pas les classer entre elles. Pour les vis courtes, les mots notés indiquent probablement que la vis est
@@ -133,7 +165,7 @@ sortie du mur (elles n'ont pas été examinées au démontage).
 
 ## Sous 100 kg, la profondeur change peu ; le diamètre, si
 
-![Figure 4 — Premières charges superposées : déplacement lu selon l'effort, pour chaque essai.](../../figures/fig_premiere_charge.png){#fig_premiere_charge}
+![Figure 5 — Premières charges superposées : déplacement lu selon l'effort, pour chaque essai.](../../figures/fig_premiere_charge.png){#fig_premiere_charge}
 
 Sous 100 kg, les Ø10 se comportent pareil quelle que soit leur profondeur : à 100 kg, celles entrées de 5,5, 9,5 et
 15,5 cm lisent toutes 0,60 à 0,62 mm. Notre lecture, supposée (annexe B) : seuls les premiers centimètres de vis
@@ -154,7 +186,7 @@ repose sur des déplacements fragiles et sur un seul mur.
 
 ## Un ressort freiné
 
-![Figure 5 — Cycles de charge et de décharge : la planche revient presque entièrement quand on décharge tout, pas du tout quand on décharge un peu.](../../figures/fig_ressort_freine.png){#fig_ressort_freine}
+![Figure 6 — Cycles de charge et de décharge : la planche revient presque entièrement quand on décharge tout, pas du tout quand on décharge un peu.](../../figures/fig_ressort_freine.png){#fig_ressort_freine}
 
 - **Déchargé jusqu'à zéro, l'ensemble revient presque entièrement** : 94 % du déplacement (C2, après 315 kg), 81 %
   (C7, après 174 kg).
@@ -172,6 +204,58 @@ prises vers 250 kg, un vide s'ouvre à l'entrée du trou, du côté opposé à l
 photo en annexe B). Le trou avait déjà servi à C1. C'est le cas d'école : en pratique, une vis tient toujours quelque
 chose, une platine, un montant, une planche.
 
+## En traction : combien ça a tenu
+
+| Essai | Vis | Pré-trou | A tenu (longueur dans la bauge : charge) | A cédé | Ce qu'on a vu |
+|---|---|---|---|---|---|
+| A7 | PowerFull II Ø10 × 100 | 5 mm | 8 cm : 100 kg | **7 cm : 70 kg** | cône de 4 cm de rayon |
+| A6 | PowerFull II Ø10 × 100 | 5 mm | — | **8 cm : 100 kg** | cône ; nombreux cailloux |
+| A5 | PowerFull II Ø10 × 200 | 6 mm | 10,5 cm : 150 kg ; 9,5 cm : 160 kg | **9 cm : 130 kg** | « cône invisible de rayon 4 cm » |
+| A4 | PowerFull II Ø10 × 200 | 6 mm | 17,5 cm : 380 kg ; 16,5 cm : 400 kg ; 15,5 cm : 350 kg ; 14,5 cm : 320 kg ; 13,5 et 12,5 cm : 300 kg | **11,5 cm : 220 kg** | pas de cône visible ; la bauge sonne creux sur 8 cm de rayon |
+| A1 | PowerFull II Ø8 × 120 | 5 mm | — | **10,5 cm : 150 à 200 kg** | « arrachement, feuille de surface » (paille) |
+| A2 | PowerFull II Ø8 × 120 | aucun | 10,5 cm : 120 puis 150 kg | **10,5 cm : 160 à 170 kg** | pas de cône |
+| A3 | PowerFull II Ø8 × 120 | aucun | — | **10,5 cm : 120 à 130 kg** | petit cône ; sonne creux plus loin |
+| A8 | vis à bois Ø6, filetée sur 5 cm | aucun | — | **5 cm : 56 kg** | — |
+
+Table: Les huit essais en traction du 7 novembre 2026. Chaque vis est chargée, puis dévissée de 1 cm tant qu'elle
+tient. « A tenu » : la charge la plus haute tenue à cette longueur, un minimum. Fourchette : charge notée entre deux
+valeurs. Entre guillemets : les mots notés sur le moment. Longueur dans la bauge : à 5 mm près.
+
+![Figure 7 — Après une rupture en traction d'une vis Ø10 × 100 (essai A6 ou A7) : le cône de bauge arraché autour du trou, mesuré au réglet, et ses fissures.](../../photos/traction_cone.jpg){#photo_traction_cone}
+
+- **Chaque rupture est un glissement de la vis le long de son filet.** Jusqu'à 9 cm, la vis arrache en surface un
+  cône de bauge d'environ 4 cm de rayon, peu profond (quelques centimètres, à l'œil). Plus profond, le cône ne se voit
+  plus, mais la bauge sonne creux autour du trou, sur 8 cm de rayon pour A4. L'auteur pense que le cône est toujours
+  là, parfois invisible.
+- **La tenue monte vite avec la longueur** : une Ø10 cède à 70 kg à 7 cm, à 100 kg à 8 cm, à 130 kg à 9 cm, à 220 kg à
+  11,5 cm, soit trois fois plus pour 4,5 cm de plus.
+- **De 12,5 à 17,5 cm, A4 a tenu 300 à 400 kg** sans céder : ce sont des minimums. Elle a cédé ensuite à 11,5 cm.
+- **Les trois Ø8 entrées de 10,5 cm ont cédé entre 120 et 200 kg.** La seule posée avec un pré-trou (A1) n'a pas tenu
+  moins que les deux autres.
+- **La Ø6**, entrée de ses 5 cm de filet, a cédé à 56 kg (60 mm notés sur le moment ; la vis n'a que 5 cm de filet,
+  et seul le filet était dans la bauge).
+
+La longueur dans la bauge compte toute la vis, pointe comprise. La pointe porte peu : sur la Ø10, le filet n'est
+complet qu'à 8 ou 9 mm du bout, puis il est denté sur 3 cm environ (lu sur photo, annexe A).
+
+## Selon la longueur : de côté et en traction
+
+![Figure 8 — Tenue mesurée d'une vis selon sa longueur dans la bauge, en traction (bleu) et de côté (orange), et, en haut, les longueurs de vis conseillées par les textes publiés. Point plein : la vis a cédé ; point vide et flèche : elle a tenu, la rupture est plus haut.](../../figures/fig_tenue_longueur.png){#fig_tenue_longueur}
+
+Les deux sollicitations ont été essayées séparément, dans deux montages : de côté, la vis plaquait une planche contre
+le mur ; en traction, elle était tirée seule. La figure les met côte à côte, elle ne les combine pas. En haut, les
+longueurs conseillées par les textes (« Recommandations »).
+
+- **Jusqu'à 11,5 cm au moins, la traction est la plus faible.** Entrée de 7 à 9 cm, une Ø10 cède à 70 à 130 kg en
+  traction ; de côté, une Ø8 entrée de 7,5 cm a porté 200 kg, une Ø10 entrée de 9,5 cm au moins 300 kg.
+- **À 15,5 cm, les deux dépassent 350 kg** : on ne sait pas laquelle est la plus faible.
+
+Ces deux chiffres ne se combinent pas en une tenue sous charge mixte. Une vis chargée de côté presse la bauge contre
+son filet, ce qui change probablement sa tenue en traction. Et, de côté, la planche peut faire passer une part de
+l'effort en traction dans la vis : C4 a cédé de côté à 200 kg en sortant du mur (« arrachement »), mais quelle part de
+ces 200 kg tirait la vis dans son axe, aucune mesure ne le dit. Passer d'un essai à l'autre multiplierait leurs
+incertitudes.
+
 ## La pose : le couple et le pré-trou
 
 Poser une vis demande un effort de torsion, le **couple**, en newtons-mètres (N·m). La **limite de pose** retenue est
@@ -179,7 +263,7 @@ le couple qui casse la vis, divisé par 1,5, le rapport que l'agrément demande 
 26 N·m pour la Ø10, 18,7 N·m pour la Ø8 [20]. Le couple est déduit du réglage où la visseuse débrayait, vitesse non
 notée, 1re supposée ; dans un mur des combles (10 octobre 2026), ce plafond a été vérifié à la clé (annexe C).
 
-![Figure 6 — Couple de pose selon la profondeur : Ø10 sans pré-trou (combles, mesuré puis prolongé par le calcul), Ø10 et Ø8 avec pré-trou (cabanon), et limites de la Ø10.](../../figures/fig_pre_trou.png){#fig_pre_trou}
+![Figure 9 — Couple de pose selon la profondeur : Ø10 sans pré-trou (combles, mesuré puis prolongé par le calcul), Ø10 et Ø8 avec pré-trou (cabanon), et limites de la Ø10.](../../figures/fig_pre_trou.png){#fig_pre_trou}
 
 - **Ø10 sans pré-trou** (combles, première campagne) : la visseuse a bloqué à 18–20 N·m vers 10 cm de bauge, avec une
   vis pourtant plus courte que les plus longues du cabanon ; la pose a été très difficile. Si le couple continuait de
@@ -196,35 +280,52 @@ notée, 1re supposée ; dans un mur des combles (10 octobre 2026), ce plafond a 
 D'une campagne à l'autre (deux murs différents), le pré-trou a clairement réduit le couple de pose : il permet de rester dans les préconisations
 du fabricant de la vis.
 
-## L'arrachement : à faire (campagne de novembre 2026)
-
-**À faire** : section à compléter après la campagne d'arrachement de novembre 2026 ; aucun résultat d'arrachement n'est
-encore disponible.
-
-Les vis courtes ont probablement lâché en sortant du mur, et un sabot ou une étagère en porte-à-faux tire ses vis dans
-leur axe. Pour une vis à bois vissée dans la bauge, nous n'avons trouvé aucune valeur d'arrachement (mesures voisines :
-annexe D). Une campagne est prévue en novembre 2026 ; cette section sera complétée avec ses résultats.
-
 # Recommandations
 
-Ce sont les conseils de l'auteur, tirés de ces mesures. Ils valent pour ces vis, dans cette bauge sèche, chargées de côté
-pendant peu de temps, avec une pièce plaquée au mur. Ils ne remplacent ni un calcul ni un essai sur votre mur.
+Ce sont les conseils de l'auteur, tirés de ces mesures. Ils valent pour ces vis, dans cette bauge sèche, chargées
+pendant peu de temps. Ils ne remplacent ni un calcul ni un essai sur votre mur.
+
+## Pas de charge sûre, mais des repères
+
+Nous ne donnons pas de charge sûre par vis. Ce qu'une vis peut porter sans risque dépend de trop de choses que nos
+essais ne couvrent pas : la bauge de votre mur (paille, cailloux, humidité, profondeur), la façon dont la vis est
+chargée, la durée, les chocs, et ce qui arrive si elle cède. Un essai par point, sur un seul mur, ne donne pas de
+chiffre sûr pour un autre mur.
+
+Dans la vraie vie, une vis travaille à la fois en traction et de côté, et nous ne savons pas comment les deux
+interagissent dans la bauge. Pour situer une fixation par rapport à nos mesures, l'auteur retient, à la longueur posée,
+la plus faible des deux tenues : la traction, jusqu'à 11,5 cm au moins.
+
+## Ce que conseillent les textes, à côté des mesures
+
+La figure 8 met nos mesures sous les longueurs de vis conseillées par les textes publiés.
+
+- **Longueur** : ceux qui en donnent une conseillent des vis entrées de 10 à 15 cm dans le pisé [4] ; dans la bauge,
+  des vis de 12,7 cm et plus [5], ou de 20 cm et plus pour fixer portes et fenêtres, dans une bauge sans trop de
+  cailloux [25]. Pour la bauge, c'est la longueur de la vis : sous une pièce fixée, la longueur dans la bauge est plus
+  courte. Nos mesures vont dans le même sens : en traction, la tenue monte vite avec la longueur, jusqu'à 12 cm environ.
+- **Charge** : aucun texte ne donne de charge pour une vis dans la bauge. Pour d'autres murs, les charges conseillées
+  par point de fixation restent faibles : 3 à 15 kg pour des chevilles de 3 à 9 cm dans une maçonnerie de briques et le pisé
+  [11] ; au-delà de 10 kg, une structure qui répartit la charge, dans des cloisons de briques de terre comprimée [27] ;
+  25 kg au plus en traction et 50 kg de côté, dans des carreaux de terre stabilisée au ciment [28] ; 5 kg sur une vis à
+  bois Ø6 ancrée de 7 cm, 10 kg sur une Ø8 ancrée de 9,5 cm, dans des blocs de chanvre [26].
+- **Nos mesures** sont bien au-dessus : en traction, 56 kg pour une Ø6 entrée de 5 cm, 70 à 220 kg pour une Ø10
+  entrée de 7 à 11,5 cm, et aucune rupture au-delà de 12 cm, jusqu'à 400 kg. Les unes ne se déduisent pas des autres :
+  autres matériaux, autres fixations, et des marges dont la base n'est pas toujours publiée.
+
+## Pour plus de charge
+
+Le plus sûr est de multiplier les vis (« Prévoir de la redondance », plus bas), ou de passer aux méthodes
+structurelles traditionnelles : une pièce de chêne de forte section noyée dans la bauge. Le guide de la bauge cité plus
+haut propose de même des pièces de bois noyées pendant la construction, taillées en queue d'aronde pour ne pas sortir du
+mur [25].
 
 ## Le diamètre
 
-- **Ø8** pour quelques dizaines de kilos et pour accrocher du non structurel. Entrée de 7,5 cm, elle a porté 200 kg.
-- **Ø10** au-delà d'environ 40 à 50 kg par vis : à 80 et 100 kg, la Ø8 a bougé 50 à 70 % de plus (lu au comparateur,
-  une seule Ø8 essayée), et elle a lâché à 200 kg.
-
-## La profondeur dans la bauge
-
-- **4 cm : non**, sauf peut-être pour un cadre léger. La vis inox entrée de 3,5 cm a glissé à 50 kg ; dans un autre mur,
-  une vis de charpente de 6,2 mm entrée de 5 cm a pris du jeu sous 100 kg, quand une Ø10 entrée de 15 cm portait la
-  même charge sans jeu. Ces deux vis courtes étaient fines : aucune Ø8 ni Ø10 n'a été essayée sous 5,5 cm.
-- **8 cm au minimum ; 10 cm de préférence** : c'est à partir de 9,5 cm que nos Ø10 ont porté 300 kg et plus.
-- **Plus long** : utile pour tenir l'arrachement et pour passer un défaut local de la bauge (une poche moins
-  cohérente). Sous 100 kg, plus long ne rend pas la vis plus raide ; plus résistante de côté, nous ne savons pas :
-  aucune vis longue n'a été poussée à la rupture.
+- **Ø8** pour quelques dizaines de kilos et pour accrocher du non structurel. De côté, entrée de 7,5 cm, elle a porté
+  200 kg ; en traction, entrée de 10,5 cm, elle a cédé entre 120 et 200 kg.
+- **Ø10** au-delà d'environ 40 à 50 kg par vis : à 80 et 100 kg de côté, la Ø8 a bougé 50 à 70 % de plus (lu au
+  comparateur, une seule Ø8 essayée), et elle a lâché à 200 kg.
 
 ## Le pré-trou
 
@@ -232,13 +333,15 @@ Ce que montrent nos deux campagnes (résultats ci-dessus) : le pré-trou réduit
 de rester dans les préconisations du fabricant de la vis. Ce que l'auteur en retient :
 
 - **Ø6 sur 80 à 100 mm**, la vis usuelle que les guides ont probablement en tête : pas besoin de pré-trou, pour leurs
-  charges faibles (sous une planche de 45 mm, il ne reste que 3,5 à 5,5 cm de bauge, sous notre minimum).
+  charges faibles (sous une planche de 45 mm, il ne reste que 3,5 à 5,5 cm de bauge ; une Ø6 entrée de 5 cm a cédé à
+  56 kg en traction).
 - **Ø8 sur 120 mm** : on peut éventuellement s'en passer (souvenir de l'auteur ; non mesuré). **Sur 160 mm**, l'auteur
   conseille un pré-trou : sans, on arriverait vite à un problème (conseil de l'auteur ; non mesuré).
 - **Ø10** : un pré-trou, presque toujours. Sans pré-trou, la pose a été très difficile dès 10 cm ; avec un pré-trou de
   5 ou 6 mm, elle est presque toujours restée à 20 N·m au plus jusqu'à 21,5 cm, sous la limite de pose de la vis.
 - **Diamètre du pré-trou** : 5 ou 6 mm, nous ne savons pas lequel convient le mieux. Un pré-trou au moins égal au noyau
-  de la vis (6,2 mm pour la Ø10) soulagerait peut-être la pose : à vérifier pendant la campagne d'arrachement. Le foret
+  de la vis (6,2 mm pour la Ø10) soulagerait peut-être la pose : reste à vérifier. En traction, la seule Ø8 posée avec un pré-trou de
+  5 mm n'a pas tenu moins que les deux posées sans (« En traction : combien ça a tenu »). Le foret
   souffre dans le silex : celui de 6 mm avait son carbure ébréché.
 - **Si la visseuse bloque**, dévisser un peu et revisser, ou repercer, plutôt que forcer à la clé : forcer rapproche la
   vis de sa casse en torsion, et une pose très dure charge la vis plus que l'usage (à l'atelier, une vis finie à la clé
@@ -249,7 +352,7 @@ profondeur dans la bauge, quel pré-trou, de 0 (aucun) à 5 ou 6 mm, garde la po
 campagnes n'en donnent que deux cas, pour la Ø10 : sans pré-trou, et avec 5 ou 6 mm. La Ø8 de 160 mm sans pré-trou est
 parmi les premières mesures à faire.
 
-## Toujours plaquer une pièce contre le mur
+## Plaquer une pièce contre le mur raidit
 
 Une vis tient toujours quelque chose. Plaquée au mur par la vis, la planche a porté 300 kg et plus en bougeant peu ; la
 vis seule a porté autant, mais en bougeant de plusieurs millimètres. La pièce empêche la tête de tourner et frotte sur
@@ -264,22 +367,25 @@ Même si une vis Ø10 bien ancrée a tenu 300 kg et plus, ne faites pas porter u
 n'est pas homogène : une poche moins dense, une fissure, un caillou ou un endroit plus humide, et la vis qui tombe là
 tient beaucoup moins. Cela ne se voit pas en posant la vis. Répartissez la charge sur plusieurs vis, de sorte que
 l'ouvrage tienne encore si l'une d'elles est mal ancrée. Une vis qui entre trop facilement ou qui tourne dans le vide
-en fin de pose signale un défaut local : mettez-en une autre à côté. Pour une ossature d'isolation, nous prévoyons une
-vis tous les 50 cm : chacune porte peu, et la perte de l'une d'elles ne compromet pas l'ensemble.
+en fin de pose signale un défaut local : mettez-en une autre à côté.
 
 ## Et avec une platine métallique ?
 
 Un sabot ou une platine de fixation est le cas classique ; nous ne l'avons pas mesuré. Une platine mince (au plus 5 mm
 pour une Ø10) laisse tourner la tête : on s'attend à un comportement entre la planche et la vis seule. Une platine
 épaisse (au moins 10 mm) la retient comme la planche (règle des assemblages bois, annexe B). Un sabot qui porte une
-solive en porte-à-faux tire ses vis dans leur axe : c'est l'arrachement.
+solive en porte-à-faux tire ses vis dans leur axe : c'est la traction, la plus faible des deux (« Selon la longueur :
+de côté et en traction »).
 
 ## Quelle marge prendre ?
 
+Le facteur de sécurité est le rapport entre l'effort qui fait céder (ou la charge d'essai tenue) et la charge qu'on
+s'autorise. Il dépend de ce qu'on fixe (ce qui arrive si ça tombe) et du risque de choc. Il compte d'autant plus dans la
+bauge, matériau hétérogène, essayé ici vis par vis sur un seul mur.
+
 Il n'existe pas de marge officielle pour une fixation dans la bauge : aucune norme ni aucun guide que nous ayons lu n'en
-donne. On procède donc par analogie, avec ce qui se pratique pour d'autres matériaux et d'autres fixations. Le facteur
-est le rapport entre l'effort qui fait céder (ou la charge d'essai tenue) et la charge qu'on s'autorise ; d'une source à
-l'autre, il ne se compare qu'en disant sur quoi il porte (détail en annexe D).
+donne. Pour comparer, voici ce qui se pratique pour d'autres matériaux et d'autres fixations ; d'une source à l'autre,
+le facteur ne se compare qu'en disant sur quoi il porte (détail en annexe D).
 
 **Dans la terre crue**
 
@@ -298,19 +404,32 @@ l'autre, il ne se compare qu'en disant sur quoi il porte (détail en annexe D).
 - béton et maçonnerie, chevilles essayées sur site : **4,7 à 7** sur la moyenne des 5 plus faibles de 15 essais ; **9 à
   14** pour des chevilles sans homologation ou posées dans les joints [17].
 
-Nos essais sont uniques et, pour les Ø10 entrées d'au moins 9,5 cm, sans rupture : ce sont des minimums. Passer
-d'essais de chantier à une valeur admissible demande au moins une quinzaine d'essais [14].
+Nos essais sont uniques. De côté, les Ø10 entrées d'au moins 9,5 cm n'ont pas rompu ; en traction, celles entrées de
+plus de 12 cm non plus : ce sont des minimums. Passer d'essais de chantier à une valeur admissible demande au moins
+une quinzaine d'essais [14].
 
 # Limites et suite
 
-Aux limites déjà dites (un mur sec, une journée, un essai par configuration), s'ajoutent : ni teneur en eau ni densité
-mesurées, l'état des vis au démontage non noté (sauf C1, droite ou presque), et rien sur la charge permanente pendant
-des années (la terre peut se tasser lentement), sur une bauge humide ou sur d'autres vis. Un essai sur site ne classe
-pas des produits [15] : ce papier ne compare pas de marques. Pour refaire l'essai, l'annexe C dit ce que nous ferions
-autrement.
+Aux limites déjà dites (un mur sec, deux journées, un essai par configuration), s'ajoutent :
 
-Restent à mesurer : l'arrachement (campagne de novembre 2026) ; le pré-trou qu'il faut selon le diamètre de la vis et
-la profondeur, dont la Ø8 de 160 mm sans pré-trou (recommandations, « Le pré-trou »).
+- **pour tous les essais** : ni teneur en eau ni densité mesurées ; rien sur la charge permanente pendant des années (la
+  terre peut se tasser lentement), sur une bauge humide ou sur d'autres vis ; rien sur une vis chargée à la fois de côté
+  et en traction ;
+- **en traction** : quatre ruptures Ø10 seulement ; chaque longueur essayée sur une vis déjà chargée et dévissée (A4 a
+  porté quatorze charges avant de céder) ; charges tenues quelques secondes ; aucun déplacement mesuré, donc ni
+  raideur ni fluage ; des essais de novembre, où la bauge de surface est probablement plus humide qu'en été (supposé).
+
+**La bauge varie.** Sur une dizaine de trous percés pour ces essais, deux ont été très perturbés par le matériau
+(cailloux, paille), selon l'auteur : d'où la redondance. La bauge des combles (annexe C)
+paraît meilleure à l'œil que celle du cabanon (moins de paille visible, moins friable, moins de cailloux) ; nos chiffres
+y sont donc probablement prudents, sans que ce soit vérifié.
+
+Un essai sur site ne classe pas des produits [15] : ce papier ne compare pas de marques. Pour refaire les essais,
+l'annexe C dit ce que nous ferions autrement.
+
+Restent à mesurer : en traction, des ruptures au-delà de 15 cm, sur des vis neuves chargées une seule fois ; la tenue
+d'une vis chargée à la fois de côté et en traction ; un autre mur, dont celui des combles ; le pré-trou qu'il faut selon
+le diamètre de la vis et la profondeur, dont la Ø8 de 160 mm sans pré-trou (recommandations, « Le pré-trou »).
 
 Ce papier est un premier jalon. Nous cherchons des retours d'artisans de la bauge, des auteurs des guides de bonnes
 pratiques, et de toute personne qui a mesuré ou simplement observé la tenue d'une fixation dans la terre : par les
@@ -356,8 +475,13 @@ ou dépassent. « Non publié » : ni le fabricant ni le vendeur ne donnent cett
   recommande de pré-percer la Ø10 et limite la Ø8 non pré-percée à 60 mm de filet.
 - **Vis inox.** SECCARO est une marque vendue sur les places de marché (vendeur ecomserv) : nous n'avons trouvé ni fiche
   technique ni valeur mécanique [24]. La vis n'est connue que par son libellé d'achat.
+- **Vis Ø6 de l'essai en traction (A8).** Vis à bois autoforeuse de bonne qualité, non structurelle, marque non notée :
+  filetée sur 5 cm à partir de la pointe, puis 1 cm de cannelures et un fût lisse. Aucune valeur publiée relevée.
+- **La pointe, lue sur photo.** Les vis des essais, photographiées contre un réglet le 8 novembre 2026, à 1 mm près : la
+  PowerFull II Ø10 n'a un filet complet qu'à 8 ou 9 mm de la pointe, puis un filet denté jusqu'à 35 à 41 mm ; la Ø8,
+  un filet complet à 9 mm environ, sans dents ; la Ø6 de A8, à 8 mm environ.
 
-## Pose et ancrage, essai par essai
+## Pose et ancrage, essai par essai (de côté)
 
 | Essai | Vis | Dans la bauge | Planche | Pré-trou dans la bauge | Pose : où la visseuse a débrayé |
 |---|---|---|---|---|---|
@@ -392,7 +516,7 @@ Cette annexe est la partie la plus fragile du papier. Elle ne porte aucun des r�
 Elle propose des explications, chacune avec un schéma et une règle qu'on peut réutiliser ailleurs. Nous n'ajustons pas
 de courbes, et nous ne donnons pas la résistance de la bauge comme une valeur.
 
-![Figure 7 — Trois idées : (a) la vis sur un appui élastique, qui ne plie que sur ses premiers centimètres ; (b) la tête retenue par la planche, qui oblige la vis à plier en deux endroits ; (c) l'effet de corde : la vis qui plie se met en traction et plaque la planche au mur.](../../figures/fig_theorie.png){#fig_theorie}
+![Figure 10 — Trois idées : (a) la vis sur un appui élastique, qui ne plie que sur ses premiers centimètres ; (b) la tête retenue par la planche, qui oblige la vis à plier en deux endroits ; (c) l'effet de corde : la vis qui plie se met en traction et plaque la planche au mur.](../../figures/fig_theorie.png){#fig_theorie}
 
 ## 1. Seuls les premiers centimètres de vis travaillent de côté
 
@@ -449,7 +573,7 @@ raide, C3 un peu plus souple).
 
 ## 5. Ce qui reste inexpliqué
 
-![Figure 8 — Vis C8, sans planche, tête au ras du mur, chargée vers 250 kg : une cavité s'ouvre dans la bauge au-dessus de la tête, du côté opposé à l'effort. Constat visuel, sans échelle.](../../photos/c8_charge_cavite.jpg){#photo_c8}
+![Figure 11 — Vis C8, sans planche, tête au ras du mur, chargée vers 250 kg : une cavité s'ouvre dans la bauge au-dessus de la tête, du côté opposé à l'effort. Constat visuel, sans échelle.](../../photos/c8_charge_cavite.jpg){#photo_c8}
 
 - **C8 a porté 300 kg sans planche.** Le calcul de la vis seule à tête libre demanderait une terre résistant à 9 MPa
   au moins, contre 3,5 à 6 MPa pour les autres essais. Pistes, aucune vérifiée : la vis libre se met elle aussi en
@@ -461,7 +585,7 @@ raide, C3 un peu plus souple).
 
 ## 6. La platine métallique
 
-![Figure 9 — Platine mince ou épaisse sous la tête de vis : une platine mince laisse tourner la tête, une platine épaisse la retient comme la planche des essais.](../../figures/fig_platine.png){#fig_platine}
+![Figure 12 — Platine mince ou épaisse sous la tête de vis : une platine mince laisse tourner la tête, une platine épaisse la retient comme la planche des essais.](../../figures/fig_platine.png){#fig_platine}
 
 Le calcul des assemblages bois (Eurocode 5) classe la tôle comme mince jusqu'à la moitié du diamètre de la vis (la tête
 n'est pas retenue) et comme épaisse à partir du diamètre (la tête est retenue), avec un passage progressif entre les
@@ -469,16 +593,23 @@ deux [18, 19]. La planche de 45 mm des essais est une pièce épaisse ; une plat
 faudrait 10 mm pour qu'elle soit épaisse. Le frottement du métal sur la bauge n'a pas été mesuré. Aucune mesure ni règle
 sur une platine vissée dans la terre n'a été trouvée.
 
-## 7. Les mesures qui départageraient
+## 7. En traction : un cône, puis le filet ?
 
-Sortir les vis et regarder si elles sont pliées et où, et si le trou est ovalisé ; tapoter la planche après une
-décharge complète et relire le comparateur ; glisser une cale glissante (film de téflon, film graissé) entre la planche
-et le mur pour supprimer le frottement ; faire des cycles à charge croissante, avec retour à zéro à chaque fois ; pousser
-une Ø10 de 9,5 cm et une de 21,5 cm jusqu'à la rupture ; prélever un peu de bauge pour sa teneur en eau et sa densité.
+Ce que montrent les ruptures : la vis glisse le long de son filet, et la bauge de surface part en un cône peu profond,
+de 4 cm de rayon environ, à pente bien plus faible que 45° (à l'œil, non mesuré). La charge qui fait céder une Ø10
+croît plus vite que sa longueur : environ 10 kg par centimètre de vis à 7 cm, 19 à 11,5 cm. Une adhérence égale tout le
+long de la vis ne l'explique pas.
+
+L'hypothèse de l'auteur : tant que la vis est courte, le cône grandit avec elle, et la tenue monte vite ; à partir d'une
+certaine longueur, le cône cesse de grandir, et chaque centimètre de filet en plus ajoute une part à peu près fixe.
+Cette longueur n'est pas observée : le cône ne se voit plus au-delà de 9 cm, mais il est peut-être toujours là, invisible
+(A4 sonnait creux sur 8 cm de rayon). Un cône qui grandirait sans fin décrit nos quatre ruptures aussi bien : il
+faudrait des ruptures au-delà de 15 cm pour départager les deux. C'est pourquoi la figure 8 ne trace aucune courbe à
+travers les points.
 
 # Annexe C — Relevés bruts et étalonnage
 
-## Le montage en détail
+## Le montage de côté en détail
 
 - Effort parallèle au mur : on tire la planche vers le bas, le long du mur, vers la platine de réaction.
 - Chaîne de traction : boucle de corde en Dyneema passée dans la planche, peson électronique de 1 tonne, manilles, tige
@@ -531,6 +662,40 @@ Statut des relevés, décidé par l'auteur :
   Ø8 (C5).
 - Sous 50 kg, les lectures sont de 0,1 à 0,2 mm : elles disent surtout la précision de lecture.
 
+## Le montage en traction en détail
+
+- Effort perpendiculaire au mur, dans l'axe de la vis. Essais à 1,10 m du sol environ ; bauge dressée au rabot à
+  l'endroit de chaque vis (5 mm enlevés au plus).
+- Platine : un tronçon de tube carré d'acier de 2 mm, sous lequel est soudée, côté mur, une barre bien plus épaisse ;
+  la tête de vis repose dans un fond partiellement fraisé. La platine prend 15 mm de vis.
+- Chaîne : boucle de corde en Dyneema, manilles, peson électronique de 1 tonne, émerillon (pour que le peson ne tourne
+  pas), anneau, tige filetée.
+- La tige tourne dans un écrou solidaire d'un pont à quatre pieds de 4 × 4 cm, dont les centres sont à 13 cm de la vis
+  (bord le plus proche à 10 cm environ). La visseuse entraîne la tige ; son réglage de couple limite l'effort, mais son
+  débrayage n'est pas reproductible : le peson fait foi.
+- Les zones affaiblies repérées au marteau ne dépassaient pas 8 cm de rayon (de mémoire), en deçà des pieds du pont :
+  nous pensons que le pont n'a pas retenu le cône, sans l'avoir démontré.
+- Longueur dans la bauge : longueur de la vis, moins 15 mm de platine, moins la longueur dévissée, moins le filet resté
+  hors de la bauge là où le mur n'est pas plan (5 mm pour A6) ; lue à 5 mm près. Quand une longueur a été notée sur le
+  moment, c'est elle qui est retenue (A5 à la rupture : 90 mm notés, 85 calculés). A8 : 50 mm, longueur de son filet.
+
+## Relevés du 7 novembre 2026
+
+| Essai | Charges, dans l'ordre (longueur dans la bauge : charge) |
+|---|---|
+| A1, Ø8 | 10,5 cm : cède entre 150 et 200 kg ; « surpris : 300 kg attendus, effort monte vite » |
+| A2, Ø8 | 10,5 cm : 120 et 150 kg tenus, puis cède entre 160 et 170 kg |
+| A3, Ø8 | 10,5 cm : cède entre 120 et 130 kg |
+| A4, Ø10 | 17,5 cm : 150 · 180 · 230 · 300 · 380 kg tenus ; 16,5 cm : 150 · 180 · 200 · 300 · 400 kg tenus ; 15,5 cm : 350 ; 14,5 cm : 320 ; 13,5 cm : 300 ; 12,5 cm : 300 ; 11,5 cm : cède à 220 kg |
+| A5, Ø10 | 10,5 cm : 150 kg tenus ; 9,5 cm : 160 kg tenus ; 9 cm : cède à 130 kg |
+| A6, Ø10 | 8 cm : cède à 100 kg |
+| A7, Ø10 | 8 cm : 100 kg tenus ; 7 cm : cède à 70 kg |
+| A8, Ø6 | 5 cm : cède à 56 kg |
+
+Table: Relevés tels que notés le 7 novembre 2026, aussi dans le dossier `vis-dans-la-bauge/donnees/` du dépôt. Aucune
+vis n'a été chargée à sa pleine longueur : chacune a été posée à fond, puis dévissée de 1 cm avant la première charge
+(A5 : jusqu'à 10,5 cm).
+
 ## Étalonnage d'atelier, 8 octobre 2026
 
 Avant les essais, le même montage a été essayé à l'atelier : même vis Ø10 × 260, même planche de douglas, même chaîne ;
@@ -572,9 +737,14 @@ Ce que nous ferions autrement :
   fausse une montée entière ;
 - charger à l'écrou, c'est imposer un allongement : noter l'effort le plus haut et l'effort qui se stabilise ;
 - noter la vitesse et le réglage de la visseuse à la pose, ou mieux, le couple à la clé ;
-- noter l'état des vis après la pose et au démontage : la pose les charge plus que l'essai ;
 - lire les petits déplacements au centième, pas au dixième ;
-- photographier l'entrée du trou, déchargée puis chargée, avec une règle dans le champ.
+- photographier l'entrée du trou, déchargée puis chargée, avec une règle dans le champ ;
+- en traction, une vis neuve par longueur, chargée une seule fois, plutôt qu'une vis dévissée de centimètre en
+  centimètre ;
+- relever à chaque rupture le rayon et la profondeur du cône, et la zone qui sonne creux au marteau ;
+- noter le couple de pose de chaque vis à la clé, pour relier la pose et la tenue sur le même trou ;
+- prendre une chaîne de traction dont chaque pièce tient plus de 400 kg : l'écrou à œil M12 du montage, dont la charge
+  contrôlée est de 347 kg, a été poussé à 400 kg (sans déformation visible).
 
 # Annexe D — État de l'art : ce qu'on dit et ce qu'on a mesuré ailleurs
 
@@ -586,14 +756,45 @@ d'essayer une vis à la main jusqu'à ce qu'elle lâche, d'en déduire le nombre
 Dans les briques et les blocs de terre, l'autre pratique domine, le trou percé [7, 12, 13] ; aucune source lue
 n'interdit l'une ou l'autre.
 
+Le guide CobBauge, issu d'un projet européen de recherche sur la bauge, demande des vis d'au moins 20 cm pour fixer
+portes et fenêtres, dans une bauge sans trop de cailloux, ou des pièces de bois noyées en queue d'aronde ; la terre
+allégée seule ne tient pas une fixation [25]. Il ne donne aucune charge.
+
+## Les charges conseillées ailleurs
+
+Pour d'autres murs, des avis techniques et des fabricants donnent des charges par point de fixation (1 daN, l'unité
+des avis techniques, vaut environ 1 kg) :
+
+- **cloisons de briques de terre comprimée** : jusqu'à 10 kg, scellement au mortier après carottage ; au-delà, une
+  structure secondaire qui répartit la charge [27] ;
+- **carreaux de terre stabilisée au ciment** (5 cm) : 25 daN au plus en traction et 50 daN de côté par point ; les deux
+  chevilles admises le sont à 4,55 et 22,8 daN, la même valeur dans les deux directions [28] ;
+- **blocs de béton de chanvre**, vis à bois sans cheville : 5 kg pour une Ø6 ancrée de 7 cm, 10 kg pour une Ø8 ancrée
+  de 9,5 cm, 50 kg pour un scellement chimique [26] ;
+- **maçonnerie de briques et pisé**, chevilles en plastique : 3 à 15 kg pour des chevilles de 3 à 9 cm, 20 kg pour une
+  cheville chimique, valeurs du fabricant de chevilles TOX avec Claytec, base non publiée [11, p. 3].
+
 ## Les mesures voisines
 
-Les mesures publiées que nous avons trouvées dans la terre portent sur : des tiges scellées au mortier de chaux et
-tirées dans leur axe, dans du pisé, de la bauge et des blocs [6] ; une console sur quatre vis à béton dans des blocs de
-terre comprimée, rompue à 330 kg [7] ; des chevilles plastiques dans des briques de terre [11] ; des boulons scellés,
-dans une norme néo-zélandaise en projet [9] ; des vis noyées dans de la terre damée fraîche [8]. La seule mesure
-d'arrachement trouvée dans une bauge porte sur des tiges de 10 mm scellées au mortier de chaux sur 39 cm, en
-laboratoire : 22,9 kN en moyenne, soit environ 2,3 tonnes [6]. Un programme de recherche sur l'adobe note que les
+Aucune mesure publiée que nous ayons trouvée ne porte sur une vis à bois dans la bauge. Les plus proches portent sur
+d'autres fixations ou d'autres supports : ce sont des repères, pas des valeurs à reporter sur la bauge. Un kilonewton
+(kN) vaut environ 100 kg.
+
+| Effort | Fixation | Support | Résultat | Source |
+|---|---|---|---|---|
+| traction | tiges inox M10 scellées au coulis de chaux sur 39 cm | bauge, en laboratoire | 22,9 ± 4,1 kN (environ 2,3 tonnes), 5 essais ; 0,62 ± 0,11 MPa sur la surface du scellement | [6] |
+| traction | vis à béton Hilti HUS3 Ø8, ancrées 65 mm | maçonnerie de briques de terre comprimée | 3,1 à 3,5 kN (environ 310 à 350 kg), 5 essais | [7] |
+| de côté | vis à bois Ø6 × 100 ancrée 80 mm, Ø8 × 160 ancrée 130 mm ; vis à béton cellulaire Ø10 × 160 ancrée 130 mm | blocs de béton de chanvre | 582, 846 et 1 125 N (environ 60, 85 et 115 kg), valeurs caractéristiques (basses, pas des moyennes) | [26] |
+| de côté | barres d'armature Ø6 à Ø10 collées à la résine, ancrées 25 à 75 mm | cubes de pisé de 10 cm (1,4 MPa) | environ 0,3 à 0,6 kN (30 à 60 kg), lus sur les courbes | [29] |
+| de côté et traction | deux consoles sur 4 vis HUS3 Ø8 × 85, charge à 30 cm du mur | maçonnerie de briques de terre comprimée | rupture du support à 330 kg | [7] |
+
+Table: Mesures publiées sur des fixations proches. Les essais de l'ATEx 2911 sont ceux qu'elle rapporte ; elle est échue
+depuis 2023.
+
+Dans les cubes de pisé [29], la fixation est à 5 cm au plus des bords : c'est le cube qui casse, pas un mur. La console
+[7] charge ses vis à la fois de côté et en traction : ce n'est pas une mesure de côté pure. D'autres mesures portent
+sur des chevilles plastiques dans des briques de terre [11], des boulons scellés, dans une norme néo-zélandaise en
+projet [9], et des vis noyées dans de la terre damée fraîche [8]. Un programme de recherche sur l'adobe note que les
 ancrages chargés de côté cèdent progressivement, et ceux tirés dans leur axe brutalement [10].
 
 Nous avons cherché en cinq langues, dans les guides, les règles du bâti en terre, les programmes de recherche et chez
@@ -621,6 +822,11 @@ Table: Marges pratiquées dans des situations voisines, côte à côte, sans cho
 Ces facteurs ne se comparent pas sans dire sur quoi ils portent : essai unique, moyenne ou moyenne des plus faibles ;
 charge d'essai tenue ou rupture.
 
+# Remerciements
+
+Merci à M. A., qui nous a prêté son mur pour ces essais. Merci aussi à toutes celles et ceux qui ont partagé avec nous
+ce qu'ils savent de la bauge.
+
 # Références
 
 Les références complètes, avec leur adresse et leur date de consultation, sont dans la
@@ -632,8 +838,8 @@ Les références complètes, avec leur adresse et leur date de consultation, son
 4. APTE (association d'éco-construction), fiche « Le pisé », rubrique « Fixation dans du pisé ».
 5. Smith M. G., « Structural Considerations for Cob Buildings », questions-réponses, Green Home Building.
 6. Miccoli L., Fontana P., *Bond strength performances of anchor pins for earthen buildings*, SAHC 2014.
-7. CSTB (Centre scientifique et technique du bâtiment), ATEx (appréciation technique d'expérimentation) A n° 2911,
-   cloison en maçonnerie de BTC (blocs de terre comprimée) Cycle Terre, 2021.
+7. CSTB (Centre scientifique et technique du bâtiment), ATEx (appréciation technique d'expérimentation) A n° 2911_V1,
+   cloison en maçonnerie de BTC (blocs de terre comprimée) Cycle Terre, 2021, échue le 10/05/2023 ; essais p. 48–49.
 8. Haußer T., La Magna R., *Horizontal Earth*, IOP Conf. Ser. Earth Environ. Sci. 1554, 2025.
 9. Standards New Zealand, DZ 4297 *Engineering design of earth buildings*, projet du 12/04/2024.
 10. Tolles E. L. *et al.*, *Seismic Stabilization of Historic Adobe Structures*, Getty Conservation Institute, 2000.
@@ -657,3 +863,10 @@ Les références complètes, avec leur adresse et leur date de consultation, son
     fraisée » (fischer.fr).
 24. SECCARO (marque du marchand ecomserv), annonce « Spanplattenschraube Halbrundkopf 6 x 80 mm, Edelstahl V2A VA A2 …
     75 Stück » (« vis à tête demi-ronde 6 × 80 mm, inox A2, 75 pièces »), Kaufland.
+25. CobBauge (programme Interreg France (Manche)-Angleterre), *CobBauge — A guide for builders*, 2023, §8.9 et 8.13.
+26. UBAtc (union belge pour l'agrément technique), ATG 3169, blocs de béton de chanvre IsoHemp, 2026, §7.5 et
+    tableau 5.
+27. CSTB, ATEx n° 3548 V1, cloisons en briques de terre comprimée TERREAL, 2026, §5.10.4.
+28. CSTB, ATEx n° 3509 V2, cloisons en carreaux de terre TERLIAN, 2025, §5.8.
+29. Wolf L. A., Augarde C. E., Jaquin P. A., « Investigating the lateral capacity of wall top fixings in rammed earth
+    materials », dans *Rammed Earth Construction*, CRC Press / Balkema, 2015, p. 181–184.

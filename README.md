@@ -15,7 +15,7 @@ Site : <https://remi.cura.info/renovation-terre-crue/> (français, English)
 
 | Dossier | Sujet | Topic | État / Status |
 |---|---|---|---|
-| [`vis-dans-la-bauge/`](vis-dans-la-bauge/) | Vis dans la bauge : combien tient une vis chargée de côté dans un vieux mur de bauge, et comment la poser | Screws in cob: how much a screw loaded sideways holds in an old cob wall, and how to drive it | cisaillement fait (30/10/2026), arrachement à venir / lateral load done, pull-out to come |
+| [`vis-dans-la-bauge/`](vis-dans-la-bauge/) | Vis dans la bauge : combien tient une vis dans un vieux mur de bauge, de côté et en traction, et comment la poser | Screws in cob: how much a screw holds in an old cob wall, sideways and in pull-out, and how to drive it | de côté (30/10/2026) et en traction (07/11/2026) faits / sideways and pull-out done |
 
 ## Organisation
 

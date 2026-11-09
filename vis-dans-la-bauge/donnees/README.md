@@ -1,16 +1,17 @@
 # Données des essais / Test data
 
-Relevés bruts des essais de cisaillement du 30/10/2026 (vis chargées de côté dans un mur en bauge), caractéristiques
-des vis, couples de pose notés, et grandeurs recalculées par `code/grandeurs.py`. Tous les fichiers sont en UTF-8,
+Relevés bruts des essais de cisaillement du 30/10/2026 (vis chargées de côté dans un mur en bauge) et des essais en
+traction du 07/11/2026 (vis tirées hors du même mur), caractéristiques des vis, couples de pose notés, et grandeurs
+recalculées par `code/grandeurs.py`. Tous les fichiers sont en UTF-8,
 séparateur `;`, nombres au point décimal.
 
-> **En bref** — 8 essais, un seul mur (bauge sèche d'un cabanon de jardin d'au moins 50 ans, Clos Poulain, région de
-> Rennes), un seul jour. Les **efforts** (lus au peson) sont fiables. Les **déplacements** (lus au comparateur) le sont
+> **En bref** — 8 essais de côté et 8 en traction, un seul mur (bauge sèche d'un cabanon de jardin d'au moins 50 ans, Clos Poulain, région de
+> Rennes), deux journées. Les **efforts** (lus au peson) sont fiables. Les **déplacements** (lus au comparateur) le sont
 > moins : le comparateur est porté par la platine de réaction, qui bouge un peu, et sa tige est inclinée de 25 à 45°.
 > Rien ici n'est une valeur admissible ni une caractéristique de la bauge.
 
-*English summary — Raw readings of eight lateral (shear) load tests on screws driven into a dry cob wall, 30 Oct.
-2026; screw data; installation torques; derived quantities. Loads (read on the crane scale) are reliable; displacements (dial gauge
+*English summary — Raw readings of eight lateral (shear) load tests (30 Oct. 2026) and eight pull-out tests
+(7 Nov. 2026) on screws driven into a dry cob wall; screw data; installation torques; derived quantities. Loads (read on the crane scale) are reliable; displacements (dial gauge
 carried by the reaction plate, stem inclined 25–45°) are indicative. Column names are in French; the dictionary below
 gives their meaning.*
 
@@ -18,8 +19,11 @@ gives their meaning.*
 
 - `releves_cisaillement_2026_10_30.csv` — relevés ligne à ligne, tels que notés sur la fiche d'essai, sans retouche
   (y compris les fautes de frappe et les remarques). Une ligne par lecture.
-- `essais.csv` — une ligne par essai : la vis, l'ancrage, la pièce serrée, le pré-trou, l'issue, et le statut des
-  déplacements (ce qui est écarté et pourquoi).
+- `releves_arrachement_2026_11_07.csv` — relevés des essais en traction, une ligne par charge, tels que notés le
+  07/11/2026 avec les précisions de l'auteur du même jour (pré-trous, filet hors de la bauge, longueur notée), sans
+  accents.
+- `essais.csv` — une ligne par essai, de côté (C1 à C8) et en traction (A1 à A8) : la vis, l'ancrage, la pièce serrée,
+  le pré-trou, l'issue, et le statut des déplacements (ce qui est écarté et pourquoi).
 - `vis.csv` — caractéristiques des vis essayées, une ligne par référence achetée, telles que les publient les
   fabricants (agrément ETA-21/0751, brochure et pages produit fischer) ; source, pages et date de consultation par ligne.
 - `couple_pose.csv` — couple de vissage noté à la pose (débrayage de la visseuse), essais des 10/10 et 30/10/2026.
@@ -28,7 +32,8 @@ gives their meaning.*
   résiduels, part rendue à la décharge, raideurs de l'assemblage. Les clés `raideur_…_assemblage_…` (kg/mm) sont
   celles de tout le montage tel que le comparateur le lit (vis, planche, platine de réaction qui recule) : ce n'est
   pas une raideur de la bauge seule. Le papier en tire une fourchette large pour l'assemblage (section « Sous 100 kg,
-  la profondeur change peu ; le diamètre, si »).
+  la profondeur change peu ; le diamètre, si »). Clé `arrachement` : pour chaque essai en traction et chaque longueur
+  de vis dans la bauge, la rupture, sinon la charge la plus haute tenue (un minimum).
 
 ## Dictionnaire des colonnes
 
@@ -55,11 +60,33 @@ suivante repart de zéro si une remise à zéro est notée. Règles complètes :
 
 | Colonne | Sens |
 |---|---|
-| `sollicitation` | `cisaillement` (effort parallèle au mur) ; `arrachement` pour la campagne à venir |
-| `ancrage_bauge_mm` | longueur de vis dans la bauge = longueur − 45 mm de planche ; C8 : toute la vis (tête à fleur de mur). L'épaisseur des planches de chêne n'a pas été mesurée (45 mm supposés) |
+| `sollicitation` | `cisaillement` (effort parallèle au mur) ; `arrachement` (vis tirée dans son axe, hors du mur) |
+| `ancrage_bauge_mm` | longueur de vis dans la bauge = longueur − 45 mm de planche ; C8 : toute la vis (tête à fleur de mur). L'épaisseur des planches de chêne n'a pas été mesurée (45 mm supposés). Arrachement : longueur à la rupture (les charges tenues plus profond sont dans les relevés) |
+| `position` | cisaillement : emplacement autour de la platine de réaction ; arrachement : « — » (tous à ≈ 1,10 m du sol) |
 | `effort_max_kg` | effort le plus haut écrit pour l'essai |
 | `issue` | rupture notée et ses mots, ou « aucune rupture (essai arrêté) » : l'effort de rupture est alors plus haut que `effort_max_kg` |
 | `statut_des_deplacements` | lectures écartées et pourquoi (décision de l'auteur, 31/10/2026) |
+
+### `releves_arrachement_2026_11_07.csv`
+
+| Colonne | Sens |
+|---|---|
+| `essai` | A1 à A8, dans l'ordre où les essais ont été faits |
+| `vis`, `d_mm`, `longueur_mm` | la vis, son diamètre et sa longueur (A8 : longueur non notée) |
+| `pretrou` | `Ø5`, `Ø6 long` (foret long, sur toute la longueur de la vis), `aucun` |
+| `rang` | ordre de la charge dans l'essai |
+| `devisse_mm` | longueur dévissée depuis la pose à fond, cumulée |
+| `air_mm` | filet resté hors de la bauge, là où le mur n'est pas plan |
+| `prof_notee_mm` | longueur de vis dans la bauge notée sur le moment, quand elle l'a été |
+| `F_bas_kg`, `F_haut_kg` | charge lue au peson ; deux valeurs quand elle a été notée en fourchette |
+| `issue` | `tenu` (la vis a tenu au moins quelques secondes) ou `cede` (rupture) |
+| `reglage` | réglage de couple de la visseuse qui tournait la tige filetée (`S1` à `S9`, « max » = débrayage) : il limite l'effort, le peson fait foi |
+| `mode`, `observation` | ce qui a été vu à la rupture (glissement, cône), remarques |
+
+Longueur de vis dans la bauge (`code/grandeurs.py`) = `longueur_mm` − 15 mm pris dans la platine − `devisse_mm` −
+`air_mm`, sauf si `prof_notee_mm` est rempli (A5 à la rupture : 90 mm notés, 85 calculés). A8 : 60 mm notés ; la vis
+n'a que ≈ 50 mm de filet (mesuré sur photo) et seul le filet était dans la bauge (l'auteur, 08/11/2026) : 50 mm
+retenus.
 
 ### `vis.csv`
 
@@ -108,22 +135,18 @@ finie au couple maximal à cause d'un caillou. C'est ce que montre `figures/fig_
 
 ## Ce qui est mesuré, ce qui ne l'est pas
 
-- **Mesuré** : efforts au peson ; déplacements au comparateur (au 1/100 mm, petites lectures notées au 0,1 mm) ;
+- **Mesuré** : efforts au peson (de côté et en traction) ; déplacements au comparateur (au 1/100 mm, petites lectures notées au 0,1 mm) ;
   ruptures et remarques notées sur le moment ; réglage de la visseuse au débrayage.
 - **Écarté** : C1, 1re charge et 2e cycle (une manille frottait sur la platine) ; C7, deux premières lectures (le
   comparateur touchait le peson).
 - **Contexte seulement** : déplacements de C8 (touche sur une tête de vis très petite, trou déjà déformé par C1). Son
   effort (300 kg) est certain ; à l'œil, son déplacement était le plus grand des huit essais, au moins 3 mm à 300 kg.
-- **Non mesuré** : état des vis C2 à C7 au démontage ; angle de la tige du comparateur, essai par essai ; teneur en eau,
+- **Non mesuré** : déplacements en traction (pas de comparateur) ; état des vis C2 à C7 au démontage ; angle de la tige du comparateur, essai par essai ; teneur en eau,
   densité et levée de la bauge ; épaisseur des planches de chêne ; couple de pose à la clé le 30/10 ; effort stabilisé
   à chaque palier (sauf C7 : 174 → 137 kg en 30 s, comparateur immobile à 0,8 mm).
 - **Le mur** : bauge en place, non prélevée ; épaisseur ≥ 45 cm ; protégée par un bardage sur lame d'air, sans signe
-  d'humidité ; très sèche au toucher. Planches à ≈ 1,70 m du sol, platine de réaction à ≈ 1,10 m.
-
-## À venir
-
-La campagne d'arrachement (vis tirées perpendiculairement au mur), prévue début novembre 2026, viendra ici sous le même
-format : `releves_arrachement_<date>.csv`, une ligne par lecture, et ses lignes dans `essais.csv`.
+  d'humidité ; très sèche au toucher. De côté : planches à ≈ 1,70 m du sol, platine de réaction à ≈ 1,10 m.
+  En traction : vis à ≈ 1,10 m du sol, bauge dressée au rabot (5 mm enlevés au plus).
 
 ## Licence
 

@@ -5,6 +5,8 @@
 #   ex. : python3 outils/preparer_photos.py vis-dans-la-bauge <originaux du 30/10/2026> <originaux du 12/10/2026>
 # Les originaux ne sont pas dans le dépôt (ils portent la position GPS). La liste des photos retenues et leurs
 # légendes sont dans <sujet>/photos/legendes.csv (colonne « original ») ; seules ces photos sont écrites.
+# Colonne facultative « recadrage » : « gauche,haut,droite,bas » en fractions de la photo redressée (ex. 0.23,0.18,1,0.8),
+# pour retirer du cadre ce qui ne doit pas être publié (une main, par exemple) ; vide = photo entière.
 # Contrôle ensuite : make verifier (aucune métadonnée ne doit rester).
 
 import csv
@@ -17,9 +19,12 @@ RACINE = pathlib.Path(__file__).resolve().parent.parent
 COTE_MAX = 1600
 
 
-def preparer(source, cible):
+def preparer(source, cible, recadrage=""):
     with Image.open(source) as im:
         im = ImageOps.exif_transpose(im).convert("RGB")
+        if recadrage:
+            g, h, d, b = (float(x) for x in recadrage.split(","))
+            im = im.crop((round(g * im.width), round(h * im.height), round(d * im.width), round(b * im.height)))
         im.thumbnail((COTE_MAX, COTE_MAX), Image.LANCZOS)
         propre = Image.new("RGB", im.size)
         propre.paste(im)                                  # copie des pixels seuls : aucune métadonnée ne suit
@@ -40,7 +45,7 @@ def main():
         if source is None:
             print(f"introuvable : {l['original']}")
             continue
-        preparer(source, photos / l["fichier"])
+        preparer(source, photos / l["fichier"], (l.get("recadrage") or "").strip())
         print(f"{sys.argv[1]}/photos/{l['fichier']}")
 
 

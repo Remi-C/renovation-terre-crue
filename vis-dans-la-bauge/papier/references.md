@@ -31,11 +31,15 @@ en allemand, aussi de leur traduction française. Aucun de ces documents n'est r
 6. Miccoli L., Fontana P., « Bond strength performances of anchor pins for earthen buildings. A comparison between
    earth block masonry, rammed earth and cob », dans Peña F., Chávez M. (dir.), *SAHC 2014, 9th International
    Conference on Structural Analysis of Historical Constructions*, Mexico, 14–17 octobre 2014 (BAM, Berlin ; projet
-   européen NIKER). Actes de la conférence ; copie consultée le 01/11/2026.
+   européen NIKER). Actes de la conférence ; copie consultée le 01/11/2026. Bauge : tiges inox M10 scellées au coulis
+   de chaux sur 390 mm, 22,9 ± 4,1 kN, 0,62 ± 0,11 N/mm² à l'interface (5 essais ; relu le 09/11/2026).
 7. CSTB (Centre scientifique et technique du bâtiment), *Appréciation technique d'expérimentation (ATEx) A n° 2911_V1 —
    Cloison en maçonnerie de BTC Cycle Terre* (BTC : blocs de terre comprimée) [Technical assessment of an experimental
    product (ATEx) A no. 2911_V1 — Cycle Terre compressed earth block masonry partition],
-   document technique du 19/05/2021, §2.2, §4.4.3 et annexe d'essais. Copie consultée le 01/11/2026.
+   document technique du 19/05/2021, §2.2, §4.4.3 et annexe d'essais (PDF p. 48–49 : arrachement de vis HUS3 Ø8
+   ancrées 65 mm, 3,4 / 3,5 / 3,3 / 3,1 / 3,1 kN ; deux consoles sur 4 vis HUS3 Ø8 × 85, charge à 30 cm du parement,
+   rupture du support à 330 kg). Validité du 10/05/2021 au 10/05/2023 : échue ; essais cités comme rapportés par
+   l'ATEx. Copie consultée le 01/11/2026, relue le 09/11/2026.
 8. Haußer T., La Magna R., « Horizontal Earth: A Novel Perspective on the Shear-Bond between Timber and Earth in
    Bending-Stressed Components », *IOP Conference Series: Earth and Environmental Science* 1554 (2025) 012089,
    doi:10.1088/1755-1315/1554/1/012089. <https://publikationen.bibliothek.kit.edu/1000189890/173661750>. Consulté le
@@ -52,7 +56,11 @@ en allemand, aussi de leur traduction française. Aucun de ces documents n'est r
     du bâti en terre).
     <https://www.dachverband-lehm.de/lehm2020_online/pdf/lehm2020_b_roehlen-claytec_de.pdf>. Consulté le 01/11/2026.
     Chevilles plastiques W-UR 8 dans des briques de terre : 1,80 à 4,19 kN, moyenne 2,5 kN ; « Sicherheitsfaktor von
-    5 » (« facteur de sécurité de 5 ») [safety factor of 5].
+    5 » (« facteur de sécurité de 5 ») [safety factor of 5]. P. 3 : tableau du fabricant de chevilles TOX
+    « Haltewerte in Lehmbaustoffen » (« valeurs de tenue dans les matériaux en terre ») [holding values in earth
+    building materials], colonne « Mauerwerk Ziegel + Stampflehm » (« maçonnerie de briques et pisé ») [brick and
+    rammed-earth masonry] : 3 à 15 kg pour des chevilles de 30 à 90 mm, 20 kg pour une cheville chimique (relu dans le
+    document le 09/11/2026).
 12. Würth, avec Claytec, *Befestigungen im Lehmbau* (« Fixations dans la construction en terre ») [Fixings in earth
     building], brochure, 2018.
     <https://media.witglobal.net/stmedia/wuerth/documents/documents/LANG_de/21920230.pdf>. Consulté le 01/11/2026.
@@ -112,3 +120,44 @@ en allemand, aussi de leur traduction française. Aucun de ces documents n'est r
     refuse les outils automatiques et n'a pas été lue. Aucune fiche technique ni valeur mécanique trouvée pour cette
     vis (recherche du 01/11/2026). Vis achetée par l'auteur sur Amazon.fr en octobre 2026 sous le libellé « SECCARO
     75 vis à bois inox A2 6 × 80, tête demi-ronde, filetage complet ».
+
+## Recommandations publiées pour d'autres murs
+
+25. CobBauge (programme Interreg V-A France (Manche)-Angleterre ; université de Plymouth, ESITC Caen, université de
+    Caen), *CobBauge — A guide for builders* [guide pour les constructeurs], 23 p., 01/02/2023, §8.9 p. 20 (« large
+    screws (20cm minimum) » [vis de grande taille (20 cm minimum)], pour fixer portes et fenêtres ; pièces de bois
+    ancrées en queue d'aronde) et §8.13 p. 21 « Secondary Fixings » [fixations secondaires].
+    <http://www.cobbauge.eu/wp-content/uploads/2023/03/CobBauge-Guide-for-Builders_EN-010223.pdf>. Consulté le
+    09/11/2026 (citation relue dans le document).
+26. UBAtc (Union belge pour l'agrément technique dans la construction), opérateurs Buildwise et SECO, *ATG 3169 —
+    Innovative masonry unit: hemp concrete unit ISOHEMP* [élément de maçonnerie innovant : bloc de béton de chanvre
+    ISOHEMP], valable du 06/02/2026 au 05/02/2031, version anglaise, §7.5 p. 10 : vis à bois Ø6, ancrage 7 cm, 5 kg au
+    plus par point ; Ø8, ancrage 95 mm, 10 kg ; scellement chimique, 90 mm, 50 kg. Tableau 5 p. 12, effort latéral,
+    valeurs caractéristiques : vis à bois Ø6 × 100 ancrée 80 mm, 582 N ; Ø8 × 160 ancrée 130 mm, 846 N ; vis à béton
+    cellulaire Ø10 × 160 ancrée 130 mm, 1 125 N. Bloc de 0,20 N/mm² en compression.
+    <https://www.isohemp.com/sites/default/files/2026-02/ATG3169E_0.pdf>. Consulté le 09/11/2026 (relu dans le
+    document).
+27. CSTB (Centre scientifique et technique du bâtiment), *Appréciation technique d'expérimentation de cas a n° 3548_V1*
+    [technical assessment for experimentation no. 3548_V1], cloisons intérieures non porteuses en briques de terre
+    comprimée BTC / BTCS, demandeur TERREAL, valable du 06/02/2026 au 28/02/2028, §5.10.4 « Fixation de charges non
+    structurelles » [fixing non-structural loads], p. 14 du cahier : « Objets > 10 kg : une structure secondaire de
+    fixation doit être utilisée afin de répartir les charges » [objects over 10 kg: a secondary fixing frame must be
+    used to spread the loads]. <https://evaluation.cstb.fr/appreciation-technique-expertise-atex/download/3548-v1>.
+    Consulté le 09/11/2026 (citation relue dans le document).
+28. CSTB, *Appréciation technique d'expérimentation de cas a n° 3509_V2* [technical assessment for experimentation
+    no. 3509_V2], cloisons distributives et contre-cloisons en carreaux de terre TERLIAN hourdés (terre crue, liant
+    hydraulique, chènevotte ; 2,0 MPa), demandeur POINT P, valable jusqu'au 11/07/2027, §5.8 « Fixations » [fixings],
+    p. 26 du cahier : 25 daN au plus par point perpendiculairement à la cloison (arrachement), 50 daN parallèlement
+    (cisaillement) ; chevilles admises à 4,55 et 22,8 daN dans les deux directions.
+    <https://evaluation.cstb.fr/appreciation-technique-expertise-atex/download/3509-v2>. Consulté le 09/11/2026
+    (citation relue dans le document).
+
+## Mesures publiées sur des fixations proches
+
+29. Wolf L. A., Augarde C. E., Jaquin P. A. (université de Durham), « Investigating the lateral capacity of wall top
+    fixings in rammed earth materials » [étude de la capacité latérale des fixations en tête de mur dans le pisé], dans
+    Ciancio D., Beckett C. (dir.), *Rammed Earth Construction: Cutting-Edge Research on Traditional and Modern Rammed
+    Earth*, CRC Press / Balkema, Leiden, 2015, p. 181–184, doi:10.1201/b18046-34.
+    <https://doi.org/10.1201/b18046-34>. Version auteur lue en entier le 09/11/2026. Barres d'armature Ø6, 8 et 10 mm
+    collées à la résine dans des cubes de pisé de 100 mm, ancrées 25 à 75 mm, chargées de côté à 25 à 75 mm du
+    parement ; terre à 2 % de ciment (1,4 MPa) : pics d'environ 280 à 600 N, lus sur les courbes (± 50 N).

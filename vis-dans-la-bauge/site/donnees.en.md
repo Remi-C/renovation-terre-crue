@@ -7,8 +7,10 @@ CC BY 4.0; code under the MIT licence. File and column names are in French; the 
 - [`donnees/releves_cisaillement_2026_10_30.csv`]({{fichier_sujet}}/donnees/releves_cisaillement_2026_10_30.csv):
   readings as written down during the tests, one row per reading (load read on the crane scale, displacement read on
   the dial gauge, remarks).
-- [`donnees/essais.csv`]({{fichier_sujet}}/donnees/essais.csv): one row per test (screw, embedment, board, pilot
-  hole, outcome, discarded readings and why).
+- [`donnees/releves_arrachement_2026_11_07.csv`]({{fichier_sujet}}/donnees/releves_arrachement_2026_11_07.csv):
+  the pull-out tests, one row per load (length backed out, load on the crane scale, held or failed, what was seen).
+- [`donnees/essais.csv`]({{fichier_sujet}}/donnees/essais.csv): one row per test, sideways and pull-out (screw,
+  embedment, clamped piece, pilot hole, outcome, discarded readings and why).
 - [`donnees/vis.csv`]({{fichier_sujet}}/donnees/vis.csv) and
   [`donnees/couple_pose.csv`]({{fichier_sujet}}/donnees/couple_pose.csv): screw data, driving torque noted at
   installation.
@@ -25,6 +27,7 @@ English version (suffix `_en`). From the repository root:
 python3 vis-dans-la-bauge/code/grandeurs.py        # numbers derived from the readings
 python3 vis-dans-la-bauge/code/figures_essais.py   # measurement figures
 python3 vis-dans-la-bauge/code/figure_pre_trou.py  # driving torque and pilot hole
+python3 vis-dans-la-bauge/code/figure_tenue.py     # holding against length, pull-out and sideways
 python3 vis-dans-la-bauge/code/schemas.py          # diagrams
 make construire                                    # all of the above, plus the paper (.docx) and this site
 ```

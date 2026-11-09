@@ -1,0 +1,28 @@
+essai;vis;d_mm;longueur_mm;pretrou;rang;devisse_mm;air_mm;prof_notee_mm;F_bas_kg;F_haut_kg;issue;reglage;mode;observation
+A1;PowerFull II 8x120;8;120;Ø5;1;0;0;;150;200;cede;couple haut 6 a 9;arrachement, feuille de surface;surpris : 300 kg attendus, effort monte vite ; defaut lie a la paille (Remi 07/11)
+A2;PowerFull II 8x120;8;120;aucun;1;0;0;;120;120;tenu;S1;;
+A2;PowerFull II 8x120;8;120;aucun;2;0;0;;150;150;tenu;S1 max;;
+A2;PowerFull II 8x120;8;120;aucun;3;0;0;;160;170;cede;S2;glissement, pas de cone;
+A3;PowerFull II 8x120;8;120;aucun;1;0;0;;120;130;cede;S1;glissement, petit cone de quelques cm;sonne creux sur un cone plus grand
+A4;PowerFull II 10x200;10;200;Ø6 long;1;10;0;;150;150;tenu;S1 max;;vis posee a fond puis devissee de 1 cm
+A4;PowerFull II 10x200;10;200;Ø6 long;2;10;0;;180;180;tenu;S2 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;3;10;0;;230;230;tenu;S3 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;4;10;0;;300;300;tenu;S4 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;5;10;0;;380;380;tenu;S5 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;6;20;0;;150;150;tenu;S5 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;7;20;0;;180;180;tenu;S5 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;8;20;0;;200;200;tenu;S5 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;9;20;0;;300;300;tenu;S6 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;10;20;0;;400;400;tenu;S6 max;;
+A4;PowerFull II 10x200;10;200;Ø6 long;11;30;0;;350;350;tenu;S9;;
+A4;PowerFull II 10x200;10;200;Ø6 long;12;40;0;;320;320;tenu;;;
+A4;PowerFull II 10x200;10;200;Ø6 long;13;50;0;;300;300;tenu;;;
+A4;PowerFull II 10x200;10;200;Ø6 long;14;60;0;;300;300;tenu;;;
+A4;PowerFull II 10x200;10;200;Ø6 long;15;70;0;;220;220;cede;;glissement, pas de cone visible;sonne creux au marteau sur un rayon de 8 cm
+A5;PowerFull II 10x200;10;200;Ø6 long;1;80;0;;150;150;tenu;;;vis posee a fond puis devissee jusqu'a la profondeur visee
+A5;PowerFull II 10x200;10;200;Ø6 long;2;90;0;;160;160;tenu;;;
+A5;PowerFull II 10x200;10;200;Ø6 long;3;100;0;90;130;130;cede;;glissement, cone invisible de rayon 4 cm;
+A6;PowerFull II 10x100;10;100;Ø5;1;0;5;80;100;100;cede;;glissement et cone;nombreux cailloux a cet endroit ; 5 mm de filet dans l'air (bauge non plane)
+A7;PowerFull II 10x100;10;100;Ø5;1;5;0;;100;100;tenu;;;
+A7;PowerFull II 10x100;10;100;Ø5;2;15;0;;70;70;cede;;glissement et cone de rayon 4 cm;
+A8;vis de charpente Ø6 partiellement filetee;6;;aucun;1;0;0;60;56;56;cede;;glissement;filet de 60 mm dans la bauge ; vis autoforeuse non structurelle, type Spax

@@ -1,6 +1,6 @@
 ---
 title: "Screws in cob"
-subtitle: "Can you screw into cob? Which screws, what length, how much they hold sideways. Field report for builders."
+subtitle: "Can you screw into cob? Which screws, what length, how much they hold, sideways and in pull-out. Field report for builders."
 author: "Rémi Cura, PhD — Clos Poulain, near Rennes"
 date: "November 2026 — version 1"
 lang: en
@@ -19,12 +19,19 @@ figures under the CC BY 4.0 licence. Feedback: the GitHub repository's “issues
 - **Sideways (in shear), 300 kg is easily reached.** What matters most is the length of screw in the cob: 200 kg from
   5.5 cm with Ø10 and from 7.5 cm with Ø8; at least 300 kg from 9.5 cm with Ø10; a small Ø6 screw 3.5 cm in already
   holds 40 kg.
-- **These figures hold for a screw fixing a timber batten against the wall**: the batten makes the whole stiffer than
-  a screw alone.
+- **These sideways figures hold for a screw fixing a timber batten against the wall**: the batten makes the whole
+  stiffer than a screw alone.
+- **In pull-out (screw pulled out of the wall), a screw holds less.** A Ø10 gave way at 70 kg 7 cm into the cob, at
+  130 kg at 9 cm, at 220 kg at 11.5 cm; from 12.5 to 17.5 cm, it held 300 to 400 kg. Up to 11.5 cm at least, pull-out
+  is what limits.
+- **How much can you hang on it? We give no safe load**: it depends on too many things (the cob of the wall, how the
+  screw is loaded, knocks, what happens if it gives way). Published texts advise screws of 10 to 20 cm; for other
+  earth walls, they allow 3 to 50 kg per fixing; none gives a load for cob. For more, use more screws, or embed a
+  timber in the cob.
 - **Plan for redundancy**: even if a screw holds 300 kg, spread the load over several screws, so that a local flaw in
   the cob does not compromise the structure.
-- **Limits**: a single wall, of dry cob, one test per configuration. There is no official margin for cob: the paper
-  gives, by analogy, those used elsewhere. Coming next: pull-out (screw pulled along its axis), in November 2026.
+- **Limits**: a single wall, of dry cob, one test per configuration. There is no official margin for cob: for
+  comparison, the paper gives those used elsewhere.
 
 # Why this paper
 
@@ -37,7 +44,8 @@ at his disposal: getting access to an old building to run tests on is not easy. 
 we ask for feedback from those who fix things into earth every day.
 
 A screw is loaded **sideways** (also called “in shear”) when it is pulled parallel to the wall, the way the weight of a
-shelf pulls on its screws; it is loaded in **pull-out** when it is pulled along its axis, out of the wall. We
+shelf pulls on its screws; it is loaded in **pull-out** (in tension) when it is pulled along its axis, out of the
+wall, like the top screws of a bracket. We
 distinguish what is **measured** (read on the crane scale or the dial gauge), **estimated** by the author (by eye or
 from memory), **calculated** from the measurements, and **assumed** (a likely explanation, not checked).
 
@@ -49,15 +57,18 @@ les charges sont faibles et sans trop serrer » [wood screw driven directly into
 wall plugs, as long as the loads are light, and without over-tightening], in a box declared non-normative [1, 2]; the
 one for rammed earth accepts « vissage direct » [direct screwing] for light loads [3]. An eco-building association,
 APTE, advises screws at least 10 to 15 cm deep in rammed earth [4]; an English-speaking cob practitioner, screws of
-12.7 cm or more [5].
+12.7 cm or more [5]; a cob building guide from a European research project, screws of at least 20 cm to fix doors and
+windows [25].
 
-None of these sources gives a load or a diameter. Yet « sans pré-trou » [without a pilot hole] means nothing without a
+None of these sources gives a load or a diameter. For other walls (earth brick, rammed earth, earth tiles, hemp
+blocks), manufacturers and technical approvals give loads per fixing, from 3 to 50 kg [11, 26–28]; none for cob. Yet « sans pré-trou » [without a pilot hole] means nothing without a
 diameter: a 6 mm by 80 mm screw and a 10 mm by 260 mm screw do not drive in the same way at all. We started from this
 principle, screwing directly into the earth, in order to characterise it: how much it holds, at what depth, with what
 diameter, and from when a pilot hole becomes necessary.
 
-**We found no measurement of a screw or a nail installed afterwards in earth and loaded sideways**, after searching in
-five languages; related measurements deal with other fixings (appendix D).
+**We found no measurement of a screw or a nail installed afterwards in earth and loaded sideways, nor of a wood screw
+pulled out of a cob wall**, after searching in five languages; related measurements deal with other fixings
+(appendix D); the closest, sideways, deals with steel bars glued into small rammed earth cubes [29].
 
 # The tests
 
@@ -67,13 +78,17 @@ A cob wall of a garden shed, in place, at least 50 years old, at least 45 cm thi
 sheltered by timber cladding over an air gap, with no sign of damp. The cob is very dry; under a tool, it scratches and
 turns to dust; it contains flint stones. Its moisture content was not measured.
 
-The screws are off-the-shelf wood screws: fischer PowerFull II, 8 and 10 mm in diameter, threaded over almost their
-whole length, with a European approval for use in timber (no approval covers earth) [20], and a 6 mm stainless steel
-screw. Each clamps a 45 mm board (Douglas fir; oak, thickness not noted) against the wall and goes into the cob by its
-length minus the board. The three 260 mm screws isolate the effect of the piece: oak board (C1), Douglas fir board
-(C7), no board (C8, which reuses the screw and the hole of C1, head flush with the wall). Details in appendix A.
+Two days of tests on this wall: sideways on 30 October 2026 (tests C1 to C8), in pull-out on 7 November 2026 (tests
+A1 to A8).
 
-## The test rig
+The screws are off-the-shelf wood screws: fischer PowerFull II, 8 and 10 mm in diameter, threaded over almost their
+whole length, with a European approval for use in timber (no approval covers earth) [20]; sideways, a 6 mm stainless
+steel screw; in pull-out, a 6 mm wood screw threaded over 5 cm. In the sideways tests, each screw clamps a 45 mm board
+(Douglas fir; oak, thickness not noted) against the wall and goes into the cob by its length minus the board. The three
+260 mm screws isolate the effect of the piece: oak board (C1), Douglas fir board (C7), no board (C8, which reuses the
+screw and the hole of C1, head flush with the wall). Details in appendix A.
+
+## The sideways rig
 
 ![Figure 1 — Layout: the test boards fanned out above the reaction plate, pulled downwards, along the wall.](../../figures/fig_implantation_en.png){#fig_implantation}
 
@@ -96,18 +111,34 @@ reading too much into small differences. Discarded:
 the first loading of C1 (a shackle was rubbing) and the movements of C8 (the dial gauge probably slipped on the small
 screw head); the load of C8, on the other hand, is reliable.
 
-## One wall, one day, one test per configuration
+## The pull-out rig
 
-A single wall, dry, a single day (30 October 2026), one test per configuration, short-term loads. Repeated
-measurements would obviously be better. But we found no other measurement of this kind, and these tests are remarkably
-consistent with one another: the four Ø10 screws with a board, 9.5 to 21.5 cm into the cob, all carried 300 kg or
-more; at 100 kg, three Ø10 screws at different depths read the same movement within two hundredths; on reloading,
-three screws read 1.6 to 1.65 mm at 300 kg. With so little variability, these measurements already have value in
-themselves.
+![Figure 3 — The pull-out rig (7 November 2026): the screw holds a steel plate; the chain and crane scale pull it out of the wall through a threaded rod, whose nut sits on a frame bearing on the cob.](../../photos/traction_montage.jpg){#photo_traction_montage}
+
+The cob is planed flat where the screw goes (5 mm removed at most). The screw passes through a steel plate, which takes
+15 mm of it, and goes into the cob. It is pulled along its axis, perpendicular to the wall, by a threaded rod turning
+in a nut; the nut is carried by a frame on four feet bearing on the wall, about ten centimetres from the screw. The same
+1-tonne crane scale is in the chain. No dial gauge: before giving way, the screw moves only a few hundredths of a
+millimetre, below what this equipment reads.
+
+Each screw is driven fully home, then loaded. If it holds, it is backed out by 1 cm and loaded again, until it gives
+way: one screw thus gives several lengths. A load held was held for a few seconds at least; it is a minimum. Only the
+last load of a test is a failure. Pilot holes: 6 mm over the whole length for the Ø10 × 200 screws, 5 mm for the
+Ø10 × 100 screws and for one of the three Ø8; none for the other two Ø8 and for the Ø6.
+
+## One wall, two days, one test per configuration
+
+A single wall, dry, two days (30 October and 7 November 2026), one test per configuration, short-term loads. Repeated
+measurements would obviously be better. But we found no other measurement of this kind, and the sideways tests are
+remarkably consistent with one another: the four Ø10 screws with a board, 9.5 to 21.5 cm into the cob, all carried
+300 kg or more; at 100 kg, three Ø10 screws at different depths read the same movement within two hundredths; on
+reloading, three screws read 1.6 to 1.65 mm at 300 kg. With so little variability, these measurements already have
+value in themselves. In pull-out, the four Ø10 failures fall in order of length; the three Ø8 of the same length gave
+way between 120 and 200 kg.
 
 # Results
 
-## How much it held
+## Sideways: how much it held
 
 | Test | Screw | In the cob | Board | Highest load carried | What happened |
 |---|---|---|---|---|---|
@@ -124,7 +155,7 @@ Table: The eight tests of 30 October 2026. Ø10: screw 10 mm in diameter at the 
 the length (C1, C2, C7); 5 mm over 3.5 cm of cob at most (C3, C4, C5); none (C6). In quotation marks: the words noted
 at the time (translated from French).
 
-![Figure 3 — Highest load per test and what happened. The bars of the screws that did not fail are minimums.](../../figures/fig_efforts_en.png){#fig_efforts}
+![Figure 4 — Highest load per test and what happened. The bars of the screws that did not fail are minimums.](../../figures/fig_efforts_en.png){#fig_efforts}
 
 The Ø10 screws at least 9.5 cm into the cob carried 300 to 350 kg: these are minimums, we stopped before failure, and
 they cannot be ranked against each other. For the short screws, the words noted probably indicate that the screw came
@@ -132,7 +163,7 @@ out of the wall (they were not examined when taken down).
 
 ## Below 100 kg, depth changes little; diameter does
 
-![Figure 4 — First loadings overlaid: movement read against load, for each test.](../../figures/fig_premiere_charge_en.png){#fig_premiere_charge}
+![Figure 5 — First loadings overlaid: movement read against load, for each test.](../../figures/fig_premiere_charge_en.png){#fig_premiere_charge}
 
 Below 100 kg, the Ø10 screws behave the same whatever their depth: at 100 kg, those 5.5, 9.5 and 15.5 cm into the cob
 all read 0.60 to 0.62 mm. Our reading, assumed (appendix B): only the first few centimetres of the screw work
@@ -152,7 +183,7 @@ screw, board and cob together, not that of the cob alone; it rests on fragile di
 
 ## A braked spring
 
-![Figure 5 — Loading and unloading cycles: the board comes back almost entirely when fully unloaded, not at all when unloaded a little.](../../figures/fig_ressort_freine_en.png){#fig_ressort_freine}
+![Figure 6 — Loading and unloading cycles: the board comes back almost entirely when fully unloaded, not at all when unloaded a little.](../../figures/fig_ressort_freine_en.png){#fig_ressort_freine}
 
 - **Unloaded down to zero, the assembly comes back almost entirely**: 94% of the movement (C2, after 315 kg), 81%
   (C7, after 174 kg).
@@ -170,6 +201,58 @@ the photos taken at about 250 kg, a gap opens at the mouth of the hole, on the s
 observation, no scale; photo in appendix B). The hole had already been used for C1. This is the textbook case: in
 practice, a screw always holds something, a steel plate, a stud, a board.
 
+## In pull-out: how much it held
+
+| Test | Screw | Pilot hole | Held (length in the cob: load) | Gave way | What we saw |
+|---|---|---|---|---|---|
+| A7 | PowerFull II Ø10 × 100 | 5 mm | 8 cm: 100 kg | **7 cm: 70 kg** | cone of 4 cm radius |
+| A6 | PowerFull II Ø10 × 100 | 5 mm | — | **8 cm: 100 kg** | cone; many stones |
+| A5 | PowerFull II Ø10 × 200 | 6 mm | 10.5 cm: 150 kg; 9.5 cm: 160 kg | **9 cm: 130 kg** | “invisible cone of 4 cm radius” |
+| A4 | PowerFull II Ø10 × 200 | 6 mm | 17.5 cm: 380 kg; 16.5 cm: 400 kg; 15.5 cm: 350 kg; 14.5 cm: 320 kg; 13.5 and 12.5 cm: 300 kg | **11.5 cm: 220 kg** | no visible cone; the cob sounds hollow over 8 cm radius |
+| A1 | PowerFull II Ø8 × 120 | 5 mm | — | **10.5 cm: 150 to 200 kg** | “pull-out, surface sheet” (straw) |
+| A2 | PowerFull II Ø8 × 120 | none | 10.5 cm: 120 then 150 kg | **10.5 cm: 160 to 170 kg** | no cone |
+| A3 | PowerFull II Ø8 × 120 | none | — | **10.5 cm: 120 to 130 kg** | small cone; sounds hollow further out |
+| A8 | Ø6 wood screw, threaded over 5 cm | none | — | **5 cm: 56 kg** | — |
+
+Table: The eight pull-out tests of 7 November 2026. Each screw is loaded, then backed out by 1 cm as long as it holds.
+“Held”: the highest load held at that length, a minimum. Range: load noted between two values. In quotation marks: the
+words noted at the time (translated from French). Length in the cob: to within 5 mm.
+
+![Figure 7 — After a pull-out failure of a Ø10 × 100 screw (test A6 or A7): the cone of cob torn out around the hole, measured with a rule, and its cracks.](../../photos/traction_cone.jpg){#photo_traction_cone}
+
+- **Every failure is the screw sliding along its thread.** Up to 9 cm, the screw tears out a shallow cone of surface
+  cob, about 4 cm in radius (a few centimetres deep, by eye). Deeper, the cone can no longer be seen, but the cob
+  sounds hollow around the hole, over 8 cm radius for A4. The author thinks the cone is always there, sometimes
+  invisible.
+- **Holding rises fast with length**: a Ø10 gives way at 70 kg at 7 cm, at 100 kg at 8 cm, at 130 kg at 9 cm, at
+  220 kg at 11.5 cm, three times more for 4.5 cm more.
+- **From 12.5 to 17.5 cm, A4 held 300 to 400 kg** without giving way: these are minimums. It then gave way at 11.5 cm.
+- **The three Ø8 screws 10.5 cm in gave way between 120 and 200 kg.** The only one driven with a pilot hole (A1) held
+  no less than the other two.
+- **The Ø6**, in by its 5 cm of thread, gave way at 56 kg (60 mm noted at the time; the screw has only 5 cm of thread,
+  and only the thread was in the cob).
+
+The length in the cob counts the whole screw, tip included. The tip carries little: on the Ø10, the thread is only
+complete 8 or 9 mm from the end, then it is serrated over about 3 cm (read from photos, appendix A).
+
+## By length: sideways and in pull-out
+
+![Figure 8 — How much a screw held against its length in the cob, measured in pull-out (blue) and sideways (orange), and, at the top, the screw lengths advised by published texts. Filled point: the screw gave way; open point with arrow: it held, failure is higher.](../../figures/fig_tenue_longueur_en.png){#fig_tenue_longueur}
+
+The two loadings were tested separately, with two rigs: sideways, the screw clamped a board against the wall; in
+pull-out, it was pulled on its own. The figure puts them side by side; it does not combine them. At the top, the
+lengths advised by published texts (“Recommendations”).
+
+- **Up to 11.5 cm at least, pull-out is the weaker.** 7 to 9 cm in, a Ø10 gives way at 70 to 130 kg in pull-out;
+  sideways, a Ø8 7.5 cm in carried 200 kg, a Ø10 9.5 cm in at least 300 kg.
+- **At 15.5 cm, both exceed 350 kg**: we do not know which is the weaker.
+
+These two figures do not combine into a strength under mixed loading. A screw loaded sideways presses the cob against
+its thread, which probably changes its pull-out strength. And, sideways, the board may pass part of the load into the
+screw as tension: C4 gave way sideways at 200 kg by coming out of the wall (“pull-out”), but what share of those 200 kg
+pulled the screw along its axis, no measurement tells. Going from one test to the other would multiply their
+uncertainties.
+
 ## Driving the screw: torque and pilot hole
 
 Driving a screw takes a twisting effort, the **torque**, in newton-metres (N·m). The **driving limit** used here is
@@ -178,7 +261,7 @@ the torque that breaks the screw, divided by 1.5, the ratio the approval itself 
 clutch slipped, speed not noted, 1st gear assumed; in a wall of the attic (10 October 2026), this ceiling was checked
 with a wrench (appendix C).
 
-![Figure 6 — Driving torque against depth: Ø10 without a pilot hole (attic, measured then extended by calculation), Ø10 and Ø8 with a pilot hole (shed), and the limits of the Ø10.](../../figures/fig_pre_trou_en.png){#fig_pre_trou}
+![Figure 9 — Driving torque against depth: Ø10 without a pilot hole (attic, measured then extended by calculation), Ø10 and Ø8 with a pilot hole (shed), and the limits of the Ø10.](../../figures/fig_pre_trou_en.png){#fig_pre_trou}
 
 - **Ø10 without a pilot hole** (attic, first campaign): the drill-driver stalled at 18–20 N·m at about 10 cm of cob,
   with a screw that was nevertheless shorter than the longest ones at the shed; driving was very hard. If the torque
@@ -195,36 +278,49 @@ with a wrench (appendix C).
 From one campaign to the other (two different walls), the pilot hole clearly reduced the driving torque: it makes it possible to stay within
 the screw manufacturer's recommendations.
 
-## Pull-out: to do (November 2026 campaign)
-
-**To do**: section to be completed after the pull-out campaign of November 2026; no pull-out result is available
-yet.
-
-The short screws probably gave way by coming out of the wall, and a hanger or a cantilevered shelf pulls its screws
-along their axis. For a wood screw driven into cob, we found no pull-out value (related measurements: appendix D). A
-campaign is planned for November 2026; this section will be completed with its results.
-
 # Recommendations
 
-These are the author's advice, drawn from these measurements. They apply to these screws, in this dry cob, loaded
-sideways for a short time, with a piece clamped against the wall. They replace neither a calculation nor a test on your
-wall.
+These are the author's advice, drawn from these measurements. They apply to these screws, in this dry cob, loaded for
+a short time. They replace neither a calculation nor a test on your wall.
+
+## No safe load, but reference points
+
+We give no safe load per screw. What a screw can carry without risk depends on too many things our tests do not
+cover: the cob of your wall (straw, stones, moisture, depth), how the screw is loaded, for how long, knocks, and what
+happens if it gives way. One test per point, on a single wall, gives no safe figure for another wall.
+
+In real life, a screw works both in pull-out and sideways, and we do not know how the two interact in cob. To place a
+fixing against our measurements, the author takes, at the length driven, the weaker of the two strengths: pull-out,
+up to 11.5 cm at least.
+
+## What published texts advise, next to the measurements
+
+Figure 8 sets our measurements under the screw lengths advised by published texts.
+
+- **Length**: those that give one advise screws 10 to 15 cm into rammed earth [4]; in cob, screws of 12.7 cm or more
+  [5], or of 20 cm or more to fix doors and windows, in cob without too many stones [25]. For cob, this is the length
+  of the screw: under a fixed part, the length in the cob is shorter. Our measurements point the same way: in pull-out,
+  the strength rises quickly with length, up to about 12 cm.
+- **Load**: no text gives a load for a screw in cob. For other walls, the loads advised per fixing point stay low: 3
+  to 15 kg for wall plugs of 3 to 9 cm in brick masonry and rammed earth [11]; above 10 kg, a frame that spreads the
+  load, in compressed earth brick partitions [27]; at most 25 kg in pull-out and 50 kg sideways, in cement-stabilised
+  earth tiles [28]; 5 kg on a Ø6 wood screw anchored 7 cm, 10 kg on a Ø8 anchored 9.5 cm, in hemp blocks [26].
+- **Our measurements** are well above: in pull-out, 56 kg for a Ø6 5 cm in, 70 to 220 kg for a Ø10 7 to 11.5 cm in,
+  and no failure beyond 12 cm, up to 400 kg. Neither can be derived from the other: other materials, other fixings,
+  and margins whose basis is not always published.
+
+## For more load
+
+The safest is to use more screws (“Plan for redundancy”, below), or to turn to the traditional structural methods: an
+oak timber of large section embedded in the cob. The cob guide quoted above likewise suggests timber pieces embedded
+during construction, cut with a dovetail shape so they do not pull out of the wall [25].
 
 ## Diameter
 
-- **Ø8** for a few tens of kilos and for hanging non-structural items. 7.5 cm into the cob, it carried 200 kg.
-- **Ø10** above about 40 to 50 kg per screw: at 80 and 100 kg, the Ø8 moved 50 to 70% more (read on the dial gauge,
-  only one Ø8 tested), and it gave way at 200 kg.
-
-## Depth in the cob
-
-- **4 cm: no**, except perhaps for a light frame. The stainless screw 3.5 cm in slipped at 50 kg; in another wall, a
-  6.2 mm structural timber screw 5 cm in developed play under 100 kg, while a Ø10 15 cm in carried the same load with no
-  play. These two short screws were thin: no Ø8 or Ø10 was tested at less than 5.5 cm.
-- **8 cm at the very least; 10 cm preferably**: it is from 9.5 cm that our Ø10 screws carried 300 kg and more.
-- **Longer**: useful to resist pull-out and to get past a local flaw in the cob (a less cohesive pocket). Below
-  100 kg, longer does not make the screw stiffer; stronger sideways, we do not know: no long screw was pushed to
-  failure.
+- **Ø8** for a few tens of kilos and for hanging non-structural items. Sideways, 7.5 cm into the cob, it carried
+  200 kg; in pull-out, 10.5 cm in, it gave way between 120 and 200 kg.
+- **Ø10** above about 40 to 50 kg per screw: at 80 and 100 kg sideways, the Ø8 moved 50 to 70% more (read on the dial
+  gauge, only one Ø8 tested), and it gave way at 200 kg.
 
 ## The pilot hole
 
@@ -232,13 +328,15 @@ What our two campaigns show (results above): the pilot hole clearly reduces the 
 to stay within the screw manufacturer's recommendations. What the author takes from this:
 
 - **Ø6 by 80 to 100 mm**, the usual screw the guides probably have in mind: no need for a pilot hole, for their light
-  loads (under a 45 mm board, only 3.5 to 5.5 cm of cob remains, below our minimum).
+  loads (under a 45 mm board, only 3.5 to 5.5 cm of cob remains; a Ø6 screw 5 cm in gave way at 56 kg in
+  pull-out).
 - **Ø8 by 120 mm**: you can possibly do without one (author's recollection; not measured). **At 160 mm**, the author
   advises a pilot hole: without one, you would quickly run into a problem (author's advice; not measured).
 - **Ø10**: a pilot hole, almost always. Without a pilot hole, driving was very hard from 10 cm; with a 5 or 6 mm pilot
   hole, it almost always stayed at 20 N·m at most down to 21.5 cm, below the screw's driving limit.
 - **Pilot hole diameter**: 5 or 6 mm, we do not know which works better. A pilot hole at least equal to the screw's
-  core (6.2 mm for the Ø10) might ease driving: to be checked during the pull-out campaign. The drill bit suffers in
+  core (6.2 mm for the Ø10) might ease driving: still to be checked. In pull-out, the only Ø8 driven with a 5 mm pilot
+  hole held no less than the two driven without (“In pull-out: how much it held”). The drill bit suffers in
   flint: the 6 mm one had its carbide tip chipped.
 - **If the drill-driver stalls**, back the screw out a little and drive it again, or re-drill, rather than forcing it
   with a wrench: forcing brings the screw closer to breaking in torsion, and a very hard drive loads the screw more than
@@ -249,7 +347,7 @@ in the cob, which pilot hole, from 0 (none) to 5 or 6 mm, keeps driving below th
 only two cases of it, for the Ø10: without a pilot hole, and with 5 or 6 mm. The Ø8 160 mm long without a pilot hole is
 among the first measurements to make.
 
-## Always clamp a piece against the wall
+## Clamping a piece against the wall stiffens it
 
 A screw always holds something. Clamped to the wall by the screw, the board carried 300 kg and more while moving
 little; the screw alone carried as much, but while moving by several millimetres. The piece stops the head from
@@ -264,22 +362,24 @@ Even though a well-embedded Ø10 screw held 300 kg and more, do not let a struct
 uniform: a less dense pocket, a crack, a stone or a damper spot, and the screw that lands there holds much less. You
 cannot see it while driving the screw. Spread the load over several screws, so that the structure still holds if one
 of them is poorly embedded. A screw that goes in too easily, or spins freely at the end of driving, signals a local
-flaw: add another one next to it. For an insulation frame, we plan one screw every 50 cm: each carries little, and
-losing one does not compromise the whole.
+flaw: add another one next to it.
 
 ## And with a steel plate?
 
 A hanger or a fixing plate is the classic case; we did not measure it. A thin plate (at most 5 mm for a Ø10) lets the
 head rotate: we expect a behaviour between the board and the screw alone. A thick plate (at least 10 mm) holds it like
 the board (timber joint rule, appendix B). A hanger carrying a cantilevered joist pulls its screws along their axis:
-that is pull-out.
+that is pull-out, the weaker of the two (“By length: sideways and in pull-out”).
 
 ## What margin to take?
 
-There is no official margin for a fixing in cob: no standard and no guide we have read gives one. We therefore proceed
-by analogy, with what is done for other materials and other fixings. The factor is the ratio between the load that
-causes failure (or the test load held) and the load one allows oneself; from one source to another, it can only be
-compared by saying what it applies to (details in appendix D).
+The safety factor is the ratio between the load that causes failure (or the test load held) and the load one allows
+oneself. It depends on what is fixed (what happens if it falls) and on the risk of impact. It matters all the more in
+cob, a non-uniform material, tested here screw by screw on a single wall.
+
+There is no official margin for a fixing in cob: no standard and no guide we have read gives one. For comparison, here
+is what is done for other materials and other fixings; from one source to another, the factor can only be compared by
+saying what it applies to (details in appendix D).
 
 **In earth**
 
@@ -298,19 +398,30 @@ compared by saying what it applies to (details in appendix D).
 - concrete and masonry, anchors tested on site: **4.7 to 7** on the average of the 5 lowest of 15 tests; **9 to 14**
   for wall plugs without approval or set in the joints [17].
 
-Our tests are one-off and, for the Ø10 screws at least 9.5 cm into the cob, without failure: they are minimums. Going
-from on-site tests to an allowable value requires at least fifteen or so tests [14].
+Our tests are one-off. Sideways, the Ø10 screws at least 9.5 cm into the cob did not fail; in pull-out, neither did
+those more than 12 cm in: these are minimums. Going from on-site tests to an allowable value requires at least fifteen
+or so tests [14].
 
 # Limits and next steps
 
-To the limits already stated (one dry wall, one day, one test per configuration), add: neither moisture content nor
-density measured, the condition of the screws when taken down not noted (except C1, straight or nearly so), and nothing
-on permanent loading over years (earth may compact slowly), on damp cob or on other screws. An on-site test does not
-rank products [15]: this paper does not compare brands. To repeat the test, appendix C says what we would do
-differently.
+To the limits already stated (one dry wall, two days, one test per configuration), add:
 
-Still to be measured: pull-out (November 2026 campaign); the pilot hole needed depending on the screw diameter and the
-depth, including the Ø8 160 mm long without a pilot hole (recommendations, “The pilot hole”).
+- **for all tests**: neither moisture content nor density measured; nothing on permanent loading over years (earth may
+  compact slowly), on damp cob or on other screws; nothing on a screw loaded both sideways and in pull-out;
+- **in pull-out**: only four Ø10 failures; each length tested on a screw already loaded and backed out (A4 carried
+  fourteen loads before giving way); loads held for a few seconds; no movement measured, hence neither stiffness nor
+  creep; tests in November, when the surface cob is probably damper than in summer (assumed).
+
+**Cob varies.** Of some ten holes drilled for these tests, two were badly disturbed by the material (stones, straw),
+according to the author: hence redundancy. The attic cob (appendix C) looks better than the shed's (less visible straw, less
+friable, fewer stones); our figures are therefore probably on the safe side there, without this being checked.
+
+An on-site test does not rank products [15]: this paper does not compare brands. To repeat the tests, appendix C says
+what we would do differently.
+
+Still to be measured: in pull-out, failures beyond 15 cm, on new screws loaded only once; the strength of a screw
+loaded both sideways and in pull-out; another wall, including the attic one; the pilot hole needed depending on the
+screw diameter and the depth, including the Ø8 160 mm long without a pilot hole (recommendations, “The pilot hole”).
 
 This paper is a first milestone. We are looking for feedback from cob craftspeople, from the authors of the
 good-practice guides, and from anyone who has measured or simply observed how a fixing holds in earth: through the
@@ -356,8 +467,13 @@ published”: neither the manufacturer nor the seller gives this value.
   pre-drilling the Ø10 and limits the Ø8 without pre-drilling to 60 mm of thread.
 - **Stainless screw.** SECCARO is a brand sold on online marketplaces (seller ecomserv): we found neither a data sheet
   nor any mechanical value [24]. The screw is known only from its purchase description.
+- **Ø6 screw of the pull-out test (A8).** Good-quality self-drilling wood screw, not structural, brand not noted:
+  threaded over 5 cm from the tip, then 1 cm of twisted flutes and a smooth shank. No published value found.
+- **The tip, read from photos.** The test screws, photographed against a rule on 8 November 2026, to within 1 mm: the
+  PowerFull II Ø10 has a complete thread only 8 or 9 mm from the tip, then a serrated thread up to 35 to 41 mm; the Ø8,
+  a complete thread at about 9 mm, without serrations; the Ø6 of A8, at about 8 mm.
 
-## Driving and embedment, test by test
+## Driving and embedment, test by test (sideways)
 
 | Test | Screw | In the cob | Board | Pilot hole in the cob | Driving: where the drill-driver's clutch slipped |
 |---|---|---|---|---|---|
@@ -391,7 +507,7 @@ This appendix is the most fragile part of the paper. It carries none of the resu
 It offers explanations, each with a diagram and a rule that can be reused elsewhere. We do not fit curves, and we do
 not give the strength of the cob as a value.
 
-![Figure 7 — Three ideas: (a) the screw on an elastic foundation, which bends only over its first few centimetres; (b) the head held by the board, which forces the screw to bend at two places; (c) the rope effect: the bending screw goes into tension and clamps the board to the wall.](../../figures/fig_theorie_en.png){#fig_theorie}
+![Figure 10 — Three ideas: (a) the screw on an elastic foundation, which bends only over its first few centimetres; (b) the head held by the board, which forces the screw to bend at two places; (c) the rope effect: the bending screw goes into tension and clamps the board to the wall.](../../figures/fig_theorie_en.png){#fig_theorie}
 
 ## 1. Only the first few centimetres of the screw work sideways
 
@@ -446,7 +562,7 @@ reloading; reloadings that do not follow the first loading (C2 reloads 1.7 times
 
 ## 5. What remains unexplained
 
-![Figure 8 — Screw C8, without a board, head flush with the wall, loaded at about 250 kg: a cavity opens in the cob above the head, on the side opposite the load. Visual observation, no scale.](../../photos/c8_charge_cavite.jpg){#photo_c8}
+![Figure 11 — Screw C8, without a board, head flush with the wall, loaded at about 250 kg: a cavity opens in the cob above the head, on the side opposite the load. Visual observation, no scale.](../../photos/c8_charge_cavite.jpg){#photo_c8}
 
 - **C8 carried 300 kg without a board.** The calculation for the screw alone with a free head would require an earth
   resisting at least 9 MPa, against 3.5 to 6 MPa for the other tests. Leads, none checked: the free screw also goes
@@ -458,23 +574,29 @@ reloading; reloadings that do not follow the first loading (C2 reloads 1.7 times
 
 ## 6. The steel plate
 
-![Figure 9 — Thin or thick steel plate under the screw head: a thin plate lets the head rotate, a thick plate holds it like the board in the tests.](../../figures/fig_platine_en.png){#fig_platine}
+![Figure 12 — Thin or thick steel plate under the screw head: a thin plate lets the head rotate, a thick plate holds it like the board in the tests.](../../figures/fig_platine_en.png){#fig_platine}
 
 Timber joint design (Eurocode 5) classes a steel plate as thin up to half the screw diameter (the head is not held)
 and as thick from the diameter upwards (the head is held), with a gradual transition between the two [18, 19]. The
 45 mm board in the tests is a thick piece; a 2 to 3 mm plate is thin for a Ø10, it would take 10 mm for it to be thick.
 The friction of metal on cob was not measured. No measurement or rule on a steel plate screwed into earth was found.
 
-## 7. The measurements that would settle it
+## 7. In pull-out: a cone, then the thread?
 
-Take the screws out and look whether they are bent and where, and whether the hole is ovalised; tap the board after a
-full unloading and read the dial gauge again; slip a sliding layer (PTFE film, greased film) between the board and the
-wall to remove the friction; run cycles at increasing load, returning to zero each time; push a Ø10 9.5 cm in and one
-21.5 cm in to failure; take a small sample of cob for its moisture content and density.
+What the failures show: the screw slides along its thread, and the surface cob comes away as a shallow cone, about
+4 cm in radius, sloping much less than 45° (by eye, not measured). The load that makes a Ø10 give way grows faster
+than its length: about 10 kg per centimetre of screw at 7 cm, 19 at 11.5 cm. A grip that is the same all along the
+screw does not explain this.
+
+The author's hypothesis: as long as the screw is short, the cone grows with it, and holding rises fast; from a
+certain length on, the cone stops growing, and each extra centimetre of thread adds a roughly fixed share. That length
+is not observed: the cone can no longer be seen beyond 9 cm, but it may still be there, invisible (A4 sounded hollow
+over 8 cm radius). A cone growing without end describes our four failures just as well: failures beyond 15 cm would be
+needed to tell the two apart. This is why figure 8 draws no curve through the points.
 
 # Appendix C — Raw readings and calibration
 
-## The rig in detail
+## The sideways rig in detail
 
 - Load parallel to the wall: the board is pulled downwards, along the wall, towards the reaction plate.
 - Pulling chain: Dyneema rope loop passed through the board, 1-tonne electronic crane scale, shackles, 12 mm threaded
@@ -526,6 +648,40 @@ Status of the readings, decided by the author:
 - At 100 kg on first loading: 0.60 to 0.62 mm for C2, C3, C4; about 0.53 mm for C8 (context); 1.0 mm for the Ø8 (C5).
 - Below 50 kg, the readings are 0.1 to 0.2 mm: they mostly reflect the reading precision.
 
+## The pull-out rig in detail
+
+- Load perpendicular to the wall, along the screw's axis. Tests about 1.10 m above the ground; cob planed flat where
+  each screw goes (5 mm removed at most).
+- Plate: a length of 2 mm square steel tube, with a much thicker bar welded under it on the wall side; the screw head
+  sits in a partly countersunk seat. The plate takes 15 mm of the screw.
+- Chain: Dyneema rope loop, shackles, 1-tonne electronic crane scale, swivel (so that the scale does not turn), ring,
+  threaded rod.
+- The rod turns in a nut fixed to a frame on four 4 × 4 cm feet, whose centres are 13 cm from the screw (nearest edge
+  about 10 cm). The drill-driver turns the rod; its torque setting limits the load, but its clutch is not repeatable:
+  the crane scale is what counts.
+- The weakened areas found with a hammer extended no more than 8 cm in radius (from memory), inside the frame's feet:
+  we think the frame did not hold back the cone, without having shown it.
+- Length in the cob: screw length, minus 15 mm of plate, minus the length backed out, minus the thread left outside the
+  cob where the wall is not flat (5 mm for A6); read to within 5 mm. When a length was noted at the time, it is the one
+  used (A5 at failure: 90 mm noted, 85 calculated). A8: 50 mm, the length of its thread.
+
+## Readings of 7 November 2026
+
+| Test | Loads, in order (length in the cob: load) |
+|---|---|
+| A1, Ø8 | 10.5 cm: gives way between 150 and 200 kg; “surprised: 300 kg expected, load rises fast” |
+| A2, Ø8 | 10.5 cm: 120 and 150 kg held, then gives way between 160 and 170 kg |
+| A3, Ø8 | 10.5 cm: gives way between 120 and 130 kg |
+| A4, Ø10 | 17.5 cm: 150 · 180 · 230 · 300 · 380 kg held; 16.5 cm: 150 · 180 · 200 · 300 · 400 kg held; 15.5 cm: 350; 14.5 cm: 320; 13.5 cm: 300; 12.5 cm: 300; 11.5 cm: gives way at 220 kg |
+| A5, Ø10 | 10.5 cm: 150 kg held; 9.5 cm: 160 kg held; 9 cm: gives way at 130 kg |
+| A6, Ø10 | 8 cm: gives way at 100 kg |
+| A7, Ø10 | 8 cm: 100 kg held; 7 cm: gives way at 70 kg |
+| A8, Ø6 | 5 cm: gives way at 56 kg |
+
+Table: Readings as noted on 7 November 2026, also in the repository's `vis-dans-la-bauge/donnees/` folder. No screw was
+loaded at its full length: each was driven fully home, then backed out by 1 cm before the first loading (A5: down to
+10.5 cm).
+
 ## Workshop calibration, 8 October 2026
 
 Before the tests, the same rig was tried in the workshop: same Ø10 × 260 screw, same Douglas fir board, same chain;
@@ -567,9 +723,13 @@ What we would do differently:
   distorts a whole loading;
 - loading with the nut means imposing an elongation: note the highest load and the load it settles at;
 - note the speed and the setting of the drill-driver when driving, or better, the torque on a torque wrench;
-- note the condition of the screws after driving and when taken down: driving loads them more than the test does;
 - read small movements to the hundredth, not to the tenth;
-- photograph the mouth of the hole, unloaded then loaded, with a ruler in the frame.
+- photograph the mouth of the hole, unloaded then loaded, with a ruler in the frame;
+- in pull-out, one new screw per length, loaded only once, rather than one screw backed out centimetre by centimetre;
+- record at each failure the radius and depth of the cone, and the area that sounds hollow under a hammer;
+- note each screw's driving torque with a torque wrench, to link driving and holding in the same hole;
+- use a pulling chain whose every part holds more than 400 kg: the rig's M12 eye nut, with a proof load of 347 kg, was
+  taken to 400 kg (no visible deformation).
 
 # Appendix D — State of the art: what is said, and what has been measured elsewhere
 
@@ -581,14 +741,44 @@ cob practitioner advises trying a screw by hand until it gives way, working out 
 doubling that number [5]. In earth bricks and blocks, the other practice dominates, the drilled hole [7, 12, 13]; no
 source read forbids either one.
 
+The CobBauge guide, from a European research project on cob, asks for screws of at least 20 cm to fix doors and
+windows, in cob without too many stones, or timber pieces embedded with a dovetail shape; light earth alone does not
+hold a fixing [25]. It gives no load.
+
+## Loads advised elsewhere
+
+For other walls, technical approvals and manufacturers give loads per fixing point (1 daN, the unit of the technical
+approvals, is about 1 kg):
+
+- **compressed earth brick partitions**: up to 10 kg, set in mortar after core drilling; above, a secondary frame that
+  spreads the load [27];
+- **cement-stabilised earth tiles** (5 cm): at most 25 daN in pull-out and 50 daN sideways per point; the two approved
+  wall plugs are allowed 4.55 and 22.8 daN, the same value in both directions [28];
+- **hemp concrete blocks**, wood screws without plugs: 5 kg for a Ø6 anchored 7 cm, 10 kg for a Ø8 anchored 9.5 cm,
+  50 kg for a chemical anchor [26];
+- **brick masonry and rammed earth**, plastic wall plugs: 3 to 15 kg for plugs of 3 to 9 cm, 20 kg for a chemical plug,
+  values from the plug maker TOX with Claytec, basis not published [11, p. 3].
+
 ## Related measurements
 
-The published measurements we found in earth deal with: rods set in lime mortar and pulled along their axis, in rammed
-earth, cob and blocks [6]; a bracket on four concrete screws in compressed earth blocks, failing at 330 kg [7]; plastic
-wall plugs in earth bricks [11]; grouted bolts, in a draft New Zealand standard [9]; screws embedded in freshly rammed
-earth [8]. The only pull-out measurement found in cob deals with 10 mm rods set in lime mortar over 39 cm, in the
-laboratory: 22.9 kN on average, that is about 2.3 tonnes [6]. A research programme on adobe notes that anchors loaded
-sideways give way gradually, and those pulled along their axis suddenly [10].
+No published measurement we found deals with a wood screw in cob. The closest deal with other fixings or other base
+materials: they are reference points, not values to carry over to cob. One kilonewton (kN) is about 100 kg.
+
+| Loading | Fixing | Base material | Result | Source |
+|---|---|---|---|---|
+| pull-out | M10 stainless rods set in lime grout over 39 cm | cob, in the laboratory | 22.9 ± 4.1 kN (about 2.3 tonnes), 5 tests; 0.62 ± 0.11 MPa over the grouted surface | [6] |
+| pull-out | Hilti HUS3 Ø8 concrete screws, anchored 65 mm | compressed earth block masonry | 3.1 to 3.5 kN (about 310 to 350 kg), 5 tests | [7] |
+| sideways | Ø6 × 100 wood screw anchored 80 mm, Ø8 × 160 anchored 130 mm; Ø10 × 160 aerated-concrete screw anchored 130 mm | hemp concrete blocks | 582, 846 and 1,125 N (about 60, 85 and 115 kg), characteristic values (low values, not averages) | [26] |
+| sideways | Ø6 to Ø10 reinforcing bars glued with resin, anchored 25 to 75 mm | 10 cm rammed earth cubes (1.4 MPa) | about 0.3 to 0.6 kN (30 to 60 kg), read from the curves | [29] |
+| sideways and pull-out | two brackets on 4 HUS3 Ø8 × 85 screws, load 30 cm from the wall | compressed earth block masonry | failure of the base material at 330 kg | [7] |
+
+Table: Published measurements on related fixings. The ATEx 2911 tests are those it reports; it has expired since 2023.
+
+In the rammed earth cubes [29], the fixing is at most 5 cm from the edges: it is the cube that breaks, not a wall. The
+bracket [7] loads its screws both sideways and in pull-out: it is not a pure sideways measurement. Other measurements
+deal with plastic wall plugs in earth bricks [11], grouted bolts in a draft New Zealand standard [9], and screws
+embedded in freshly rammed earth [8]. A research programme on adobe notes that anchors loaded sideways give way
+gradually, and those pulled along their axis suddenly [10].
 
 We searched in five languages, in guides, earth building codes, research programmes and manufacturers' documents;
 several foreign manuals could not be opened.
@@ -615,6 +805,11 @@ Table: Margins used in similar situations, side by side, without choosing.
 These factors cannot be compared without saying what they apply to: a single test, an average or the average of the
 lowest; a test load held or a failure.
 
+# Acknowledgements
+
+Thanks to M. A., who lent us their wall for these tests. Thanks also to everyone who shared with us what they know
+about cob.
+
 # References
 
 The full references, with their address and date of consultation, are in the
@@ -632,7 +827,8 @@ The full references, with their address and date of consultation, are in the
 6. Miccoli L., Fontana P., *Bond strength performances of anchor pins for earthen buildings*, SAHC 2014.
 7. CSTB (Centre scientifique et technique du bâtiment [French building research centre]), ATEx (appréciation
    technique d'expérimentation [technical assessment of an experimental product]) A no. 2911, cloison en maçonnerie
-   de BTC Cycle Terre [Cycle Terre CEB masonry partition] (CEB: compressed earth blocks), 2021.
+   de BTC Cycle Terre [Cycle Terre CEB masonry partition] (CEB: compressed earth blocks), 2021, expired on
+   10/05/2023; tests p. 48–49.
 8. Haußer T., La Magna R., *Horizontal Earth*, IOP Conf. Ser. Earth Environ. Sci. 1554, 2025.
 9. Standards New Zealand, DZ 4297 *Engineering design of earth buildings*, draft of 12/04/2024.
 10. Tolles E. L. *et al.*, *Seismic Stabilization of Historic Adobe Structures*, Getty Conservation Institute, 2000.
@@ -656,3 +852,10 @@ The full references, with their address and date of consultation, are in the
     screw, countersunk head] (Ø8) and « … CTF ø10, tête fraisée » [same, countersunk head] (fischer.fr).
 24. SECCARO (brand of the merchant ecomserv), listing « Spanplattenschraube Halbrundkopf 6 x 80 mm, Edelstahl V2A VA A2 …
     75 Stück » (“round-head chipboard screw 6 × 80 mm, A2 stainless, 75 pieces”), Kaufland.
+25. CobBauge (Interreg France (Channel)-England programme), *CobBauge — A guide for builders*, 2023, §8.9 and 8.13.
+26. UBAtc (Belgian Union for technical approval in construction), ATG 3169, IsoHemp hemp concrete blocks, 2026, §7.5
+    and table 5.
+27. CSTB, ATEx no. 3548 V1, TERREAL compressed earth brick partitions, 2026, §5.10.4.
+28. CSTB, ATEx no. 3509 V2, TERLIAN earth tile partitions, 2025, §5.8.
+29. Wolf L. A., Augarde C. E., Jaquin P. A., “Investigating the lateral capacity of wall top fixings in rammed earth
+    materials”, in *Rammed Earth Construction*, CRC Press / Balkema, 2015, p. 181–184.

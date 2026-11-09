@@ -39,9 +39,13 @@ readings as written down during the tests, one row per reading (load
 read on the crane scale, displacement read on the dial gauge,
 remarks).</li>
 <li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/releves_arrachement_2026_11_07.csv"><code>donnees/releves_arrachement_2026_11_07.csv</code></a>:
+the pull-out tests, one row per load (length backed out, load on the
+crane scale, held or failed, what was seen).</li>
+<li><a
 href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/essais.csv"><code>donnees/essais.csv</code></a>:
-one row per test (screw, embedment, board, pilot hole, outcome,
-discarded readings and why).</li>
+one row per test, sideways and pull-out (screw, embedment, clamped
+piece, pilot hole, outcome, discarded readings and why).</li>
 <li><a
 href="https://github.com/Remi-C/renovation-terre-crue/blob/main/vis-dans-la-bauge/donnees/vis.csv"><code>donnees/vis.csv</code></a>
 and <a
@@ -60,6 +64,7 @@ Each figure script writes the French and the English version (suffix
 <pre><code>python3 vis-dans-la-bauge/code/grandeurs.py        # numbers derived from the readings
 python3 vis-dans-la-bauge/code/figures_essais.py   # measurement figures
 python3 vis-dans-la-bauge/code/figure_pre_trou.py  # driving torque and pilot hole
+python3 vis-dans-la-bauge/code/figure_tenue.py     # holding against length, pull-out and sideways
 python3 vis-dans-la-bauge/code/schemas.py          # diagrams
 make construire                                    # all of the above, plus the paper (.docx) and this site</code></pre>
 <h2 id="figures">Figures</h2>
@@ -107,12 +112,12 @@ pilot hole (attic) and with one (shed), and screw limits.
 (<code>fig_pre_trou_en</code>)</figcaption>
 </figure>
 <figure>
-<img src="../../vis-dans-la-bauge/figures/fig_profondeur_en.svg"
+<img src="../../vis-dans-la-bauge/figures/fig_tenue_longueur_en.svg"
 loading="lazy"
-alt="Sideways load against length of screw in the cob: measurements, and an unmeasured extrapolation. (fig_profondeur_en)" />
-<figcaption aria-hidden="true">Sideways load against length of screw in
-the cob: measurements, and an unmeasured extrapolation.
-(<code>fig_profondeur_en</code>)</figcaption>
+alt="How much a screw held against its length in the cob, measured in pull-out and sideways, and screw lengths advised by published texts. (fig_tenue_longueur_en)" />
+<figcaption aria-hidden="true">How much a screw held against its length
+in the cob, measured in pull-out and sideways, and screw lengths advised
+by published texts. (<code>fig_tenue_longueur_en</code>)</figcaption>
 </figure>
 <figure>
 <img src="../../vis-dans-la-bauge/figures/fig_theorie_en.svg"

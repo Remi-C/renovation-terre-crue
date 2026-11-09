@@ -7,8 +7,10 @@ CC BY 4.0 ; code sous licence MIT.
 - [`donnees/releves_cisaillement_2026_10_30.csv`]({{fichier_sujet}}/donnees/releves_cisaillement_2026_10_30.csv) :
   les relevés tels que notés pendant les essais, une ligne par lecture (effort au peson, déplacement au comparateur,
   remarques).
-- [`donnees/essais.csv`]({{fichier_sujet}}/donnees/essais.csv) : une ligne par essai (vis, ancrage, planche,
-  pré-trou, issue, lectures écartées et pourquoi).
+- [`donnees/releves_arrachement_2026_11_07.csv`]({{fichier_sujet}}/donnees/releves_arrachement_2026_11_07.csv) :
+  les essais en traction, une ligne par charge (longueur dévissée, charge au peson, tenue ou rupture, ce qui a été vu).
+- [`donnees/essais.csv`]({{fichier_sujet}}/donnees/essais.csv) : une ligne par essai, de côté et en traction (vis,
+  ancrage, pièce serrée, pré-trou, issue, lectures écartées et pourquoi).
 - [`donnees/vis.csv`]({{fichier_sujet}}/donnees/vis.csv) et
   [`donnees/couple_pose.csv`]({{fichier_sujet}}/donnees/couple_pose.csv) : caractéristiques des vis, couple de
   vissage noté à la pose.
@@ -25,6 +27,7 @@ version française et la version anglaise (suffixe `_en`). Depuis la racine du d
 python3 vis-dans-la-bauge/code/grandeurs.py        # chiffres tirés des relevés
 python3 vis-dans-la-bauge/code/figures_essais.py   # figures des mesures
 python3 vis-dans-la-bauge/code/figure_pre_trou.py  # couple de pose et pré-trou
+python3 vis-dans-la-bauge/code/figure_tenue.py     # tenue selon la longueur, en traction et de côté
 python3 vis-dans-la-bauge/code/schemas.py          # schémas
 make construire                                    # tout, plus le papier (.docx) et ce site
 ```

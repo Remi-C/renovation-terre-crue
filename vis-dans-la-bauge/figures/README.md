@@ -17,8 +17,8 @@ Chaque puce couvre quatre fichiers : `<id>.png`, `<id>.svg`, `<id>_en.png`, `<id
 - `fig_premiere_charge` — premières charges superposées (`figures_essais.py`).
 - `fig_ressort_freine` — cycles de charge et de décharge (`figures_essais.py`).
 - `fig_pre_trou` — couple de pose selon la profondeur, sans et avec pré-trou, limites de la vis (`figure_pre_trou.py`).
-- `fig_profondeur` — effort de côté selon la longueur de vis dans la bauge : mesures et extrapolation non mesurée,
-  arrêtée à 350 kg (`figure_profondeur.py`) ; sur la page de présentation du sujet.
+- `fig_tenue_longueur` — tenue selon la longueur de vis dans la bauge, en traction et de côté (mesures côte à côte,
+  sans modèle), et longueurs de vis conseillées par les textes (`figure_tenue.py`) ; dans le papier et sur la page de présentation.
 - `fig_theorie` — annexe : appui élastique, tête retenue, effet de corde (`schemas.py`).
 - `fig_platine` — annexe : platine mince ou épaisse sous la tête de vis (`schemas.py`).
 - `README.md` — ce fichier.

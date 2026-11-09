@@ -3,17 +3,17 @@
 
 ordre = 1
 # Scripts de code/ relancés par `make construire`, dans cet ordre, depuis la racine du dépôt.
-scripts = ["grandeurs.py", "figures_essais.py", "figure_pre_trou.py", "figure_profondeur.py", "schemas.py"]
+scripts = ["grandeurs.py", "figures_essais.py", "figure_pre_trou.py", "figure_tenue.py", "schemas.py"]
 
 [fr]
 titre = "Vis dans la bauge"
-accroche = "Peut-on visser dans la bauge ? Quelles vis, quelle longueur, combien ça tient de côté : essais sur un mur existant, avec du matériel courant."
-etat = "Essais de cisaillement faits le 30/10/2026, papier de référence en ligne. Essais d'arrachement à venir (novembre 2026)."
+accroche = "Peut-on visser dans la bauge ? Quelles vis, quelle longueur, combien ça tient, de côté et en traction : essais sur un mur existant, avec du matériel courant."
+etat = "Essais de côté (30/10/2026) et en traction (07/11/2026) faits, papier de référence en ligne ; mesures mises à côté de ce que conseillent les textes, sans charge sûre."
 
 [en]
 titre = "Screws in cob"
-accroche = "Can you screw into cob? Which screws, what length, how much they hold sideways: tests on an existing wall, with ordinary tools."
-etat = "Lateral load tests done on 30 Oct. 2026, reference paper online. Pull-out tests to come (November 2026)."
+accroche = "Can you screw into cob? Which screws, what length, how much they hold, sideways and in pull-out: tests on an existing wall, with ordinary tools."
+etat = "Sideways (30 Oct. 2026) and pull-out (7 Nov. 2026) tests done, reference paper online; measurements set next to what published texts advise, with no safe load."
 
 # Figures du sujet (fichiers figures/<id>.png et .svg, produits par code/) et leur légende sur la page « Données et code ».
 [[figures]]
@@ -47,9 +47,9 @@ fr = "Couple de pose selon la profondeur, sans pré-trou (combles) et avec pré-
 en = "Driving torque versus depth, without a pilot hole (attic) and with one (shed), and screw limits."
 
 [[figures]]
-id = "fig_profondeur"
-fr = "Effort de côté selon la longueur de vis dans la bauge : mesures, et extrapolation non mesurée."
-en = "Sideways load against length of screw in the cob: measurements, and an unmeasured extrapolation."
+id = "fig_tenue_longueur"
+fr = "Tenue mesurée d'une vis selon sa longueur dans la bauge, en traction et de côté, et longueurs de vis conseillées par les textes publiés."
+en = "How much a screw held against its length in the cob, measured in pull-out and sideways, and screw lengths advised by published texts."
 
 [[figures]]
 id = "fig_theorie"
