@@ -1,0 +1,10 @@
+echantillon;mur;profondeur_cm;lieu;outil
+F1;facade_sud;0-5;"façade sud de la maison, partie en bauge, à 1,20 m du sol ; face percée (intérieure ou extérieure) non notée ; perçage arrêté vers 20 cm sur quelque chose de dur";perforateur, mèche creuse Ø 16
+F2;facade_sud;5-10;"façade sud de la maison, partie en bauge, à 1,20 m du sol ; face percée (intérieure ou extérieure) non notée ; perçage arrêté vers 20 cm sur quelque chose de dur";perforateur, mèche creuse Ø 16
+F3;facade_sud;10-15;"façade sud de la maison, partie en bauge, à 1,20 m du sol ; face percée (intérieure ou extérieure) non notée ; perçage arrêté vers 20 cm sur quelque chose de dur";perforateur, mèche creuse Ø 16
+F4;facade_sud;15-20;"façade sud de la maison, partie en bauge, à 1,20 m du sol ; face percée (intérieure ou extérieure) non notée ; perçage arrêté vers 20 cm sur quelque chose de dur";perforateur, mèche creuse Ø 16
+C1;combles;0-5;mur de refend intérieur des combles (ventilés), le mur du premier essai de vis (10/10/2026);visseuse, mèche Ø 10
+C2;combles;5-13;mur de refend intérieur des combles (ventilés), le mur du premier essai de vis (10/10/2026);visseuse, mèche Ø 10
+A1;cabanon;0-10;"mur du cabanon de jardin (local non chauffé, très ventilé), percé depuis l'intérieur ; le mur des essais de vis du 30/10 et du 07/11/2026";perforateur, mèche Ø 10 classique
+A2;cabanon;10-20;"mur du cabanon de jardin (local non chauffé, très ventilé), percé depuis l'intérieur ; le mur des essais de vis du 30/10 et du 07/11/2026";perforateur, mèche Ø 10 classique
+T;temoin;;pot vide, passé par toutes les étapes comme les autres;

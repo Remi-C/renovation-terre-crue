@@ -1,0 +1,299 @@
+{
+  "conventions": {
+    "teneur_en_eau": "w = (E0 − E1) / (E1 − E5), en % de la masse de terre sèche",
+    "sec": "E1",
+    "tare": "E5",
+    "tel_quel": "E0",
+    "isotherme": "désorption de 5 à 90 % d'humidité relative puis courbe de rétention de 93 % à la saturation, pour chacun des deux sols A et B de Phung (2018) ; interpolation linéaire"
+  },
+  "bruit": {
+    "repetabilite_sigma_g": 0.012,
+    "derive_temoin_g": {
+      "E1": -0.004,
+      "E3": 0.024,
+      "E4": 0.056,
+      "E5": 0.033
+    },
+    "entre_series_sigma_g": 0.023,
+    "par_pesee_sigma_g": 0.026
+  },
+  "pots": {
+    "F1": {
+      "mur": "facade_sud",
+      "profondeur_cm": "0-5",
+      "terre_seche_g": 1.31,
+      "eau_g": 0.057,
+      "w_pct": 4.33,
+      "incertitude_pct": 2.82,
+      "hr_pct": {
+        "A": {
+          "centre": 91.3,
+          "basse": 43.9,
+          "haute": 97.4
+        },
+        "B": {
+          "centre": 91.8,
+          "basse": 56.1,
+          "haute": 96.6
+        }
+      }
+    },
+    "F2": {
+      "mur": "facade_sud",
+      "profondeur_cm": "5-10",
+      "terre_seche_g": 2.061,
+      "eau_g": 0.14,
+      "w_pct": 6.79,
+      "incertitude_pct": 1.8,
+      "hr_pct": {
+        "A": {
+          "centre": 97.1,
+          "basse": 93.2,
+          "haute": 98.6
+        },
+        "B": {
+          "centre": 95.9,
+          "basse": 92.7,
+          "haute": 98.3
+        }
+      }
+    },
+    "F3": {
+      "mur": "facade_sud",
+      "profondeur_cm": "10-15",
+      "terre_seche_g": 0.714,
+      "eau_g": 0.029,
+      "w_pct": 4.11,
+      "incertitude_pct": 5.18,
+      "hr_pct": {
+        "A": {
+          "centre": 90.7,
+          "basse": null,
+          "haute": 99.1
+        },
+        "B": {
+          "centre": 91.5,
+          "basse": null,
+          "haute": 99.0
+        }
+      }
+    },
+    "F4": {
+      "mur": "facade_sud",
+      "profondeur_cm": "15-20",
+      "terre_seche_g": 0.511,
+      "eau_g": 0.019,
+      "w_pct": 3.65,
+      "incertitude_pct": 7.23,
+      "hr_pct": {
+        "A": {
+          "centre": 86.1,
+          "basse": null,
+          "haute": 99.8
+        },
+        "B": {
+          "centre": 91.0,
+          "basse": null,
+          "haute": 99.9
+        }
+      }
+    },
+    "C1": {
+      "mur": "combles",
+      "profondeur_cm": "0-5",
+      "terre_seche_g": 12.139,
+      "eau_g": 0.17,
+      "w_pct": 1.4,
+      "incertitude_pct": 0.3,
+      "hr_pct": {
+        "A": {
+          "centre": 41.1,
+          "basse": 33.2,
+          "haute": 49.1
+        },
+        "B": {
+          "centre": 52.9,
+          "basse": 41.1,
+          "haute": 61.6
+        }
+      }
+    },
+    "C2": {
+      "mur": "combles",
+      "profondeur_cm": "5-13",
+      "terre_seche_g": 7.472,
+      "eau_g": 0.133,
+      "w_pct": 1.78,
+      "incertitude_pct": 0.49,
+      "hr_pct": {
+        "A": {
+          "centre": 51.0,
+          "basse": 38.0,
+          "haute": 61.1
+        },
+        "B": {
+          "centre": 63.6,
+          "basse": 48.8,
+          "haute": 76.2
+        }
+      }
+    },
+    "A1": {
+      "mur": "cabanon",
+      "profondeur_cm": "0-10",
+      "terre_seche_g": 12.312,
+      "eau_g": 1.242,
+      "w_pct": 10.09,
+      "incertitude_pct": 0.3,
+      "hr_pct": {
+        "A": {
+          "centre": 99.4,
+          "basse": 99.3,
+          "haute": 99.6
+        },
+        "B": {
+          "centre": 99.8,
+          "basse": 99.5,
+          "haute": 99.8
+        }
+      }
+    },
+    "A2": {
+      "mur": "cabanon",
+      "profondeur_cm": "10-20",
+      "terre_seche_g": 15.767,
+      "eau_g": 0.267,
+      "w_pct": 1.69,
+      "incertitude_pct": 0.23,
+      "hr_pct": {
+        "A": {
+          "centre": 48.8,
+          "basse": 42.7,
+          "haute": 54.2
+        },
+        "B": {
+          "centre": 61.3,
+          "basse": 54.9,
+          "haute": 67.1
+        }
+      }
+    }
+  },
+  "facade_0_20_cm": {
+    "pots": [
+      "F1",
+      "F2",
+      "F3",
+      "F4"
+    ],
+    "terre_seche_g": 4.596,
+    "w_pct": 5.33,
+    "incertitude_pct": 1.61,
+    "hr_pct": {
+      "A": {
+        "centre": 94.0,
+        "basse": 87.3,
+        "haute": 97.2
+      },
+      "B": {
+        "centre": 93.1,
+        "basse": 91.1,
+        "haute": 96.2
+      }
+    }
+  },
+  "facade_0_10_cm": {
+    "pots": [
+      "F1",
+      "F2"
+    ],
+    "terre_seche_g": 3.371,
+    "w_pct": 5.84,
+    "incertitude_pct": 1.55,
+    "hr_pct": {
+      "A": {
+        "centre": 95.1,
+        "basse": 91.2,
+        "haute": 97.6
+      },
+      "B": {
+        "centre": 94.1,
+        "basse": 91.8,
+        "haute": 97.1
+      }
+    }
+  },
+  "ecarts_bruts_g": {
+    "E1_moins_E0": {
+      "F1": -0.057,
+      "F2": -0.14,
+      "F3": -0.029,
+      "F4": -0.019,
+      "C1": -0.17,
+      "C2": -0.133,
+      "A1": -1.242,
+      "A2": -0.267,
+      "T": -0.004
+    },
+    "E2_moins_E1": {
+      "F1": -0.02,
+      "F2": 0.012,
+      "F3": 0.006,
+      "F4": 0.012,
+      "C1": 0.048,
+      "C2": 0.063,
+      "A1": 0.075,
+      "A2": 0.083
+    },
+    "E3_moins_E2": {
+      "F1": 0.02,
+      "F2": -0.077,
+      "F3": -0.09,
+      "F4": -0.075,
+      "C1": 0.03,
+      "C2": -0.003,
+      "A1": -0.013,
+      "A2": -0.013
+    }
+  },
+  "reprise_E2_moins_E1_pct_de_terre_seche": {
+    "F1": -1.53,
+    "F2": 0.58,
+    "F3": 0.84,
+    "F4": 2.35,
+    "C1": 0.4,
+    "C2": 0.84,
+    "A1": 0.61,
+    "A2": 0.53
+  },
+  "pente_isotherme_80_90": {
+    "A": {
+      "w_80_pct": 3.28,
+      "w_90_pct": 3.87,
+      "gain_points": 0.59
+    },
+    "B": {
+      "w_80_pct": 2.44,
+      "w_90_pct": 2.89,
+      "gain_points": 0.45
+    }
+  },
+  "meme_teneur_deux_sols": {
+    "w_pct": 3.0,
+    "hr_pct_sol_A": 75.0,
+    "hr_pct_sol_B": 90.1
+  },
+  "bilan_eau_peau_cabanon": {
+    "hypothese": "masse volumique sèche supposée, non mesurée ; épaisseur de la peau prise égale à la tranche A1 (10 cm)",
+    "rho_sec_kg_m3": {
+      "bas": 1500.0,
+      "central": 1700.0,
+      "haut": 1800.0
+    },
+    "eau_en_exces_kg_par_m2": {
+      "bas": 12.6,
+      "central": 14.3,
+      "haut": 15.1
+    }
+  }
+}

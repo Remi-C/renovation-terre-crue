@@ -1,0 +1,91 @@
+sol;serie;hr_pct;w_pct;source
+A;sorption;5;0.2;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;10;0.29;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;15;0.46;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;20;0.59;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;25;0.72;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;30;0.85;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;35;0.97;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;40;1.1;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;45;1.24;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;50;1.39;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;55;1.55;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;60;1.74;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;65;1.96;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;70;2.22;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;75;2.53;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;80;2.9;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;85;3.36;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;sorption;90;3.87;Phung 2018, annexe 4, colonne 1 % de fibre, sorption
+A;desorption;90;3.87;Phung 2018, annexe 4 : la désorption part du point de fin de sorption (90 %)
+A;desorption;85;3.59;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;80;3.28;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;75;3.0;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;70;2.74;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;65;2.49;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;60;2.22;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;55;1.96;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;50;1.74;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;45;1.54;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;40;1.36;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;35;1.18;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;30;0.95;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;25;0.8;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;20;0.67;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;15;0.52;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;10;0.37;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;desorption;5;0.2;Phung 2018, annexe 4, colonne 1 % de fibre, désorption
+A;retention;99.827;11.0;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;99.037;9.19;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;97;6.68;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;93;4.89;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;86;3.8;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;66;2.52;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;56;1.89;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;32;0.62;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+A;retention;9;0.38;Phung 2018, annexe 2, colonne 1 %-Paille (courbe de rétention en séchage)
+B;sorption;5;0.21;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;10;0.31;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;15;0.42;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;20;0.52;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;25;0.62;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;30;0.72;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;35;0.81;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;40;0.9;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;45;1.0;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;50;1.1;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;55;1.21;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;60;1.34;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;65;1.49;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;70;1.66;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;75;1.88;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;80;2.14;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;85;2.48;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;sorption;90;2.89;Phung 2018, annexe 5, colonne 1 % de fibre, sorption
+B;desorption;90;2.89;Phung 2018, annexe 5 : la désorption part du point de fin de sorption (90 %)
+B;desorption;85;2.67;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;80;2.44;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;75;2.23;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;70;2.04;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;65;1.84;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;60;1.64;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;55;1.46;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;50;1.32;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;45;1.19;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;40;1.07;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;35;0.95;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;30;0.81;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;25;0.7;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;20;0.6;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;15;0.48;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;10;0.35;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;desorption;5;0.21;Phung 2018, annexe 5, colonne 1 % de fibre, désorption
+B;retention;99.987;12.5;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;99.827;10.06;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;97;7.34;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;93;5.26;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;86;3.53;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;66;2.46;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;56;1.87;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;32;1.18;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)
+B;retention;9;1.02;Phung 2018, annexe 3, colonne 1 %-Paille (courbe de rétention en séchage)

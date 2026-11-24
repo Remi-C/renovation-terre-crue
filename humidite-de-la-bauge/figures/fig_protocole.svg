@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="572.4pt" height="202.896pt" viewBox="0 0 572.4 202.896" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 202.896 
+L 572.4 202.896 
+L 572.4 -0 
+L 0 -0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 16.263959 98.989357 
+L 74.613198 98.989357 
+Q 79.145178 98.989357 79.145178 92.432974 
+L 79.145178 28.508243 
+Q 79.145178 21.951861 74.613198 21.951861 
+L 16.263959 21.951861 
+Q 11.73198 21.951861 11.73198 28.508243 
+L 11.73198 92.432974 
+Q 11.73198 98.989357 16.263959 98.989357 
+z
+" clip-path="url(#pe4cf1e5ea0)" style="fill: #dfe9f5; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 112.568528 98.989357 
+L 170.917766 98.989357 
+Q 175.449746 98.989357 175.449746 92.432974 
+L 175.449746 28.508243 
+Q 175.449746 21.951861 170.917766 21.951861 
+L 112.568528 21.951861 
+Q 108.036548 21.951861 108.036548 28.508243 
+L 108.036548 92.432974 
+Q 108.036548 98.989357 112.568528 98.989357 
+z
+" clip-path="url(#pe4cf1e5ea0)" style="fill: #f6cdb4; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 208.873096 98.989357 
+L 267.222335 98.989357 
+Q 271.754315 98.989357 271.754315 92.432974 
+L 271.754315 28.508243 
+Q 271.754315 21.951861 267.222335 21.951861 
+L 208.873096 21.951861 
+Q 204.341117 21.951861 204.341117 28.508243 
+L 204.341117 92.432974 
+Q 204.341117 98.989357 208.873096 98.989357 
+z
+" clip-path="url(#pe4cf1e5ea0)" style="fill: #f3e6d6; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 305.177665 98.989357 
+L 363.526904 98.989357 
+Q 368.058883 98.989357 368.058883 92.432974 
+L 368.058883 28.508243 
+Q 368.058883 21.951861 363.526904 21.951861 
+L 305.177665 21.951861 
+Q 300.645685 21.951861 300.645685 28.508243 
+L 300.645685 92.432974 
+Q 300.645685 98.989357 305.177665 98.989357 
+z
+" clip-path="url(#pe4cf1e5ea0)" style="fill: #f6cdb4; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 401.482234 98.989357 
+L 459.831472 98.989357 
+Q 464.363452 98.989357 464.363452 92.432974 
+L 464.363452 28.508243 
+Q 464.363452 21.951861 459.831472 21.951861 
+L 401.482234 21.951861 
+Q 396.950254 21.951861 396.950254 28.508243 
+L 396.950254 92.432974 
+Q 396.950254 98.989357 401.482234 98.989357 
+z
+" clip-path="url(#pe4cf1e5ea0)" style="fill: #dfe9f5; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 497.786802 98.989357 
+L 556.136041 98.989357 
+Q 560.66802 98.989357 560.66802 92.432974 
+L 560.66802 28.508243 
+Q 560.66802 21.951861 556.136041 21.951861 
+L 497.786802 21.951861 
+Q 493.254822 21.951861 493.254822 28.508243 
+L 493.254822 92.432974 
+Q 493.254822 98.989357 497.786802 98.989357 
+z
+" clip-path="url(#pe4cf1e5ea0)" style="fill: #f6cdb4; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="45.438579" y="44.478431" transform="rotate(-0 45.438579 44.478431)">E0</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="45.438579" y="74.712361" transform="rotate(-0 45.438579 74.712361)">tel quel</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="45.438579" y="112.503741" transform="rotate(-0 45.438579 112.503741)">pot froid</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 81.714263 60.470609 
+Q 93.590787 60.470609 104.349278 60.470609 
+" style="fill: none; stroke: #8a8984; stroke-linecap: round"/>
+    <path d="M 100.349278 58.470609 
+L 104.349278 60.470609 
+L 100.349278 62.470609 
+z
+" style="fill: #8a8984; stroke: #8a8984; stroke-linecap: round"/>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #8a8984" transform="translate(80.869144 42.261703)">four 1 h</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #8a8984" transform="translate(82.460121 50.062972)">130 °C</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="141.743147" y="44.478431" transform="rotate(-0 141.743147 44.478431)">E1</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(116.529671 70.061336)">sortie de four</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(118.630843 79.363387)">1er séchage</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="141.743147" y="112.503741" transform="rotate(-0 141.743147 112.503741)">pot chaud</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 178.018832 60.470609 
+Q 189.895356 60.470609 200.653846 60.470609 
+" style="fill: none; stroke: #8a8984; stroke-linecap: round"/>
+    <path d="M 196.653846 58.470609 
+L 200.653846 60.470609 
+L 196.653846 62.470609 
+z
+" style="fill: #8a8984; stroke: #8a8984; stroke-linecap: round"/>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="238.047716" y="44.478431" transform="rotate(-0 238.047716 44.478431)">E2</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="238.047716" y="74.862361" transform="rotate(-0 238.047716 74.862361)">30 min après</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="238.047716" y="112.783741" transform="rotate(-0 238.047716 112.783741)">pot tiède</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 274.3234 60.470609 
+Q 286.199925 60.470609 296.958415 60.470609 
+" style="fill: none; stroke: #8a8984; stroke-linecap: round"/>
+    <path d="M 292.958415 58.470609 
+L 296.958415 60.470609 
+L 292.958415 62.470609 
+z
+" style="fill: #8a8984; stroke: #8a8984; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="286.2" y="50.713607" transform="rotate(-0 286.2 50.713607)">four</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="334.352284" y="44.478431" transform="rotate(-0 334.352284 44.478431)">E3</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(309.138808 70.061336)">sortie de four</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(312.781581 79.363387)">2e séchage</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="334.352284" y="112.503741" transform="rotate(-0 334.352284 112.503741)">pot chaud</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 370.627969 60.470609 
+Q 382.504493 60.470609 393.262983 60.470609 
+" style="fill: none; stroke: #8a8984; stroke-linecap: round"/>
+    <path d="M 389.262983 58.470609 
+L 393.262983 60.470609 
+L 389.262983 62.470609 
+z
+" style="fill: #8a8984; stroke: #8a8984; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #8a8984" transform="translate(373.246131 42.261195)">vider,</text>
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; fill: #8a8984" transform="translate(373.083123 50.062972)">rincer</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="430.656853" y="44.478431" transform="rotate(-0 430.656853 44.478431)">E4</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(405.119939 70.211336)">pot vide lavé,</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(417.538884 79.513387)">essuyé</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="430.656853" y="112.503741" transform="rotate(-0 430.656853 112.503741)">pot froid</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 466.932537 60.470609 
+Q 478.809062 60.470609 489.567552 60.470609 
+" style="fill: none; stroke: #8a8984; stroke-linecap: round"/>
+    <path d="M 485.567552 58.470609 
+L 489.567552 60.470609 
+L 485.567552 62.470609 
+z
+" style="fill: #8a8984; stroke: #8a8984; stroke-linecap: round"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 6.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="478.809137" y="50.713607" transform="rotate(-0 478.809137 50.713607)">four</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #0b0b0b" x="526.961421" y="44.478431" transform="rotate(-0 526.961421 44.478431)">E5</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(501.424507 70.211336)">pot vide lavé,</text>
+    <text style="font-size: 7.5px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(501.36357 79.513387)">séché au four</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #8a8984" x="526.961421" y="112.503741" transform="rotate(-0 526.961421 112.503741)">pot chaud</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(82.502913 144.347242)">ordre : T A2 A1 C2 C1 F4 F3 F2 F1</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(91.967132 153.029156)">11h50 → 12h20 (série lente)</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(275.11205 144.347242)">ordre : F4 F3 F2 F1 C1 C2 A1 A2 T</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(286.158378 153.029156)">(série rapide, fond des pots</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(286.849081 161.71107)">refroidi à l'éponge humide)</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(495.068218 144.347242)">sur un intercalaire</text>
+    <text style="font-size: 7px; font-family: 'DejaVu Sans'; fill: #0b0b0b" transform="translate(495.822359 153.029156)">d'environ 5 g taré</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe4cf1e5ea0">
+   <rect x="7.2" y="7.2" width="558" height="188.496"/>
+  </clipPath>
+ </defs>
+</svg>

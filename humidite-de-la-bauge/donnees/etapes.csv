@@ -1,0 +1,7 @@
+etape;libelle;four;conditions_pesee;etat_thermique_pot;ordre_de_pesee
+E0;tel quel;;température ambiante, environ 15 °C;froid;
+E1;sortie de four, premier séchage;1 h à 130 °C, chaleur tournante;"série de 30 min (11h50-12h20) dans l'ordre du croquis ; les pots refroidissent et peuvent reprendre de l'humidité pendant la série ; la chaleur des pots dérègle la balance";chaud, décroissant avec le rang;T A2 A1 C2 C1 F4 F3 F2 F1
+E2;30 min après E1, avant reséchage;;toute la série repesée rapidement environ 30 min après E1, avant de remettre au four, pour avoir des pesées proches dans le temps et sans l'étalement de E1 (ordre non noté);refroidi, à peu près le même pour tous;
+E3;sortie de four, deuxième séchage;reséché au four;série rapide : fond des pots refroidi à l'éponge humide, pesées très brèves, balance recalibrée souvent et plateau essuyé à l'éponge humide;chaud, décroissant avec le rang;F4 F3 F2 F1 C1 C2 A1 A2 T
+E4;pot vide lavé, essuyé;;pots vidés, rincés, séchés au papier absorbant;froid;
+E5;pot vide lavé puis séché au four;séché au four;"pesée sur un intercalaire d'environ 5 g taré, pour isoler la balance de la chaleur du pot (Rémi ; la fiche porte « 1,5 g »)";chaud, isolé du plateau;

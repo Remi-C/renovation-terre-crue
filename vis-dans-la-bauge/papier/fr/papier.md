@@ -30,7 +30,7 @@ figures sous licence CC BY 4.0. Retours : les « issues » du dépôt GitHub.
   multiplier les vis, ou noyer une pièce de bois dans la bauge.
 - **Prévoir de la redondance** : même si une vis tient 300 kg, répartir la charge sur plusieurs vis, pour qu'un défaut
   local de la bauge ne compromette pas l'ouvrage.
-- **Limites** : un seul mur, de bauge sèche, un essai par configuration. Il n'existe pas de marge officielle pour la
+- **Limites** : un seul mur, un essai par configuration. Il n'existe pas de marge officielle pour la
   bauge : le papier donne, pour comparer, celles qu'on pratique ailleurs.
 
 # Pourquoi ce papier
@@ -77,8 +77,10 @@ pisé [29].
 ## Le mur et les vis
 
 Un mur en bauge d'un cabanon de jardin, en place, vieux d'au moins 50 ans, épais d'au moins 45 cm. Il est
-abrité depuis longtemps par un bardage en bois sur lame d'air, sans signe d'humidité. La bauge est très sèche ; sous
-l'outil, elle se raye et part en poussière ; elle contient des cailloux de silex. Sa teneur en eau n'a pas été mesurée.
+abrité depuis longtemps par un bardage en bois sur lame d'air, sans signe d'humidité. La bauge paraît très sèche ; sous
+l'outil, elle se raye et part en poussière ; elle contient des cailloux de silex. Sa teneur en eau, mesurée par étuvage le 17 novembre 2026 depuis l'intérieur du cabanon (sujet
+[« Humidité de la bauge »](https://remi.cura.info/renovation-terre-crue/humidite-de-la-bauge/)), est de 10 % dans les 10 premiers centimètres et de
+1,7 % de 10 à 20 cm ; dans les combles (annexe C), de 1,4 à 1,8 %.
 
 Deux journées d'essais sur ce mur : de côté le 30 octobre 2026 (essais C1 à C8), en traction le 7 novembre 2026
 (essais A1 à A8).
@@ -132,7 +134,7 @@ minimum. Seule la dernière charge d'un essai est une rupture. Pré-trous : 6 mm
 
 ## Un mur, deux journées, un essai par configuration
 
-Un seul mur, sec, deux journées (30 octobre et 7 novembre 2026), un essai par configuration, des charges de courte
+Un seul mur, deux journées (30 octobre et 7 novembre 2026), un essai par configuration, des charges de courte
 durée. Des mesures répétées vaudraient évidemment mieux. Mais nous n'avons trouvé aucune autre mesure de ce genre, et
 les essais de côté sont remarquablement cohérents entre eux : les quatre Ø10 avec planche entrées de 9,5 à 21,5 cm ont
 toutes porté 300 kg ou plus ; à 100 kg, trois Ø10 de profondeurs différentes lisent le même déplacement à deux
@@ -242,6 +244,10 @@ valeurs. Entre guillemets : les mots notés sur le moment. Longueur dans la baug
 La longueur dans la bauge compte toute la vis, pointe comprise. La pointe porte peu : sur la Ø10, le filet n'est
 complet qu'à 8 ou 9 mm du bout, puis il est denté sur 3 cm environ (lu sur photo, annexe A).
 
+La surface a cédé facilement (cônes, « feuille de surface » arrachée, bauge qui sonne creux). Sur ce mur, la peau
+de bauge très humide (10 % d'eau sur les 10 premiers centimètres) pourrait peser significativement sur la tenue,
+surtout en traction et pour les vis courtes ; ce n'est pas vérifié.
+
 ## Selon la longueur : de côté et en traction
 
 ![Figure 10 — Tenue mesurée d'une vis selon sa longueur dans la bauge, en traction (bleu) et de côté (orange), et, en haut, les longueurs de vis conseillées par les textes publiés. Point plein : la vis a cédé ; point vide et flèche : elle a tenu, la rupture est plus haut.](../../figures/fig_tenue_longueur.png){#fig_tenue_longueur}
@@ -286,7 +292,7 @@ du fabricant de la vis.
 
 # Recommandations
 
-Ce sont les conseils de l'auteur, tirés de ces mesures. Ils valent pour ces vis, dans cette bauge sèche, chargées
+Ce sont les conseils de l'auteur, tirés de ces mesures. Ils valent pour ces vis, dans cette bauge, chargées
 pendant peu de temps. Ils ne remplacent ni un calcul ni un essai sur votre mur.
 
 ## Pas de charge sûre, mais des repères
@@ -414,9 +420,9 @@ une quinzaine d'essais [14].
 
 # Limites et suite
 
-Aux limites déjà dites (un mur sec, deux journées, un essai par configuration), s'ajoutent :
+Aux limites déjà dites (un seul mur, deux journées, un essai par configuration), s'ajoutent :
 
-- **pour tous les essais** : ni teneur en eau ni densité mesurées ; rien sur la charge permanente pendant des années (la
+- **pour tous les essais** : densité non mesurée, teneur en eau mesurée dix jours après seulement ; rien sur la charge permanente pendant des années (la
   terre peut se tasser lentement), sur une bauge humide ou sur d'autres vis ; rien sur une vis chargée à la fois de côté
   et en traction ;
 - **en traction** : quatre ruptures Ø10 seulement ; chaque longueur essayée sur une vis déjà chargée et dévissée (A4 a

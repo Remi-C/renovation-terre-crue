@@ -1,0 +1,41 @@
+# Description du sujet « Humidité de la bauge », lue par outils/construire.py pour l'accueil du site et les pages du sujet.
+
+ordre = 2
+# Scripts de code/ relancés par `make construire`, dans cet ordre, depuis la racine du dépôt.
+scripts = ["grandeurs.py", "figures_humidite.py"]
+
+[fr]
+titre = "Humidité de la bauge"
+accroche = "Quelle eau contient un vieux mur de bauge ? Des prélèvements pesés avant et après séchage au four : une peau mouillée sur un cœur sec, et ce que cela change avant d'isoler."
+etat = "Première campagne faite (17-18/11/2026) : neuf prélèvements dans trois murs ; mesure, interprétation et conséquences pour l'isolation en trois parties ; pas d'isotherme mesurée, pas de répétition."
+
+[en]
+titre = "Moisture in cob"
+accroche = "What water does an old cob wall hold? Samples weighed before and after oven-drying: a wet skin on a dry core, and what that changes before insulating."
+etat = "First campaign done (17-18 Nov. 2026): nine samples from three walls; measurement, interpretation and consequences for insulation in three parts; no isotherm measured, no repetition."
+
+# Figures du sujet (fichiers figures/<id>.png et .svg, produits par code/) et leur légende sur la page « Données et code ».
+[[figures]]
+id = "fig_protocole"
+fr = "Les six pesées de chaque pot, dans l'ordre chronologique du 18/11/2026, et l'ordre de pesée des deux séries de sortie de four."
+en = "The six weighings of each pot, in chronological order on 18 Nov. 2026, and the weighing order of the two out-of-oven series."
+
+[[figures]]
+id = "fig_ecarts"
+fr = "Différences de masse entre pesées successives, telles que lues, sans correction."
+en = "Mass differences between successive weighings, as read, with no correction."
+
+[[figures]]
+id = "fig_bruit"
+fr = "Incertitude de la teneur en eau due aux seules pesées, selon la terre sèche du pot."
+en = "Uncertainty of the water content due to weighing alone, against the dry earth in the pot."
+
+[[figures]]
+id = "fig_profils"
+fr = "Teneur en eau selon la profondeur, par mur, avec les repères de la littérature."
+en = "Water content against depth, per wall, with literature reference points."
+
+[[figures]]
+id = "fig_isotherme"
+fr = "Teneur en eau selon l'humidité relative d'équilibre, pour deux sols de bauge publiés, et teneurs mesurées reportées dessus."
+en = "Water content against equilibrium relative humidity, for two published cob soils, with the measured contents drawn on them."

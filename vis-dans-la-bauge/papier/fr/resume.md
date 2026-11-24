@@ -4,7 +4,7 @@ Rémi Cura, docteur — Clos Poulain, région de Rennes — novembre 2026
 
 **La question.** Peut-on visser dans la bauge ? Les guides de la construction en terre crue disent oui, pour des
 charges faibles, mais sans détail : ni diamètre, ni longueur, ni charge. Nous avons fait des essais sur un mur de bauge
-ancien et sec, avec du matériel courant, pour donner ces repères aux artisans.
+ancien, avec du matériel courant, pour donner ces repères aux artisans.
 
 **Ce qu'on a trouvé.** Avec des vis de charpente à filetage total, de qualité, en diamètre 8 et 10 mm, on atteint
 facilement 300 kg de côté (en cisaillement) : 200 kg dès 5,5 cm de vis dans la bauge en Ø10, au moins 300 kg dès

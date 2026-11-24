@@ -77,7 +77,7 @@ Les deux façons de charger ont été essayées séparément : la figure les met
 
 ![Le mur d'essai : la bauge d'un cabanon de jardin d'au moins 50 ans.](../photos/mur_vue_ensemble.jpg)
 
-Un seul mur, de bauge sèche, et un essai par configuration ; des charges tenues peu de temps, rien sur la durée ni sur
+Un seul mur et un essai par configuration ; des charges tenues peu de temps, rien sur la durée ni sur
 une bauge humide. Ce sont des repères à vérifier sur votre mur, pas des valeurs de calcul.
 
 ## Pour aller plus loin

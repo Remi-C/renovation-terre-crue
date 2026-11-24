@@ -30,7 +30,7 @@ figures under the CC BY 4.0 licence. Feedback: the GitHub repository's “issues
   timber in the cob.
 - **Plan for redundancy**: even if a screw holds 300 kg, spread the load over several screws, so that a local flaw in
   the cob does not compromise the structure.
-- **Limits**: a single wall, of dry cob, one test per configuration. There is no official margin for cob: for
+- **Limits**: a single wall, one test per configuration. There is no official margin for cob: for
   comparison, the paper gives those used elsewhere.
 
 # Why this paper
@@ -75,8 +75,10 @@ pulled out of a cob wall**, after searching in five languages; related measureme
 ## The wall and the screws
 
 A cob wall of a garden shed, in place, at least 50 years old, at least 45 cm thick. It has long been
-sheltered by timber cladding over an air gap, with no sign of damp. The cob is very dry; under a tool, it scratches and
-turns to dust; it contains flint stones. Its moisture content was not measured.
+sheltered by timber cladding over an air gap, with no sign of damp. The cob looks very dry; under a tool, it scratches and
+turns to dust; it contains flint stones. Its moisture content, measured by oven-drying on 17 November 2026 from inside the shed (topic
+["Moisture in cob"](https://remi.cura.info/renovation-terre-crue/en/humidite-de-la-bauge/)), is 10 % in the first 10 cm and 1.7 % from 10 to
+20 cm; in the attic (appendix C), 1.4 to 1.8 %.
 
 Two days of tests on this wall: sideways on 30 October 2026 (tests C1 to C8), in pull-out on 7 November 2026 (tests
 A1 to A8).
@@ -130,7 +132,7 @@ last load of a test is a failure. Pilot holes: 6 mm over the whole length for th
 
 ## One wall, two days, one test per configuration
 
-A single wall, dry, two days (30 October and 7 November 2026), one test per configuration, short-term loads. Repeated
+A single wall, two days (30 October and 7 November 2026), one test per configuration, short-term loads. Repeated
 measurements would obviously be better. But we found no other measurement of this kind, and the sideways tests are
 remarkably consistent with one another: the four Ø10 screws with a board, 9.5 to 21.5 cm into the cob, all carried
 300 kg or more; at 100 kg, three Ø10 screws at different depths read the same movement within two hundredths; on
@@ -239,6 +241,10 @@ words noted at the time (translated from French). Length in the cob: to within 5
 The length in the cob counts the whole screw, tip included. The tip carries little: on the Ø10, the thread is only
 complete 8 or 9 mm from the end, then it is serrated over about 3 cm (read from photos, appendix A).
 
+The surface gave way easily (cones, a "surface sheet" torn off, cob sounding hollow). On this wall, the very damp skin
+of cob (10 % water in the first 10 cm) could weigh significantly on the holding, above all in pull-out and for short
+screws; this is not verified.
+
 ## By length: sideways and in pull-out
 
 ![Figure 10 — How much a screw held against its length in the cob, measured in pull-out (blue) and sideways (orange), and, at the top, the screw lengths advised by published texts. Filled point: the screw gave way; open point with arrow: it held, failure is higher.](../../figures/fig_tenue_longueur_en.png){#fig_tenue_longueur}
@@ -284,7 +290,7 @@ the screw manufacturer's recommendations.
 
 # Recommendations
 
-These are the author's advice, drawn from these measurements. They apply to these screws, in this dry cob, loaded for
+These are the author's advice, drawn from these measurements. They apply to these screws, in this cob, loaded for
 a short time. They replace neither a calculation nor a test on your wall.
 
 ## No safe load, but reference points
@@ -408,9 +414,9 @@ or so tests [14].
 
 # Limits and next steps
 
-To the limits already stated (one dry wall, two days, one test per configuration), add:
+To the limits already stated (one wall, two days, one test per configuration), add:
 
-- **for all tests**: neither moisture content nor density measured; nothing on permanent loading over years (earth may
+- **for all tests**: density not measured, moisture content measured only ten days later; nothing on permanent loading over years (earth may
   compact slowly), on damp cob or on other screws; nothing on a screw loaded both sideways and in pull-out;
 - **in pull-out**: only four Ø10 failures; each length tested on a screw already loaded and backed out (A4 carried
   fourteen loads before giving way); loads held for a few seconds; no movement measured, hence neither stiffness nor

@@ -78,7 +78,7 @@ The two loadings were tested separately: the figure puts them side by side, with
 
 ![The test wall: the cob of a garden shed at least 50 years old.](../photos/mur_vue_ensemble.jpg)
 
-A single wall, of dry cob, and one test per configuration; loads held only briefly, nothing on long-term loading or on
+A single wall and one test per configuration; loads held only briefly, nothing on long-term loading or on
 damp cob. These are reference points to check on your own wall, not design values.
 
 ## Going further

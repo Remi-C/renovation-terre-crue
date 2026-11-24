@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Données et code · Rénovation en terre crue</title>
+<meta name="description" content="Retours d’expérience d’un particulier
+sur la rénovation du bâti en terre crue : essais, relevés, code et
+photos.">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="../en/humidite-de-la-bauge/data.html">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="../index.html">Rénovation en terre crue</a>
+    <a class="langue" href="../en/humidite-de-la-bauge/data.html" hreflang="en" lang="en">English</a>
+  </div>
+  <p class="fil"><a href="../index.html">Accueil</a> › Humidité de la
+bauge</p>
+  <nav class="menu" aria-label="Menu principal">
+    <a href="index.html">Présentation</a>
+    <a href="papier.html">Le papier</a>
+    <a href="donnees.html" aria-current="page">Données et code</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+<main>
+<h1 class="titre">Données et code</h1>
+<p>Tout ce qui sert au papier est dans le dossier <a
+href="https://github.com/Remi-C/renovation-terre-crue/tree/main/humidite-de-la-bauge"><code>humidite-de-la-bauge/</code></a>
+du dépôt GitHub : les relevés bruts, le code qui refait les chiffres et
+les figures, les photos. Texte, données, figures et photos sous licence
+CC BY 4.0 ; code sous licence MIT. Les noms de fichiers et de colonnes
+sont en français ; le dictionnaire des données les explique.</p>
+<h2 id="les-données">Les données</h2>
+<ul>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/pesees.csv"><code>donnees/pesees.csv</code></a>
+: les masses lues, une ligne par pot et par étape (E0 à E5), avec toutes
+les lectures répétées et le rang de pesée.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/prelevements.csv"><code>donnees/prelevements.csv</code></a>
+: une ligne par pot (mur, profondeur, lieu, outil de perçage).</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/etapes.csv"><code>donnees/etapes.csv</code></a>
+: les six étapes, leurs conditions de pesée et l’ordre de pesée des
+séries de sortie de four.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/isotherme_phung_2018.csv"><code>donnees/isotherme_phung_2018.csv</code></a>
+: les points publiés de deux sols de bauge de laboratoire (thèse de
+Phung, 2018), avec l’annexe d’où ils viennent : de quoi refaire la
+figure d’isotherme, pas une isotherme de ces murs.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/resultats_calcules.json"><code>donnees/resultats_calcules.json</code></a>
+: bruit de pesée, teneur en eau de chaque pot, humidité relative
+équivalente sur les deux sols publiés, bilan d’eau de la peau du
+cabanon.</li>
+<li>Dictionnaire des colonnes : <a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/README.md"><code>donnees/README.md</code></a>.</li>
+</ul>
+<h2 id="le-code">Le code</h2>
+<p>Python 3 avec matplotlib et numpy ; Pillow et pandoc pour la
+construction. Aucun fichier extérieur au sujet. Depuis la racine du
+dépôt :</p>
+<pre><code>python3 humidite-de-la-bauge/code/grandeurs.py          # bruit, teneurs en eau, humidité relative équivalente
+python3 humidite-de-la-bauge/code/figures_humidite.py   # les cinq figures (français et anglais)
+make construire                                         # tout, plus le papier (.docx) et ce site</code></pre>
+<h2 id="les-figures">Les figures</h2>
+<figure>
+<img src="figures/fig_protocole.svg" loading="lazy"
+alt="Les six pesées de chaque pot, dans l’ordre chronologique du 18/11/2026, et l’ordre de pesée des deux séries de sortie de four. (fig_protocole)" />
+<figcaption aria-hidden="true">Les six pesées de chaque pot, dans
+l’ordre chronologique du 18/11/2026, et l’ordre de pesée des deux séries
+de sortie de four. (<code>fig_protocole</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_ecarts.svg" loading="lazy"
+alt="Différences de masse entre pesées successives, telles que lues, sans correction. (fig_ecarts)" />
+<figcaption aria-hidden="true">Différences de masse entre pesées
+successives, telles que lues, sans correction.
+(<code>fig_ecarts</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_bruit.svg" loading="lazy"
+alt="Incertitude de la teneur en eau due aux seules pesées, selon la terre sèche du pot. (fig_bruit)" />
+<figcaption aria-hidden="true">Incertitude de la teneur en eau due aux
+seules pesées, selon la terre sèche du pot.
+(<code>fig_bruit</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_profils.svg" loading="lazy"
+alt="Teneur en eau selon la profondeur, par mur, avec les repères de la littérature. (fig_profils)" />
+<figcaption aria-hidden="true">Teneur en eau selon la profondeur, par
+mur, avec les repères de la littérature.
+(<code>fig_profils</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_isotherme.svg" loading="lazy"
+alt="Teneur en eau selon l’humidité relative d’équilibre, pour deux sols de bauge publiés, et teneurs mesurées reportées dessus. (fig_isotherme)" />
+<figcaption aria-hidden="true">Teneur en eau selon l’humidité relative
+d’équilibre, pour deux sols de bauge publiés, et teneurs mesurées
+reportées dessus. (<code>fig_isotherme</code>)</figcaption>
+</figure>
+<h2 id="citer">Citer</h2>
+<p>Rémi Cura (2026). <em>Humidité de la bauge.</em> Dans : <em>Rénover
+le bâti en terre crue : retours d’expérience</em>, dépôt de données et
+de code, https://github.com/Remi-C/renovation-terre-crue. Identifiant
+DOI (Zenodo) : à venir.</p>
+</main>
+<footer class="bas">
+  <p>Texte, données, figures et photos : CC BY 4.0. Code : MIT. Rémi
+Cura, 2026.</p>
+  <p>Retours bienvenus :
+<a href="https://github.com/Remi-C/renovation-terre-crue/issues">issues
+GitHub</a> ·
+<a href="https://github.com/Remi-C/renovation-terre-crue">dépôt</a> ·
+<a href="mailto:remi.cura+terre@gmail.com">remi.cura+terre@gmail.com</a></p>
+</footer>
+</body>
+</html>

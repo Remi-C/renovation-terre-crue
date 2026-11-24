@@ -3,7 +3,7 @@
 Rémi Cura, PhD — Clos Poulain, near Rennes — November 2026
 
 **The question.** Can you screw into cob (French *bauge*)? Earth building guides say yes, for light loads, but give
-no detail: no diameter, no length, no load. We tested an old, dry cob wall, with ordinary tools, to give builders those
+no detail: no diameter, no length, no load. We tested an old cob wall, with ordinary tools, to give builders those
 figures.
 
 **What we found.** With good-quality fully threaded structural timber screws, 8 and 10 mm in diameter, 300 kg sideways

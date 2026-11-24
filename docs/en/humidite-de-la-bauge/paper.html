@@ -1,0 +1,1092 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The paper · Earth building renovation</title>
+<meta name="description" content="A homeowner’s field notes on
+renovating earth (cob) buildings: tests, readings, code and photos.">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="fr" href="../../humidite-de-la-bauge/papier.html">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="../index.html">Earth building renovation</a>
+    <a class="langue" href="../../humidite-de-la-bauge/papier.html" hreflang="fr" lang="fr">Français</a>
+  </div>
+  <p class="fil"><a href="../index.html">Home</a> › Moisture in cob</p>
+  <nav class="menu" aria-label="Main menu">
+    <a href="index.html">Overview</a>
+    <a href="paper.html" aria-current="page">The paper</a>
+    <a href="data.html">Data and code</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+<main>
+<h1 class="titre">Moisture in cob</h1>
+<p class="sous-titre">What water does an old cob wall hold? Nine samples
+weighed before and after oven-drying, what the numbers are worth, and
+what they change before insulating.</p>
+<details class="sommaire"><summary>Contents</summary>
+<ul>
+<li><a href="#in-short" id="toc-in-short">In short</a></li>
+<li><a href="#why-this-paper" id="toc-why-this-paper">Why this
+paper</a></li>
+<li><a href="#part-1-the-measurement"
+id="toc-part-1-the-measurement">Part 1 — The measurement</a>
+<ul>
+<li><a href="#samples" id="toc-samples">1.1 Samples</a></li>
+<li><a href="#weighing-sequence" id="toc-weighing-sequence">1.2 Weighing
+sequence</a></li>
+<li><a href="#masses-read" id="toc-masses-read">1.3 Masses read</a></li>
+</ul></li>
+<li><a href="#part-2-interpreting-the-measurement"
+id="toc-part-2-interpreting-the-measurement">Part 2 — Interpreting the
+measurement</a>
+<ul>
+<li><a href="#from-mass-to-water-content-the-choices"
+id="toc-from-mass-to-water-content-the-choices">2.1 From mass to water
+content: the choices</a></li>
+<li><a href="#weighing-noise" id="toc-weighing-noise">2.2 Weighing
+noise</a></li>
+<li><a href="#moisture-taken-up-again-while-cooling"
+id="toc-moisture-taken-up-again-while-cooling">2.3 Moisture taken up
+again while cooling</a></li>
+<li><a href="#sampling-biases" id="toc-sampling-biases">2.4 Sampling
+biases</a></li>
+<li><a href="#water-contents" id="toc-water-contents">2.5 Water
+contents</a></li>
+<li><a href="#what-these-contents-are-worth-for-cob-the-literature"
+id="toc-what-these-contents-are-worth-for-cob-the-literature">2.6 What
+these contents are worth for cob: the literature</a></li>
+<li><a
+href="#what-the-measurement-says-about-the-walls-and-what-it-does-not"
+id="toc-what-the-measurement-says-about-the-walls-and-what-it-does-not">2.7
+What the measurement says about the walls, and what it does not</a></li>
+</ul></li>
+<li><a href="#part-3-what-this-changes-for-insulating-a-cob-wall"
+id="toc-part-3-what-this-changes-for-insulating-a-cob-wall">Part 3 —
+What this changes for insulating a cob wall</a>
+<ul>
+<li><a href="#the-measured-value-against-the-literature"
+id="toc-the-measured-value-against-the-literature">3.1 The measured
+value against the literature</a></li>
+<li><a href="#why-the-isotherm-of-the-real-earth-is-needed"
+id="toc-why-the-isotherm-of-the-real-earth-is-needed">3.2 Why the
+isotherm of the real earth is needed</a></li>
+<li><a href="#why-a-damp-skin-matters-before-closing-a-wall"
+id="toc-why-a-damp-skin-matters-before-closing-a-wall">3.3 Why a damp
+skin matters before closing a wall</a></li>
+<li><a href="#what-to-measure-in-order-to-decide"
+id="toc-what-to-measure-in-order-to-decide">3.4 What to measure in order
+to decide</a></li>
+</ul></li>
+<li><a href="#limits-and-open-points"
+id="toc-limits-and-open-points">Limits and open points</a></li>
+<li><a href="#references" id="toc-references">References</a></li>
+</ul>
+</details>
+<p>Identifier: Zenodo DOI assigned to each version, see the repository
+page. Readings, photos, figures and calculations: <a
+href="https://github.com/Remi-C/renovation-terre-crue"
+class="uri">https://github.com/Remi-C/renovation-terre-crue</a>, website
+<a href="https://remi.cura.info/renovation-terre-crue/"
+class="uri">https://remi.cura.info/renovation-terre-crue/</a>. Text,
+data and figures under the CC BY 4.0 licence. Feedback: the GitHub
+repository’s “issues”.</p>
+<h1 id="in-short">In short</h1>
+<ul>
+<li><strong>The question.</strong> Does an old cob wall, dry to the
+touch, hold water? How much, and where? We took earth from three walls
+of a cob house near Rennes (17 November 2026), weighed each sample as
+taken, then after drying in a kitchen oven (18 November): the water is
+the difference.</li>
+<li><strong>A dry core, a wet skin.</strong> In the wall of a garden
+shed, the first 10 cm hold 10.1 % water (± 0.3 point), the next 10 cm
+1.7 %. The attic partition wall is dry (1.4 and 1.8 %). The shed is
+unheated and very well ventilated; no leak is known.</li>
+<li><strong>A façade that cannot be read slice by slice.</strong> The
+façade cores gave 0.5 to 2 g of earth per slice: the uncertainty runs
+from ± 2 to ± 7 points. The four slices (0 to 20 cm) pooled give 5.3 ±
+1.6 %.</li>
+<li><strong>Almost every sampling bias makes the earth look drier than
+it is</strong> (stones, heating while drilling): these values are more
+likely minimums.</li>
+<li><strong>What this changes for insulating.</strong> A water content
+is not a relative humidity: going from one to the other needs the
+sorption isotherm of the wall’s own earth, which was not measured. On
+two published earths, the façade is worth 87 to 97 % relative humidity;
+the same 3 % water content is worth 75 % on one and 90 % on the other. A
+damp skin amounts to some 12 to 15 kg of water per m² of wall, which
+will have to leave. The author’s own moisture calculations are not
+published: the paper draws no conclusion about any insulation
+system.</li>
+<li><strong>Limits.</strong> One day, one sample per place, no
+repetition, a façade with too little earth, no isotherm measured on
+these earths.</li>
+</ul>
+<h1 id="why-this-paper">Why this paper</h1>
+<p>Before insulating a cob wall, we would like to know what water it
+holds: it is the starting state of any moisture calculation, and what a
+measurement should confirm or contradict. The literature gives reference
+points (see 2.6), but almost nothing measured in an old cob wall in
+service: in the sources we read, the only in-place measurement in
+western France is a new wall still drying [5], and the reference point
+we found for an old wall is an opinion of a British research body
+reported by an association [1].</p>
+<p>So we measured, with kitchen equipment: an oven, a balance reading to
+the hundredth of a gram, glass pots. The method is simple (weigh, dry,
+weigh); what takes care is the weighing noise and the sampling. This
+paper sets out both, with the numbers.</p>
+<p>It is written in <strong>three parts that do not mix</strong>:</p>
+<ul>
+<li><strong>Part 1 — the measurement</strong>: what was sampled, how,
+and what the balance showed. No calculation choice, no judgement.</li>
+<li><strong>Part 2 — interpreting the measurement</strong>: how the
+weighings become a water content (choices, noise, bias) and what these
+contents say about the walls, compared with the literature. It relies on
+Part 1 only.</li>
+<li><strong>Part 3 — what this changes for insulating a cob
+wall</strong>: what needs models from outside the test (the sorption
+isotherm of a published earth) and general considerations. It relies on
+Parts 1 and 2.</li>
+</ul>
+<p>We distinguish what is <strong>measured</strong> (read on the
+balance), <strong>calculated</strong> from the measurements,
+<strong>observed</strong> by the author (by eye), and
+<strong>assumed</strong> (a probable explanation, not checked). This is
+a homeowner’s field report, not a laboratory test: one day, ordinary
+equipment, no repetition.</p>
+<h1 id="part-1-the-measurement">Part 1 — The measurement</h1>
+<blockquote>
+<p><strong>Contains</strong>: places, tools, depths, the weighing
+sequence and the masses read, as recorded on 17 and 18 November 2026.
+<strong>Does not contain</strong>: any water content, any choice of
+series, any judgement on the quality of a weighing (Part 2).</p>
+</blockquote>
+<h2 id="samples">1.1 Samples</h2>
+<p>Samples taken by the author on 17 November 2026, by drilling; drying
+and weighing on 18 November. Each sample is the earth of one depth
+slice, collected in a glass pot. Pot T is a control: empty, it goes
+through every step like the others.</p>
+<table>
+<caption>The nine pots.</caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr>
+<th>Pots</th>
+<th>Place</th>
+<th>Depths (cm)</th>
+<th>Tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F1 to F4</td>
+<td>south façade of the house, cob part, 1.20 m above ground</td>
+<td>0-5 / 5-10 / 10-15 / 15-20</td>
+<td>hammer drill, Ø 16 hollow bit</td>
+</tr>
+<tr>
+<td>C1, C2</td>
+<td>interior partition wall of the attic (ventilated); the wall of the
+first screw test, 10/10/2026</td>
+<td>0-5 / 5-13</td>
+<td>screw gun, Ø 10 bit</td>
+</tr>
+<tr>
+<td>A1, A2</td>
+<td>wall of the garden shed (unheated, very well ventilated), drilled
+from the inside; the wall of the screw tests of 30/10 and
+07/11/2026</td>
+<td>0-10 / 10-20</td>
+<td>hammer drill, ordinary Ø 10 bit</td>
+</tr>
+<tr>
+<td>T</td>
+<td>empty pot, control</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Field observations (by the author):</p>
+<ul>
+<li><strong>Façade</strong>: the drilling stopped on something hard at
+about 20 cm; no deeper slice.</li>
+<li><strong>Cores</strong>: the core is not continuous; the earth of one
+slice may contain earth from another, and contamination (render,
+dust).</li>
+<li><strong>Stones</strong>: flint-type stones are in the earth; one
+piece was removed from one of the samples, the other pots were not
+sorted.</li>
+<li><strong>Look of the earth</strong>: by eye, the façade earth forms
+small aggregates; the attic earth forms none at all and looks rather
+like sand. After drying, the façade earth stays darker than the
+others.</li>
+<li><strong>Shed</strong>: a water leak there is unlikely (the author’s
+observation).</li>
+<li><strong>Not noted</strong>: the face from which the façade was
+drilled (inside or outside), what stopped the drilling, and the pot the
+stone was removed from.</li>
+</ul>
+<h2 id="weighing-sequence">1.2 Weighing sequence</h2>
+<p>Each pot is weighed six times, in chronological order on 18 November:
+as taken (E0), out of the oven after one hour at 130 °C (E1), thirty
+minutes later (E2), out of the oven after a second drying (E3), emptied
+and washed (E4), emptied, washed and oven-dried (E5). Figure 3 sums it
+up; Table 2 gives the conditions of each weighing.</p>
+<p>Equipment: fan-assisted kitchen oven; a balance reading to the
+hundredth of a gram, checked with a 50 g weight; glass pots on a
+silicone mat; a damp sponge to cool the bottom of hot pots. Several
+weighings were read several times: all readings are kept.</p>
+<figure id="photo_pots_au_four">
+<img src="../../humidite-de-la-bauge/photos/pots_au_four.jpg"
+loading="lazy"
+alt="Figure 1 — The nine pots in the kitchen oven, before the first drying." />
+<figcaption aria-hidden="true">Figure 1 — The nine pots in the kitchen
+oven, before the first drying.</figcaption>
+</figure>
+<figure id="photo_poste_de_pesee">
+<img src="../../humidite-de-la-bauge/photos/poste_de_pesee.jpg"
+loading="lazy"
+alt="Figure 2 — The weighing station: balance reading to 0.01 g and its 50 g weight, pots on the mat, damp sponge." />
+<figcaption aria-hidden="true">Figure 2 — The weighing station: balance
+reading to 0.01 g and its 50 g weight, pots on the mat, damp
+sponge.</figcaption>
+</figure>
+<figure id="fig_protocole">
+<img src="../../humidite-de-la-bauge/figures/fig_protocole_en.svg"
+loading="lazy"
+alt="Figure 3 — The six weighings of each pot, in chronological order on 18 November. Weighing order of the two out-of-oven series: the first named is weighed first, hence the hottest." />
+<figcaption aria-hidden="true">Figure 3 — The six weighings of each pot,
+in chronological order on 18 November. Weighing order of the two
+out-of-oven series: the first named is weighed first, hence the
+hottest.</figcaption>
+</figure>
+<table>
+<caption>The steps of the test.</caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Code</th>
+<th>Step</th>
+<th>Conditions of the weighing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>E0</td>
+<td>as taken</td>
+<td>room temperature, about 15 °C</td>
+</tr>
+<tr>
+<td>E1</td>
+<td>out of the oven, first drying (1 h at 130 °C)</td>
+<td>30-minute series (11:50-12:20) in the order T A2 A1 C2 C1 F4 F3 F2
+F1; the pots cool and may take up moisture during the series; their heat
+disturbs the balance</td>
+</tr>
+<tr>
+<td>E2</td>
+<td>30 min after E1, before going back in the oven</td>
+<td>whole series reweighed quickly, to have weighings close in time;
+pots cooled (order not noted)</td>
+</tr>
+<tr>
+<td>E3</td>
+<td>out of the oven, second drying</td>
+<td>fast series: pot bottoms cooled with a damp sponge, very brief
+weighings, balance recalibrated often, pan wiped with a damp sponge;
+order F4 F3 F2 F1 C1 C2 A1 A2 T</td>
+</tr>
+<tr>
+<td>E4</td>
+<td>empty pot washed, wiped</td>
+<td>pots emptied, rinsed, dried with paper towel; cold</td>
+</tr>
+<tr>
+<td>E5</td>
+<td>empty pot washed then oven-dried</td>
+<td>weighed on a spacer of about 5 g, tared, to insulate the balance
+from the heat of the pot</td>
+</tr>
+</tbody>
+</table>
+<figure id="photo_pots_apres_sechage">
+<img src="../../humidite-de-la-bauge/photos/pots_apres_sechage.jpg"
+loading="lazy"
+alt="Figure 4 — The pots after drying, seen from above." />
+<figcaption aria-hidden="true">Figure 4 — The pots after drying, seen
+from above.</figcaption>
+</figure>
+<figure id="photo_cabanon_0_10">
+<img
+src="../../humidite-de-la-bauge/photos/cabanon_0_10_apres_sechage.jpg"
+loading="lazy"
+alt="Figure 5 — The pot marked “0-10” (shed, 0 to 10 cm) after drying: 12.3 g of dry earth, which held 1.24 g of water." />
+<figcaption aria-hidden="true">Figure 5 — The pot marked “0-10” (shed, 0
+to 10 cm) after drying: 12.3 g of dry earth, which held 1.24 g of
+water.</figcaption>
+</figure>
+<h2 id="masses-read">1.3 Masses read</h2>
+<table style="width:100%;">
+<caption>Mass of the pot (g), mean of the readings; in brackets, the
+number of readings when there are several. All readings:
+<code>donnees/pesees.csv</code>.</caption>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr>
+<th>Pot</th>
+<th>E0</th>
+<th>E1</th>
+<th>E2</th>
+<th>E3</th>
+<th>E4</th>
+<th>E5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F1</td>
+<td>172.867 (3)</td>
+<td>172.810 (4)</td>
+<td>172.79</td>
+<td>172.810 (2)</td>
+<td>171.557 (3)</td>
+<td>171.500 (2)</td>
+</tr>
+<tr>
+<td>F2</td>
+<td>174.248 (4)</td>
+<td>174.108 (4)</td>
+<td>174.12</td>
+<td>174.043 (3)</td>
+<td>172.113 (3)</td>
+<td>172.047 (3)</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>172.163 (3)</td>
+<td>172.134 (5)</td>
+<td>172.14</td>
+<td>172.050 (7)</td>
+<td>171.48</td>
+<td>171.420 (2)</td>
+</tr>
+<tr>
+<td>F4</td>
+<td>171.207 (3)</td>
+<td>171.188 (5)</td>
+<td>171.20</td>
+<td>171.125 (2)</td>
+<td>170.72</td>
+<td>170.677 (3)</td>
+</tr>
+<tr>
+<td>C1</td>
+<td>184.583 (4)</td>
+<td>184.413 (4)</td>
+<td>184.46</td>
+<td>184.490 (2)</td>
+<td>172.36</td>
+<td>172.273 (3)</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>179.190 (4)</td>
+<td>179.057 (3)</td>
+<td>179.12</td>
+<td>179.117 (3)</td>
+<td>171.630 (3)</td>
+<td>171.585 (2)</td>
+</tr>
+<tr>
+<td>A1</td>
+<td>181.317 (3)</td>
+<td>180.075 (2)</td>
+<td>180.15</td>
+<td>180.137 (3)</td>
+<td>167.81</td>
+<td>167.763 (3)</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>187.133 (3)</td>
+<td>186.867 (3)</td>
+<td>186.95</td>
+<td>186.937 (3)</td>
+<td>171.165 (4)</td>
+<td>171.100 (3)</td>
+</tr>
+<tr>
+<td>T</td>
+<td>172.038 (4)</td>
+<td>172.033 (3)</td>
+<td>—</td>
+<td>172.061 (7)</td>
+<td>172.093 (3)</td>
+<td>172.070 (3)</td>
+</tr>
+</tbody>
+</table>
+<p>Two facts of reading, with no interpretation:</p>
+<ul>
+<li><strong>Spread between repeated readings</strong> of the same
+weighing: 41 weighings read several times, maximum spread 0.05 g, median
+0.01 g.</li>
+<li><strong>The control</strong> weighs 172.037 g in E0, then 172.033,
+172.061, 172.093 and 172.070 g in weighings E1, E3, E4 and E5
+(differences from E0: − 0.004, + 0.024, + 0.056 and + 0.033 g).</li>
+</ul>
+<figure id="fig_ecarts">
+<img src="../../humidite-de-la-bauge/figures/fig_ecarts_en.svg"
+loading="lazy"
+alt="Figure 6 — Mass differences between successive weighings, as read, with no correction. Control T was not weighed in E2." />
+<figcaption aria-hidden="true">Figure 6 — Mass differences between
+successive weighings, as read, with no correction. Control T was not
+weighed in E2.</figcaption>
+</figure>
+<ul>
+<li><strong>E2 − E1</strong> (30 minutes of cooling in air): + 0.048 g
+(C1), + 0.063 (C2), + 0.075 (A1), + 0.083 g (A2); from − 0.020 to +
+0.012 g for F1 to F4.</li>
+<li><strong>E3 − E2</strong>: F4, F3 and F2, weighed one after the other
+at the start of the series, lose − 0.075, − 0.090 and − 0.077 g; the
+other pots between − 0.013 and + 0.030 g.</li>
+</ul>
+<h1 id="part-2-interpreting-the-measurement">Part 2 — Interpreting the
+measurement</h1>
+<blockquote>
+<p><strong>Contains</strong>: the choices that turn masses into a water
+content, the quality of each value (noise, bias), what these contents
+say about the walls, set in the literature. <strong>Does not
+contain</strong>: any relative humidity or consequence for insulation,
+which need models from outside the test (Part 3).</p>
+</blockquote>
+<h2 id="from-mass-to-water-content-the-choices">2.1 From mass to water
+content: the choices</h2>
+<p>The water content <em>w</em> is the mass of water divided by the mass
+of dry earth, as a percentage: <em>w</em> = (E0 − E1) / (E1 − E5). This
+is the gravimetric method: weigh, dry, weigh. Each series plays a role,
+and each choice can be argued:</p>
+<table>
+<caption>Role of each series in the calculation.</caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Role</th>
+<th>Series used</th>
+<th>Reason</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wet mass</td>
+<td>E0</td>
+<td>weighed before any heating, in room air (about 15 °C)</td>
+</tr>
+<tr>
+<td>dry mass</td>
+<td>E1</td>
+<td>out of the oven, before moisture is taken up again (2.3). The
+control, weighed first and hottest, loses only 0.004 g: no measurable
+heat bias</td>
+</tr>
+<tr>
+<td>mass of the empty pot</td>
+<td>E5</td>
+<td>last series: pots washed then oven-dried, weighed insulated from the
+pan</td>
+</tr>
+<tr>
+<td>discarded</td>
+<td>E3</td>
+<td>F4, F3 and F2, weighed one after the other, all lose about 0.08 g
+against E2 whatever their earth (0.5 to 2 g): a shared shift of the
+balance, three times the noise (2.2), not a loss of water</td>
+</tr>
+<tr>
+<td>not used</td>
+<td>E2, E4</td>
+<td>E2: the pots have already taken up water again; E4: pots rinsed,
+glass still damp (the control weighs 0.056 g more than in E0)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="weighing-noise">2.2 Weighing noise</h2>
+<table>
+<caption>Weighing noise budget.</caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Component</th>
+<th>Standard deviation</th>
+<th>Estimated from</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>repeatability</td>
+<td>0.012 g</td>
+<td>the repeated readings of one weighing</td>
+</tr>
+<tr>
+<td>between series</td>
+<td>0.023 g</td>
+<td>the drift of the control over the dry series E1, E3, E5: balance
+drift, heat, water on the glass, position on the pan, which cannot be
+told apart</td>
+</tr>
+<tr>
+<td>used per weighing</td>
+<td>0.026 g</td>
+<td>quadratic sum of the two</td>
+</tr>
+</tbody>
+</table>
+<p>A water content combines three weighings; its uncertainty depends
+almost only on the mass of dry earth in the pot: ± 0.2 point with 16 g
+of earth, ± 7 points with 0.5 g (Figure 7). <strong>At least 10 g of
+earth per slice are needed</strong> to stay under ± 0.5 point: the
+façade did not give enough.</p>
+<figure id="fig_bruit">
+<img src="../../humidite-de-la-bauge/figures/fig_bruit_en.svg"
+loading="lazy"
+alt="Figure 7 — Uncertainty of the water content due to weighing alone, against the dry earth in the pot (curve); the eight pots. Under 10 g, one percentage point is no longer guaranteed." />
+<figcaption aria-hidden="true">Figure 7 — Uncertainty of the water
+content due to weighing alone, against the dry earth in the pot (curve);
+the eight pots. Under 10 g, one percentage point is no longer
+guaranteed.</figcaption>
+</figure>
+<h2 id="moisture-taken-up-again-while-cooling">2.3 Moisture taken up
+again while cooling</h2>
+<p>Between E1 and E2, the attic and shed pots gain 0.05 to 0.08 g in
+about thirty minutes in air, i.e. 0.4 to 0.8 % of their dry earth, and
+the gain follows their mass of earth. The control, weighed hot and
+first, shows no heat effect: this gain is water taken up again by the
+dry earth, not a balance artefact (calculated). For the façade (0.5 to 2
+g of earth) the uptake stays under the noise. The control not having
+been reweighed in E2, this point rests on E1 alone (not checked).
+Laboratory practice (cooling the pot closed, weighing it with its lid
+on) removes both the uptake and the heat effect.</p>
+<h2 id="sampling-biases">2.4 Sampling biases</h2>
+<table>
+<caption>Sampling biases and their direction.</caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Bias (observed)</th>
+<th>Effect on the water content of the earth</th>
+<th>Order of magnitude</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stones (flint) in the weighed earth</td>
+<td>underestimates: the stone counts as dry mass with no water</td>
+<td><em>w</em><sub>earth</sub> = <em>w</em><sub>measured</sub> / (1 −
+<em>f</em>), <em>f</em> = share of stone; × 1.25 for 20 % stone</td>
+</tr>
+<tr>
+<td>heating of the earth while drilling</td>
+<td>underestimates: water leaves before weighing</td>
+<td>not quantified</td>
+</tr>
+<tr>
+<td>discontinuous core, mixing, contamination</td>
+<td>both ways; mainly blurs the depth</td>
+<td>not quantified</td>
+</tr>
+<tr>
+<td>time between sampling and weighing E0</td>
+<td>underestimates if the pot was not closed (not checked)</td>
+<td>not quantified</td>
+</tr>
+</tbody>
+</table>
+<p>Almost all biases go the same way: the water contents below are more
+likely low values.</p>
+<h2 id="water-contents">2.5 Water contents</h2>
+<table style="width:100%;">
+<caption>Water content per pot (calculated). ± 1 σ: weighing noise
+alone, in percentage points; the biases of 2.4 come on top, mostly
+downwards. File: <code>donnees/resultats_calcules.json</code>.</caption>
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr>
+<th>Pot</th>
+<th>Wall</th>
+<th>Depth</th>
+<th>Dry earth</th>
+<th>w</th>
+<th>± 1 σ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F1</td>
+<td>South façade</td>
+<td>0-5 cm</td>
+<td>1.31 g</td>
+<td>4.3 %</td>
+<td>2.8</td>
+</tr>
+<tr>
+<td>F2</td>
+<td>South façade</td>
+<td>5-10 cm</td>
+<td>2.06 g</td>
+<td>6.8 %</td>
+<td>1.8</td>
+</tr>
+<tr>
+<td>F3</td>
+<td>South façade</td>
+<td>10-15 cm</td>
+<td>0.71 g</td>
+<td>4.1 %</td>
+<td>5.2</td>
+</tr>
+<tr>
+<td>F4</td>
+<td>South façade</td>
+<td>15-20 cm</td>
+<td>0.51 g</td>
+<td>3.7 %</td>
+<td>7.2</td>
+</tr>
+<tr>
+<td><strong>F pooled</strong></td>
+<td><strong>South façade</strong></td>
+<td><strong>0-20 cm</strong></td>
+<td><strong>4.60 g</strong></td>
+<td><strong>5.3 %</strong></td>
+<td><strong>1.6</strong></td>
+</tr>
+<tr>
+<td>C1</td>
+<td>Attic</td>
+<td>0-5 cm</td>
+<td>12.14 g</td>
+<td>1.4 %</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>Attic</td>
+<td>5-13 cm</td>
+<td>7.47 g</td>
+<td>1.8 %</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>A1</td>
+<td>Garden shed</td>
+<td>0-10 cm</td>
+<td>12.31 g</td>
+<td>10.1 %</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>A2</td>
+<td>Garden shed</td>
+<td>10-20 cm</td>
+<td>15.77 g</td>
+<td>1.7 %</td>
+<td>0.2</td>
+</tr>
+</tbody>
+</table>
+<figure id="fig_profils">
+<img src="../../humidite-de-la-bauge/figures/fig_profils_en.svg"
+loading="lazy"
+alt="Figure 8 — Water content against depth from the drilled face, per wall, and literature reference points (2.6). Square: the four façade slices pooled." />
+<figcaption aria-hidden="true">Figure 8 — Water content against depth
+from the drilled face, per wall, and literature reference points (2.6).
+Square: the four façade slices pooled.</figcaption>
+</figure>
+<h2 id="what-these-contents-are-worth-for-cob-the-literature">2.6 What
+these contents are worth for cob: the literature</h2>
+<table>
+<caption>Published reference points. Rammed earth (earth tamped in
+formwork) is not cob: its values are neighbouring reference points, not
+transferable without reservation.</caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Reference point</th>
+<th>Water content</th>
+<th>Source</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>base of a cob wall “quite normal”</td>
+<td>3 to 5 %</td>
+<td>Building Research Establishment (BRE), cited by the Devon Earth
+Building Association [1]</td>
+</tr>
+<tr>
+<td>rising damp likely</td>
+<td>above 7.5 to 10 % depending on the earth</td>
+<td>same [1]</td>
+</tr>
+<tr>
+<td>normal water content of a cob wall at equilibrium</td>
+<td>4 %</td>
+<td>Harries et al. 1995, reported by Phung [3, 4]</td>
+</tr>
+<tr>
+<td>healthy, lived-in rammed earth, after drying</td>
+<td>1 to 3 % (0.5 to 3 elsewhere in the same article)</td>
+<td>Heitz et al. 2015 [2]</td>
+</tr>
+<tr>
+<td>visible pathology of rammed earth (it darkens)</td>
+<td>from 5 to 7 %</td>
+<td>Heitz et al. 2015 [2]</td>
+</tr>
+<tr>
+<td>compressive strength of cob</td>
+<td>0.8 MPa at 4 %, 0.6 at 10 %, 0.36 at 15 %, 0.12 at 18 %</td>
+<td>Harries et al. 1995, reported by Phung [3, 4]</td>
+</tr>
+<tr>
+<td>old cob measured in place</td>
+<td>no data found in the sources read</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>The BRE statement, as reported [1]: “The Building Research
+Establishment advises that a moisture content of between 3 and 5% at the
+base of a cob wall is quite normal. However, moisture levels in excess
+of 7½ to 10%, depending on soil type, could indicate the presence of
+rising damp.” The leaflet dates from 2008 (year read from the file
+name); the BRE text itself was not read.</p>
+<h2
+id="what-the-measurement-says-about-the-walls-and-what-it-does-not">2.7
+What the measurement says about the walls, and what it does not</h2>
+<ul>
+<li><strong>Attic partition wall and core of the shed wall:
+dry.</strong> C1, C2 and A2 between 1.4 and 1.8 %, to ± 0.5 point at
+most: within the range of a sound earth in service. The attic partition
+gives the content of a sheltered interior cob.</li>
+<li><strong>Inner skin of the shed wall: wet.</strong> A1 (0 to 10 cm
+from the inner face) at 10.1 ± 0.3 %, the most reliable value of the
+test, at the literature’s threshold for water ingress (7.5 to 10 %); ten
+centimetres further, A2 is dry. All the water is in a skin of 10 cm at
+most, on the side of a space open to outside air.</li>
+<li><strong>The author’s reading (assumed)</strong>: no leak; given the
+season, moisture taken up from the autumn air. It fits the shape of the
+profile (a wet skin on a dry core: what a recent uptake through the
+surface gives, not an old water ingress that would have reached the
+core). But the air humidity was not measured in the shed; Part 3 shows
+that air alone explains a 10 % content poorly.</li>
+<li><strong>South façade: one average value, no profile.</strong> Slice
+by slice, the uncertainty runs from ± 1.8 to ± 7.2 points: no profile
+can be read. Pooled, 5.3 ± 1.6 %: at the top of the “normal” range for
+the base of a cob wall (3 to 5 %), but at 1.20 m above ground, where
+less is expected than at the base. The first two slices alone (0 to 10
+cm): 5.8 ± 1.6 %.</li>
+<li><strong>Look of the earth (observed).</strong> The aggregates of the
+façade earth and the sandy look of the attic earth point the same way as
+the measured contents (façade wetter). But the darker colour persists
+once the earth is dry: it does not come from water. The façade earth is
+of another nature (more clay, organic matter or oxides: assumed).
+Another earth has another isotherm (Part 3): the attic’s does not hold
+for the façade.</li>
+</ul>
+<h1 id="part-3-what-this-changes-for-insulating-a-cob-wall">Part 3 —
+What this changes for insulating a cob wall</h1>
+<blockquote>
+<p><strong>Contains</strong>: the measured value against the literature;
+why going from a water content to a relative humidity needs the isotherm
+of the wall’s earth; why a damp skin matters before closing a wall.
+<strong>Relies on</strong>: published curves for two other earths [3]
+and on orders of magnitude. <strong>Does not contain</strong>: the
+author’s moisture calculations for specific insulation systems, which
+are not published; no conclusion about an insulant or a build-up is
+drawn from them here.</p>
+</blockquote>
+<h2 id="the-measured-value-against-the-literature">3.1 The measured
+value against the literature</h2>
+<p>The attic partition and the core of the shed wall are in the healthy
+range. The pooled façade (5.3 %) is at the top of the “normal” range for
+the base of an English cob wall (3 to 5 %), at 1.20 m above ground; its
+uncertainty bar (± 1.6) runs from “normal” towards the rising-damp
+threshold (7.5 to 10 %) without reaching it, and the known biases pull
+the true value upwards. The shed skin (10.1 %) touches that threshold
+with no known leak. None of these values can be compared with old cob
+measured in place: there is none, in our sources.</p>
+<h2 id="why-the-isotherm-of-the-real-earth-is-needed">3.2 Why the
+isotherm of the real earth is needed</h2>
+<p>Moisture calculations for an insulated wall reason in
+<strong>relative humidity</strong> in the pores of the earth; a weighing
+gives a <strong>water content</strong>. The bridge is the
+<strong>sorption isotherm</strong>: the water content an earth takes at
+each relative humidity of the air. It depends on the earth (clay,
+organic matter, fibres, compaction). We did not measure it for these
+walls. For lack of better, Figure 9 shows it for two laboratory cob
+soils (Phung, 2018 [3]: two Normandy earths, 1 % straw; points in
+<code>donnees/isotherme_phung_2018.csv</code>, with the annex of the
+thesis each comes from): on drying, desorption from 5 to 90 % relative
+humidity, then the retention curve from 93 % to saturation; the dotted
+line joins two different series of specimens.</p>
+<figure id="fig_isotherme">
+<img src="../../humidite-de-la-bauge/figures/fig_isotherme_en.svg"
+loading="lazy"
+alt="Figure 9 — Water content against equilibrium relative humidity, for two laboratory cob soils (other earths than these walls), with the measured contents drawn on them (horizontal bands). Dotted: join between two series of specimens." />
+<figcaption aria-hidden="true">Figure 9 — Water content against
+equilibrium relative humidity, for two laboratory cob soils (other
+earths than these walls), with the measured contents drawn on them
+(horizontal bands). Dotted: join between two series of
+specimens.</figcaption>
+</figure>
+<table>
+<caption>Equilibrium relative humidity (RH, in %) equivalent to each
+water content, read on each of the two published soils; in brackets, the
+value for <em>w</em> − 1 σ and <em>w</em> + 1 σ; “—” when the bound
+falls off the curve. Calculated by linear interpolation: an indicative
+reading, neither a measurement nor a design value.</caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr>
+<th>Sample</th>
+<th>w</th>
+<th>Soil A: RH (± 1 σ of w)</th>
+<th>Soil B: RH (± 1 σ of w)</th>
+<th>Between the two soils</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1 (attic, 0-5 cm)</td>
+<td>1.4 %</td>
+<td>41 % (33-49)</td>
+<td>53 % (41-62)</td>
+<td>41-53 %</td>
+</tr>
+<tr>
+<td>C2 (attic, 5-13 cm)</td>
+<td>1.8 %</td>
+<td>51 % (38-61)</td>
+<td>64 % (49-76)</td>
+<td>51-64 %</td>
+</tr>
+<tr>
+<td>A2 (garden shed, 10-20 cm)</td>
+<td>1.7 %</td>
+<td>49 % (43-54)</td>
+<td>61 % (55-67)</td>
+<td>49-61 %</td>
+</tr>
+<tr>
+<td>A1 (garden shed, 0-10 cm)</td>
+<td>10.1 %</td>
+<td>99.4 % (99.3-99.6)</td>
+<td>99.8 % (99.5-99.8)</td>
+<td>99.4-99.8 %</td>
+</tr>
+<tr>
+<td>South façade 0-10 cm (F1 + F2)</td>
+<td>5.8 %</td>
+<td>95 % (91-98)</td>
+<td>94 % (92-97)</td>
+<td>94-95 %</td>
+</tr>
+<tr>
+<td><strong>South façade 0-20 cm pooled</strong></td>
+<td><strong>5.3 %</strong></td>
+<td><strong>94 % (87-97)</strong></td>
+<td><strong>93 % (91-96)</strong></td>
+<td><strong>93-94 %</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Three lessons, which do not depend on the details of these
+curves:</p>
+<ul>
+<li><strong>Two soils, two humidities for the same water.</strong> A 3 %
+water content is worth about 75 % relative humidity on soil A and about
+90 % on soil B. The conversion does not transfer from one earth to
+another.</li>
+<li><strong>The conversion is ill-conditioned between 80 and 90
+%.</strong> From 80 to 90 % relative humidity, the water content gains
+only about 0.5 point (0.6 on soil A, 0.45 on soil B). An error of 1
+point on <em>w</em>, or another earth, moves the result by tens of
+points of relative humidity. That is the façade’s case: 5.3 ± 1.6 %
+reads between 87 and 97 % relative humidity depending on the earth and
+on the uncertainty. A starting state fixed by convention at a given
+relative humidity cannot be recovered from a weighing.</li>
+<li><strong>The shed skin (10 %) is close to saturation on both
+soils</strong> (99.4 to 99.8 %). If that reading holds, autumn air
+alone, even very humid, explains it poorly: either the shed earth holds
+much more water at a given humidity than these two soils, or liquid
+water adds to it (condensation on a surface colder than the air).
+Inferred, not checked; the retention curve above 93 % comes from
+compacted specimens.</li>
+</ul>
+<p>Measuring the <strong>relative humidity directly</strong> (a probe in
+a plugged hole, read at equilibrium, or the equilibrium humidity of the
+earth in a closed jar) bypasses the isotherm; a weighing alone
+cannot.</p>
+<h2 id="why-a-damp-skin-matters-before-closing-a-wall">3.3 Why a damp
+skin matters before closing a wall</h2>
+<ul>
+<li><strong>This water will have to leave.</strong> Between the shed
+skin and its core there are about 8.4 points of water content. Over 10
+cm of wall, with an assumed dry density of 1,500 to 1,800 kg/m³ (not
+measured; the specimens in [3] range from 1,460 to 1,840), that makes 12
+to 15 kg of water per square metre of wall (calculated,
+<code>grandeurs.py</code>). Closing the wall with a layer less open to
+vapour slows this departure; by how much depends on the build-up, and we
+do not calculate it here.</li>
+<li><strong>The state at the time of closing is what counts, not
+today’s.</strong> The shed shows that a 10 cm skin carries 10 % water
+with no known leak, in November, while its core is dry. A measurement of
+the first centimetres depends on the season and on what came before: it
+must be redone when closing.</li>
+<li><strong>Wet earth is weaker.</strong> According to Harries et
+al. (reported by Phung [3, 4]), the compressive strength of cob falls
+from 0.8 MPa at 4 % water to 0.6 MPa at 10 % and 0.36 MPa at 15 %. What
+is fixed into a damp skin is anchored in weaker earth: this is one of
+the reservations on the screw tests made on the same shed wall (topic
+“Screws in cob” of the same repository, <a
+href="https://remi.cura.info/renovation-terre-crue/en/vis-dans-la-bauge/"
+class="uri">https://remi.cura.info/renovation-terre-crue/en/vis-dans-la-bauge/</a>).</li>
+<li><strong>What to ask of a moisture calculation</strong>: the relative
+humidity the interface between earth and insulation will see, and for
+how long, from a measured starting state, with an isotherm measured on
+the wall’s earth. The author’s calculations on specific insulation
+systems are not published; this paper draws no conclusion from them
+about an insulant, a bonding or an air gap.</li>
+</ul>
+<h2 id="what-to-measure-in-order-to-decide">3.4 What to measure in order
+to decide</h2>
+<ul>
+<li><strong>The isotherm of the wall’s earth</strong>: on façade earth
+(which seems different from the attic’s) and on the dry samples from the
+attic and the shed (7 to 16 g); jars with saturated salts (magnesium
+chloride 33 %, sodium chloride 75 %, potassium chloride 85 %, potassium
+sulphate 97 % relative humidity), weighed to constant mass.</li>
+<li><strong>More earth</strong>: at least 10 g of dry earth per slice
+(several neighbouring holes, or a larger diameter).</li>
+<li><strong>Weighings without uptake</strong>: pots closed at the oven
+exit, weighed cold; control weighed in every series.</li>
+<li><strong>A full profile</strong>: drill from the inside too, at the
+same height, and reach the core of the wall.</li>
+<li><strong>The stones</strong>: weigh separately the stone removed from
+each pot.</li>
+<li><strong>At the right time</strong>: redo the measurement of the
+outer skin when the wall is closed.</li>
+</ul>
+<h1 id="limits-and-open-points">Limits and open points</h1>
+<ul>
+<li><strong>One day, one sample per place, no repetition.</strong> The
+uncertainties given are those of the weighings alone; sampling biases
+come on top, mostly downwards.</li>
+<li><strong>The façade has too little earth</strong> for a profile; only
+its pooled value can be read.</li>
+<li><strong>Series E3 was discarded</strong>; series E1 serves as dry
+mass, with a moisture uptake of at most 0.8 % of the dry earth for the
+most heavily loaded pots.</li>
+<li><strong>No isotherm was measured</strong> on these earths: the
+relative humidities in the paper are readings on other earths,
+indicative.</li>
+<li><strong>Open points</strong>: the face from which the façade was
+drilled (it tells which side of the wall the 20 measured cm are on);
+what stopped the drilling at about 20 cm; the pot the stone was removed
+from.</li>
+</ul>
+<h1 id="references">References</h1>
+<p>The full references, with their address and date of access, are in
+the <a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/papier/references.md">reference
+list on the GitHub repository</a> (folder
+<code>humidite-de-la-bauge/papier/</code>).</p>
+<ol type="1">
+<li>Devon Earth Building Association, <em>Cob Dwellings: Compliance with
+the Building Regulations 2000 (as amended)</em>, leaflet, 2008, section
+on moisture.</li>
+<li>Heitz P., Morel J.-C., Fabbri A., Soudani L., Champiré F., Meunier
+N., “L’isolation du pisé : pertinence et principes” [Insulating rammed
+earth: relevance and principles], TransLettre (LGCB-LTDS, ENTPE-CNRS),
+August 2015.</li>
+<li>Phung T. A., <em>Formulation et caractérisation d’un composite
+terre-fibres végétales : la bauge</em> [Formulation and characterisation
+of an earth and plant-fibre composite: cob], thesis, Université de Caen
+Normandie, 2018 (HAL tel-01938827).</li>
+<li>Harries R., Saxton B., Coventry K., 1995, paper reported by [3] (not
+read directly).</li>
+<li>Azil A., <em>Étude des performances mécanique et hygrothermique des
+matériaux en terre et fibre végétale : application dans un bâtiment
+pilote</em> [Study of the mechanical and hygrothermal performance of
+earth and plant-fibre materials: application in a pilot building],
+thesis, Université de Caen Normandie, 2022 (HAL tel-03969291).</li>
+</ol>
+<p class="boutons">
+<a class="bouton" href="../../humidite-de-la-bauge/telechargements/humidite-de-la-bauge_paper_en.docx" download>Download
+the paper (.docx)</a>
+</p>
+</main>
+<footer class="bas">
+  <p>Text, data, figures and photos: CC BY 4.0. Code: MIT. Rémi Cura,
+2026.</p>
+  <p>Feedback welcome:
+<a href="https://github.com/Remi-C/renovation-terre-crue/issues">GitHub
+issues</a> ·
+<a href="https://github.com/Remi-C/renovation-terre-crue">repository</a>
+·
+<a href="mailto:remi.cura+terre@gmail.com">remi.cura+terre@gmail.com</a></p>
+</footer>
+</body>
+</html>

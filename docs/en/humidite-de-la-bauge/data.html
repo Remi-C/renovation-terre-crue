@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data and code · Earth building renovation</title>
+<meta name="description" content="A homeowner’s field notes on
+renovating earth (cob) buildings: tests, readings, code and photos.">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="fr" href="../../humidite-de-la-bauge/donnees.html">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="../index.html">Earth building renovation</a>
+    <a class="langue" href="../../humidite-de-la-bauge/donnees.html" hreflang="fr" lang="fr">Français</a>
+  </div>
+  <p class="fil"><a href="../index.html">Home</a> › Moisture in cob</p>
+  <nav class="menu" aria-label="Main menu">
+    <a href="index.html">Overview</a>
+    <a href="paper.html">The paper</a>
+    <a href="data.html" aria-current="page">Data and code</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+<main>
+<h1 class="titre">Data and code</h1>
+<p>Everything behind the paper is in the <a
+href="https://github.com/Remi-C/renovation-terre-crue/tree/main/humidite-de-la-bauge"><code>humidite-de-la-bauge/</code></a>
+folder of the GitHub repository: raw readings, the code that rebuilds
+the numbers and figures, and the photos. Text, data, figures and photos
+under CC BY 4.0; code under the MIT licence. File and column names are
+in French; the data dictionary explains them.</p>
+<h2 id="data">Data</h2>
+<ul>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/pesees.csv"><code>donnees/pesees.csv</code></a>:
+the masses read, one row per pot and per step (E0 to E5), with all
+repeated readings and the weighing rank.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/prelevements.csv"><code>donnees/prelevements.csv</code></a>:
+one row per pot (wall, depth, place, drilling tool).</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/etapes.csv"><code>donnees/etapes.csv</code></a>:
+the six steps, their weighing conditions and the weighing order of the
+out-of-oven series.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/isotherme_phung_2018.csv"><code>donnees/isotherme_phung_2018.csv</code></a>:
+the published points of two laboratory cob soils (Phung’s thesis, 2018),
+with the annex each comes from: enough to redraw the isotherm figure,
+not an isotherm of these walls.</li>
+<li><a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/resultats_calcules.json"><code>donnees/resultats_calcules.json</code></a>:
+weighing noise, water content of each pot, equivalent relative humidity
+on the two published soils, water balance of the shed skin.</li>
+<li>Column dictionary: <a
+href="https://github.com/Remi-C/renovation-terre-crue/blob/main/humidite-de-la-bauge/donnees/README.md"><code>donnees/README.md</code></a>.</li>
+</ul>
+<h2 id="code">Code</h2>
+<p>Python 3 with matplotlib and numpy; Pillow and pandoc for the build.
+No file from outside the topic. From the repository root:</p>
+<pre><code>python3 humidite-de-la-bauge/code/grandeurs.py          # noise, water contents, equivalent relative humidity
+python3 humidite-de-la-bauge/code/figures_humidite.py   # the five figures (French and English)
+make construire                                         # all of the above, plus the paper (.docx) and this site</code></pre>
+<h2 id="figures">Figures</h2>
+<figure>
+<img src="../../humidite-de-la-bauge/figures/fig_protocole_en.svg"
+loading="lazy"
+alt="The six weighings of each pot, in chronological order on 18 Nov. 2026, and the weighing order of the two out-of-oven series. (fig_protocole_en)" />
+<figcaption aria-hidden="true">The six weighings of each pot, in
+chronological order on 18 Nov. 2026, and the weighing order of the two
+out-of-oven series. (<code>fig_protocole_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../humidite-de-la-bauge/figures/fig_ecarts_en.svg"
+loading="lazy"
+alt="Mass differences between successive weighings, as read, with no correction. (fig_ecarts_en)" />
+<figcaption aria-hidden="true">Mass differences between successive
+weighings, as read, with no correction.
+(<code>fig_ecarts_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../humidite-de-la-bauge/figures/fig_bruit_en.svg"
+loading="lazy"
+alt="Uncertainty of the water content due to weighing alone, against the dry earth in the pot. (fig_bruit_en)" />
+<figcaption aria-hidden="true">Uncertainty of the water content due to
+weighing alone, against the dry earth in the pot.
+(<code>fig_bruit_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../humidite-de-la-bauge/figures/fig_profils_en.svg"
+loading="lazy"
+alt="Water content against depth, per wall, with literature reference points. (fig_profils_en)" />
+<figcaption aria-hidden="true">Water content against depth, per wall,
+with literature reference points.
+(<code>fig_profils_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../humidite-de-la-bauge/figures/fig_isotherme_en.svg"
+loading="lazy"
+alt="Water content against equilibrium relative humidity, for two published cob soils, with the measured contents drawn on them. (fig_isotherme_en)" />
+<figcaption aria-hidden="true">Water content against equilibrium
+relative humidity, for two published cob soils, with the measured
+contents drawn on them. (<code>fig_isotherme_en</code>)</figcaption>
+</figure>
+<h2 id="how-to-cite">How to cite</h2>
+<p>Rémi Cura (2026). <em>Moisture in cob.</em> In: <em>Renovating earth
+buildings: field notes</em>, data and code repository,
+https://github.com/Remi-C/renovation-terre-crue. DOI (Zenodo): to
+come.</p>
+</main>
+<footer class="bas">
+  <p>Text, data, figures and photos: CC BY 4.0. Code: MIT. Rémi Cura,
+2026.</p>
+  <p>Feedback welcome:
+<a href="https://github.com/Remi-C/renovation-terre-crue/issues">GitHub
+issues</a> ·
+<a href="https://github.com/Remi-C/renovation-terre-crue">repository</a>
+·
+<a href="mailto:remi.cura+terre@gmail.com">remi.cura+terre@gmail.com</a></p>
+</footer>
+</body>
+</html>
