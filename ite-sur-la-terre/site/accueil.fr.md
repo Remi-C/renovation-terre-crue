@@ -110,7 +110,7 @@ d'ancrer son support dans la bauge.
 
 Tout dépend de l'eau que contient le mur au moment où on l'isole.
 
-![Les trois régimes selon l'eau moyenne du mur, avec nos pesées du 18/11/2026 et les humidités relatives que donne la courbe de rétention de nos calculs.](../figures/fig_regimes.png)
+![Les trois régimes selon l'eau moyenne du mur, avec nos murs secs pesés le 18/11/2026, la moyenne estimée de notre façade sud et les humidités relatives que donne la courbe de rétention de nos calculs.](../figures/fig_regimes.png)
 
 - **Si la bauge est raisonnablement sèche**, de l'ordre de 2 % d'eau (en masse de terre sèche) en moyenne dans son
   épaisseur, soit l'équilibre avec un air à 65 % d'humidité relative dans nos calculs et l'état de nos murs intérieurs
@@ -119,7 +119,9 @@ Tout dépend de l'eau que contient le mur au moment où on l'isole.
   isolants posés sur une brique sèche.
 - **Si le mur est un peu au-dessus**, on peut essayer de le sécher avant d'isoler : l'ouvrir l'été, à l'abri de la pluie
   et bien ventilé, et l'isoler en fin d'été. Dans nos calculs, quatre mois d'ouverture font sortir 5 à 10 kg d'eau par
-  m² ; la peau du mur sèche, son cœur beaucoup moins.
+  m² ; la peau du mur sèche, son cœur beaucoup moins. C'est le cas de notre façade sud : seule sa peau est pesée (5,3 %
+  sur 20 cm), sa moyenne est estimée entre 3,7 et 5,3 %, et nos calculs y trouvent la laine de roche sous enduit viable
+  après deux à quatre mois de séchage du mur ouvert.
 - **Si le mur est trop humide, ou s'il y a des remontées d'eau significatives, les choses se gâtent.**
   - On sort du domaine admissible pour la fibre de bois. En pratique, ça passe peut-être ; mais on ne respecte plus ce
     que demandent les fabricants : au plus 80 % de sa masse en eau dans le centimètre de panneau sous l'enduit les deux

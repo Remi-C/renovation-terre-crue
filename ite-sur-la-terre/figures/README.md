@@ -8,5 +8,5 @@ Produites par `../code/figures_ite.py` (ne pas les modifier à la main) : PNG (2
 - `fig_parements` — les deux familles de parement en coupe horizontale (enduit sur l'isolant ; lame d'air ventilée et
   bardage), chemin de la vapeur, endroits où l'eau s'accumule.
 - `fig_accroche` — quatre façons de tenir l'isolation, en coupe verticale, et où va le poids.
-- `fig_regimes` — les trois régimes selon l'eau moyenne du mur, pesées du 18/11/2026, humidités relatives des calculs.
+- `fig_regimes` — les trois régimes selon l'eau moyenne du mur, murs secs pesés le 18/11/2026, moyenne estimée de la façade sud, humidités relatives des calculs.
 - `README.md` — ce fichier.

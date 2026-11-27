@@ -110,7 +110,7 @@ to anchor its support into cob.
 
 Everything depends on how much water the wall holds when it is insulated.
 
-![The three cases according to the wall's average water content, with our weighings of 18 Nov. 2026 and the relative humidities given by the retention curve of our calculations.](../figures/fig_regimes_en.png)
+![The three cases according to the wall's average water content, with our dry walls weighed on 18 Nov. 2026, the estimated average of our south façade and the relative humidities given by the retention curve of our calculations.](../figures/fig_regimes_en.png)
 
 - **If the cob is reasonably dry**, around 2 % water (by dry earth mass) on average through its thickness, which is
   equilibrium with air at 65 % relative humidity in our calculations and the state of our dry inner walls (1.4 to 1.8 %
@@ -118,7 +118,9 @@ Everything depends on how much water the wall holds when it is insulated.
   solutions, work very well: their indicators then match those of the same insulation on a dry brick wall.
 - **If the wall is somewhat above that**, one can try to dry it before insulating: open it in summer, sheltered from
   rain and well ventilated, and insulate at the end of summer. In our calculations, four months open take out 5 to 10 kg
-  of water per m²; the wall's skin dries, its core much less.
+  of water per m²; the wall's skin dries, its core much less. This is the case of our south façade: only its skin was
+  weighed (5.3 % over 20 cm), its average is estimated between 3.7 and 5.3 %, and our calculations find stone wool under
+  render workable there after two to four months of drying with the wall open.
 - **If the wall is too wet, or there is significant rising damp, things get worse.**
   - Wood fibre falls outside its admissible range. In practice it may still work; but it no longer meets what the
     manufacturers ask: at most 80 % of its mass in water in the centimetre of board under the render during the first

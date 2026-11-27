@@ -227,59 +227,73 @@ def fig_accroche(lang):
 
 
 # ------------------------------------------------------------------------------------------------- fig_regimes
-# Pesées publiées du sujet « Humidité de la bauge » (18/11/2026), en % de la masse de terre sèche : (libellé, valeur,
-# incertitude, profondeur).
+# Pesées publiées du sujet « Humidité de la bauge » (18/11/2026) dans des murs secs, en % de la masse de terre sèche :
+# (libellé, valeur, incertitude, profondeur).
 PESEES = [
     (("Combles, refend", "Attic, cross wall"), 1.4, 0.3, "0-5 cm"),
     (("Combles, refend", "Attic, cross wall"), 1.8, 0.5, "5-13 cm"),
     (("Cabanon, cœur", "Garden shed, core"), 1.7, 0.2, "10-20 cm"),
-    (("Façade sud, regroupée", "South façade, pooled"), 5.3, 1.6, "0-20 cm"),
 ]
+# Façade sud : seule sa peau est pesée (5,3 % sur 0-20 cm, regroupée). Sa moyenne dans l'épaisseur est encadrée par les deux
+# états de départ des calculs de l'auteur : central (20 cm extérieurs à 5,3 %, cœur à 3,0 %, mur de 62,5 cm) et haut (5,3 %
+# partout). Les calculs de l'auteur trouvent la laine de roche sous enduit viable sur cette façade après deux à quatre mois de
+# séchage du mur ouvert : la façade relève du deuxième régime.
+EPAISSEUR, PEAU, W_PEAU, W_COEUR = 0.625, 0.20, 5.3, 3.0
+FACADE_CENTRAL = (PEAU * W_PEAU + (EPAISSEUR - PEAU) * W_COEUR) / EPAISSEUR   # 3,7 %
+FACADE_HAUT = W_PEAU
 # Correspondances des calculs de l'auteur (courbe de rétention d'une bauge de laboratoire, non mesurée sur ces murs) :
 # teneur en eau (%) à l'équilibre avec une humidité relative donnée.
 EQUIVALENTS = [(1.9, 65), (2.3, 70), (3.0, 80), (3.3, 90)]
+# Limites des régimes (moyenne dans l'épaisseur, approximatives) : 2 % ≈ murs secs pesés, équilibre à 65 % dans les calculs ;
+# 5,5 % ≈ au-delà de l'état haut des calculs (5,3 % partout), cas « on découvre un mur très humide ».
+BORNES = [(0, 2.0), (2.0, 5.5), (5.5, 8.0)]
 
 
 def fig_regimes(lang):
-    """Les trois régimes des pistes de l'auteur selon l'eau moyenne du mur, avec les pesées publiées et les humidités
-    relatives que donne la courbe de rétention des calculs."""
+    """Les trois régimes des pistes de l'auteur selon l'eau moyenne du mur, avec les murs secs pesés, la moyenne estimée de
+    la façade sud et les humidités relatives que donne la courbe de rétention des calculs."""
     _ = traducteur(lang)
     fig, ax = plt.subplots(figsize=(10, 4.8))
-    bornes = [(0, 2.0), (2.0, 3.0), (3.0, 7.5)]
     titres = [
-        _("Assez sec\nsous enduit, ça passe", "Dry enough\nunder render, it works"),
-        _("Un peu\nau-dessus\nsécher l'été,\nisoler en fin\nd'été", "Somewhat\nabove\ndry it in\nsummer, insulate\nat summer's end"),
-        _("Trop humide, ou remontées d'eau\nparement ventilé (bardage bois ou minéral)", "Too wet, or rising damp\nventilated cladding (timber or mineral)"),
+        _("Assez sec\nsous enduit,\nça passe", "Dry enough\nunder render,\nit works"),
+        _("Un peu au-dessus\nsécher le mur l'été,\npuis isoler sous enduit en fin d'été", "Somewhat above\ndry the wall in summer,\nthen insulate under render at summer's end"),
+        _("Trop humide, ou\nremontées d'eau\nparement ventilé\n(bois ou minéral)", "Too wet, or\nrising damp\nventilated cladding\n(timber or mineral)"),
     ]
-    for (a, b), c, t in zip(bornes, BANDES, titres):
+    for (a, b), c, t in zip(BORNES, BANDES, titres):
         ax.add_patch(Rectangle((a, 0), b - a, 1, fc=c, ec=FOND, lw=2))
-        ax.text((a + b) / 2, 0.95, t, ha="center", va="top", fontsize=10.5 if a == 2.0 else 11, color=ENCRE, weight="bold" if a == 0 else None)
-    for x in (2.0, 3.0):
-        ax.plot([x, x], [0, 1], color=FOND, lw=0)
-    # pesées
-    ys = [0.36, 0.24, 0.48, 0.36]
-    for (lib, v, inc, prof), y in zip(PESEES, ys):
-        ax.errorbar(v, y, xerr=inc, fmt="o", ms=7, color=ENCRE, ecolor=ENCRE_2, elinewidth=1.2, capsize=3,
-                    mec=FOND, mew=1.5)
-        cote = "left" if v < 3 else "left"
-        ax.text(v + inc + 0.08, y, f"{lib[0] if lang == 'fr' else lib[1]} ({prof})", ha=cote, va="center", fontsize=10, color=ENCRE)
-    # équivalents en humidité relative, en marques sous l'axe
+        ax.text((a + b) / 2, 0.95, t, ha="center", va="top", fontsize=11, color=ENCRE, weight="bold")
+    # murs secs pesés
+    for (lib, v, inc, prof), y in zip(PESEES, (0.40, 0.27, 0.53)):
+        ax.errorbar(v, y, xerr=inc, fmt="o", ms=7, color=ENCRE, ecolor=ENCRE_2, elinewidth=1.2, capsize=3, mec=FOND, mew=1.5)
+    ax.text(0.15, 0.62, _("murs secs pesés", "weighed dry walls"), ha="left", va="bottom", fontsize=10, color=ENCRE)
+    for (lib, v, inc, prof), y in zip(PESEES, (0.40, 0.27, 0.53)):
+        ax.text(v - inc - 0.08, y, f"{lib[0] if lang == 'fr' else lib[1]} ({prof})", ha="right", va="center", fontsize=9, color=ENCRE)
+    # façade sud : moyenne estimée
+    y = 0.43
+    ax.plot([FACADE_CENTRAL, FACADE_HAUT], [y, y], color=ENCRE, lw=7, solid_capstyle="butt")
+    ax.text((FACADE_CENTRAL + FACADE_HAUT) / 2, y + 0.06,
+            _("Façade sud, moyenne estimée\n" + nombre(FACADE_CENTRAL, lang) + " à " + nombre(FACADE_HAUT, lang) + " %",
+              "South façade, estimated average\n" + nombre(FACADE_CENTRAL, lang) + " to " + nombre(FACADE_HAUT, lang) + " %"),
+            ha="center", va="bottom", fontsize=10, color=ENCRE, weight="bold")
+    # équivalents en humidité relative, en marques sur l'axe
     for w, hr in EQUIVALENTS:
         ax.plot([w, w], [0, 0.05], color=ENCRE_2, lw=1)
         ax.text(w, 0.07, f"{hr} %", ha="center", va="bottom", fontsize=9.5, color=ENCRE_2, rotation=90)
     ax.text(3.45, 0.07, _("← humidité relative d'équilibre\n    dans nos calculs ⚠", "← equilibrium relative humidity\n    in our calculations ⚠"),
             ha="left", va="bottom", fontsize=9.5, color=ENCRE_2)
-    ax.set_xlim(0, 7.5)
+    ax.set_xlim(0, 8)
     ax.set_ylim(0, 1)
     ax.set_yticks([])
     ax.spines["left"].set_visible(False)
-    ax.set_xlabel(_("Eau dans le mur (% de la masse de terre sèche)", "Water in the wall (% of dry earth mass)"))
-    ax.set_xticks(range(0, 8))
-    ax.set_xticklabels([nombre(x, lang, ".0f") for x in range(0, 8)])
-    fig.text(0.01, -0.07, _("Bandes : moyenne dans l'épaisseur du mur ; limites approximatives. Points : pesées du 18/11/2026, chacune à sa profondeur,\n"
-                            "barres = incertitude. Humidités relatives : courbe de rétention d'une bauge de laboratoire, non mesurée sur ces murs.",
-                            "Bands: average over the wall thickness; approximate limits. Dots: weighings of 18 Nov. 2026, each at its depth,\n"
-                            "bars = uncertainty. Relative humidities: retention curve of a laboratory cob, not measured on these walls."),
+    ax.set_xlabel(_("Eau dans le mur, moyenne dans son épaisseur (% de la masse de terre sèche)", "Water in the wall, averaged over its thickness (% of dry earth mass)"))
+    ax.set_xticks(range(0, 9))
+    ax.set_xticklabels([nombre(x, lang, ".0f") for x in range(0, 9)])
+    fig.text(0.01, -0.15, _("Limites des bandes approximatives. Points : pesées du 18/11/2026 dans des murs secs, barres = incertitude. Façade sud : seule\n"
+                            "sa peau est pesée (5,3 % sur 20 cm) ; barre : de l'état central de nos calculs (cœur à 3,0 %) à l'état haut (5,3 % partout).\n"
+                            "Humidités relatives : courbe de rétention d'une bauge de laboratoire, non mesurée sur ces murs.",
+                            "Approximate band limits. Dots: weighings of 18 Nov. 2026 in dry walls, bars = uncertainty. South façade: only its skin\n"
+                            "was weighed (5.3 % over 20 cm); bar: from the central state of our calculations (core at 3.0 %) to the high state (5.3 % throughout).\n"
+                            "Relative humidities: retention curve of a laboratory cob, not measured on these walls."),
              fontsize=10, color=ENCRE_3)
     enregistrer(fig, "fig_regimes", lang)
 

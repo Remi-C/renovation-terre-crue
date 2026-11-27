@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="782.519813pt" height="346.12332pt" viewBox="0 0 782.519813 346.12332" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="659.0175pt" height="373.77132pt" viewBox="0 0 659.0175 373.77132" xmlns="http://www.w3.org/2000/svg" version="1.1">
  <metadata>
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
@@ -15,10 +15,10 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 346.12332 
-L 782.519812 346.12332 
-L 782.519812 0 
-L 0 0 
+   <path d="M 0 373.77132 
+L 659.0175 373.77132 
+L 659.0175 -0 
+L 0 -0 
 z
 " style="fill: #fcfcfb"/>
   </g>
@@ -33,27 +33,27 @@ z
    </g>
    <g id="patch_3">
     <path d="M 90 273.312 
-L 238.8 273.312 
-L 238.8 7.2 
+L 229.5 273.312 
+L 229.5 7.2 
 L 90 7.2 
 z
-" clip-path="url(#p28024b7d1a)" style="fill: #e3eefb; stroke: #fcfcfb; stroke-width: 2; stroke-linejoin: miter"/>
+" clip-path="url(#pe320d4679d)" style="fill: #e3eefb; stroke: #fcfcfb; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 238.8 273.312 
-L 313.2 273.312 
-L 313.2 7.2 
-L 238.8 7.2 
+    <path d="M 229.5 273.312 
+L 473.625 273.312 
+L 473.625 7.2 
+L 229.5 7.2 
 z
-" clip-path="url(#p28024b7d1a)" style="fill: #a9c8ef; stroke: #fcfcfb; stroke-width: 2; stroke-linejoin: miter"/>
+" clip-path="url(#pe320d4679d)" style="fill: #a9c8ef; stroke: #fcfcfb; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 313.2 273.312 
+    <path d="M 473.625 273.312 
 L 648 273.312 
 L 648 7.2 
-L 313.2 7.2 
+L 473.625 7.2 
 z
-" clip-path="url(#p28024b7d1a)" style="fill: #5f97dc; stroke: #fcfcfb; stroke-width: 2; stroke-linejoin: miter"/>
+" clip-path="url(#pe320d4679d)" style="fill: #5f97dc; stroke: #fcfcfb; stroke-width: 2; stroke-linejoin: miter"/>
    </g>
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
@@ -68,180 +68,170 @@ L 0 3.5
       </g>
      </g>
      <g id="text_1">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="90" y="289.429188" transform="rotate(-0 90 289.429188)">0</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="90" y="289.429187" transform="rotate(-0 90 289.429187)">0</text>
      </g>
     </g>
     <g id="xtick_2">
      <g id="line2d_2">
       <g>
-       <use xlink:href="#m8a4afdff39" x="164.4" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m8a4afdff39" x="159.75" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="164.4" y="289.429188" transform="rotate(-0 164.4 289.429188)">1</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="159.75" y="289.429187" transform="rotate(-0 159.75 289.429187)">1</text>
      </g>
     </g>
     <g id="xtick_3">
      <g id="line2d_3">
       <g>
-       <use xlink:href="#m8a4afdff39" x="238.8" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m8a4afdff39" x="229.5" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_3">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="238.8" y="289.429188" transform="rotate(-0 238.8 289.429188)">2</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="229.5" y="289.429187" transform="rotate(-0 229.5 289.429187)">2</text>
      </g>
     </g>
     <g id="xtick_4">
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m8a4afdff39" x="313.2" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m8a4afdff39" x="299.25" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="313.2" y="289.429188" transform="rotate(-0 313.2 289.429188)">3</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="299.25" y="289.429187" transform="rotate(-0 299.25 289.429187)">3</text>
      </g>
     </g>
     <g id="xtick_5">
      <g id="line2d_5">
       <g>
-       <use xlink:href="#m8a4afdff39" x="387.6" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m8a4afdff39" x="369" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="387.6" y="289.429188" transform="rotate(-0 387.6 289.429188)">4</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="369" y="289.429187" transform="rotate(-0 369 289.429187)">4</text>
      </g>
     </g>
     <g id="xtick_6">
      <g id="line2d_6">
       <g>
-       <use xlink:href="#m8a4afdff39" x="462" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m8a4afdff39" x="438.75" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_6">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="462" y="289.429188" transform="rotate(-0 462 289.429188)">5</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="438.75" y="289.429187" transform="rotate(-0 438.75 289.429187)">5</text>
      </g>
     </g>
     <g id="xtick_7">
      <g id="line2d_7">
       <g>
-       <use xlink:href="#m8a4afdff39" x="536.4" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m8a4afdff39" x="508.5" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_7">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="536.4" y="289.429188" transform="rotate(-0 536.4 289.429188)">6</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="508.5" y="289.429187" transform="rotate(-0 508.5 289.429187)">6</text>
      </g>
     </g>
     <g id="xtick_8">
      <g id="line2d_8">
       <g>
-       <use xlink:href="#m8a4afdff39" x="610.8" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+       <use xlink:href="#m8a4afdff39" x="578.25" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_8">
-      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="610.8" y="289.429188" transform="rotate(-0 610.8 289.429188)">7</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="578.25" y="289.429187" transform="rotate(-0 578.25 289.429187)">7</text>
      </g>
     </g>
-    <g id="text_9">
-     <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="369" y="305.910125" transform="rotate(-0 369 305.910125)">Eau dans le mur (% de la masse de terre sèche)</text>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m8a4afdff39" x="648" y="273.312" style="fill: #52514e; stroke: #52514e; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="648" y="289.429187" transform="rotate(-0 648 289.429187)">8</text>
+     </g>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 12px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle; fill: #52514e" x="369" y="305.910125" transform="rotate(-0 369 305.910125)">Eau dans le mur, moyenne dans son épaisseur (% de la masse de terre sèche)</text>
     </g>
    </g>
    <g id="matplotlib.axis_2"/>
-   <g id="line2d_9">
-    <path d="M 238.8 273.312 
-L 238.8 7.2 
-" clip-path="url(#p28024b7d1a)" style="fill: none"/>
+   <g id="LineCollection_1">
+    <path d="M 166.725 166.8672 
+L 208.575 166.8672 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #52514e; stroke-width: 1.2"/>
    </g>
    <g id="line2d_10">
-    <path d="M 313.2 273.312 
-L 313.2 7.2 
-" clip-path="url(#p28024b7d1a)" style="fill: none"/>
-   </g>
-   <g id="LineCollection_1">
-    <path d="M 171.84 177.51168 
-L 216.48 177.51168 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-width: 1.2"/>
-   </g>
-   <g id="line2d_11">
     <defs>
      <path id="me0d77131fd" d="M 0 3 
 L 0 -3 
 " style="stroke: #52514e; stroke-width: 1.5"/>
     </defs>
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="171.84" y="177.51168" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#me0d77131fd" x="166.725" y="166.8672" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
     </g>
    </g>
-   <g id="line2d_12">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="216.48" y="177.51168" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
+   <g id="line2d_11">
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#me0d77131fd" x="208.575" y="166.8672" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
     </g>
    </g>
    <g id="LineCollection_2">
-    <path d="M 186.72 209.44512 
-L 261.12 209.44512 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-width: 1.2"/>
+    <path d="M 180.675 201.46176 
+L 250.425 201.46176 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #52514e; stroke-width: 1.2"/>
    </g>
-   <g id="line2d_13">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="186.72" y="209.44512" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
+   <g id="line2d_12">
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#me0d77131fd" x="180.675" y="201.46176" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
     </g>
    </g>
-   <g id="line2d_14">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="261.12" y="209.44512" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
+   <g id="line2d_13">
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#me0d77131fd" x="250.425" y="201.46176" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
     </g>
    </g>
    <g id="LineCollection_3">
-    <path d="M 201.6 145.57824 
-L 231.36 145.57824 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-width: 1.2"/>
+    <path d="M 194.625 132.27264 
+L 222.525 132.27264 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #52514e; stroke-width: 1.2"/>
+   </g>
+   <g id="line2d_14">
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#me0d77131fd" x="194.625" y="132.27264" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
+    </g>
    </g>
    <g id="line2d_15">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="201.6" y="145.57824" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#me0d77131fd" x="222.525" y="132.27264" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
     </g>
    </g>
    <g id="line2d_16">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="231.36" y="145.57824" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
-    </g>
-   </g>
-   <g id="LineCollection_4">
-    <path d="M 365.28 177.51168 
-L 603.36 177.51168 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-width: 1.2"/>
+    <path d="M 350.586 158.88384 
+L 459.675 158.88384 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #0b0b0b; stroke-width: 7"/>
    </g>
    <g id="line2d_17">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="365.28" y="177.51168" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
-    </g>
+    <path d="M 222.525 273.312 
+L 222.525 260.0064 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
    </g>
    <g id="line2d_18">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#me0d77131fd" x="603.36" y="177.51168" style="fill: #0b0b0b; stroke: #52514e; stroke-width: 1.5"/>
-    </g>
+    <path d="M 250.425 273.312 
+L 250.425 260.0064 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
    </g>
    <g id="line2d_19">
-    <path d="M 231.36 273.312 
-L 231.36 260.0064 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
+    <path d="M 299.25 273.312 
+L 299.25 260.0064 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
    </g>
    <g id="line2d_20">
-    <path d="M 261.12 273.312 
-L 261.12 260.0064 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
+    <path d="M 320.175 273.312 
+L 320.175 260.0064 
+" clip-path="url(#pe320d4679d)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
    </g>
    <g id="line2d_21">
-    <path d="M 313.2 273.312 
-L 313.2 260.0064 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_22">
-    <path d="M 335.52 273.312 
-L 335.52 260.0064 
-" clip-path="url(#p28024b7d1a)" style="fill: none; stroke: #52514e; stroke-linecap: square"/>
-   </g>
-   <g id="line2d_23">
     <defs>
      <path id="mbe89c12753" d="M 0 3.5 
 C 0.928211 3.5 1.81853 3.131218 2.474874 2.474874 
@@ -255,23 +245,18 @@ C -1.81853 3.131218 -0.928211 3.5 0 3.5
 z
 " style="stroke: #fcfcfb; stroke-width: 1.5"/>
     </defs>
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#mbe89c12753" x="194.16" y="177.51168" style="fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 1.5"/>
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#mbe89c12753" x="187.65" y="166.8672" style="fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 1.5"/>
     </g>
    </g>
-   <g id="line2d_24">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#mbe89c12753" x="223.92" y="209.44512" style="fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 1.5"/>
+   <g id="line2d_22">
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#mbe89c12753" x="215.55" y="201.46176" style="fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 1.5"/>
     </g>
    </g>
-   <g id="line2d_25">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#mbe89c12753" x="216.48" y="145.57824" style="fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 1.5"/>
-    </g>
-   </g>
-   <g id="line2d_26">
-    <g clip-path="url(#p28024b7d1a)">
-     <use xlink:href="#mbe89c12753" x="484.32" y="177.51168" style="fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 1.5"/>
+   <g id="line2d_23">
+    <g clip-path="url(#pe320d4679d)">
+     <use xlink:href="#mbe89c12753" x="208.575" y="132.27264" style="fill: #0b0b0b; stroke: #fcfcfb; stroke-width: 1.5"/>
     </g>
    </g>
    <g id="patch_6">
@@ -279,57 +264,63 @@ z
 L 648 273.312 
 " style="fill: none; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="text_10">
-    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(134.486016 29.964096)">Assez sec</text>
-    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(97.416016 43.167104)">sous enduit, ça passe</text>
-   </g>
    <g id="text_11">
-    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(257.271445 29.534164)">Un peu</text>
-    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(249.466172 42.137036)">au-dessus</text>
-    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(243.674766 55.159907)">sécher l'été,</text>
-    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(245.218594 67.762778)">isoler en fin</text>
-    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(262.705195 80.785649)">d'été</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(129.836016 29.964096)">Assez sec</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(121.493203 43.167104)">sous enduit,</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(132.9375 56.369252)">ça passe</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(387.963672 30.404955)">Trop humide, ou remontées d'eau</text>
-    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(360.296953 44.047963)">parement ventilé (bardage bois ou minéral)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(296.456797 29.964955)">Un peu au-dessus</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(291.473281 43.607963)">sécher le mur l'été,</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(244.196484 57.250971)">puis isoler sous enduit en fin d'été</text>
    </g>
    <g id="text_13">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="222.432" y="180.109727" transform="rotate(-0 222.432 180.109727)">Combles, refend (0-5 cm)</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(510.509844 29.964955)">Trop humide, ou</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(508.688828 43.607963)">remontées d'eau</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(507.439297 57.250971)">parement ventilé</text>
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(507.815703 70.893979)">(bois ou minéral)</text>
    </g>
    <g id="text_14">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="267.072" y="212.043167" transform="rotate(-0 267.072 212.043167)">Combles, refend (5-13 cm)</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="100.4625" y="105.920216" transform="rotate(-0 100.4625 105.920216)">murs secs pesés</text>
    </g>
    <g id="text_15">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="237.312" y="148.176287" transform="rotate(-0 237.312 148.176287)">Cabanon, cœur (10-20 cm)</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #0b0b0b" x="161.145" y="169.205442" transform="rotate(-0 161.145 169.205442)">Combles, refend (0-5 cm)</text>
    </g>
    <g id="text_16">
-    <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="609.312" y="180.309727" transform="rotate(-0 609.312 180.309727)">Façade sud, regroupée (0-20 cm)</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #0b0b0b" x="175.095" y="203.800002" transform="rotate(-0 175.095 203.800002)">Combles, refend (5-13 cm)</text>
    </g>
    <g id="text_17">
-    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(233.827773 254.68416) rotate(-90)">65 %</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end; fill: #0b0b0b" x="189.045" y="134.610882" transform="rotate(-0 189.045 134.610882)">Cabanon, cœur (10-20 cm)</text>
    </g>
    <g id="text_18">
-    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(263.587773 254.68416) rotate(-90)">70 %</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(319.819562 127.111065)">Façade sud, moyenne estimée</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(373.810187 139.5138)">3,7 à 5,3 %</text>
    </g>
    <g id="text_19">
-    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(315.667773 254.68416) rotate(-90)">80 %</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(224.992773 254.68416) rotate(-90)">65 %</text>
    </g>
    <g id="text_20">
-    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(337.987773 254.68416) rotate(-90)">90 %</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(252.892773 254.68416) rotate(-90)">70 %</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(346.68 240.048408)">← humidité relative d'équilibre</text>
-    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(346.68 251.451006)">    dans nos calculs ⚠</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(301.717773 254.68416) rotate(-90)">80 %</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(322.642773 254.68416) rotate(-90)">90 %</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(330.6375 240.048408)">← humidité relative d'équilibre</text>
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans', sans-serif; fill: #52514e" transform="translate(330.6375 251.451006)">    dans nos calculs ⚠</text>
    </g>
   </g>
-  <g id="text_22">
-   <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(7.2 323.117266)">Bandes : moyenne dans l'épaisseur du mur ; limites approximatives. Points : pesées du 18/11/2026, chacune à sa profondeur,</text>
-   <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(7.2 335.52)">barres = incertitude. Humidités relatives : courbe de rétention d'une bauge de laboratoire, non mesurée sur ces murs.</text>
+  <g id="text_24">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(7.2 338.362531)">Limites des bandes approximatives. Points : pesées du 18/11/2026 dans des murs secs, barres = incertitude. Façade sud : seule</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(7.2 350.765266)">sa peau est pesée (5,3 % sur 20 cm) ; barre : de l'état central de nos calculs (cœur à 3,0 %) à l'état haut (5,3 % partout).</text>
+   <text style="font-size: 10px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(7.2 363.168)">Humidités relatives : courbe de rétention d'une bauge de laboratoire, non mesurée sur ces murs.</text>
   </g>
  </g>
  <defs>
-  <clipPath id="p28024b7d1a">
+  <clipPath id="pe320d4679d">
    <rect x="90" y="7.2" width="558" height="266.112"/>
   </clipPath>
  </defs>
