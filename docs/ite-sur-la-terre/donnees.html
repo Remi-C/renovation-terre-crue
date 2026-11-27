@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Données et code · Rénovation en terre crue</title>
+<meta name="description" content="Retours d’expérience d’un particulier
+sur la rénovation du bâti en terre crue : essais, relevés, code et
+photos.">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="../en/ite-sur-la-terre/data.html">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="../index.html">Rénovation en terre crue</a>
+    <a class="langue" href="../en/ite-sur-la-terre/data.html" hreflang="en" lang="en">English</a>
+  </div>
+  <p class="fil"><a href="../index.html">Accueil</a> › ITE sur la
+terre</p>
+  <nav class="menu" aria-label="Menu principal">
+    <a href="index.html">Présentation</a>
+    <a href="papier.html">Le papier</a>
+    <a href="donnees.html" aria-current="page">Données et code</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+<main>
+<h1 class="titre">Données et code</h1>
+<p>Ce sujet est une synthèse : il ne publie pas de relevés propres. Il
+s’appuie sur les mesures des sujets <a
+href="../vis-dans-la-bauge/donnees.html">Vis dans la bauge</a> et <a
+href="../humidite-de-la-bauge/donnees.html">Humidité de la bauge</a>, et
+sur nos calculs d’humidité, <strong>non publiés à ce jour</strong>. Le
+dossier <a
+href="https://github.com/Remi-C/renovation-terre-crue/tree/main/ite-sur-la-terre"><code>ite-sur-la-terre/</code></a>
+du dépôt GitHub contient le code des figures. Texte et figures sous
+licence CC BY 4.0 ; code sous licence MIT.</p>
+<h2 id="le-code">Le code</h2>
+<p>Python 3 avec matplotlib. Les figures sont des schémas de principe ;
+les seuls chiffres tracés (pesées publiées, correspondances teneur en
+eau / humidité relative de nos calculs) sont écrits dans le script avec
+leur source. Depuis la racine du dépôt :</p>
+<pre><code>python3 ite-sur-la-terre/code/figures_ite.py   # les trois figures (français et anglais)
+make construire                                # tout, plus ce site</code></pre>
+<h2 id="les-figures">Les figures</h2>
+<figure>
+<img src="figures/fig_parements.svg" loading="lazy"
+alt="Les deux familles de parement, en coupe horizontale : enduit posé sur l’isolant, ou isolant, lame d’air ventilée et bardage ; chemin de la vapeur et endroits où l’eau peut s’accumuler. (fig_parements)" />
+<figcaption aria-hidden="true">Les deux familles de parement, en coupe
+horizontale : enduit posé sur l’isolant, ou isolant, lame d’air ventilée
+et bardage ; chemin de la vapeur et endroits où l’eau peut s’accumuler.
+(<code>fig_parements</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_accroche.svg" loading="lazy"
+alt="Quatre façons de tenir l’isolation, en coupe verticale : fixée dans la bauge, ossature suspendue à la charpente, ossature autoportante sur une maçonnerie en pied, ossature accrochée à la bauge. (fig_accroche)" />
+<figcaption aria-hidden="true">Quatre façons de tenir l’isolation, en
+coupe verticale : fixée dans la bauge, ossature suspendue à la
+charpente, ossature autoportante sur une maçonnerie en pied, ossature
+accrochée à la bauge. (<code>fig_accroche</code>)</figcaption>
+</figure>
+<figure>
+<img src="figures/fig_regimes.svg" loading="lazy"
+alt="Les trois régimes de nos pistes selon l’eau moyenne du mur, avec les pesées du 18/11/2026 et les humidités relatives de la courbe de rétention de nos calculs. (fig_regimes)" />
+<figcaption aria-hidden="true">Les trois régimes de nos pistes selon
+l’eau moyenne du mur, avec les pesées du 18/11/2026 et les humidités
+relatives de la courbe de rétention de nos calculs.
+(<code>fig_regimes</code>)</figcaption>
+</figure>
+<h2 id="citer">Citer</h2>
+<p>Rémi Cura (2026). <em>ITE sur la terre.</em> Dans : <em>Rénover le
+bâti en terre crue : retours d’expérience</em>, dépôt de données et de
+code, https://github.com/Remi-C/renovation-terre-crue. DOI :
+10.5281/zenodo.24504812</p>
+</main>
+<footer class="bas">
+  <p>Texte, données, figures et photos : CC BY 4.0. Code : MIT. Rémi
+Cura, 2026.</p>
+  <p>Retours bienvenus :
+<a href="https://github.com/Remi-C/renovation-terre-crue/issues">issues
+GitHub</a> ·
+<a href="https://github.com/Remi-C/renovation-terre-crue">dépôt</a> ·
+<a href="mailto:remi.cura+terre@gmail.com">remi.cura+terre@gmail.com</a></p>
+</footer>
+</body>
+</html>

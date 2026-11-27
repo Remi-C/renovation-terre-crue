@@ -17,6 +17,7 @@ Site : <https://remi.cura.info/renovation-terre-crue/> (français, English)
 |---|---|---|---|
 | [`vis-dans-la-bauge/`](vis-dans-la-bauge/) | Vis dans la bauge : combien tient une vis dans un vieux mur de bauge, de côté et en traction, et comment la poser | Screws in cob: how much a screw holds in an old cob wall, sideways and in pull-out, and how to drive it | de côté (30/10/2026) et en traction (07/11/2026) faits / sideways and pull-out done |
 | [`humidite-de-la-bauge/`](humidite-de-la-bauge/) | Humidité de la bauge : quelle eau contient un vieux mur de bauge, pesée avant et après séchage, et ce que cela change avant d'isoler | Moisture in cob: what water an old cob wall holds, weighed before and after drying, and what that changes before insulating | première campagne faite (17-18/11/2026) : peau mouillée sur cœur sec, pas d'isotherme mesurée / first campaign done |
+| [`ite-sur-la-terre/`](ite-sur-la-terre/) | ITE sur la terre : isoler un mur de bauge par l'extérieur sans lui nuire, ce qui est non négociable, accrocher l'isolation, l'eau de la terre, le trou réglementaire, nos pistes | External insulation on earth: insulating a cob wall from the outside without harming it | réflexion en cours (27/11/2026), sans papier ni données propres / work in progress, no paper or data of its own |
 
 ## Organisation
 

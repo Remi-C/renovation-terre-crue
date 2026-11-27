@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data and code · Earth building renovation</title>
+<meta name="description" content="A homeowner’s field notes on
+renovating earth (cob) buildings: tests, readings, code and photos.">
+<link rel="stylesheet" href="../../style.css">
+<link rel="alternate" hreflang="fr" href="../../ite-sur-la-terre/donnees.html">
+</head>
+<body>
+<header class="haut">
+  <div class="haut-ligne">
+    <a class="marque" href="../index.html">Earth building renovation</a>
+    <a class="langue" href="../../ite-sur-la-terre/donnees.html" hreflang="fr" lang="fr">Français</a>
+  </div>
+  <p class="fil"><a href="../index.html">Home</a> › External insulation
+on earth</p>
+  <nav class="menu" aria-label="Main menu">
+    <a href="index.html">Overview</a>
+    <a href="paper.html">The paper</a>
+    <a href="data.html" aria-current="page">Data and code</a>
+    <a href="photos.html">Photos</a>
+  </nav>
+</header>
+<main>
+<h1 class="titre">Data and code</h1>
+<p>This topic is a synthesis: it publishes no readings of its own. It
+relies on the measurements of the <a
+href="../vis-dans-la-bauge/data.html">Screws in cob</a> and <a
+href="../humidite-de-la-bauge/data.html">Moisture in cob</a> topics, and
+on our moisture calculations, <strong>not published so far</strong>. The
+<a
+href="https://github.com/Remi-C/renovation-terre-crue/tree/main/ite-sur-la-terre"><code>ite-sur-la-terre/</code></a>
+folder of the GitHub repository holds the code of the figures. Text and
+figures under CC BY 4.0; code under the MIT licence.</p>
+<h2 id="code">Code</h2>
+<p>Python 3 with matplotlib. The figures are schematic diagrams; the
+only numbers drawn (published weighings, water content / relative
+humidity correspondences from our calculations) are written in the
+script with their source. From the repository root:</p>
+<pre><code>python3 ite-sur-la-terre/code/figures_ite.py   # the three figures (French and English)
+make construire                                # everything, plus this website</code></pre>
+<h2 id="figures">Figures</h2>
+<figure>
+<img src="../../ite-sur-la-terre/figures/fig_parements_en.svg"
+loading="lazy"
+alt="The two cladding families, in horizontal section: render applied on the insulation, or insulation, ventilated air gap and cladding; vapour path and places where water can build up. (fig_parements_en)" />
+<figcaption aria-hidden="true">The two cladding families, in horizontal
+section: render applied on the insulation, or insulation, ventilated air
+gap and cladding; vapour path and places where water can build up.
+(<code>fig_parements_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../ite-sur-la-terre/figures/fig_accroche_en.svg"
+loading="lazy"
+alt="Four ways to hold the insulation, in vertical section: fixed into the cob, frame hung from the roof structure, self-supporting frame on a masonry plinth, frame screwed to the cob. (fig_accroche_en)" />
+<figcaption aria-hidden="true">Four ways to hold the insulation, in
+vertical section: fixed into the cob, frame hung from the roof
+structure, self-supporting frame on a masonry plinth, frame screwed to
+the cob. (<code>fig_accroche_en</code>)</figcaption>
+</figure>
+<figure>
+<img src="../../ite-sur-la-terre/figures/fig_regimes_en.svg"
+loading="lazy"
+alt="The three cases of our leads according to the wall’s average water content, with the weighings of 18 Nov. 2026 and the relative humidities of our calculations’ retention curve. (fig_regimes_en)" />
+<figcaption aria-hidden="true">The three cases of our leads according to
+the wall’s average water content, with the weighings of 18 Nov. 2026 and
+the relative humidities of our calculations’ retention curve.
+(<code>fig_regimes_en</code>)</figcaption>
+</figure>
+<h2 id="how-to-cite">How to cite</h2>
+<p>Rémi Cura (2026). <em>External insulation on earth.</em> In:
+<em>Renovating earth buildings: field notes</em>, data and code
+repository, https://github.com/Remi-C/renovation-terre-crue. DOI:
+10.5281/zenodo.24504812</p>
+</main>
+<footer class="bas">
+  <p>Text, data, figures and photos: CC BY 4.0. Code: MIT. Rémi Cura,
+2026.</p>
+  <p>Feedback welcome:
+<a href="https://github.com/Remi-C/renovation-terre-crue/issues">GitHub
+issues</a> ·
+<a href="https://github.com/Remi-C/renovation-terre-crue">repository</a>
+·
+<a href="mailto:remi.cura+terre@gmail.com">remi.cura+terre@gmail.com</a></p>
+</footer>
+</body>
+</html>

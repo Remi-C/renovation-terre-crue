@@ -1,0 +1,31 @@
+# Description du sujet « ITE sur la terre », lue par outils/construire.py pour l'accueil du site et les pages du sujet.
+
+ordre = 3
+# Scripts de code/ relancés par `make construire`, dans cet ordre, depuis la racine du dépôt.
+scripts = ["figures_ite.py"]
+
+[fr]
+titre = "ITE sur la terre"
+accroche = "Isoler un mur de bauge par l'extérieur sans lui nuire : ce qui est non négociable, comment accrocher l'isolation, comment laisser sortir l'eau de la terre, le trou réglementaire, et nos pistes."
+etat = "Réflexion en cours (27/11/2026) : synthèse de nos essais de vis, de nos pesées et de nos calculs d'humidité (non publiés) ; aucun choix arrêté, mesure de l'eau des murs à l'ouverture à venir."
+
+[en]
+titre = "External insulation on earth"
+accroche = "Insulating a cob wall from the outside without harming it: what is non-negotiable, how to hold the insulation up, how to let the earth's water out, the regulatory gap, and where our thinking is heading."
+etat = "Work in progress (27 Nov. 2026): a synthesis of our screw tests, weighings and moisture calculations (unpublished); no settled choice, wall moisture to be measured when the walls are opened."
+
+# Figures du sujet (fichiers figures/<id>.png et .svg, produits par code/) et leur légende sur la page « Données et code ».
+[[figures]]
+id = "fig_parements"
+fr = "Les deux familles de parement, en coupe horizontale : enduit posé sur l'isolant, ou isolant, lame d'air ventilée et bardage ; chemin de la vapeur et endroits où l'eau peut s'accumuler."
+en = "The two cladding families, in horizontal section: render applied on the insulation, or insulation, ventilated air gap and cladding; vapour path and places where water can build up."
+
+[[figures]]
+id = "fig_accroche"
+fr = "Quatre façons de tenir l'isolation, en coupe verticale : fixée dans la bauge, ossature suspendue à la charpente, ossature autoportante sur une maçonnerie en pied, ossature accrochée à la bauge."
+en = "Four ways to hold the insulation, in vertical section: fixed into the cob, frame hung from the roof structure, self-supporting frame on a masonry plinth, frame screwed to the cob."
+
+[[figures]]
+id = "fig_regimes"
+fr = "Les trois régimes de nos pistes selon l'eau moyenne du mur, avec les pesées du 18/11/2026 et les humidités relatives de la courbe de rétention de nos calculs."
+en = "The three cases of our leads according to the wall's average water content, with the weighings of 18 Nov. 2026 and the relative humidities of our calculations' retention curve."

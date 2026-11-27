@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="591.12pt" height="628.96043pt" viewBox="0 0 591.12 628.96043" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 628.96043 
+L 591.12 628.96043 
+L 591.12 0 
+L -0 0 
+z
+" style="fill: #fcfcfb"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 111.261176 193.093969 
+L 253.058824 193.093969 
+L 253.058824 77.173969 
+L 111.261176 77.173969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: #c9a27a; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 253.058824 193.093969 
+L 383.04 193.093969 
+L 383.04 77.173969 
+L 253.058824 77.173969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: url(#haee40b120d); stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 383.04 193.093969 
+L 396.038118 193.093969 
+L 396.038118 77.173969 
+L 383.04 77.173969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: #efece6; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 372.405176 187.297969 
+L 383.04 187.297969 
+L 383.04 82.969969 
+L 372.405176 82.969969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: #2a78d6; opacity: 0.25"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 253.058824 187.297969 
+L 261.330353 187.297969 
+L 261.330353 82.969969 
+L 253.058824 82.969969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: #2a78d6; opacity: 0.18"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 123.077647 173.773969 
+L 238.288235 164.113969 
+" clip-path="url(#p3288e031aa)" style="fill: none; stroke: #8a6440; stroke-opacity: 0.5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 123.077647 142.861969 
+L 238.288235 133.201969 
+" clip-path="url(#p3288e031aa)" style="fill: none; stroke: #8a6440; stroke-opacity: 0.5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 123.077647 111.949969 
+L 238.288235 102.289969 
+" clip-path="url(#p3288e031aa)" style="fill: none; stroke: #8a6440; stroke-opacity: 0.5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(172.278906 53.272968)">cob</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(149.015625 66.475116)">50 to 70 cm</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(99.876363 150.67643) rotate(-90)">inside</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(291.251521 40.069101)">insulation</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(288.288396 53.272109)">stone wool</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(281.727068 66.475116)">or wood fibre</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(403.718824 53.272109)">lime</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(403.718824 66.475116)">render</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(420.559536 154.488422) rotate(-90)">outside</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 223.856653 207.204096 
+Q 239.755454 194.02543 255.654255 180.846765 
+" style="fill: none; stroke: #8a8984; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(111.261176 219.511354)">① against the earth: very humid air</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(111.261176 232.114225)">if the wall is (mould)</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 417.374946 207.331141 
+Q 398.368001 194.024112 379.361055 180.717083 
+" style="fill: none; stroke: #8a8984; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(347.590588 219.511354)">② in winter the vapour reaches the</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(347.590588 232.114225)">cold face: water builds up there</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="81.72" y="17.077969" transform="rotate(-0 81.72 17.077969)">A. Render applied on the insulation</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 207.790973 166.045969 
+Q 292.051737 166.045969 374.523646 166.045969 
+" clip-path="url(#p3288e031aa)" style="fill: none; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 370.123646 163.845969 
+L 374.523646 166.045969 
+L 370.123646 168.245969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 207.790973 135.133969 
+Q 292.051737 135.133969 374.523646 135.133969 
+" clip-path="url(#p3288e031aa)" style="fill: none; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 370.123646 132.933969 
+L 374.523646 135.133969 
+L 370.123646 137.333969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 207.790973 104.221969 
+Q 292.051737 104.221969 374.523646 104.221969 
+" clip-path="url(#p3288e031aa)" style="fill: none; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 370.123646 102.021969 
+L 374.523646 104.221969 
+L 370.123646 106.421969 
+z
+" clip-path="url(#p3288e031aa)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_12">
+    <path d="M 111.261176 471.301969 
+L 253.058824 471.301969 
+L 253.058824 355.381969 
+L 111.261176 355.381969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #c9a27a; stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 253.058824 471.301969 
+L 383.04 471.301969 
+L 383.04 355.381969 
+L 253.058824 355.381969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: url(#ha758830832); stroke: #8a8984; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 383.04 471.301969 
+L 386.584941 471.301969 
+L 386.584941 355.381969 
+L 383.04 355.381969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #cfd8e3; stroke: #8a8984; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 386.584941 471.301969 
+L 416.126118 471.301969 
+L 416.126118 355.381969 
+L 386.584941 355.381969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #ffffff; stroke: #e4e3df; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 416.126118 471.301969 
+L 427.942588 471.301969 
+L 427.942588 355.381969 
+L 416.126118 355.381969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #7d8b99; stroke: #52514e; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 123.077647 451.981969 
+L 238.288235 442.321969 
+" clip-path="url(#pa5881706e8)" style="fill: none; stroke: #8a6440; stroke-opacity: 0.5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 123.077647 421.069969 
+L 238.288235 411.409969 
+" clip-path="url(#pa5881706e8)" style="fill: none; stroke: #8a6440; stroke-opacity: 0.5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 123.077647 390.157969 
+L 238.288235 380.497969 
+" clip-path="url(#pa5881706e8)" style="fill: none; stroke: #8a6440; stroke-opacity: 0.5; stroke-width: 0.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(172.278906 331.480968)">cob</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(149.015625 344.683116)">50 to 70 cm</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(99.876363 428.88443) rotate(-90)">inside</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(291.251521 318.277101)">insulation</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(288.288396 331.480109)">stone wool</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(281.727068 344.683116)">or wood fibre</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(394.196076 331.480968)">air</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(391.001779 344.683116)">gap</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(442.122353 331.480109)">timber cladding</text>
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(442.122353 344.683116)">or mineral board</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #8a8984" transform="translate(450.100712 432.696422) rotate(-90)">outside</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 226.704744 486.358312 
+Q 304.771882 473.200449 382.839019 460.042585 
+" style="fill: none; stroke: #8a8984; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="111.261176" y="496.668328" transform="rotate(-0 111.261176 496.668328)">membrane open to vapour</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 444.582482 485.466143 
+Q 423.759196 469.336147 402.935909 453.206152 
+" style="fill: none; stroke: #8a8984; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(347.590588 497.719354)">air in the gap, renewed from bottom and</text>
+    <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; fill: #0b0b0b" transform="translate(347.590588 510.322225)">top, carries the vapour away as it comes out</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #0b0b0b" x="81.72" y="295.285969" transform="rotate(-0 81.72 295.285969)">B. Insulation, ventilated air gap, cladding</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 207.790973 444.253969 
+Q 292.051737 444.253969 374.523646 444.253969 
+" clip-path="url(#pa5881706e8)" style="fill: none; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 370.123646 442.053969 
+L 374.523646 444.253969 
+L 370.123646 446.453969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 207.790973 413.341969 
+Q 292.051737 413.341969 374.523646 413.341969 
+" clip-path="url(#pa5881706e8)" style="fill: none; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 370.123646 411.141969 
+L 374.523646 413.341969 
+L 370.123646 415.541969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 207.790973 382.429969 
+Q 292.051737 382.429969 374.523646 382.429969 
+" clip-path="url(#pa5881706e8)" style="fill: none; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 370.123646 380.229969 
+L 374.523646 382.429969 
+L 370.123646 384.629969 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #2a78d6; stroke: #2a78d6; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 401.355529 465.440405 
+Q 401.355529 413.342973 401.355529 362.810788 
+" clip-path="url(#pa5881706e8)" style="fill: none; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 399.155529 367.210788 
+L 401.355529 362.810788 
+L 403.555529 367.210788 
+z
+" clip-path="url(#pa5881706e8)" style="fill: #52514e; stroke: #52514e; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.5px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #8a8984" x="7.2" y="619.237969" transform="rotate(-0 7.2 619.237969)">Schematic horizontal sections, not to scale. Blue arrows: the water vapour the cob gives off as it dries.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3288e031aa">
+   <rect x="81.72" y="23.077969" width="502.2" height="231.84"/>
+  </clipPath>
+  <clipPath id="pa5881706e8">
+   <rect x="81.72" y="301.285969" width="502.2" height="231.84"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="haee40b120d" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#e8d77a"/>
+   <path d="M -36 36 
+L 36 -36 
+M -33 39 
+L 39 -33 
+M -30 42 
+L 42 -30 
+M -27 45 
+L 45 -27 
+M -24 48 
+L 48 -24 
+M -21 51 
+L 51 -21 
+M -18 54 
+L 54 -18 
+M -15 57 
+L 57 -15 
+M -12 60 
+L 60 -12 
+M -9 63 
+L 63 -9 
+M -6 66 
+L 66 -6 
+M -3 69 
+L 69 -3 
+M 0 72 
+L 72 0 
+M 3 75 
+L 75 3 
+M 6 78 
+L 78 6 
+M 9 81 
+L 81 9 
+M 12 84 
+L 84 12 
+M 15 87 
+L 87 15 
+M 18 90 
+L 90 18 
+M 21 93 
+L 93 21 
+M 24 96 
+L 96 24 
+M 27 99 
+L 99 27 
+M 30 102 
+L 102 30 
+M 33 105 
+L 105 33 
+M 36 108 
+L 108 36 
+" style="fill: #8a8984; stroke: #8a8984; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+  <pattern id="ha758830832" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#d9b48a"/>
+   <path d="M -36 36 
+L 36 108 
+M -33 33 
+L 39 105 
+M -30 30 
+L 42 102 
+M -27 27 
+L 45 99 
+M -24 24 
+L 48 96 
+M -21 21 
+L 51 93 
+M -18 18 
+L 54 90 
+M -15 15 
+L 57 87 
+M -12 12 
+L 60 84 
+M -9 9 
+L 63 81 
+M -6 6 
+L 66 78 
+M -3 3 
+L 69 75 
+M 0 0 
+L 72 72 
+M 3 -3 
+L 75 69 
+M 6 -6 
+L 78 66 
+M 9 -9 
+L 81 63 
+M 12 -12 
+L 84 60 
+M 15 -15 
+L 87 57 
+M 18 -18 
+L 90 54 
+M 21 -21 
+L 93 51 
+M 24 -24 
+L 96 48 
+M 27 -27 
+L 99 45 
+M 30 -30 
+L 102 42 
+M 33 -33 
+L 105 39 
+M 36 -36 
+L 108 36 
+" style="fill: #8a8984; stroke: #8a8984; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>
