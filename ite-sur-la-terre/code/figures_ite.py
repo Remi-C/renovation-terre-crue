@@ -256,7 +256,7 @@ def fig_regimes(lang):
     fig, ax = plt.subplots(figsize=(10, 4.8))
     titres = [
         _("Assez sec\nsous enduit,\nça passe", "Dry enough\nunder render,\nit works"),
-        _("Un peu au-dessus\nsécher le mur l'été,\npuis isoler sous enduit en fin d'été", "Somewhat above\ndry the wall in summer,\nthen insulate under render at summer's end"),
+        _("Un peu au-dessus\nsécher le mur l'été,\npuis isoler sous enduit en fin d'été", "Somewhat above\ndry the wall in summer,\nthen insulate under\nrender at summer's end"),
         _("Trop humide, ou\nremontées d'eau\nparement ventilé\n(bois ou minéral)", "Too wet, or\nrising damp\nventilated cladding\n(timber or mineral)"),
     ]
     for (a, b), c, t in zip(BORNES, BANDES, titres):
