@@ -104,9 +104,7 @@ There is knowledge about cob: good-practice guides, theses, site experience. But
 regulatory gap: **no insulation product is approved for cob**, simply. In France, external insulation relies on a DTU
 (the French standard for building work) or a technical approval, each listing the substrates it accepts; in those we
 surveyed in 2026, earth is not among them. Even lime render on metal lath, covered by NF DTU 26.1, leaves unwritten how
-to anchor its support into cob. The wood fibre insulation manufacturers we asked reply that cob is outside their scope
-of use, with no warranty and no site experience on this substrate. Each project therefore moves forward on its own
-measurements and its own calculations.
+to anchor its support into cob.
 
 ## Where our thinking is heading
 

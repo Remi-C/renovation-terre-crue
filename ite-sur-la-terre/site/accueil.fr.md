@@ -104,9 +104,7 @@ Il existe des connaissances sur la bauge : guides de bonnes pratiques, thèses, 
 c'est un énorme trou réglementaire : **aucun isolant n'est approuvé pour la bauge**, tout simplement. En France, une ITE
 s'appuie sur un DTU ou sur un avis technique, qui listent les supports admis ; dans ceux que nous avons recensés en 2026,
 la terre crue n'y figure pas. Même l'enduit sur lattis métallique, couvert par le NF DTU 26.1, laisse sans texte la façon
-d'ancrer son support dans la bauge. Les fabricants d'isolants en fibre de bois que nous avons interrogés répondent que
-la bauge est hors de leur domaine d'emploi, sans garantie et sans retour de chantier sur ce support. Chaque projet avance
-donc sur ses propres mesures et ses propres calculs.
+d'ancrer son support dans la bauge.
 
 ## Nos pistes de réflexion
 
